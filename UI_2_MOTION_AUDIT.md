@@ -3,7 +3,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.13.0
+Version: 2.14.0
 ```
 
 本文件是 `$leego-design-ui` 的动效专项审计格式。默认只读，不修改产品代码。

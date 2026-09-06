@@ -3,7 +3,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.13.0
+Version: 2.14.0
 ```
 
 本记录说明本次方法升级吸收了什么、拒绝了什么，以及为什么。外部资料只作为研究证据，不进入运行时依赖。

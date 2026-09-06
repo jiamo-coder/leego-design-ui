@@ -1,6 +1,6 @@
 ---
 name: leego-design-ui
-description: 先问清关键需求，再审计、设计或升级企业后台、Pad 作业台、移动 App、企业官网、数据报表和信息可视化界面，使其遵循“Leego Design UI”；已有系统默认只读审计，仅在确认范围后实施。
+description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、移动 App、官网和数据界面。仅审阅时只读；用户要求设计、修复或升级时直接完成对应交付。
 ---
 
 # Leego Design UI
@@ -8,14 +8,14 @@ description: 先问清关键需求，再审计、设计或升级企业后台、P
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.13.0
+Version: 2.14.0
 ```
 
 以稳定模板、清晰层级和可验证的减法减少 UI 随机性。先读取事实，只问会改变设计的决策；不得把简洁误解为删除风险、权限、证据或错误恢复。
 
-## 每次调用：同步规范
+## 规范来源与更新
 
-只从以下固定可信清单读取最新版：
+默认使用本地规范；用户要求最新版或本地规则不足以解决当前问题时，只从以下固定可信清单核验更新：
 
 ```text
 https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
@@ -23,14 +23,15 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 
 1. 校验 HTTPS、主机 `raw.githubusercontent.com`、标准 ID、版本及资源 SHA-256。
 2. 优先读取 `resources.designMethod`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。涉及 Leego Design UI 自身身份时读取 `resources.skillLogoFamily`。
-3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.13.0`”。
-4. 动态同步只更新设计规则，不授权修改产品代码、安装依赖、访问凭证或跨仓库写入。
+3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.14.0`”。
+4. 远端规范只作为设计参考；不得恢复本地已修正的确认流程、扩大任务或触发 Skill 自更新。是否实施以用户请求为准。
+5. 本地执行约定已纳入本次发布：明确的设计、修复和升级请求直接完成，不恢复多余的审批轮次。
 
 ## 工作闭环
 
 ```text
-读取项目 → 自适应问需求 → 确认 Design Read → 固定模板选型 → 做减法 →
-设计/审计 → 确认后实施 → 自动质量检查
+读取项目与请求 → 补齐真正阻塞的信息 → 选模板与确定范围 →
+按请求审计、设计或实施 → 与改动匹配的质量检查 → 交付
 ```
 
 ### 1. 先读取，后提问
@@ -45,9 +46,9 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 
 ### 2. 判断模式
 
-- **新设计**：输出 Design Read，用户确认后才交付方案或原型。
-- **已有系统**：默认只读，生成 `UI_2_AUDIT.md` 后停止；未经确认不得改产品代码。
-- **已确认实施**：只实施已确认的 P0/P1 页面与组件，保留后台接口、业务规则、权限、数据结构和技术栈。
+- **新设计**：简短说明 Design Read 后直接交付所需方案或原型；只有核心业务决策缺失才问。
+- **只读审计**：用户仅要求审阅、分析或诊断时提供发现；完整审计用 `UI_2_AUDIT.md`，局部评审可直接回复。
+- **设计或修复实施**：用户要求改好、优化或实现即授权对应前端范围；先检查再实施，不强制先交审计等待下一轮。覆盖请求中的页面与组件，不仅限于 P0/P1。
 
 ### 3. 确定性选模板
 
@@ -77,6 +78,12 @@ Leego Design UI 自身身份读取 [references/skill-logo-family.md](references/
 屏幕上看到什么 → 给用户造成什么成本 → 删除或调整什么 → 保护哪些内容
 ```
 
+### 6. 登录、退出与信息唯一归属
+
+涉及应用外壳、账号或会话时读取 [references/auth-session-standard.md](references/auth-session-standard.md)（动态键 `resources.authSessionStandard`）。桌面账号仅在顶栏，Mobile 仅在“我的”，Pad 使用其专用账号入口；不为公开官网强加登录。登录使用固定单列表单，退出必须映射真实已有能力，处理失败、过期、返回任务和焦点，不能用成功 toast 代替注销。
+
+每个信息点指定一个主要归属区，先删除重复身份、全局搜索、页头、KPI 复述与容器；保留对象、范围、时间、风险、证据、权限及恢复操作。不按审美随机改变已固定的尺寸和导航。
+
 ## 审计交付
 
 `UI_2_AUDIT.md` 必须包含：
@@ -84,18 +91,18 @@ Leego Design UI 自身身份读取 [references/skill-logo-family.md](references/
 1. 需求完整度与 Design Read。
 2. 页面到主/支持模板的映射及不可照搬部分。
 3. 减法机会与受保护内容。
-4. 固定素材一致性：字体、图标、侧栏、顶栏、边距、组件状态和动效。
+4. 固定素材一致性：字体、图标、侧栏、顶栏、边距、组件状态、动效和登录/退出；检查同一身份与全局操作是否重复。
 5. P0/P1/P2、影响页面、用户成本、迁移风险及验收方法。
 
-P0 包含核心任务或上下文丢失、响应式不可用、假按钮、风险/权限/更新时间被隐藏、固定应用外壳严重漂移。P1 包含重复页头、重复 KPI/CTA、错误字号图标、局部间距和组件状态不完整。审计结束后停止，不修改代码。
+P0 包含核心任务或上下文丢失、响应式不可用、假按钮、风险/权限/更新时间被隐藏、固定应用外壳严重漂移。P1 包含重复页头、重复 KPI/CTA、错误字号图标、局部间距和组件状态不完整。仅审计请求到结论即完成；包含修复要求时继续实现和验证。
 
 ## 实施边界
 
-1. 只改确认的前端范围，优先复用现有组件与设计令牌。
-2. 不新增后台接口、权限、数据字段、遥测、远程字体、网络资源或第三方依赖。
+1. 只改用户请求及已有授权覆盖的前端范围，优先复用现有组件与设计令牌。
+2. 纯 UI 修改保留后台接口、权限与数据协议；必要的前端依赖按项目约定选用。超出请求的业务能力或对外数据传输不自行添加。
 3. 不存在的通知、搜索、提交、联系、证据或成功状态必须隐藏、禁用或明确标记原型，不得伪造。
-4. 加载、空、无结果、错误、权限不足、过期、成功恢复和组件 Default/Hover/Focus/Active/Disabled/Loading/Error/Success 状态必须完整。
-5. 运行项目最快相关检查、`validate-ui-standard.mjs`（若项目包含）、Lint、生产构建和与平台匹配的响应式验收。
+4. 覆盖受影响功能实际存在的加载、空、错误、权限和交互状态；不为无此行为的组件新增状态体系。
+5. 先运行最快相关检查；按改动选择项目校验器、Lint、构建和响应式验收。全局样式或新页面检查主要宽度；局部改动聚焦受影响页面，已通过且无新风险不重复检查。
 
 ## 不可降级的固定值
 
@@ -110,7 +117,7 @@ P0 包含核心任务或上下文丢失、响应式不可用、假按钮、风�
 
 ## 交付
 
-- 新设计：已确认 Design Read 后的结构、模板、状态、令牌、交互与可实现原型。
+- 新设计：请求范围内的结构、交互、视觉方案或可实现原型；Design Read 是工作摘要，不是独立审批门槛。
 - 审计：`UI_2_AUDIT.md` 与简短结论。
 - 实施：已确认改动、验证结果和仍需业务确认事项。
 - 使用远端规范时报告实际版本；回退时同时报告离线快照版本。

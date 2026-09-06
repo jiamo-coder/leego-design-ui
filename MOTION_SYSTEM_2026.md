@@ -3,7 +3,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.13.0
+Version: 2.14.0
 ```
 
 本规范用于企业 Web 工作台、Mobile App、Pad 作业台和数据可视化界面。动效的目标是让状态、空间关系和操作结果更容易理解，不是让高频界面持续表演。

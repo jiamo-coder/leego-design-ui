@@ -1,6 +1,6 @@
 {
   "standard": "leego-design-ui",
-  "version": "2.13.0",
+  "version": "2.14.0",
   "updated": "2026-08-30",
   "designReadRequiredFields": [
     "mode",
@@ -33,6 +33,27 @@
     "legal-and-safety"
   ],
   "rules": [
+    {
+      "id": "UI-SESSION-001",
+      "category": "interaction",
+      "severity": "P0",
+      "automated": false,
+      "message": "退出与会话过期必须映射真实能力，覆盖成功、失败重试和安全返回；不把 toast 或前端布尔值当认证。"
+    },
+    {
+      "id": "UI-SESSION-002",
+      "category": "redundancy",
+      "severity": "P1",
+      "automated": false,
+      "message": "账号与全局操作单点归属；Web 顶栏不与侧栏重复身份，Mobile 在我的页，Pad 使用专用账号入口。"
+    },
+    {
+      "id": "UI-SESSION-003",
+      "category": "shell",
+      "severity": "P1",
+      "automated": true,
+      "message": "登录表单400px上限、48px控件、16px字段间距；演示状态不连接真实后台。"
+    },
     {
       "id": "UI-INTAKE-001",
       "category": "intake",

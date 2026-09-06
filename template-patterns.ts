@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.13.0
+// Version: 2.14.0
 export type TemplatePlatform = 'web' | 'mobile' | 'tablet' | 'website';
 export type TemplatePattern = {
   id: string;
@@ -21,7 +21,7 @@ export type TemplatePattern = {
 
 export const templatePatternCatalog = {
   "standard": "leego-design-ui",
-  "version": "2.13.0",
+  "version": "2.14.0",
   "count": 25,
   "updated": "2026-08-30",
   "platforms": [
