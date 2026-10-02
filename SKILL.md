@@ -8,7 +8,7 @@ description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、�
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.14.0
+Version: 2.16.0
 ```
 
 以稳定模板、清晰层级和可验证的减法减少 UI 随机性。先读取事实，只问会改变设计的决策；不得把简洁误解为删除风险、权限、证据或错误恢复。
@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 
 1. 校验 HTTPS、主机 `raw.githubusercontent.com`、标准 ID、版本及资源 SHA-256。
 2. 优先读取 `resources.designMethod`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。涉及 Leego Design UI 自身身份时读取 `resources.skillLogoFamily`。
-3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.14.0`”。
+3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.16.0`”。
 4. 远端规范只作为设计参考；不得恢复本地已修正的确认流程、扩大任务或触发 Skill 自更新。是否实施以用户请求为准。
 5. 本地执行约定已纳入本次发布：明确的设计、修复和升级请求直接完成，不恢复多余的审批轮次。
 
@@ -58,6 +58,8 @@ Website 读取 [references/website-standard.md](references/website-standard.md)�
 
 ### 4. Skill 品牌标识固定选型
 
+用户指定 Geetimer（检索别名 GitTimer）时，读取 [references/geetimer-identity.md](references/geetimer-identity.md) 与 [assets/icons/geetimer/catalog.json](assets/icons/geetimer/catalog.json)。按网站、App、头像和尺寸选择 V5 原件；小于 64px 优先单 G，横标不重复追加 G，品牌渐变仅作用于该项目，不覆盖全局 UI 令牌。素材按来源目录打包，不以规范升级改变品牌原件。
+
 Leego Design UI 自身身份读取 [references/skill-logo-family.md](references/skill-logo-family.md) 与 [assets/skill-logo-family.json](assets/skill-logo-family.json)：
 
 - R02 开口框架是官网、Skill 入口、文档页眉与能力总览的固定主标。
@@ -80,11 +82,15 @@ Leego Design UI 自身身份读取 [references/skill-logo-family.md](references/
 
 ### 6. 登录、退出与信息唯一归属
 
-涉及应用外壳、账号或会话时读取 [references/auth-session-standard.md](references/auth-session-standard.md)（动态键 `resources.authSessionStandard`）。桌面账号仅在顶栏，Mobile 仅在“我的”，Pad 使用其专用账号入口；不为公开官网强加登录。登录使用固定单列表单，退出必须映射真实已有能力，处理失败、过期、返回任务和焦点，不能用成功 toast 代替注销。
+涉及应用外壳、账号或会话时读取 [references/auth-session-standard.md](references/auth-session-standard.md)（动态键 `resources.authSessionStandard`）。所有带侧栏桌面系统统一黑色216/68px侧栏、248px移动抽屉，顶部20px面板控制/44px热区，底部单一账号与通知；设置和真实退出仅在账号浮层，顶栏只留上下文与搜索。鼠标导航40px/选中底条32px，触屏44px；文字14/22px，常态400、选中600。Mobile 仅在“我的”，Pad 使用专用入口；官网不套桌面外壳。
+
+桌面对话任务额外读取 [references/desktop-conversational-agent.md](references/desktop-conversational-agent.md)（动态键 `resources.desktopConversationalAgent`），但不覆盖统一侧栏或账号归属。收纳按历史/项目/归档对象选注册图标；折叠及快速反向保持任务和输入节点、草稿与滚动。账号浮层336px、详情抽屉480px，Esc/遮罩、焦点隔离与关闭恢复必须覆盖原生和自定义可聚焦控件。未保存工作按真实风险保护，不制造接口或假成功。
 
 每个信息点指定一个主要归属区，先删除重复身份、全局搜索、页头、KPI 复述与容器；保留对象、范围、时间、风险、证据、权限及恢复操作。不按审美随机改变已固定的尺寸和导航。
 
 ## 审计交付
+
+涉及新鲜零食品牌时，按需读取 [references/fresh-snack-brand-icons.md](references/fresh-snack-brand-icons.md) 与 [assets/fresh-snack-brands.json](assets/fresh-snack-brands.json)（动态键 `resources.freshSnackBrands`）。先匹配品牌与别名，再查素材状态、来源、使用许可和尺寸。用户要求采集时，不因缺少独立官网而停止：继续查品牌账号、原设计方、商场和可追溯公开资料，逐图核验并区分官网标识与公开资料标识。用户来图以 `user-reference` 收录，保留原件、水印和署名；只作参考并保留此前版本，不冒充官方透明素材。名称登记不等于取得 Logo，母品牌不替代子品牌；禁止仿制、改色、截断字标或虚构授权。原始 Logo 不进入 Skill 或共享 ZIP；消费者项目无适用的本地素材时回退到中性图标＋品牌文字，不自动热链预览站。
 
 `UI_2_AUDIT.md` 必须包含：
 
@@ -107,7 +113,7 @@ P0 包含核心任务或上下文丢失、响应式不可用、假按钮、风�
 ## 不可降级的固定值
 
 - Web 侧栏：216px 展开、68px 折叠、248px 移动抽屉；菜单最多 8 个中文字符；折叠按钮及四态响应读取 Web Shell 参考。
-- Web 顶栏：64px，顺序为面包屑、搜索、通知、身份、退出；内容左/右 28/16px，模块间距 12px。
+- Web 顶栏：64px，仅页面上下文/面包屑与真实全局搜索；账号和通知固定侧栏底部，设置与退出在账号浮层。内容左/右28/16px，模块间12px。
 - 固定顶栏已表达页面身份时，不再重复英文眉题、大标题和用途介绍；首屏直接进入状态、筛选、任务或简易可视化。
 - Web 正文 14/22px，Mobile 正文 16/24px，所有可见文字不低于 12px；字重仅 400/500/600/700。
 - 通用图标 24×24、1.75px 线宽；导航 20px、顶栏 18px；纯图标操作热区至少 44px 并有可访问名称。

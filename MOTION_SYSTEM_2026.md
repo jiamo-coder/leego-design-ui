@@ -3,7 +3,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.14.0
+Version: 2.16.0
 ```
 
 本规范用于企业 Web 工作台、Mobile App、Pad 作业台和数据可视化界面。动效的目标是让状态、空间关系和操作结果更容易理解，不是让高频界面持续表演。
@@ -36,7 +36,7 @@ Version: 2.14.0
 
 唯一来源为 `tokens.json.motion`：
 
-- 时长：`instant 0`、`press 120`、`tooltip 140`、`fast 160`、`popover 180`、`standard 200`、`shell 220`、`modal 240`、`emphasis 280`。
+- 时长：`instant 0`、`press 120`、`tooltip 140`、`fast 160`、`popover 180`、`standard 200`、`shell 260`、`modal 240`、`emphasis 280`。统一侧栏260ms、账号浮层180ms、详情/导航抽屉220ms；快速反向不排队，保持任务节点、草稿和滚动，正文不缩放，结束取消后清理样式。
 - 曲线：进入/退出使用 `enter`，屏内位移使用 `move`，抽屉使用 `drawer`，确定速率的进度使用 `constant`。
 - 形变：按压 `0.97`，入场缩放不得低于 `0.96`；禁止 `scale(0)`。
 - 错峰：每项 40ms，最多五项，总延迟不超过 160ms；表格和虚拟列表禁止错峰入场。

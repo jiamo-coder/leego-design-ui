@@ -1,6 +1,6 @@
 {
   "standard": "leego-design-ui",
-  "version": "2.14.0",
+  "version": "2.16.0",
   "updated": "2026-08-30",
   "designReadRequiredFields": [
     "mode",
@@ -45,7 +45,7 @@
       "category": "redundancy",
       "severity": "P1",
       "automated": false,
-      "message": "账号与全局操作单点归属；Web 顶栏不与侧栏重复身份，Mobile 在我的页，Pad 使用专用账号入口。"
+      "message": "账号与全局操作单点归属；带侧栏 Web 账号和通知在侧栏底部，设置和退出在账号浮层，顶栏仅上下文与搜索；Mobile 在我的页，Pad 使用专用账号入口。"
     },
     {
       "id": "UI-SESSION-003",
@@ -158,6 +158,34 @@
       "severity": "P0",
       "automated": false,
       "message": "简化不得删除风险、权限、数据新鲜度、错误恢复和必要帮助。"
+    },
+    {
+      "id": "shell-single-account",
+      "category": "shell",
+      "severity": "P0",
+      "automated": true,
+      "message": "带侧栏桌面系统账号和通知仅归属侧栏底部，顶栏不复制身份或退出。"
+    },
+    {
+      "id": "shell-top-panel-toggle",
+      "category": "shell",
+      "severity": "P1",
+      "automated": true,
+      "message": "折叠控制固定顶部，20px 面板图标、44px 热区；交界控制已弃用。"
+    },
+    {
+      "id": "overlay-context-focus",
+      "category": "accessibility",
+      "severity": "P0",
+      "automated": false,
+      "message": "抽屉和账号浮层隔离焦点，Esc/遮罩关闭并恢复；原生及自定义可聚焦控件均不能遗漏。"
+    },
+    {
+      "id": "shell-reversible-motion",
+      "category": "interaction",
+      "severity": "P0",
+      "automated": false,
+      "message": "快速反向不排队、不卸载任务或输入；保持草稿、选择、搜索和滚动，减少动态时取消位移。"
     }
   ]
 }

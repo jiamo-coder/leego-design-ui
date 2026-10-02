@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.14.0
+// Version: 2.16.0
 export const commonIconViewBox = '0 0 24 24' as const;
 export const commonIconStrokeWidth = 1.75 as const;
 export const commonIcons = {
@@ -76,6 +76,42 @@ export const commonIcons = {
     "category": "navigation",
     "categoryLabel": "导航与方向",
     "path": "M5 5l14 14M19 5 5 19"
+  },
+  "sidebar-panel": {
+    "label": "侧栏面板",
+    "category": "navigation",
+    "categoryLabel": "导航与方向",
+    "path": "M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1ZM9 4v16"
+  },
+  "history": {
+    "label": "历史记录",
+    "category": "navigation",
+    "categoryLabel": "导航与方向",
+    "path": "M4 11a8 8 0 1 1 2 6M4 4v7h7M12 7v5l3 2"
+  },
+  "project-folder": {
+    "label": "项目",
+    "category": "navigation",
+    "categoryLabel": "导航与方向",
+    "path": "M3 6h7l2 3h9v11H3ZM3 9V4h7l2 2h7v3"
+  },
+  "archive": {
+    "label": "归档",
+    "category": "navigation",
+    "categoryLabel": "导航与方向",
+    "path": "M3 4h18v5H3ZM5 9v11h14V9M9 13h6"
+  },
+  "logout": {
+    "label": "退出登录",
+    "category": "navigation",
+    "categoryLabel": "导航与方向",
+    "path": "M13 8V4H4v16h9v-4M10 12h11m-4-4 4 4-4 4"
+  },
+  "check": {
+    "label": "已选择",
+    "category": "navigation",
+    "categoryLabel": "导航与方向",
+    "path": "m5 12 4 4 10-10"
   },
   "add": {
     "label": "新建",

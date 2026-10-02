@@ -1,6 +1,6 @@
 {
   "standard": "leego-design-ui",
-  "version": "2.14.0",
+  "version": "2.16.0",
   "family": "Leego Design Skill Logo Family",
   "member": {
     "id": "leego-design-ui",
@@ -31,8 +31,16 @@
       "asset": "skill-logo/r01-symbol.svg",
       "websiteAsset": "brand/leego-design-ui/r01-symbol.svg",
       "minimumSize": 24,
-      "uses": ["内容栏目", "轻量品牌表达", "有名称伴随的社交头像"],
-      "avoid": ["增加构件数量", "把身份点并入普通组件", "替代官网主标"]
+      "uses": [
+        "内容栏目",
+        "轻量品牌表达",
+        "有名称伴随的社交头像"
+      ],
+      "avoid": [
+        "增加构件数量",
+        "把身份点并入普通组件",
+        "替代官网主标"
+      ]
     },
     {
       "id": "r02",
@@ -42,8 +50,18 @@
       "asset": "skill-logo/r02-symbol.svg",
       "websiteAsset": "brand/leego-design-ui/r02-symbol.svg",
       "minimumSize": 20,
-      "uses": ["官网导航", "Skill 入口", "文档页眉", "能力总览"],
-      "avoid": ["封闭开口", "移动身份点", "改变内部模块数量", "深色底直接使用黑色原稿"]
+      "uses": [
+        "官网导航",
+        "Skill 入口",
+        "文档页眉",
+        "能力总览"
+      ],
+      "avoid": [
+        "封闭开口",
+        "移动身份点",
+        "改变内部模块数量",
+        "深色底直接使用黑色原稿"
+      ]
     },
     {
       "id": "r03",
@@ -53,8 +71,18 @@
       "asset": "skill-logo/r03-symbol.svg",
       "websiteAsset": "brand/leego-design-ui/r03-symbol.svg",
       "minimumSize": 16,
-      "uses": ["Skill 列表", "favicon", "App Icon", "系统切换器", "深色背景"],
-      "avoid": ["替代官网横向主标", "移除右上身份点", "添加阴影或渐变"]
+      "uses": [
+        "Skill 列表",
+        "favicon",
+        "App Icon",
+        "系统切换器",
+        "深色背景"
+      ],
+      "avoid": [
+        "替代官网横向主标",
+        "移除右上身份点",
+        "添加阴影或渐变"
+      ]
     }
   ],
   "displayRules": {

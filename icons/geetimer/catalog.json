@@ -1,0 +1,680 @@
+{
+  "id": "geetimer",
+  "name": "Geetimer",
+  "lookupAliases": [
+    "GitTimer"
+  ],
+  "assetVersion": "5.0",
+  "importedAt": "2026-10-02",
+  "source": "brand-identity/geetimer/v005",
+  "status": "user-selected-library-reference",
+  "approval": {
+    "symbol": "source-recorded-approved",
+    "wordmark": "refinement-candidate"
+  },
+  "scope": "Geetimer only; not a replacement for Leego Design UI or the three-route product family",
+  "basePath": "/icons/geetimer/v005/",
+  "skillBasePath": "assets/icons/geetimer/v005/",
+  "rights": "User-directed project reuse; no trademark clearance, platform certification or general third-party license claimed.",
+  "palette": {
+    "version": "5.0",
+    "scope": "Geetimer identity and future UI project reference; not global skill defaults",
+    "colors": {
+      "light": "#A09CF0",
+      "mid": "#857CEB",
+      "deep": "#7B70E9",
+      "black": "#0C0C0C",
+      "surface": "#1C1C1C",
+      "white": "#FFFFFF",
+      "textPurple": "#5644C6"
+    },
+    "gradient": {
+      "type": "linear",
+      "direction": "top-left to bottom-right",
+      "stops": [
+        {
+          "offset": 0,
+          "color": "#A09CF0"
+        },
+        {
+          "offset": 0.5,
+          "color": "#857CEB"
+        },
+        {
+          "offset": 1,
+          "color": "#7B70E9"
+        }
+      ]
+    },
+    "ui": {
+      "light": {
+        "background": "#FFFFFF",
+        "text": "#0C0C0C",
+        "surface": "#F5F4F8",
+        "accentText": "#5644C6"
+      },
+      "dark": {
+        "background": "#0C0C0C",
+        "text": "#FFFFFF",
+        "surface": "#1C1C1C",
+        "accentText": "#A09CF0"
+      },
+      "onBrand": "#0C0C0C"
+    },
+    "source": {
+      "method": "Inherited screenshot-derived project palette from v002; not official source colors"
+    }
+  },
+  "assets": [
+    {
+      "file": "app/G-black.png",
+      "sha256": "f2592d9f76f5b2908c17c494142b9186d43ead33e42e11d447dbb284c5e32612",
+      "byteLength": 44218
+    },
+    {
+      "file": "app/G-black.svg",
+      "sha256": "0cbfe2f68a3b62da60092a0668292d721527c297940d24ff72e5285f61497dcb",
+      "byteLength": 839
+    },
+    {
+      "file": "app/G-purple.png",
+      "sha256": "4be0cbc210477368b903235185bf5b961597e67af4f59b4b65cb5011d8e19ef1",
+      "byteLength": 49436
+    },
+    {
+      "file": "app/G-purple.svg",
+      "sha256": "41e9b1c7895da1f95df80e578416c7fd096f9c04f094076b1b6ccfb4714c0d7b",
+      "byteLength": 839
+    },
+    {
+      "file": "app/G-white.png",
+      "sha256": "856b5c49296988341978175d6b44c28be513df7c24048506dec6d0ba8ac4fcbe",
+      "byteLength": 27205
+    },
+    {
+      "file": "app/G-white.svg",
+      "sha256": "8e169a8eb2fdb56df3fffcbbe4a61a4a707e33303fea4f95057e18ad66a67590",
+      "byteLength": 839
+    },
+    {
+      "file": "app/Geetimer-black.png",
+      "sha256": "bf714189a9bf3a955334f28287506414227b0c115e3280cef4044a78df3adf85",
+      "byteLength": 60350
+    },
+    {
+      "file": "app/Geetimer-black.svg",
+      "sha256": "5fb196a98d21d2ac89e213689734665931178e5205a94240af960f068cc949f6",
+      "byteLength": 2883
+    },
+    {
+      "file": "app/Geetimer-horizontal-black.png",
+      "sha256": "37d1f6b3a84740013f93d5d26d46469e4d06223ab13d0e4d7b5ba8da97df3cd4",
+      "byteLength": 46200
+    },
+    {
+      "file": "app/Geetimer-horizontal-black.svg",
+      "sha256": "4b58d7182245567fcd3b77bd54d101732818e83f9fde4cc417c9128239e94cd7",
+      "byteLength": 2772
+    },
+    {
+      "file": "app/Geetimer-horizontal-purple.png",
+      "sha256": "04067950dc82cf2c66fa84439416ab7babb802891af64812448a4cda3288e46a",
+      "byteLength": 52340
+    },
+    {
+      "file": "app/Geetimer-horizontal-purple.svg",
+      "sha256": "3963595f6c8d94fb257588ca7c67a66b82657cd078b5668c4168dd83c47c8109",
+      "byteLength": 2737
+    },
+    {
+      "file": "app/Geetimer-horizontal-white.png",
+      "sha256": "370be424819d53ea6187d42e4306124a693bbafeb80f9ed8e0c3896988210d29",
+      "byteLength": 27754
+    },
+    {
+      "file": "app/Geetimer-horizontal-white.svg",
+      "sha256": "334e75e0d6fd087532d029dce4aa403b266012aa3573130403cd0c26cca9d888",
+      "byteLength": 2772
+    },
+    {
+      "file": "app/Geetimer-purple.png",
+      "sha256": "8c30d4eb5de4135c1a302bab4a54d364de518eb2885ac9cbf3a67ff7f9f9a8df",
+      "byteLength": 59659
+    },
+    {
+      "file": "app/Geetimer-purple.svg",
+      "sha256": "ab1474d895f0a0e0683ffb49cccd553b56572be1e6eaee4e5983d595ec127c82",
+      "byteLength": 2848
+    },
+    {
+      "file": "app/Geetimer-white.png",
+      "sha256": "144a4d6ad69445a677c62ab1a81a106721fce5d09ea8161b5310d929123cf282",
+      "byteLength": 42792
+    },
+    {
+      "file": "app/Geetimer-white.svg",
+      "sha256": "46bd8c8ba254769134fe7ad9479eef403f8c403d324d1bdf886a66eac111b4da",
+      "byteLength": 2883
+    },
+    {
+      "file": "logo/G-black-transparent.png",
+      "sha256": "a2c4eb86d66f7ad1c88ad8428a10e9e62f22c15d0d69e1d3d5a8b6e0c9b480a5",
+      "byteLength": 24921
+    },
+    {
+      "file": "logo/G-black-transparent.svg",
+      "sha256": "3155adc06edf831ea44b54861b6402d492c7933c725382ae91945f14b05f5b4f",
+      "byteLength": 791
+    },
+    {
+      "file": "logo/G-gradient-transparent.png",
+      "sha256": "06e2af71d0972eeb2f33ad4b2f0897576af272e622f33c50b337b16e63f7102f",
+      "byteLength": 35467
+    },
+    {
+      "file": "logo/G-gradient-transparent.svg",
+      "sha256": "91e62f34b67345cbf80c6d007b109bc5d38676cb9f3e23f73740ed2d69a3dff2",
+      "byteLength": 796
+    },
+    {
+      "file": "logo/G-on-black.png",
+      "sha256": "ecd43659d723bdb7ccfa3554f1748fddabaa5150bb33e2aabf5f158948870d72",
+      "byteLength": 45905
+    },
+    {
+      "file": "logo/G-on-black.svg",
+      "sha256": "2155ff730a3824e48504d2dd41aba8349506cc48ab37891f80898ae82c0ae507",
+      "byteLength": 839
+    },
+    {
+      "file": "logo/G-on-purple.png",
+      "sha256": "615b35269d6dfd2aa43c7b850453c5d37e9475dd2ed6fc629511b23de724ccaf",
+      "byteLength": 49825
+    },
+    {
+      "file": "logo/G-on-purple.svg",
+      "sha256": "e726d5dbcac96e7f2c1af6fd9122e95c4ddac5ff60d9ee7bbdb5e5857b703945",
+      "byteLength": 839
+    },
+    {
+      "file": "logo/G-on-white.png",
+      "sha256": "46c007887044de0f4d34f0f222e134327e163c58535f0003c8fb1f72be36d57c",
+      "byteLength": 29305
+    },
+    {
+      "file": "logo/G-on-white.svg",
+      "sha256": "c5cd66dff7b648ba3999f046572669c4ce8c28bcc6489e2ae7da591b05583ac2",
+      "byteLength": 839
+    },
+    {
+      "file": "logo/G-solid-purple-transparent.png",
+      "sha256": "10c899469049790a7a7e3bab14d1e9364c6bfbb225961c0f8a0a4ec86f6b020f",
+      "byteLength": 27036
+    },
+    {
+      "file": "logo/G-solid-purple-transparent.svg",
+      "sha256": "375ca5833fd5477499cd1f34cb4457145a78dd7e2faac4a493717a734aaa3ba1",
+      "byteLength": 791
+    },
+    {
+      "file": "logo/G-white-transparent.png",
+      "sha256": "db578792599adf02bde6e7a1eaa7a07668ecf82a10a1c4503094e1387a5de554",
+      "byteLength": 17865
+    },
+    {
+      "file": "logo/G-white-transparent.svg",
+      "sha256": "6ba7e0b685c314415315044b8d13478b5b885e6070d962ebed6df5c89f349fbe",
+      "byteLength": 791
+    },
+    {
+      "file": "logo/Geetimer-black-transparent.png",
+      "sha256": "1ec272700a544a140e07ec9a88b3e5c7fb9b9e292122836863e111690ef3964b",
+      "byteLength": 29682
+    },
+    {
+      "file": "logo/Geetimer-black-transparent.svg",
+      "sha256": "eabcb27df9f995a2f8d62cfddc8a05c750ec8d54be244d2b7d0e7ba088e95b80",
+      "byteLength": 2670
+    },
+    {
+      "file": "logo/Geetimer-compact-black-transparent.png",
+      "sha256": "0d2a7bfd81447c8c9fcd7af988298af2cc69cab4f48b7efa7322fab77c5f71ac",
+      "byteLength": 28951
+    },
+    {
+      "file": "logo/Geetimer-compact-black-transparent.svg",
+      "sha256": "b6007305c8749764a3b5c0b0b11da348520a1a3d8e170b07dce3df84a6368e86",
+      "byteLength": 2804
+    },
+    {
+      "file": "logo/Geetimer-compact-gradient-transparent.png",
+      "sha256": "6d1f73da8453c498dcdde1769ba5ec067f01087e12d1ac0adaf98ee80bf9d209",
+      "byteLength": 47319
+    },
+    {
+      "file": "logo/Geetimer-compact-gradient-transparent.svg",
+      "sha256": "3fc9e40cfb53a81491ab5dd1852e2c5d245b990cb58fd268f9f3715e0cd047f1",
+      "byteLength": 2844
+    },
+    {
+      "file": "logo/Geetimer-compact-solid-purple-transparent.png",
+      "sha256": "67943f4e3c5c1c88cc78e9be28194dd70a8478b12658ff5c5613937b5fed8822",
+      "byteLength": 31349
+    },
+    {
+      "file": "logo/Geetimer-compact-solid-purple-transparent.svg",
+      "sha256": "1473fe73636cc3145466a39eeb1bbd3f05d0ea0321467351516b5c2604f26364",
+      "byteLength": 2804
+    },
+    {
+      "file": "logo/Geetimer-compact-white-transparent.png",
+      "sha256": "daca36e9f691bc3ff224be60c4a854c02a8b83b54dbc751f24f61352163fe71d",
+      "byteLength": 23505
+    },
+    {
+      "file": "logo/Geetimer-compact-white-transparent.svg",
+      "sha256": "1a12af6322243ec2511a39c0a1d5d898f65559e865140ec2fc31b29696037135",
+      "byteLength": 2804
+    },
+    {
+      "file": "logo/Geetimer-gradient-transparent.png",
+      "sha256": "a2954414ba536ec32b3b3ed1e6a2117f18496d93f3d935a03dd3ab199ed1624b",
+      "byteLength": 53593
+    },
+    {
+      "file": "logo/Geetimer-gradient-transparent.svg",
+      "sha256": "35cd68a9fb178e8355e7bb873a421354dbaad5df126235313025884a1b5c28b6",
+      "byteLength": 2710
+    },
+    {
+      "file": "logo/Geetimer-on-black.png",
+      "sha256": "ee69180f39b5e9304fecff04beb9ad50c329df61c90673bc1706eb5d55bd88fe",
+      "byteLength": 66594
+    },
+    {
+      "file": "logo/Geetimer-on-black.svg",
+      "sha256": "f03de25ea3267d91f887b161b5730207875090d593b33f664410f58f3ea4cdbf",
+      "byteLength": 2772
+    },
+    {
+      "file": "logo/Geetimer-on-purple.png",
+      "sha256": "0caba2638c552973235718ff617f4cfd1602ca779a7dd6bafe28929566d9441b",
+      "byteLength": 67435
+    },
+    {
+      "file": "logo/Geetimer-on-purple.svg",
+      "sha256": "89362732f067149b6539ada0f71fcb980e27c2cd6ad64511ecbc3b0c061f8de5",
+      "byteLength": 2737
+    },
+    {
+      "file": "logo/Geetimer-on-white.png",
+      "sha256": "38737dd1ae2e8310f612ad544eb779ba40499e39be640fa597b95911636a0e17",
+      "byteLength": 48554
+    },
+    {
+      "file": "logo/Geetimer-on-white.svg",
+      "sha256": "9056ef312e7c21eae6d6321500d0e14fac3bb9e8f248a51eb82c3d458528c5a1",
+      "byteLength": 2772
+    },
+    {
+      "file": "logo/Geetimer-solid-purple-transparent.png",
+      "sha256": "a86c3f96b504490d783fa0dde187ee3e0300c2e5dc0956cfce5fc56d57b0f18e",
+      "byteLength": 32300
+    },
+    {
+      "file": "logo/Geetimer-solid-purple-transparent.svg",
+      "sha256": "83143af6faa383afb3bd4a3b6e3d0d9d1bc437ecab8cee969481902431415ef3",
+      "byteLength": 2670
+    },
+    {
+      "file": "logo/Geetimer-white-transparent.png",
+      "sha256": "e8ba5e0c91c8623ac3426ac8b2b839e936feb9e4501fc266012596229bb5b0d6",
+      "byteLength": 24585
+    },
+    {
+      "file": "logo/Geetimer-white-transparent.svg",
+      "sha256": "f08139a2a37ad81f493efaa4d7cb32edbb85ea56f123918ed1956d4d2e66e7a2",
+      "byteLength": 2670
+    },
+    {
+      "file": "social/douyin/G-black.png",
+      "sha256": "f2592d9f76f5b2908c17c494142b9186d43ead33e42e11d447dbb284c5e32612",
+      "byteLength": 44218
+    },
+    {
+      "file": "social/douyin/G-black.svg",
+      "sha256": "cff1f74211c4186812006e70dc9c80d7573c6dfd7a3655f0e0cf0a519247283d",
+      "byteLength": 849
+    },
+    {
+      "file": "social/douyin/G-purple.png",
+      "sha256": "4be0cbc210477368b903235185bf5b961597e67af4f59b4b65cb5011d8e19ef1",
+      "byteLength": 49436
+    },
+    {
+      "file": "social/douyin/G-purple.svg",
+      "sha256": "149808c148d30fce24ac32081800b3cc937b271bb767d95a98203ecb4901a928",
+      "byteLength": 849
+    },
+    {
+      "file": "social/douyin/G-white.png",
+      "sha256": "856b5c49296988341978175d6b44c28be513df7c24048506dec6d0ba8ac4fcbe",
+      "byteLength": 27205
+    },
+    {
+      "file": "social/douyin/G-white.svg",
+      "sha256": "3cd069a0b1561387423e6f3e0ce60bbf50676155ef16df976903ac00a79ae740",
+      "byteLength": 849
+    },
+    {
+      "file": "social/douyin/Geetimer-black.png",
+      "sha256": "bf714189a9bf3a955334f28287506414227b0c115e3280cef4044a78df3adf85",
+      "byteLength": 60350
+    },
+    {
+      "file": "social/douyin/Geetimer-black.svg",
+      "sha256": "aa8ceb2e08db107452bc8a17b135fd7a6e0fe0ce33fe2a81199bcc6d2086d10a",
+      "byteLength": 2893
+    },
+    {
+      "file": "social/douyin/Geetimer-purple.png",
+      "sha256": "8c30d4eb5de4135c1a302bab4a54d364de518eb2885ac9cbf3a67ff7f9f9a8df",
+      "byteLength": 59659
+    },
+    {
+      "file": "social/douyin/Geetimer-purple.svg",
+      "sha256": "9fd3b8776efbaac0bda0fd8ce456e3467eb948f900ab9d217492a35068526477",
+      "byteLength": 2858
+    },
+    {
+      "file": "social/douyin/Geetimer-white.png",
+      "sha256": "144a4d6ad69445a677c62ab1a81a106721fce5d09ea8161b5310d929123cf282",
+      "byteLength": 42792
+    },
+    {
+      "file": "social/douyin/Geetimer-white.svg",
+      "sha256": "69fbc266f218809357e5d3729381b02d8e9efcc0f43914285bab1d9adf07da63",
+      "byteLength": 2893
+    },
+    {
+      "file": "social/xiaohongshu/G-black.png",
+      "sha256": "f2592d9f76f5b2908c17c494142b9186d43ead33e42e11d447dbb284c5e32612",
+      "byteLength": 44218
+    },
+    {
+      "file": "social/xiaohongshu/G-black.svg",
+      "sha256": "9f3cb89e83e8e53916d63df9510aca681d6e4858d9e5d0ef7f6a3bfc02558d74",
+      "byteLength": 854
+    },
+    {
+      "file": "social/xiaohongshu/G-purple.png",
+      "sha256": "4be0cbc210477368b903235185bf5b961597e67af4f59b4b65cb5011d8e19ef1",
+      "byteLength": 49436
+    },
+    {
+      "file": "social/xiaohongshu/G-purple.svg",
+      "sha256": "ac1121040b2d26a4b5e694d4530350afae8912ccf241575ae858351b82687beb",
+      "byteLength": 854
+    },
+    {
+      "file": "social/xiaohongshu/G-white.png",
+      "sha256": "856b5c49296988341978175d6b44c28be513df7c24048506dec6d0ba8ac4fcbe",
+      "byteLength": 27205
+    },
+    {
+      "file": "social/xiaohongshu/G-white.svg",
+      "sha256": "145e336df8e44fdccec3bba2e1104466664fc538b6cd12662480bc6399e82dde",
+      "byteLength": 854
+    },
+    {
+      "file": "social/xiaohongshu/Geetimer-black.png",
+      "sha256": "bf714189a9bf3a955334f28287506414227b0c115e3280cef4044a78df3adf85",
+      "byteLength": 60350
+    },
+    {
+      "file": "social/xiaohongshu/Geetimer-black.svg",
+      "sha256": "9b3facb53cec0a74665f270708cb008621247545fa29ffa91dace515af535dd3",
+      "byteLength": 2898
+    },
+    {
+      "file": "social/xiaohongshu/Geetimer-purple.png",
+      "sha256": "8c30d4eb5de4135c1a302bab4a54d364de518eb2885ac9cbf3a67ff7f9f9a8df",
+      "byteLength": 59659
+    },
+    {
+      "file": "social/xiaohongshu/Geetimer-purple.svg",
+      "sha256": "80e516f79490e4a965ca4d77ace385b0eac30853af92bfed098d91ba8b8a5538",
+      "byteLength": 2863
+    },
+    {
+      "file": "social/xiaohongshu/Geetimer-white.png",
+      "sha256": "144a4d6ad69445a677c62ab1a81a106721fce5d09ea8161b5310d929123cf282",
+      "byteLength": 42792
+    },
+    {
+      "file": "social/xiaohongshu/Geetimer-white.svg",
+      "sha256": "d6a33309fa0cd72fb051d51dbaf1717efc57350a134fb4d253766e8647091ae7",
+      "byteLength": 2898
+    },
+    {
+      "file": "web/G-black-128.png",
+      "sha256": "9155f7349e4c9e9feb043b68d5d56269a7f4a69f8f4f9e2546f86e902553fcd5",
+      "byteLength": 2221
+    },
+    {
+      "file": "web/G-black-16.png",
+      "sha256": "eaec7eef269f0d58c1ed29906cfd1305d27a5193f21349e806cc090cde72492e",
+      "byteLength": 362
+    },
+    {
+      "file": "web/G-black-24.png",
+      "sha256": "29e73b79dc270b7588b52de7bd05dae43d6e7956c6b31590e0f6dc98feb0aeca",
+      "byteLength": 500
+    },
+    {
+      "file": "web/G-black-256.png",
+      "sha256": "c5f8a088a3fda5c7a6f62c35eac51a24cc2e8495fed18182275761dc0385803a",
+      "byteLength": 5180
+    },
+    {
+      "file": "web/G-black-32.png",
+      "sha256": "f9d9d0f0ecadde5936bdc5631d407322bc4910e1a523b0da0ca2a6b6291be403",
+      "byteLength": 605
+    },
+    {
+      "file": "web/G-black-48.png",
+      "sha256": "96b0bfc4b329fcb9bd8b01923d2326c1efc3e2e835a330634aa3505119889a88",
+      "byteLength": 852
+    },
+    {
+      "file": "web/G-black-64.png",
+      "sha256": "08dba55bdd7b0719b567d74e93de6b9d29dc8d192c730fbf8b29595671f93948",
+      "byteLength": 1114
+    },
+    {
+      "file": "web/G-black.png",
+      "sha256": "e8c81f024214c2d28c9281316622262dfb20024cf12d33a7497671d0d06b0ff6",
+      "byteLength": 31702
+    },
+    {
+      "file": "web/G-black.svg",
+      "sha256": "1749335d9322ad6ccc55bce9de853ef4943ba8e108593f0df4c5911c565dd3f0",
+      "byteLength": 720
+    },
+    {
+      "file": "web/G-gradient-128.png",
+      "sha256": "1f6840490fa8ce6512ac64eb9bdec74223a63a3b2a1bc91e1be68c95d72b7818",
+      "byteLength": 3246
+    },
+    {
+      "file": "web/G-gradient-16.png",
+      "sha256": "e5b37c64cc1dd01c91b6fd64e6256a138906e802ef71b8668f26262e77980fdf",
+      "byteLength": 557
+    },
+    {
+      "file": "web/G-gradient-24.png",
+      "sha256": "9ac63ab0f19f174b1e2ce1802673b8e6e54621562e332b47020124286f067f3c",
+      "byteLength": 764
+    },
+    {
+      "file": "web/G-gradient-256.png",
+      "sha256": "d808e96d52b6dceb3e96351a9ceea675337070ddcbba4221177fb8fc59d2eb6f",
+      "byteLength": 7051
+    },
+    {
+      "file": "web/G-gradient-32.png",
+      "sha256": "be9d01106ed321d7a4d52a885c3693957f91bfbad691910044006e89f843a380",
+      "byteLength": 925
+    },
+    {
+      "file": "web/G-gradient-48.png",
+      "sha256": "35cf021e193c6bbf0456e3e89983b94cd95f2cf8b7a5727005f933f37f725331",
+      "byteLength": 1319
+    },
+    {
+      "file": "web/G-gradient-64.png",
+      "sha256": "794e1323213a70a721b5e7185f68b834e05ffb81c0c6d65e849fdc5516cb0c21",
+      "byteLength": 1665
+    },
+    {
+      "file": "web/G-gradient.png",
+      "sha256": "8c5ad90b10908e0a65fca179b08defad13748e55084fc84832c86b0a38f2c6be",
+      "byteLength": 45820
+    },
+    {
+      "file": "web/G-gradient.svg",
+      "sha256": "e5666e137cd5fd1c0b6e823b7c854243f0c36b3610838de86ac19831e854fc0f",
+      "byteLength": 725
+    },
+    {
+      "file": "web/G-solid-purple-128.png",
+      "sha256": "f1ce11ed9a5ba3c3a07f468f1ab9089ec223b11ca37107afb80d71a80275b015",
+      "byteLength": 2448
+    },
+    {
+      "file": "web/G-solid-purple-16.png",
+      "sha256": "948d563b36aed4eeb2d3ad35f24a447d3a183b30fa3977ff9324f88935541427",
+      "byteLength": 411
+    },
+    {
+      "file": "web/G-solid-purple-24.png",
+      "sha256": "b1241c46e2393174be8828e7b264ec28757189e387076ea5b732f625aee0d115",
+      "byteLength": 575
+    },
+    {
+      "file": "web/G-solid-purple-256.png",
+      "sha256": "ff77eea29a7274297631bfe65403cc05a53eed557f6a99bb93f1d06195edf5f5",
+      "byteLength": 5617
+    },
+    {
+      "file": "web/G-solid-purple-32.png",
+      "sha256": "167122dfecb3b9ef6e9dbd1a125016bc7d9659b7d048ff209c70b0411645e9bf",
+      "byteLength": 673
+    },
+    {
+      "file": "web/G-solid-purple-48.png",
+      "sha256": "e4bee0b3ca1b674e38af145e422fed815cc7c9381b3e7e3a2dcffb476d9cb018",
+      "byteLength": 965
+    },
+    {
+      "file": "web/G-solid-purple-64.png",
+      "sha256": "2b941656c5967b6112dfe91b03dd9ebb0da6fcedc3e8f1aa90c567defe569af1",
+      "byteLength": 1251
+    },
+    {
+      "file": "web/G-solid-purple.png",
+      "sha256": "302d88a9891eb5bbd24d471c6f27c1017c5067c98b838b91c4aa36fc6003db04",
+      "byteLength": 34162
+    },
+    {
+      "file": "web/G-solid-purple.svg",
+      "sha256": "ac015d75a2e6b2edfd922a72e0a867845d38ba7ed6547bc8971a0dec402be812",
+      "byteLength": 720
+    },
+    {
+      "file": "web/G-white-128.png",
+      "sha256": "b6cd7ac3df96b20375d37c283b95314dcf59677e41afca468f38bd7e0d39789a",
+      "byteLength": 1920
+    },
+    {
+      "file": "web/G-white-16.png",
+      "sha256": "f19ec8cf38ffc727984c6ca6ebcc2e65f2ed10fc41d5c345c01005d90f1b5d48",
+      "byteLength": 318
+    },
+    {
+      "file": "web/G-white-24.png",
+      "sha256": "2cf38cb43bb8f447f9a96805e889eceff70f888ad1835a4f2a19dcaafa68b1ce",
+      "byteLength": 437
+    },
+    {
+      "file": "web/G-white-256.png",
+      "sha256": "b1bb25ccc6992944f621f239a19e9694155726645557d128518ccc3f30e12741",
+      "byteLength": 4159
+    },
+    {
+      "file": "web/G-white-32.png",
+      "sha256": "d1cbb2aef5b086d50ae2e9201c61cf46df0fcb6e4a7bdddf45934b60e00f2b55",
+      "byteLength": 523
+    },
+    {
+      "file": "web/G-white-48.png",
+      "sha256": "92e6cefa31a387e0e15e20cbae6f31bec2907d8d9602bfd1581bb945d7b9b3ea",
+      "byteLength": 756
+    },
+    {
+      "file": "web/G-white-64.png",
+      "sha256": "f2e99c535b3b23a82783aa59f27abb068b56fd82c99bd04c695d975ab49dcfcc",
+      "byteLength": 966
+    },
+    {
+      "file": "web/G-white.png",
+      "sha256": "33458875645c9f64b79008ee0fc219497a59fb56b041f9e9addd3d0443d0023a",
+      "byteLength": 20991
+    },
+    {
+      "file": "web/G-white.svg",
+      "sha256": "73ac20131c854800d62f06c0f0da28dcdccee5c531ad23a94830fdd955a4d186",
+      "byteLength": 720
+    },
+    {
+      "file": "web/Geetimer-black.png",
+      "sha256": "f99cb0965d178453cfbfcb23b667800c71c8dfd06a9e3eb9596f0e59d6c7d440",
+      "byteLength": 30183
+    },
+    {
+      "file": "web/Geetimer-black.svg",
+      "sha256": "fba7099c2dfdd29755f0f4d29a402539e33ab56ec764231c4f3d959c57e19970",
+      "byteLength": 2684
+    },
+    {
+      "file": "web/Geetimer-gradient.png",
+      "sha256": "7d5fca4c2795b81d58db82365faa007dc8656a71d02a577eab08046635c039c1",
+      "byteLength": 54546
+    },
+    {
+      "file": "web/Geetimer-gradient.svg",
+      "sha256": "dd2169790c8c4d3a72ee9926c797cd7919c35386d3427b297277937b459aef62",
+      "byteLength": 2724
+    },
+    {
+      "file": "web/Geetimer-solid-purple.png",
+      "sha256": "6ad3e88a8e69e7d712288861f6e8d0d82dca6884987427c9053fa8818ae13d4b",
+      "byteLength": 32996
+    },
+    {
+      "file": "web/Geetimer-solid-purple.svg",
+      "sha256": "5dab99c8c244a3672a92a578ffe1ec581275144e75d919b1440fd7e758bea672",
+      "byteLength": 2684
+    },
+    {
+      "file": "web/Geetimer-white.png",
+      "sha256": "87bbd4767464015d835b97e797bcd5bbde7e95fbb731006e4846d4202af9fe85",
+      "byteLength": 24838
+    },
+    {
+      "file": "web/Geetimer-white.svg",
+      "sha256": "f57d9ac5a5be1c657d8a5cf18a7730d1eb3cbe52cb168b17a99db56b9f0d94f5",
+      "byteLength": 2684
+    }
+  ]
+}

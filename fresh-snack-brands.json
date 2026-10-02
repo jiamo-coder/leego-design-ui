@@ -1,0 +1,3367 @@
+{
+  "standard": "leego-design-ui",
+  "version": "2.16.0",
+  "updated": "2026-09-12",
+  "count": 61,
+  "verificationMaxAgeDays": 180,
+  "policy": {
+    "source": "brand-first-with-traceable-published-sources",
+    "runtimeExternalRequests": false,
+    "redistribution": false,
+    "minimumWordmarkWidth": 72,
+    "note": "来源与使用权分开。官网、原设计方、品牌账号优先；可追溯公开资料经视觉核验后标明来源收录，不冒充官方授权包。"
+  },
+  "brands": [
+    {
+      "id": "jinlimen",
+      "label": "金粒门",
+      "aliases": [
+        "KING LOMO"
+      ],
+      "status": "user-reference",
+      "note": "用户指定的 KING LOMO 单张组合标；不附加上一版的新鲜零食商店宣传语，旧版本保留。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-jinlimen-20260912.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-12",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-jinlimen-20260912.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户指定单张版 · 2026-09-12",
+        "sourceRecordId": "user-jinlimen-20260912",
+        "sourceCredit": "用户提供单张标识（原始作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-jinlimen-20260912.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          0,
+          0,
+          1012,
+          956
+        ],
+        "width": 1012,
+        "height": 956,
+        "mimeType": "image/png",
+        "byteLength": 468319,
+        "sha256": "1722e64252bbff7769496e875a3df469fdde12d22bf5d610713744b3245c6fc8",
+        "retrievedAt": "2026-09-12",
+        "scope": "exact-brand",
+        "minimumWidth": 120,
+        "minimumSizeBasis": "组合标可读性参考，非品牌官方尺寸标准",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "published-source",
+          "note": "红蓝 KING LOMO 组合标；与 ABCD 原设计案例交叉核对，保留资料原图。",
+          "evidence": [
+            {
+              "url": "https://www.ideacn.com/show-6-3817-1.html",
+              "kind": "industry-publication"
+            },
+            {
+              "url": "https://ablackcover.com/Kinglomo",
+              "kind": "corroboration"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/snack-logo-reference-sheet.jpg",
+            "sourceUrl": "https://www.ideacn.com/uploadfile/2026/0830/20260830103929983.jpg",
+            "sourcePageUrl": "https://www.ideacn.com/show-6-3817-1.html",
+            "sourceKind": "industry-publication",
+            "sourceLabel": "公开资料 · 原图取景",
+            "kind": "source-sheet",
+            "displayRect": [
+              20,
+              15,
+              570,
+              695
+            ],
+            "width": 2268,
+            "height": 3139,
+            "mimeType": "image/jpeg",
+            "byteLength": 530771,
+            "sha256": "2f5b2dd9a857a8b08b597c78bd8e9b321ac17e259cfed2ad94cc269d8709810b",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+            "redistribution": false
+          }
+        },
+        {
+          "status": "user-reference",
+          "note": "来图中的紧凑红蓝标识；此前完整字标与资料来源保留。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              810,
+              193,
+              144,
+              139
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        },
+        {
+          "status": "user-reference",
+          "note": "第二张来图：含“新鲜零食商店”中英文附属文字的竖向组合；此前紧凑版保留。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 原图取景",
+            "sourceRecordId": "user-snack-sheet-20260911-02",
+            "sourceCredit": "用户提供拼版（原作者未确认）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              434,
+              0,
+              226,
+              280
+            ],
+            "width": 1080,
+            "height": 1880,
+            "mimeType": "image/png",
+            "byteLength": 1068616,
+            "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "jiduoquan",
+      "label": "几多全",
+      "aliases": [
+        "Jido plus"
+      ],
+      "status": "user-reference",
+      "note": "来图中的紫色圆形 Jido plus 版本；此前公开手册版本保留在历史来源中。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          88,
+          185,
+          146,
+          153
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "published-source",
+          "note": "2026 年 4 月公开手册版；不是后续蓝标形象店版。",
+          "evidence": [
+            {
+              "url": "https://70px.com/12527.html",
+              "kind": "published-manual"
+            },
+            {
+              "url": "https://life.rednet.cn/m/content/646042/67/16199375.html",
+              "kind": "corroboration"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/jiduoquan-brand-manual.jpg",
+            "sourceUrl": "https://i.70px.com/2026/04/20260405005721741.jpg",
+            "sourcePageUrl": "https://70px.com/12527.html",
+            "sourceKind": "published-manual",
+            "sourceLabel": "品牌手册 · 原图取景",
+            "kind": "source-sheet",
+            "displayRect": [
+              330,
+              220,
+              420,
+              165
+            ],
+            "width": 1080,
+            "height": 2186,
+            "mimeType": "image/jpeg",
+            "byteLength": 1176386,
+            "sha256": "e97649fc91d5b63c1e1d4cb8bdeeec436a57c571925016118f18e93aa574e39c",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+            "redistribution": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "yili-nutco",
+      "label": "一栗NUTCO",
+      "aliases": [
+        "一栗",
+        "NUTCO",
+        "NUT CO."
+      ],
+      "status": "user-reference",
+      "note": "用户指定的一栗 nutco 完整中英文组合标；此前仅“一栗”字样的拼版版本保留。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-yili-nutco-20260912.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-12",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-yili-nutco-20260912.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户指定单张版 · 2026-09-12",
+        "sourceRecordId": "user-yili-nutco-20260912",
+        "sourceCredit": "用户提供单张标识（原始作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-yili-nutco-20260912.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          0,
+          0,
+          400,
+          350
+        ],
+        "width": 400,
+        "height": 350,
+        "mimeType": "image/png",
+        "byteLength": 85385,
+        "sha256": "5f9950881107495cba5bc97d8ea2678ba4e29b9e31266fd86f47d3f6884eba5d",
+        "retrievedAt": "2026-09-12",
+        "scope": "exact-brand",
+        "minimumWidth": 120,
+        "minimumSizeBasis": "组合标可读性参考，非品牌官方尺寸标准",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "user-reference",
+          "note": "来图展示“一栗”绿色方形标；图中没有 NUTCO 英文组合，不补画英文。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              298,
+              185,
+              160,
+              153
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "pumama",
+      "label": "蒲妈妈",
+      "aliases": [
+        "Pumama"
+      ],
+      "status": "user-reference",
+      "note": "用户指定的绿色底、白色 Pumama 蒲妈妈组合标，保留两个注册标记；不是由旧版改色生成。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-pumama-20260912.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-12",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-pumama-20260912.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户指定单张版 · 2026-09-12",
+        "sourceRecordId": "user-pumama-20260912",
+        "sourceCredit": "用户提供单张标识（原始作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-pumama-20260912.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          0,
+          0,
+          410,
+          354
+        ],
+        "width": 410,
+        "height": 354,
+        "mimeType": "image/png",
+        "byteLength": 107615,
+        "sha256": "b9306f9906bd1cf097c9bd2b6beb4983703d831cf8d0ecb0e091a720aa579284",
+        "retrievedAt": "2026-09-12",
+        "scope": "exact-brand",
+        "minimumWidth": 120,
+        "minimumSizeBasis": "组合标可读性参考，非品牌官方尺寸标准",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "published-source",
+          "note": "蒲妈妈 Pumama 黑白图样；申请人姓名与品牌创始人报道相符，不推断品牌标准色或商业许可。",
+          "evidence": [
+            {
+              "url": "https://tm.aliyun.com/detail/52a7_85614634_39",
+              "kind": "trademark-record"
+            },
+            {
+              "url": "https://m.winshang.com/news740397.html",
+              "kind": "corroboration"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/pumama-trademark.jpg",
+            "sourceUrl": "https://tm-data.oss-cn-beijing.aliyuncs.com/tm_img/202601/20/85614634.jpg",
+            "sourcePageUrl": "https://tm.aliyun.com/detail/52a7_85614634_39",
+            "sourceKind": "trademark-record",
+            "sourceLabel": "商标记录 · 黑白原稿",
+            "kind": "source-sheet",
+            "displayRect": [
+              235,
+              320,
+              490,
+              220
+            ],
+            "width": 945,
+            "height": 945,
+            "mimeType": "image/jpeg",
+            "byteLength": 26852,
+            "sha256": "021537c36e622bd4a78f49cf6355e33fcc6efb5e6ecb7839035e58cb1b3fe3c8",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+            "redistribution": false,
+            "sourceUrlRequiresFreshSignature": true
+          }
+        },
+        {
+          "status": "user-reference",
+          "note": "来图绿色版本；此前商标记录黑白原稿保留，不通过改色生成此版本。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              502,
+              203,
+              258,
+              112
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "xueji",
+      "label": "薛记炒货",
+      "aliases": [],
+      "status": "published-source",
+      "note": "FoodTalks 品牌图，保留红黑原色；不是品牌方提供的授权素材包。",
+      "evidence": [
+        {
+          "url": "https://static.foodtalks.cn/company/logo/c94b2aed64f26094195acbeea669167db5fa.jpg",
+          "kind": "published-image"
+        },
+        {
+          "url": "https://www.foodtalks.cn/fbifwowfoodawards/gallery/wowfood/detail/6732",
+          "kind": "corroboration"
+        },
+        {
+          "url": "https://xueji.com/gywm",
+          "kind": "corroboration"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/xueji.jpg",
+        "sourceUrl": "https://static.foodtalks.cn/company/logo/c94b2aed64f26094195acbeea669167db5fa.jpg",
+        "sourcePageUrl": "https://static.foodtalks.cn/company/logo/c94b2aed64f26094195acbeea669167db5fa.jpg",
+        "sourceKind": "industry-directory",
+        "sourceLabel": "行业目录标识",
+        "kind": "source-sheet",
+        "displayRect": [
+          0,
+          115,
+          400,
+          170
+        ],
+        "width": 400,
+        "height": 400,
+        "mimeType": "image/jpeg",
+        "byteLength": 29039,
+        "sha256": "b7bcbd5bf52462697fcaf83054d9a0649e3108dac88bfb7b22a7815279042c8a",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+        "redistribution": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "limanduo",
+      "label": "栗满多",
+      "aliases": [],
+      "status": "official-source",
+      "note": "已核对官网当前提供的完整组合标识；不裁切、改色或重绘。",
+      "evidence": [
+        {
+          "url": "https://www.limanduo.cn/",
+          "kind": "brand-site"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/limanduo.png",
+        "sourceUrl": "https://www.limanduo.cn/static/upload/image/20240908/1725761816820141.png",
+        "officialPageUrl": "https://www.limanduo.cn/",
+        "kind": "wordmark",
+        "width": 300,
+        "height": 90,
+        "byteLength": 16931,
+        "sha256": "4f4233585d93e297ae7dd92a5d5ce9fc4faaae3d295b848b1a45bc76c4540026",
+        "mimeType": "image/png",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+        "redistribution": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "shanliwang",
+      "label": "山栗王",
+      "aliases": [],
+      "status": "pending-source",
+      "note": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "xianziyuan",
+      "label": "鲜滋源",
+      "aliases": [],
+      "status": "identity-review",
+      "note": "存在同名果汁供应商等结果，尚未确认用户所指的鲜零食连锁主体。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "lyfen-life",
+      "label": "来伊份 LYFEN life 新鲜生活",
+      "aliases": [
+        "LYFEN life"
+      ],
+      "status": "user-reference",
+      "note": "来图明确包含 LYFEN life 新鲜生活，不使用普通来伊份 Logo 替代。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          728,
+          1173,
+          279,
+          75
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "bestore-fresh-life",
+      "label": "良品铺子鲜生活",
+      "aliases": [],
+      "status": "pending-source",
+      "note": "需要鲜生活业态的独立标识；不以普通良品铺子 Logo 代替。",
+      "evidence": [
+        {
+          "url": "https://whucg.cn/news/17406.html",
+          "kind": "research-lead"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "three-squirrels",
+      "label": "三只松鼠",
+      "aliases": [],
+      "status": "official-source",
+      "note": "已核对官网当前提供的完整组合标识；不裁切、改色或重绘。",
+      "evidence": [
+        {
+          "url": "https://www.3songshu.com/",
+          "kind": "brand-site"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/three-squirrels.png",
+        "sourceUrl": "https://imgs.ssyl.3songshu.com/about/logo.png",
+        "officialPageUrl": "https://www.3songshu.com/",
+        "kind": "wordmark",
+        "width": 105,
+        "height": 70,
+        "byteLength": 50899,
+        "sha256": "5c14bfbb4b1c8d4c2a8db19e640a14cccc96de707aab8e4bcde0ca80511a074a",
+        "mimeType": "image/png",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+        "redistribution": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "juewei-fresh",
+      "label": "绝味新鲜零食",
+      "aliases": [],
+      "status": "user-reference",
+      "note": "来图明确包含“绝味 新鲜零食”字样，不以绝味鸭脖标识替代。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          535,
+          428,
+          170,
+          150
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "you-tuijian",
+      "label": "有·推荐",
+      "aliases": [
+        "有.推荐"
+      ],
+      "status": "user-reference",
+      "note": "来图为“有·推荐”字标；与“有点推荐”的关系仍待确认，不复制为第二个品牌标识。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          95,
+          716,
+          267,
+          83
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [
+        "youdian-tuijian"
+      ]
+    },
+    {
+      "id": "baipinhao-benwei",
+      "label": "百品好·本味",
+      "aliases": [],
+      "status": "pending-source",
+      "note": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [
+        "baipinhao"
+      ]
+    },
+    {
+      "id": "youyou-wanwei",
+      "label": "有友玩味家族",
+      "aliases": [],
+      "status": "identity-review",
+      "note": "公开资料多使用“玩味族”，与输入“玩味家族”的正式名称待核对。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "jishi-shangwei",
+      "label": "吉时赏味",
+      "aliases": [],
+      "status": "pending-source",
+      "note": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "evidence": [
+        {
+          "url": "https://www.sina.cn/news/detail/5310485512585333.html",
+          "kind": "research-lead"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "lemon-right-fresh",
+      "label": "柠檬向右新鲜零食店",
+      "aliases": [],
+      "status": "parent-reference",
+      "note": "已取得官网柠檬向右母品牌字标，仅作母品牌参考，不计入新鲜零食店独立 Logo。",
+      "evidence": [
+        {
+          "url": "https://ningmengxiangyou.com/about.html",
+          "kind": "brand-site"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/lemon-right.png",
+        "sourceUrl": "https://ningmengxiangyou.com/uploadpic/image/202407/20240718155805_30505.png",
+        "officialPageUrl": "https://ningmengxiangyou.com/about.html",
+        "kind": "wordmark",
+        "width": 750,
+        "height": 205,
+        "byteLength": 9546,
+        "sha256": "1d75bdeff2f3a148a0d1e26de3edbd98a362fd0e368f582bbe9a8761c30309b6",
+        "mimeType": "image/png",
+        "retrievedAt": "2026-09-11",
+        "scope": "parent-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+        "redistribution": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "haidilao-shop",
+      "label": "海底捞严选小铺",
+      "aliases": [],
+      "status": "pending-source",
+      "note": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "jiushishan",
+      "label": "久食山",
+      "aliases": [
+        "JoySeason"
+      ],
+      "status": "user-reference",
+      "note": "来图中的 JoySeason 久食山组合标。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          750,
+          438,
+          258,
+          129
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "lingtuantuan",
+      "label": "零团团",
+      "aliases": [
+        "TaTa Ling"
+      ],
+      "status": "user-reference",
+      "note": "用户指定的零团团 TaTa Ling 组合标，保留注册标记与“新鲜·现制·零食”附属文字；此前熊猫版保留，不推断品牌官方换标时间。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-lingtuantuan-20260912.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-12",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-lingtuantuan-20260912.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户指定单张版 · 2026-09-12",
+        "sourceRecordId": "user-lingtuantuan-20260912",
+        "sourceCredit": "用户提供单张标识（原始作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-lingtuantuan-20260912.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          0,
+          0,
+          404,
+          306
+        ],
+        "width": 404,
+        "height": 306,
+        "mimeType": "image/png",
+        "byteLength": 120868,
+        "sha256": "66a8ac4ae27edbceda6597ef800c03f62b343cb0287ebe9ae53a3e10b56dd243",
+        "retrievedAt": "2026-09-12",
+        "scope": "exact-brand",
+        "minimumWidth": 120,
+        "minimumSizeBasis": "组合标可读性参考，非品牌官方尺寸标准",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "user-reference",
+          "note": "来图中的零团团及“宝藏零食探索家”组合标。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              608,
+              687,
+              142,
+              133
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "qiaxiaoke",
+      "label": "洽小可",
+      "aliases": [
+        "恰小可",
+        "qaqaco"
+      ],
+      "status": "user-reference",
+      "note": "原输入为“洽小可”，来图文字为“恰小可”；按 qaqaco 图形建立参考映射，保留名称差异待核对。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          101,
+          435,
+          134,
+          150
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "published-source",
+          "note": "洽小可 qaqaco；源图仅 80px，适合资料识别，不用于大幅展示。",
+          "evidence": [
+            {
+              "url": "https://haipusushinori.com/",
+              "kind": "supplier-publication"
+            },
+            {
+              "url": "https://www.sina.cn/news/detail/5308267815502933.html",
+              "kind": "corroboration"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/qiaxiaoke.webp",
+            "sourceUrl": "https://haipusushinori.com/wp-content/uploads/2026/08/38-洽小可.webp",
+            "sourcePageUrl": "https://haipusushinori.com/",
+            "sourceKind": "supplier-publication",
+            "sourceLabel": "供应商公开标识",
+            "kind": "wordmark",
+            "displayRect": null,
+            "width": 80,
+            "height": 80,
+            "mimeType": "image/webp",
+            "byteLength": 1678,
+            "sha256": "ac9fc3bbc8c1a901bae2a2464f1de6696beaf3c63645f14a1fccb46e1ccf46b1",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+            "redistribution": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "moshanyu",
+      "label": "茉山语",
+      "aliases": [
+        "MOSSANEE"
+      ],
+      "status": "published-source",
+      "note": "取自餐饮界品牌报道所附宣传页底部的完整平面字标；保留原绿色背景，不使用门头照片抠图。此为该资料版本，不代替所有门店现行组合标。",
+      "evidence": [
+        {
+          "url": "https://www.canyinj.com/news/23454.html",
+          "kind": "published-image"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/moshanyu-brand-brochure-20250801.jpg",
+        "sourceUrl": "https://objectmc2.oss-cn-shenzhen.aliyuncs.com/yhdoc/202507/30/20250730095345950119633.jpeg",
+        "sourcePageUrl": "https://www.canyinj.com/news/23454.html",
+        "sourceKind": "published-brand-material",
+        "sourceLabel": "餐饮界公开资料 · 2025-08",
+        "kind": "source-sheet",
+        "displayRect": [
+          220,
+          468,
+          357,
+          55
+        ],
+        "width": 800,
+        "height": 533,
+        "mimeType": "image/jpeg",
+        "byteLength": 94125,
+        "sha256": "7332a60abdac45d2720cd7cbf8a556b873e885e81c9e2014a6536af069b713eb",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 240,
+        "minimumSizeBasis": "本规范按原始分辨率与完整组合标可读性设定，非品牌官方标准",
+        "redistribution": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "qingshansen",
+      "label": "清山森",
+      "aliases": [
+        "qingsense"
+      ],
+      "status": "user-reference",
+      "note": "来图中的 qingsense 清山森组合标。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          317,
+          418,
+          164,
+          173
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "nihao-beixi",
+      "label": "你好，焙禧",
+      "aliases": [
+        "你好·焙禧",
+        "你好焙禧",
+        "Hellobeicy"
+      ],
+      "status": "published-source",
+      "note": "取自公开大会介绍中的完整平面组合标，保留注册标记和附属文字；不是门店效果图，也不是官方授权包。",
+      "evidence": [
+        {
+          "url": "https://www.sohu.com/a/1060028699_121124361",
+          "kind": "published-image"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/nihao-beixi-conference-20260807.jpg",
+        "sourceUrl": "https://q6.itc.cn/q_70/images03/20260807/70b63ed34e604094b6713854cd5f2c53.jpeg",
+        "sourcePageUrl": "https://www.sohu.com/a/1060028699_121124361",
+        "sourceKind": "published-brand-material",
+        "sourceLabel": "公开大会资料 · 2026-08",
+        "kind": "source-sheet",
+        "displayRect": [
+          311,
+          505,
+          293,
+          359
+        ],
+        "width": 906,
+        "height": 1757,
+        "mimeType": "image/jpeg",
+        "byteLength": 141550,
+        "sha256": "9fbacd9594ca768725238c7542ce064fb949eb17788a4a2023a253a6974ee72c",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 160,
+        "minimumSizeBasis": "本规范按原始分辨率与完整组合标可读性设定，非品牌官方标准",
+        "redistribution": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "wuxiaohai",
+      "label": "五小海",
+      "aliases": [
+        "W Small Sea"
+      ],
+      "status": "user-reference",
+      "note": "第二张来图：五小海圆角竖向版本；此前公开资料版保留。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          881,
+          941,
+          158,
+          162
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "published-source",
+          "note": "五小海 W Small Sea 组合标；资料分辨率有限，不用于放大印刷。",
+          "evidence": [
+            {
+              "url": "https://www.ideacn.com/show-6-3817-1.html",
+              "kind": "industry-publication"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/snack-logo-reference-sheet.jpg",
+            "sourceUrl": "https://www.ideacn.com/uploadfile/2026/0830/20260830103929983.jpg",
+            "sourcePageUrl": "https://www.ideacn.com/show-6-3817-1.html",
+            "sourceKind": "industry-publication",
+            "sourceLabel": "公开资料 · 原图取景",
+            "kind": "source-sheet",
+            "displayRect": [
+              875,
+              2000,
+              510,
+              535
+            ],
+            "width": 2268,
+            "height": 3139,
+            "mimeType": "image/jpeg",
+            "byteLength": 530771,
+            "sha256": "2f5b2dd9a857a8b08b597c78bd8e9b321ac17e259cfed2ad94cc269d8709810b",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+            "redistribution": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "jingqizi",
+      "label": "京七子",
+      "aliases": [],
+      "status": "pending-source",
+      "note": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "xianboshi",
+      "label": "鲜博士",
+      "aliases": [],
+      "status": "identity-review",
+      "note": "区分辉山鲜博士乳品品牌与用户所指新鲜食物商店的标识。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "richu-xianwu",
+      "label": "日初鲜屋",
+      "aliases": [
+        "Freshouse"
+      ],
+      "status": "user-reference",
+      "note": "来图中的 Freshouse 日初鲜屋组合标。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          830,
+          687,
+          147,
+          126
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "chaoren-lingshi",
+      "label": "超人零拾",
+      "aliases": [],
+      "status": "pending-source",
+      "note": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "qinghefeng",
+      "label": "轻禾风/轻禾丰",
+      "aliases": [
+        "轻禾风",
+        "轻禾丰",
+        "CHILL HUFF"
+      ],
+      "status": "user-reference",
+      "note": "第二张来图：轻禾丰与附属文字；不据此确认轻禾风为同一主体。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          880,
+          660,
+          161,
+          154
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "published-source",
+          "note": "本次取得的是“轻禾丰”CHILL HUFF 组合标；保留“轻禾风”检索别名，不确认二者同主体。",
+          "evidence": [
+            {
+              "url": "https://www.ideacn.com/show-6-3817-1.html",
+              "kind": "industry-publication"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/snack-logo-reference-sheet.jpg",
+            "sourceUrl": "https://www.ideacn.com/uploadfile/2026/0830/20260830103929983.jpg",
+            "sourcePageUrl": "https://www.ideacn.com/show-6-3817-1.html",
+            "sourceKind": "industry-publication",
+            "sourceLabel": "公开资料 · 原图取景",
+            "kind": "source-sheet",
+            "displayRect": [
+              885,
+              1425,
+              525,
+              535
+            ],
+            "width": 2268,
+            "height": 3139,
+            "mimeType": "image/jpeg",
+            "byteLength": 530771,
+            "sha256": "2f5b2dd9a857a8b08b597c78bd8e9b321ac17e259cfed2ad94cc269d8709810b",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+            "redistribution": false
+          }
+        },
+        {
+          "status": "user-reference",
+          "note": "来图展示“轻禾丰”；不据此确认“轻禾风”为同一法律主体。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              469,
+              933,
+              136,
+              115
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "dakoushou",
+      "label": "大口兽",
+      "aliases": [
+        "TOP SOLD"
+      ],
+      "status": "user-reference",
+      "note": "用户指定的红蓝 TOP SOLD 单张组合标；替代主展示中的横向宣传组合，旧版本保留。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-dakoushou-20260912.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-12",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-dakoushou-20260912.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户指定单张版 · 2026-09-12",
+        "sourceRecordId": "user-dakoushou-20260912",
+        "sourceCredit": "用户提供单张标识（原始作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-dakoushou-20260912.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          0,
+          0,
+          336,
+          310
+        ],
+        "width": 336,
+        "height": 310,
+        "mimeType": "image/png",
+        "byteLength": 108223,
+        "sha256": "2ac7f3ac37b22e49a59a2957b9d2e475c74df327581585d0b3e916ecba53b1db",
+        "retrievedAt": "2026-09-12",
+        "scope": "exact-brand",
+        "minimumWidth": 120,
+        "minimumSizeBasis": "组合标可读性参考，非品牌官方尺寸标准",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "published-source",
+          "note": "大口兽 TOP SOLD 红蓝组合标；保留原图，不把资料展示视为使用许可。",
+          "evidence": [
+            {
+              "url": "https://www.ideacn.com/show-6-3817-1.html",
+              "kind": "industry-publication"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/snack-logo-reference-sheet.jpg",
+            "sourceUrl": "https://www.ideacn.com/uploadfile/2026/0830/20260830103929983.jpg",
+            "sourcePageUrl": "https://www.ideacn.com/show-6-3817-1.html",
+            "sourceKind": "industry-publication",
+            "sourceLabel": "公开资料 · 原图取景",
+            "kind": "source-sheet",
+            "displayRect": [
+              1640,
+              1390,
+              615,
+              570
+            ],
+            "width": 2268,
+            "height": 3139,
+            "mimeType": "image/jpeg",
+            "byteLength": 530771,
+            "sha256": "2f5b2dd9a857a8b08b597c78bd8e9b321ac17e259cfed2ad94cc269d8709810b",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+            "redistribution": false
+          }
+        },
+        {
+          "status": "user-reference",
+          "note": "来图中的紧凑 TOP SOLD 标识；此前含附属文字的公开版本保留。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              425,
+              697,
+              117,
+              110
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        },
+        {
+          "status": "user-reference",
+          "note": "第二张来图：大口兽横向组合；此前紧凑版保留。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 原图取景",
+            "sourceRecordId": "user-snack-sheet-20260911-02",
+            "sourceCredit": "用户提供拼版（原作者未确认）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              287,
+              1237,
+              252,
+              110
+            ],
+            "width": 1080,
+            "height": 1880,
+            "mimeType": "image/png",
+            "byteLength": 1068616,
+            "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "xianbenjia",
+      "label": "鲜本家",
+      "aliases": [],
+      "status": "pending-source",
+      "note": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "guoliyuan",
+      "label": "果栗园nutland",
+      "aliases": [
+        "果栗园",
+        "nutland"
+      ],
+      "status": "identity-review",
+      "note": "不得使用荷兰 Nutland 的同名 Logo；需确认中国果栗园对应的英文组合。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "yeye-xianshiju",
+      "label": "也也鲜食局",
+      "aliases": [],
+      "status": "published-source",
+      "note": "YeYe 也也鲜食局；源图仅 80px，按原始清晰度显示，不伪造高清版。",
+      "evidence": [
+        {
+          "url": "https://haipusushinori.com/",
+          "kind": "supplier-publication"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/yeye-xianshiju.webp",
+        "sourceUrl": "https://haipusushinori.com/wp-content/uploads/2026/08/35-也也鲜食局.webp",
+        "sourcePageUrl": "https://haipusushinori.com/",
+        "sourceKind": "supplier-publication",
+        "sourceLabel": "供应商公开标识",
+        "kind": "wordmark",
+        "displayRect": null,
+        "width": 80,
+        "height": 80,
+        "mimeType": "image/webp",
+        "byteLength": 2220,
+        "sha256": "442b7335d1276498a9afa5da7116b946a517ef5044c3f3daea408dff968f47bb",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+        "redistribution": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "shijian-tanmi",
+      "label": "食尖探觅",
+      "aliases": [
+        "POPMI"
+      ],
+      "status": "published-source",
+      "note": "取自 2022 年公开展会报道所附品牌展板左上平面组合标；保留图形、字标和口号。不代表已核实为当前版本，也不据来源站名称推断认证或背书。",
+      "evidence": [
+        {
+          "url": "https://m.winshang.com/pp351637.html",
+          "kind": "research-lead"
+        },
+        {
+          "url": "https://www.cctvppzg.com/Info/detail/cat_id/49/id/4462.html",
+          "kind": "published-image"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/shijian-tanmi-exhibition-20220218.png",
+        "sourceUrl": "https://www.cctvppzg.com/Uploads/attached/image/20220218/20220218073014_45299.png",
+        "sourcePageUrl": "https://www.cctvppzg.com/Info/detail/cat_id/49/id/4462.html",
+        "sourceKind": "published-brand-material",
+        "sourceLabel": "公开展会资料 · 历史版本",
+        "kind": "source-sheet",
+        "displayRect": [
+          23,
+          16,
+          187,
+          50
+        ],
+        "width": 660,
+        "height": 375,
+        "mimeType": "image/png",
+        "byteLength": 288209,
+        "sha256": "2f83d889419d1fa6a55901a058b922802cf2812df1bec9056e3780a84ff21cfe",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 180,
+        "minimumSizeBasis": "本规范按原始分辨率与完整组合标可读性设定，非品牌官方标准",
+        "redistribution": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "yikou-shiwu",
+      "label": "一口时物",
+      "aliases": [
+        "eakoco"
+      ],
+      "status": "user-reference",
+      "note": "来图中的 eakoco 一口时物组合标。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          651,
+          914,
+          103,
+          158
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "kaishishou",
+      "label": "开食兽",
+      "aliases": [],
+      "status": "pending-source",
+      "note": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "evidence": [],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "youdian-tuijian",
+      "label": "有点推荐",
+      "aliases": [],
+      "status": "identity-review",
+      "note": "与“有·推荐”存在同品牌线索；当前不重复宣称是两个已核验品牌。",
+      "evidence": [
+        {
+          "url": "https://www.36kr.com/p/3716587370951432",
+          "kind": "research-lead"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [
+        "you-tuijian"
+      ]
+    },
+    {
+      "id": "qiwang",
+      "label": "琦王花生",
+      "aliases": [],
+      "status": "official-source",
+      "note": "官网当前为 HTTP；官网内引用的 CDN 原始图片通过 HTTPS 获取，明确保留来源协议。",
+      "evidence": [
+        {
+          "url": "http://www.qiwanghs.com/",
+          "kind": "brand-site"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/qiwang.png",
+        "sourceUrl": "https://img.wds168.cn/comdata/70808/202401/20240129134050dc4a98.png",
+        "officialPageUrl": "http://www.qiwanghs.com/",
+        "kind": "wordmark",
+        "width": 2500,
+        "height": 513,
+        "byteLength": 137132,
+        "sha256": "ffb37544a46d0f495a905ba54dde55fa00bc0a556afda9b969187e7a8cd6e3dc",
+        "mimeType": "image/png",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Leego preview minimum, not an official brand mandate",
+        "redistribution": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "baipinhao",
+      "label": "百品好",
+      "aliases": [
+        "GOOD/OO"
+      ],
+      "status": "user-reference",
+      "note": "新增来图中的百品好；没有“本味”字样，不替代百品好·本味的专用标识。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          90,
+          944,
+          148,
+          89
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [
+        "baipinhao-benwei"
+      ]
+    },
+    {
+      "id": "haidiya",
+      "label": "海地亚",
+      "aliases": [
+        "haidear"
+      ],
+      "status": "user-reference",
+      "note": "第二张来图同为 haidear 标识；中文小字不清，保留此前登记名称待核对，不据此确认中文名称或法律主体。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          831,
+          1217,
+          249,
+          170
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "user-reference",
+          "note": "新增来图中的海地亚 haidear；与海底捞严选小铺分开登记。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              284,
+              929,
+              137,
+              118
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "chaochaoxian",
+      "label": "潮潮鲜",
+      "aliases": [
+        "C.C.XIAN"
+      ],
+      "status": "user-reference",
+      "note": "第二张来图：潮潮鲜完整竖向组合；此前横向紧凑版保留。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          87,
+          1207,
+          159,
+          164
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "user-reference",
+          "note": "新增来图中的潮潮鲜 C.C.XIAN。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              809,
+              946,
+              151,
+              86
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "william-uncle",
+      "label": "威廉叔叔",
+      "aliases": [
+        "UNCLE WILLIAM"
+      ],
+      "status": "user-reference",
+      "note": "第二张来图：含新鲜零食商店中英文附属文字；此前紧凑版保留。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          890,
+          332,
+          138,
+          220
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "user-reference",
+          "note": "新增来图中的威廉叔叔 UNCLE WILLIAM。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              76,
+              1145,
+              121,
+              120
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "xianpupu",
+      "label": "鲜噗噗",
+      "aliases": [],
+      "status": "user-reference",
+      "note": "第二张来图：鲜噗噗及下方新鲜零食商店文案；此前紧凑版保留。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          592,
+          636,
+          185,
+          205
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "previousAssets": [
+        {
+          "status": "user-reference",
+          "note": "新增来图中的鲜噗噗 FRESH SNACK SHOP。",
+          "evidence": [
+            {
+              "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+              "kind": "user-supplied-sheet"
+            }
+          ],
+          "asset": {
+            "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "sourceKind": "user-supplied",
+            "sourceLabel": "用户提供参考 · 保留水印",
+            "sourceRecordId": "user-snack-sheet-20260911",
+            "sourceCredit": "@冬一点（原图署名）",
+            "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+            "kind": "source-sheet",
+            "displayRect": [
+              237,
+              1165,
+              139,
+              90
+            ],
+            "width": 1080,
+            "height": 1440,
+            "mimeType": "image/png",
+            "byteLength": 650598,
+            "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+            "retrievedAt": "2026-09-11",
+            "scope": "exact-brand",
+            "minimumWidth": 72,
+            "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+            "redistribution": false,
+            "watermarked": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "henrybaba",
+      "label": "亨利爸爸",
+      "aliases": [
+        "HenryBaba"
+      ],
+      "status": "user-reference",
+      "note": "新增来图中的 HenryBaba 亨利爸爸；附属文案只作原图内容，不作为本项目经营承诺。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 保留水印",
+        "sourceRecordId": "user-snack-sheet-20260911",
+        "sourceCredit": "@冬一点（原图署名）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          404,
+          1168,
+          287,
+          78
+        ],
+        "width": 1080,
+        "height": 1440,
+        "mimeType": "image/png",
+        "byteLength": 650598,
+        "sha256": "cc035f5adbf70291acd748f6501c4d7392118120b7da1877479d2564e7839c75",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": true
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "wangxiangqing",
+      "label": "王相卿",
+      "aliases": [
+        "novo seek"
+      ],
+      "status": "user-reference",
+      "note": "来图中的王相卿 novo seek 组合标；品牌主体待核验。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          78,
+          360,
+          140,
+          185
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "deguocang",
+      "label": "德果仓",
+      "aliases": [
+        "GOCA",
+        "德果包"
+      ],
+      "status": "user-reference",
+      "note": "GOCA 来图标识；中文按图暂记“德果仓”，低清字形与主体待核验，不关联近似名称品牌。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          360,
+          356,
+          153,
+          164
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "lixiancang",
+      "label": "粒鲜仓",
+      "aliases": [],
+      "status": "user-reference",
+      "note": "来图中的粒鲜仓 FRESH 组合标。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          622,
+          362,
+          164,
+          187
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "kaidai",
+      "label": "开代",
+      "aliases": [
+        "KAIDAI"
+      ],
+      "status": "user-reference",
+      "note": "原图包含“上海首发 / OPENING SOON”宣传语，仅保留素材内容，不表示当前开业状态。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          65,
+          629,
+          167,
+          210
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "mangu",
+      "label": "满谷",
+      "aliases": [
+        "mogo"
+      ],
+      "status": "user-reference",
+      "note": "来图中的满谷 mogo 新鲜零食组合标。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          338,
+          624,
+          151,
+          210
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "xiangxiangli",
+      "label": "想像栗",
+      "aliases": [
+        "SHINEMY LEE"
+      ],
+      "status": "user-reference",
+      "note": "按来图登记“想像栗”；保留原字形，不自动改为“想象栗”。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          76,
+          921,
+          166,
+          181
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "jinglimen",
+      "label": "京栗门",
+      "aliases": [
+        "JING LOMO"
+      ],
+      "status": "user-reference",
+      "note": "京栗门是本图另一条标识；不因与金粒门图形配色近似而合并。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          355,
+          915,
+          141,
+          224
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "kaqushiji",
+      "label": "咔趣食集",
+      "aliases": [
+        "CRUNCH"
+      ],
+      "status": "user-reference",
+      "note": "来图中的咔趣食集横向组合标。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          580,
+          975,
+          242,
+          104
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "mankouyangguang",
+      "label": "满口阳光",
+      "aliases": [
+        "SUNKISSED"
+      ],
+      "status": "user-reference",
+      "note": "来图中的满口阳光 SUNKISSED 组合标。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          599,
+          1203,
+          187,
+          193
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "jinlilai",
+      "label": "金栗来",
+      "aliases": [
+        "KING LEE"
+      ],
+      "status": "user-evidence",
+      "note": "低清实拍标识，仅保留整张照片为参考；需取得独立原稿。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "referenceImages": [
+        {
+          "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "sourceKind": "user-supplied",
+          "sourceLabel": "照片/宣传页 · 非 Logo 原稿",
+          "sourceRecordId": "user-snack-sheet-20260911-02",
+          "sourceCredit": "用户提供拼版（原作者未确认）",
+          "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "source-evidence",
+          "displayRect": [
+            90,
+            1474,
+            137,
+            112
+          ],
+          "width": 1080,
+          "height": 1880,
+          "mimeType": "image/png",
+          "byteLength": 1068616,
+          "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+          "retrievedAt": "2026-09-11",
+          "scope": "source-evidence",
+          "minimumWidth": 72,
+          "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+          "redistribution": false,
+          "watermarked": false
+        }
+      ]
+    },
+    {
+      "id": "lixiaozan",
+      "label": "粒小赞",
+      "aliases": [
+        "LEZAN"
+      ],
+      "status": "user-evidence",
+      "note": "低清实拍标识，仅保留整张照片为参考，不抠图或提高清晰度冒充原稿。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "referenceImages": [
+        {
+          "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "sourceKind": "user-supplied",
+          "sourceLabel": "照片/宣传页 · 非 Logo 原稿",
+          "sourceRecordId": "user-snack-sheet-20260911-02",
+          "sourceCredit": "用户提供拼版（原作者未确认）",
+          "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "source-evidence",
+          "displayRect": [
+            342,
+            1480,
+            139,
+            96
+          ],
+          "width": 1080,
+          "height": 1880,
+          "mimeType": "image/png",
+          "byteLength": 1068616,
+          "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+          "retrievedAt": "2026-09-11",
+          "scope": "source-evidence",
+          "minimumWidth": 72,
+          "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+          "redistribution": false,
+          "watermarked": false
+        }
+      ]
+    },
+    {
+      "id": "pengchengren",
+      "label": "彭城仁",
+      "aliases": [
+        "PENG CHENGREN"
+      ],
+      "status": "user-evidence",
+      "note": "图中文字暂记彭城仁；照片分辨率低，中文名称和品牌主体待核对。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "referenceImages": [
+        {
+          "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "sourceKind": "user-supplied",
+          "sourceLabel": "照片/宣传页 · 非 Logo 原稿",
+          "sourceRecordId": "user-snack-sheet-20260911-02",
+          "sourceCredit": "用户提供拼版（原作者未确认）",
+          "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "source-evidence",
+          "displayRect": [
+            616,
+            1470,
+            100,
+            119
+          ],
+          "width": 1080,
+          "height": 1880,
+          "mimeType": "image/png",
+          "byteLength": 1068616,
+          "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+          "retrievedAt": "2026-09-11",
+          "scope": "source-evidence",
+          "minimumWidth": 72,
+          "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+          "redistribution": false,
+          "watermarked": false
+        }
+      ]
+    },
+    {
+      "id": "cailiren",
+      "label": "采栗人",
+      "aliases": [
+        "CAILIREN"
+      ],
+      "status": "user-reference",
+      "note": "来图中的采栗人 CAILIREN 组合标。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": {
+        "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "sourceKind": "user-supplied",
+        "sourceLabel": "用户提供参考 · 原图取景",
+        "sourceRecordId": "user-snack-sheet-20260911-02",
+        "sourceCredit": "用户提供拼版（原作者未确认）",
+        "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+        "kind": "source-sheet",
+        "displayRect": [
+          844,
+          1471,
+          152,
+          118
+        ],
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/png",
+        "byteLength": 1068616,
+        "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+        "retrievedAt": "2026-09-11",
+        "scope": "exact-brand",
+        "minimumWidth": 72,
+        "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+        "redistribution": false,
+        "watermarked": false
+      },
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": []
+    },
+    {
+      "id": "liduomei",
+      "label": "栗多美",
+      "aliases": [
+        "litomi"
+      ],
+      "status": "user-evidence",
+      "note": "门头照片线索；不从门头抠取图标、不当作独立 Logo 原稿。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "referenceImages": [
+        {
+          "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "sourceKind": "user-supplied",
+          "sourceLabel": "照片/宣传页 · 非 Logo 原稿",
+          "sourceRecordId": "user-snack-sheet-20260911-02",
+          "sourceCredit": "用户提供拼版（原作者未确认）",
+          "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "source-evidence",
+          "displayRect": [
+            61,
+            1692,
+            123,
+            120
+          ],
+          "width": 1080,
+          "height": 1880,
+          "mimeType": "image/png",
+          "byteLength": 1068616,
+          "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+          "retrievedAt": "2026-09-11",
+          "scope": "source-evidence",
+          "minimumWidth": 72,
+          "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+          "redistribution": false,
+          "watermarked": false
+        }
+      ]
+    },
+    {
+      "id": "meidisen",
+      "label": "美迪森",
+      "aliases": [],
+      "status": "user-evidence",
+      "note": "低清宣传页，名称暂记美迪森；不将超级工厂等宣传内容视为本项目已核实事实。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "referenceImages": [
+        {
+          "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "sourceKind": "user-supplied",
+          "sourceLabel": "照片/宣传页 · 非 Logo 原稿",
+          "sourceRecordId": "user-snack-sheet-20260911-02",
+          "sourceCredit": "用户提供拼版（原作者未确认）",
+          "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "source-evidence",
+          "displayRect": [
+            305,
+            1740,
+            142,
+            55
+          ],
+          "width": 1080,
+          "height": 1880,
+          "mimeType": "image/png",
+          "byteLength": 1068616,
+          "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+          "retrievedAt": "2026-09-11",
+          "scope": "source-evidence",
+          "minimumWidth": 72,
+          "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+          "redistribution": false,
+          "watermarked": false
+        }
+      ]
+    },
+    {
+      "id": "hailixiang",
+      "label": "海栗香",
+      "aliases": [],
+      "status": "user-evidence",
+      "note": "低清品牌手册封面，名称暂记海栗香；保留整页线索，不放大封面小标冒充高清 Logo。",
+      "evidence": [
+        {
+          "url": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "user-supplied-sheet"
+        }
+      ],
+      "lastSearchedAt": "2026-09-11",
+      "asset": null,
+      "rights": {
+        "projectPreviewApproved": true,
+        "rightsHolderPermission": "unknown",
+        "productUse": "requires-project-review",
+        "redistribution": false
+      },
+      "relatedIds": [],
+      "referenceImages": [
+        {
+          "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "sourceKind": "user-supplied",
+          "sourceLabel": "照片/宣传页 · 非 Logo 原稿",
+          "sourceRecordId": "user-snack-sheet-20260911-02",
+          "sourceCredit": "用户提供拼版（原作者未确认）",
+          "sourcePageUrl": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+          "kind": "source-evidence",
+          "displayRect": [
+            560,
+            1741,
+            141,
+            51
+          ],
+          "width": 1080,
+          "height": 1880,
+          "mimeType": "image/png",
+          "byteLength": 1068616,
+          "sha256": "70dbbad6f32657c8014672a61f78c82a093ee9afa39f2ff130c1c95e21a6b6f1",
+          "retrievedAt": "2026-09-11",
+          "scope": "source-evidence",
+          "minimumWidth": 72,
+          "minimumSizeBasis": "Reference preview only; not a production-ready icon",
+          "redistribution": false,
+          "watermarked": false
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "user-lingtuantuan-20260912",
+      "label": "09-12 单张更新 · 零团团",
+      "localPath": "/snack-brands/assets/user-lingtuantuan-20260912.png",
+      "sourceCredit": "用户提供单张标识（原始作者未确认）",
+      "watermarked": false,
+      "brandIds": [
+        "lingtuantuan"
+      ]
+    },
+    {
+      "id": "user-yili-nutco-20260912",
+      "label": "09-12 单张更新 · 一栗NUTCO",
+      "localPath": "/snack-brands/assets/user-yili-nutco-20260912.png",
+      "sourceCredit": "用户提供单张标识（原始作者未确认）",
+      "watermarked": false,
+      "brandIds": [
+        "yili-nutco"
+      ]
+    },
+    {
+      "id": "user-pumama-20260912",
+      "label": "09-12 单张更新 · 蒲妈妈",
+      "localPath": "/snack-brands/assets/user-pumama-20260912.png",
+      "sourceCredit": "用户提供单张标识（原始作者未确认）",
+      "watermarked": false,
+      "brandIds": [
+        "pumama"
+      ]
+    },
+    {
+      "id": "user-jinlimen-20260912",
+      "label": "09-12 单张更新 · 金粒门",
+      "localPath": "/snack-brands/assets/user-jinlimen-20260912.png",
+      "sourceCredit": "用户提供单张标识（原始作者未确认）",
+      "watermarked": false,
+      "brandIds": [
+        "jinlimen"
+      ]
+    },
+    {
+      "id": "user-dakoushou-20260912",
+      "label": "09-12 单张更新 · 大口兽",
+      "localPath": "/snack-brands/assets/user-dakoushou-20260912.png",
+      "sourceCredit": "用户提供单张标识（原始作者未确认）",
+      "watermarked": false,
+      "brandIds": [
+        "dakoushou"
+      ]
+    },
+    {
+      "id": "user-snack-sheet-20260911-02",
+      "label": "第二张来图 · 24 项素材",
+      "sourceCredit": "用户提供拼版（原作者未确认）",
+      "localPath": "/snack-brands/assets/user-snack-sheet-20260911-02.png",
+      "brandIds": [
+        "jinlimen",
+        "wangxiangqing",
+        "deguocang",
+        "lixiancang",
+        "william-uncle",
+        "kaidai",
+        "mangu",
+        "xianpupu",
+        "qinghefeng",
+        "xiangxiangli",
+        "jinglimen",
+        "kaqushiji",
+        "wuxiaohai",
+        "chaochaoxian",
+        "dakoushou",
+        "mankouyangguang",
+        "haidiya",
+        "jinlilai",
+        "lixiaozan",
+        "pengchengren",
+        "cailiren",
+        "liduomei",
+        "meidisen",
+        "hailixiang"
+      ],
+      "watermarked": false
+    },
+    {
+      "id": "user-snack-sheet-20260911",
+      "label": "第一张来图 · 21 个标识",
+      "sourceCredit": "@冬一点（原图署名）",
+      "localPath": "/snack-brands/assets/user-snack-sheet-20260911.png",
+      "brandIds": [
+        "jiduoquan",
+        "yili-nutco",
+        "pumama",
+        "jinlimen",
+        "qiaxiaoke",
+        "qingshansen",
+        "juewei-fresh",
+        "jiushishan",
+        "you-tuijian",
+        "dakoushou",
+        "lingtuantuan",
+        "richu-xianwu",
+        "baipinhao",
+        "haidiya",
+        "qinghefeng",
+        "yikou-shiwu",
+        "chaochaoxian",
+        "william-uncle",
+        "xianpupu",
+        "henrybaba",
+        "lyfen-life"
+      ],
+      "watermarked": true
+    }
+  ]
+}

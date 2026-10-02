@@ -1,6 +1,6 @@
 {
   "standard": "leego-design-ui",
-  "version": "2.14.0",
+  "version": "2.16.0",
   "sourcePackage": {
     "name": "小字辈系统 Logo 家族",
     "version": "v003",
@@ -11,7 +11,13 @@
   "count": 11,
   "defaultRoute": "r02",
   "assetRoot": "icons/products",
-  "assetKinds": ["symbols", "app-icons", "lockups", "mono-dark", "mono-light"],
+  "assetKinds": [
+    "symbols",
+    "app-icons",
+    "lockups",
+    "mono-dark",
+    "mono-light"
+  ],
   "sharedInvariants": {
     "viewBox": "0 0 64 64",
     "strokeWidth": 3.5,
@@ -25,43 +31,152 @@
       "title": "R01 圆润构件",
       "englishTitle": "ROUNDED PARTS",
       "caption": "物件优先 · 亲和入口",
-      "usage": ["员工端", "文化活动", "培训", "轻量入口"],
-      "preferredAssets": ["symbols", "app-icons", "lockups"],
+      "usage": [
+        "员工端",
+        "文化活动",
+        "培训",
+        "轻量入口"
+      ],
+      "preferredAssets": [
+        "symbols",
+        "app-icons",
+        "lockups"
+      ],
       "minimumSymbolSize": 24,
-      "avoid": ["高饱和实心底", "尖角", "外加装饰表情", "过度弱化浅色圆场"]
+      "avoid": [
+        "高饱和实心底",
+        "尖角",
+        "外加装饰表情",
+        "过度弱化浅色圆场"
+      ]
     },
     {
       "id": "r02",
       "title": "R02 开口框架",
       "englishTitle": "OPEN FRAME",
       "caption": "系统统一 · 日常母语法",
-      "usage": ["企业后台导航", "系统品牌区", "文档页眉", "品牌总览"],
-      "preferredAssets": ["symbols", "lockups", "mono-light", "mono-dark"],
+      "usage": [
+        "企业后台导航",
+        "系统品牌区",
+        "文档页眉",
+        "品牌总览"
+      ],
+      "preferredAssets": [
+        "symbols",
+        "lockups",
+        "mono-light",
+        "mono-dark"
+      ],
       "minimumSymbolSize": 20,
-      "avoid": ["封闭框架", "移动身份点", "内部多色化", "在同一导航中混用其他路线"]
+      "avoid": [
+        "封闭框架",
+        "移动身份点",
+        "内部多色化",
+        "在同一导航中混用其他路线"
+      ]
     },
     {
       "id": "r03",
       "title": "R03 实心模块",
       "englishTitle": "SOLID MODULE",
       "caption": "强识别 · App 优先",
-      "usage": ["App Icon", "系统切换器", "Pad 桌面", "小尺寸快捷入口"],
-      "preferredAssets": ["app-icons", "symbols", "lockups"],
+      "usage": [
+        "App Icon",
+        "系统切换器",
+        "Pad 桌面",
+        "小尺寸快捷入口"
+      ],
+      "preferredAssets": [
+        "app-icons",
+        "symbols",
+        "lockups"
+      ],
       "minimumSymbolSize": 20,
-      "avoid": ["删除身份点", "增加多层阴影", "改变外轮廓", "把身份色当状态色"]
+      "avoid": [
+        "删除身份点",
+        "增加多层阴影",
+        "改变外轮廓",
+        "把身份色当状态色"
+      ]
     }
   ],
   "products": [
-    { "id": "xiaoputao", "label": "小葡萄", "color": "#5B68D8", "role": "项目与任务管理", "glyph": "grape" },
-    { "id": "xiaohonghua", "label": "小红花", "color": "#DE4F6B", "role": "员工成长与认可", "glyph": "flower" },
-    { "id": "xiaosuanpan", "label": "小算盘", "color": "#D9872B", "role": "经营分析与计算", "glyph": "abacus" },
-    { "id": "xiaojinkuang", "label": "小金矿", "color": "#C99A29", "role": "门店价值与健康发现", "glyph": "mine" },
-    { "id": "xiaohulu", "label": "小葫芦", "color": "#2E9B72", "role": "供应链管理", "glyph": "gourd" },
-    { "id": "xiaozishu", "label": "小紫薯", "color": "#8D50A5", "role": "产品研发与进度", "glyph": "tuber" },
-    { "id": "xiaotaiyang", "label": "小太阳", "color": "#E5A017", "role": "达人及品牌运营", "glyph": "sun" },
-    { "id": "xiaodianwei", "label": "小点位", "color": "#E35D48", "role": "候选点位与拓展评估", "glyph": "location" },
-    { "id": "yuanmaxiang", "label": "元码象", "color": "#2A86C7", "role": "代码与数字贡献", "glyph": "elephant" },
-    { "id": "suyuanli", "label": "溯源狸", "color": "#A75D44", "role": "供应与信息追溯", "glyph": "raccoon" },
-    { "id": "xiaozongguan", "label": "小总管", "color": "#356F89", "role": "组织与系统治理", "glyph": "steward" }
+    {
+      "id": "xiaoputao",
+      "label": "小葡萄",
+      "color": "#5B68D8",
+      "role": "项目与任务管理",
+      "glyph": "grape"
+    },
+    {
+      "id": "xiaohonghua",
+      "label": "小红花",
+      "color": "#DE4F6B",
+      "role": "员工成长与认可",
+      "glyph": "flower"
+    },
+    {
+      "id": "xiaosuanpan",
+      "label": "小算盘",
+      "color": "#D9872B",
+      "role": "经营分析与计算",
+      "glyph": "abacus"
+    },
+    {
+      "id": "xiaojinkuang",
+      "label": "小金矿",
+      "color": "#C99A29",
+      "role": "门店价值与健康发现",
+      "glyph": "mine"
+    },
+    {
+      "id": "xiaohulu",
+      "label": "小葫芦",
+      "color": "#2E9B72",
+      "role": "供应链管理",
+      "glyph": "gourd"
+    },
+    {
+      "id": "xiaozishu",
+      "label": "小紫薯",
+      "color": "#8D50A5",
+      "role": "产品研发与进度",
+      "glyph": "tuber"
+    },
+    {
+      "id": "xiaotaiyang",
+      "label": "小太阳",
+      "color": "#E5A017",
+      "role": "达人及品牌运营",
+      "glyph": "sun"
+    },
+    {
+      "id": "xiaodianwei",
+      "label": "小点位",
+      "color": "#E35D48",
+      "role": "候选点位与拓展评估",
+      "glyph": "location"
+    },
+    {
+      "id": "yuanmaxiang",
+      "label": "元码象",
+      "color": "#2A86C7",
+      "role": "代码与数字贡献",
+      "glyph": "elephant"
+    },
+    {
+      "id": "suyuanli",
+      "label": "溯源狸",
+      "color": "#A75D44",
+      "role": "供应与信息追溯",
+      "glyph": "raccoon"
+    },
+    {
+      "id": "xiaozongguan",
+      "label": "小总管",
+      "color": "#356F89",
+      "role": "组织与系统治理",
+      "glyph": "steward"
+    }
   ]
 }
