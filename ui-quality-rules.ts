@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.16.0
+// Version: 2.17.0
 export type UiDesignRead = {
   mode: 'new-design' | 'audit' | 'implementation';
   platform: 'web' | 'mobile' | 'tablet' | 'website';
@@ -22,7 +22,7 @@ export type UiQualityRule = {
 };
 export const uiQualityCatalog = {
   "standard": "leego-design-ui",
-  "version": "2.16.0",
+  "version": "2.17.0",
   "updated": "2026-08-30",
   "designReadRequiredFields": [
     "mode",
@@ -55,6 +55,27 @@ export const uiQualityCatalog = {
     "legal-and-safety"
   ],
   "rules": [
+    {
+      "id": "shell-internal-alignment",
+      "category": "shell",
+      "severity": "P1",
+      "automated": true,
+      "message": "固定12/8/28/8几何，图标轴34、文字轴56；主操作、品牌和无图标同槽，状态偏差≤1 CSS px。"
+    },
+    {
+      "id": "overlay-visible-bounds",
+      "category": "shell",
+      "severity": "P0",
+      "automated": true,
+      "message": "按应用与可见视口交集持续定位；收纳固定左、账号锚定入口、详情固定右，窗口/侧栏/滚动/内容变化不越界。"
+    },
+    {
+      "id": "shell-hit-target-overlap",
+      "category": "accessibility",
+      "severity": "P0",
+      "automated": true,
+      "message": "独立44px图标热区不能重叠或嵌套；尾部操作不得覆盖相邻导航，浮层焦点不可丢失。"
+    },
     {
       "id": "UI-SESSION-001",
       "category": "interaction",

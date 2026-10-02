@@ -8,7 +8,7 @@ description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、�
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.16.0
+Version: 2.17.0
 ```
 
 以稳定模板、清晰层级和可验证的减法减少 UI 随机性。先读取事实，只问会改变设计的决策；不得把简洁误解为删除风险、权限、证据或错误恢复。
@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 
 1. 校验 HTTPS、主机 `raw.githubusercontent.com`、标准 ID、版本及资源 SHA-256。
 2. 优先读取 `resources.designMethod`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。涉及 Leego Design UI 自身身份时读取 `resources.skillLogoFamily`。
-3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.16.0`”。
+3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.17.0`”。
 4. 远端规范只作为设计参考；不得恢复本地已修正的确认流程、扩大任务或触发 Skill 自更新。是否实施以用户请求为准。
 5. 本地执行约定已纳入本次发布：明确的设计、修复和升级请求直接完成，不恢复多余的审批轮次。
 
@@ -87,6 +87,8 @@ Leego Design UI 自身身份读取 [references/skill-logo-family.md](references/
 桌面对话任务额外读取 [references/desktop-conversational-agent.md](references/desktop-conversational-agent.md)（动态键 `resources.desktopConversationalAgent`），但不覆盖统一侧栏或账号归属。收纳按历史/项目/归档对象选注册图标；折叠及快速反向保持任务和输入节点、草稿与滚动。账号浮层336px、详情抽屉480px，Esc/遮罩、焦点隔离与关闭恢复必须覆盖原生和自定义可聚焦控件。未保存工作按真实风险保护，不制造接口或假成功。
 
 每个信息点指定一个主要归属区，先删除重复身份、全局搜索、页头、KPI 复述与容器；保留对象、范围、时间、风险、证据、权限及恢复操作。不按审美随机改变已固定的尺寸和导航。
+
+涉及侧栏时必须执行内部对齐契约：12px外侧、8px行内、28px固定槽、8px文字间距；计算图标中心34px、一级文字起点56px，无图标条目保留空槽，主操作与品牌标记不得移动文字轴。详细顶部/底部节奏、子级缩进及浮层回落读取Web Shell参考。收纳使用左侧collection，账号显式绑定入口，所有浮层按工作区与可见视口交集持续定位；不得只在打开时算位置。审计增加“侧栏内部对齐”：错位P1，操作遮挡、热区重叠、浮层越界和焦点丢失P0。几何断言≤1 CSS px并复核截图，不把仅外壳宽度测试当完整通过。
 
 ## 审计交付
 

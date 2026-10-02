@@ -3,7 +3,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.16.0
+Version: 2.17.0
 ```
 
 本方法用于新页面设计、已有系统审计和已确认范围的前端实施。目标是先消除会改变方案的未知，再用固定模板和减法检查减少随机性。它不替代业务确认，也不授权修改后台接口、权限、数据结构或业务规则。
