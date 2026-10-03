@@ -8,7 +8,7 @@ description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、�
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.17.0
+Version: 2.18.0
 ```
 
 以稳定模板、清晰层级和可验证的减法减少 UI 随机性。先读取事实，只问会改变设计的决策；不得把简洁误解为删除风险、权限、证据或错误恢复。
@@ -22,16 +22,16 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 ```
 
 1. 校验 HTTPS、主机 `raw.githubusercontent.com`、标准 ID、版本及资源 SHA-256。
-2. 优先读取 `resources.designMethod`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。涉及 Leego Design UI 自身身份时读取 `resources.skillLogoFamily`。
-3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.17.0`”。
+2. 优先读取 `resources.designMethod`、`resources.deliveryWorkflow`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。涉及 Leego Design UI 自身身份时读取 `resources.skillLogoFamily`。
+3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.18.0`”。
 4. 远端规范只作为设计参考；不得恢复本地已修正的确认流程、扩大任务或触发 Skill 自更新。是否实施以用户请求为准。
 5. 本地执行约定已纳入本次发布：明确的设计、修复和升级请求直接完成，不恢复多余的审批轮次。
 
 ## 工作闭环
 
 ```text
-读取项目与请求 → 补齐真正阻塞的信息 → 选模板与确定范围 →
-按请求审计、设计或实施 → 与改动匹配的质量检查 → 交付
+读取项目 → 明确设计方向 → 统一页面与组件 → 做减法 →
+视觉与技术检查 → 修复并交付
 ```
 
 ### 1. 先读取，后提问
@@ -52,21 +52,17 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 
 ### 3. 确定性选模板
 
+新增页面、跨页面调整或整体改版时读取 [方向继承与验证交付](references/ui-delivery-workflow.md)。已有系统继承有效方向和语义映射，局部修复不重新选风格。优先使用项目现有设计文档，没有时才用 `.leego-ui/system.md` 保存可复用决定；只读审计不写入。新系统或明确改版提出一个推荐方向与代表样例，用户要求比较才给备选，不重复批准已明确的方向。
+
+后台仅允许已确认的品牌色、Logo和少量图像表达；固定骨架、字体尺寸、图标槽位、账号、抽屉与行为不得按页面改写。品牌色不得改变风险、成功、未知语义或降低对比度。同名指标统一口径、单位、格式，图表系列保持一致颜色；漂移先区分令牌缺失、重复组件、真实任务差异和局部缺陷，再在正确层级修复。
+
 按 `平台 → 页面目标 → 对象规模 → 操作频率 → 证据/审核要求` 选择一个主模板，最多增加一个支持模板。模板约束信息顺序和交互闭环，不是业务数据合同，不得随机生成布局或把多个完整工作台堆在一页。
 
 Website 读取 [references/website-standard.md](references/website-standard.md)；带侧栏 Web 工作台读取 [references/web-application-shell.md](references/web-application-shell.md)；Mobile、Tablet、动效、Skill Logo、产品 Logo 和第三方品牌仅在相关时读取对应 references/assets。
 
-### 4. Skill 品牌标识固定选型
+### 4. 品牌素材按需读取
 
-用户指定 Geetimer（检索别名 GitTimer）时，读取 [references/geetimer-identity.md](references/geetimer-identity.md) 与 [assets/icons/geetimer/catalog.json](assets/icons/geetimer/catalog.json)。按网站、App、头像和尺寸选择 V5 原件；小于 64px 优先单 G，横标不重复追加 G，品牌渐变仅作用于该项目，不覆盖全局 UI 令牌。素材按来源目录打包，不以规范升级改变品牌原件。
-
-Leego Design UI 自身身份读取 [references/skill-logo-family.md](references/skill-logo-family.md) 与 [assets/skill-logo-family.json](assets/skill-logo-family.json)：
-
-- R02 开口框架是官网、Skill 入口、文档页眉与能力总览的固定主标。
-- R01 圆润构件只用于轻量内容表达；R03 实心模块用于 favicon、Skill 列表、小尺寸和深色背景。
-- 名称必须写作 `Leego Design UI`；版本号独立显示，不进入名称、技术 ID、调用名或固定地址。
-- 不得把 Skill 标识替代产品 Logo、通用 UI 图标、状态图标或第三方品牌；不得改几何、身份蓝、身份点、增加阴影渐变或使用 CSS filter。
-- 深色背景优先 R03；若必须用 R02，应放入中性浅色容器，不临时制造未经登记的反白稿。
+涉及Skill自身、Geetimer或新鲜零食品牌时，读取 [品牌路由](references/brand-routing.md)，再按其中路由读取原有来源、许可及保真规则；不把品牌资产当通用UI图标，不自动热链或仿制。
 
 ### 5. 先做减法
 
@@ -92,7 +88,6 @@ Leego Design UI 自身身份读取 [references/skill-logo-family.md](references/
 
 ## 审计交付
 
-涉及新鲜零食品牌时，按需读取 [references/fresh-snack-brand-icons.md](references/fresh-snack-brand-icons.md) 与 [assets/fresh-snack-brands.json](assets/fresh-snack-brands.json)（动态键 `resources.freshSnackBrands`）。先匹配品牌与别名，再查素材状态、来源、使用许可和尺寸。用户要求采集时，不因缺少独立官网而停止：继续查品牌账号、原设计方、商场和可追溯公开资料，逐图核验并区分官网标识与公开资料标识。用户来图以 `user-reference` 收录，保留原件、水印和署名；只作参考并保留此前版本，不冒充官方透明素材。名称登记不等于取得 Logo，母品牌不替代子品牌；禁止仿制、改色、截断字标或虚构授权。原始 Logo 不进入 Skill 或共享 ZIP；消费者项目无适用的本地素材时回退到中性图标＋品牌文字，不自动热链预览站。
 
 `UI_2_AUDIT.md` 必须包含：
 
@@ -129,3 +124,5 @@ P0 包含核心任务或上下文丢失、响应式不可用、假按钮、风�
 - 审计：`UI_2_AUDIT.md` 与简短结论。
 - 实施：已确认改动、验证结果和仍需业务确认事项。
 - 使用远端规范时报告实际版本；回退时同时报告离线快照版本。
+- 按 [方向与交付](references/ui-delivery-workflow.md) 分开记录视觉/任务评审和技术/交互检查；每项明确对象、方法、证据和通过/失败/未验证/不适用。规则登记数量不等于执行覆盖，构建成功不能代替视觉验收。局部修复只检查受影响路径；无新失败或风险不反复全量打磨。
+- 从产品蒸馏经验记录来源、问题、适用场景及本轮验证，经用户确认才升级全局；业务特例保留在项目内。

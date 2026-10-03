@@ -1,5 +1,13 @@
 # Leego Design UI Changelog
 
+## 2.18.0 — 2026-10-04
+
+- 新增项目方向继承、有限品牌差异、跨页面语义和组件一致性方法；只审阅只读，明确修复按授权实施。
+- 分开视觉/任务评审和技术/交互检查；质量工具报告实际静态覆盖与未验证项，不以规则数冒充通过数。
+- 规范站新增六类请求分流、品牌切换、缺陷注入与浏览器几何/语义检查，保留风险及时间上下文。
+- 新增按需交付参考、可选 directionRef/checkMethod/checker；固定令牌值和调用地址保持兼容。
+- 方法来源 Interface Design、UI UX Pro Max、Taste、Impeccable，仅研究，不引入外部运行时。
+
 ## 2.17.0 — 2026-10-02
 
 - 新增侧栏12/8/28/8固定几何与34px图标轴、56px文字轴；主操作、普通图标、品牌标记及无图标条目同槽，分组和真实子级缩进固定。
@@ -17,7 +25,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.17.0
+Version: 2.18.0
 ```
 
 ## 2.15.0 — 2026-09-11

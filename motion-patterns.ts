@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.17.0
+// Version: 2.18.0
 export type MotionPlatform = 'web' | 'mobile' | 'tablet';
 export type MotionPattern = {
   id: string;
@@ -95,7 +95,7 @@ export const leegoDesignUIMotion = {
 } as const;
 export const motionPatternCatalog = {
   "standard": "leego-design-ui",
-  "version": "2.17.0",
+  "version": "2.18.0",
   "count": 12,
   "patterns": [
     {

@@ -2,7 +2,7 @@
 
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.17.0
+Version: 2.18.0
 
 ## 一个能力，一个主要入口
 

@@ -1,5 +1,7 @@
 # Leego Design UI
 
+项目设计与交付沿用 [方向继承、页面统一与验证交付](UI_DELIVERY_WORKFLOW_2026.md)：固定骨架，有限品牌差异；先继承方向，再沿完整任务路径统一语义及组件，分开视觉评审与技术验证并记录证据。规则登记、构建通过和实际验收不得混淆。
+
 ## 新鲜零食品牌图标
 
 品牌目录见 [FRESH_SNACK_BRAND_ICONS_2026.md](FRESH_SNACK_BRAND_ICONS_2026.md) 与 `fresh-snack-brands.json`。区分已取得的官网 Logo、母品牌参考、名称存疑和待取得素材；官网图标库提供搜索、明暗背景及小尺寸回退。真实素材保持比例与原色，素材采集不代表品牌授权或合作背书，第三方原始 Logo 不包含在 Skill 和共享包中。
@@ -7,7 +9,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.17.0
+Version: 2.18.0
 ```
 
 ## 账号、会话与信息归属（2.16）
