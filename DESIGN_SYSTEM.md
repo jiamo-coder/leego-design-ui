@@ -9,7 +9,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.18.0
+Version: 2.19.0
 ```
 
 ## 账号、会话与信息归属（2.16）
@@ -229,6 +229,10 @@ Leego Design UI 使用独立的 Skill Logo 家族，不能与小字辈产品 Log
 完整规则读取 `SKILL_LOGO_FAMILY_2026.md` 与 `skill-logo-family.json`。
 
 ## 14. 产品矩阵图标
+
+2.19.0 起，新建与更新界面默认使用 `SYSTEM_IDENTITY_FAMILY_2026.md` 和 `system-identity-family.json` 登记的柔线晶透家族：13 款产品、5 款系统身份，提供 app、compact、mono-dark、mono-light 共 72 个原件。图形统一为柔和轮廓与少量语义实面；明亮定向渐变仅用于身份，不扩展到通用操作图标或状态色。小尺寸使用专用 compact 原件。外部品牌保留已核验原标，不重绘；其网站展示授权不等于共享包再分发授权。
+
+以下三路线为历史兼容规则，只约束旧资产；不作为新版默认，不与新家族混搭。Leego Design UI 自身的 R02 标志保持不变。
 
 小葡萄、小红花、小算盘、小金矿、小葫芦、小紫薯、小太阳、小点位、元码象、溯源狸和小总管采用三路线响应式家族。完整规则读取 `PRODUCT_LOGO_FAMILY_2026.md` 与 `product-logo-family.json`：
 

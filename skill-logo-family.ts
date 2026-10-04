@@ -1,11 +1,11 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.18.0
+// Version: 2.19.0
 export type SkillLogoRouteId = 'r01' | 'r02' | 'r03';
 export const skillLogoFamily = {
   "standard": "leego-design-ui",
-  "version": "2.18.0",
+  "version": "2.19.0",
   "family": "Leego Design Skill Logo Family",
   "member": {
     "id": "leego-design-ui",

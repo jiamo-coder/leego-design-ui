@@ -2,7 +2,7 @@
 
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.18.0
+Version: 2.19.0
 
 适用所有带侧栏的企业 Web 工作台，包括桌面对话画布。官网、连续阅读文档、Mobile App、Pad 专用作业台使用各自标准。Geetimer 是只读交互研究来源，不携带其业务接口、品牌坐标或积分规则。
 

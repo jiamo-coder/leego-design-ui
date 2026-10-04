@@ -8,7 +8,7 @@ description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、�
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.18.0
+Version: 2.19.0
 ```
 
 以稳定模板、清晰层级和可验证的减法减少 UI 随机性。先读取事实，只问会改变设计的决策；不得把简洁误解为删除风险、权限、证据或错误恢复。
@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 
 1. 校验 HTTPS、主机 `raw.githubusercontent.com`、标准 ID、版本及资源 SHA-256。
 2. 优先读取 `resources.designMethod`、`resources.deliveryWorkflow`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。涉及 Leego Design UI 自身身份时读取 `resources.skillLogoFamily`。
-3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.18.0`”。
+3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.19.0`”。
 4. 远端规范只作为设计参考；不得恢复本地已修正的确认流程、扩大任务或触发 Skill 自更新。是否实施以用户请求为准。
 5. 本地执行约定已纳入本次发布：明确的设计、修复和升级请求直接完成，不恢复多余的审批轮次。
 
@@ -61,6 +61,8 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 Website 读取 [references/website-standard.md](references/website-standard.md)；带侧栏 Web 工作台读取 [references/web-application-shell.md](references/web-application-shell.md)；Mobile、Tablet、动效、Skill Logo、产品 Logo 和第三方品牌仅在相关时读取对应 references/assets。
 
 ### 4. 品牌素材按需读取
+
+小字辈产品、天气及架构系统身份优先读取 [柔线晶透身份](references/system-identity-family.md) 与 [目录](assets/system-identity-family.json)（动态键 `resources.systemIdentityFamily`）。使用登记原件：13 款产品与 5 款系统图标统一柔和轮廓＋少量实心细节；旧路线仅兼容保留。渐变身份资产不改变通用图标和状态规则；第三方原件不随 Skill 分发，不自动热链。
 
 涉及Skill自身、Geetimer或新鲜零食品牌时，读取 [品牌路由](references/brand-routing.md)，再按其中路由读取原有来源、许可及保真规则；不把品牌资产当通用UI图标，不自动热链或仿制。
 

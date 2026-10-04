@@ -1,9 +1,11 @@
 # Leego Design UI · 产品 Logo 家族
 
+> 历史兼容参考：2.19.0 起新产品集合默认读取 `SYSTEM_IDENTITY_FAMILY_2026.md` 与 `system-identity-family.json`。以下三条旧路线原样保留供已采用的项目使用；其中默认 R02 和禁止渐变仅约束旧资产，不覆盖新版。
+
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.18.0
+Version: 2.19.0
 Source Package: system-logo-family/v003
 ```
 
