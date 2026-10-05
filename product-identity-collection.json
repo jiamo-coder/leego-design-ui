@@ -1,0 +1,459 @@
+{
+  "standard": "leego-design-ui",
+  "version": "2.21.0",
+  "sourceEdition": "V010",
+  "adoptedAt": "2026-10-05",
+  "status": "user-adopted-raster",
+  "glassStatus": "implemented-under-user-authorization",
+  "defaultRoute": "original",
+  "carrier": {
+    "path": "icons/product-identities/quiet-glass/carrier.png",
+    "sha256": "2074329ae0da1e846a01518980216b2b006a69137c6fed44de1a6fe100e6684b"
+  },
+  "composition": {
+    "canvas": 1024,
+    "markBox": 560,
+    "markOffset": 232,
+    "carrier": "shared-neutral-frosted",
+    "surfaceAboveMark": true,
+    "surfaceOpacity": 0.3,
+    "markBlur": 2,
+    "iridescence": false
+  },
+  "members": [
+    {
+      "id": "xiaoputao",
+      "label": "小葡萄",
+      "role": "项目与任务管理",
+      "roleStatus": "registered",
+      "idea": "流动果簇",
+      "status": "adopted",
+      "sourceSha256": "a3591296482b2a2158ad78624f64c9d7655b8d559ffdea6e21d366230ecdd50d",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaoputao.png",
+          "sha256": "a3591296482b2a2158ad78624f64c9d7655b8d559ffdea6e21d366230ecdd50d"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaoputao.png",
+          "sha256": "b85b44e9b97b8fec726c5e6be994f501907f4a0d69399d6f1a4fffebb8debca9"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaoputao.png",
+          "sha256": "9635fe1b71144471bf15c45e00a0e458399abded511e461eb8700a49d96bd7a1"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaoputao.webp",
+          "sha256": "98bc23960edf1205baac56ed5f77dd343956c767b1a60233223ba807386ff9cb"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaoputao.webp",
+          "sha256": "a4cb4953623842ab17fb8fe7d425c93df11edec5dd167adc7da60b1ee7be22c6"
+        }
+      }
+    },
+    {
+      "id": "xiaohonghua",
+      "label": "小红花",
+      "role": "员工成长与认可",
+      "roleStatus": "registered",
+      "idea": "旋转花瓣",
+      "status": "adopted",
+      "sourceSha256": "70dea28fa3b561ddce05aad4c0ee23df2c2507ac22c3ab5ae42cd0e06ef71f1f",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaohonghua.png",
+          "sha256": "70dea28fa3b561ddce05aad4c0ee23df2c2507ac22c3ab5ae42cd0e06ef71f1f"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaohonghua.png",
+          "sha256": "cc99028c254a85bd469cd39d92dda98482eebf185d57f2fc86e4a893aef4f6a7"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaohonghua.png",
+          "sha256": "e1f8da0af03722f8ef3752820bcdb9d009f2b7ebab7e6525a533fb3482132964"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaohonghua.webp",
+          "sha256": "ec458ad0cf40b56269b4879f8312940ee5dc8763ad5919c9f11265729631fe2a"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaohonghua.webp",
+          "sha256": "5da279c1054b24791300ffeb97f50b4e8db83eff691e758c14d69c828a20cdd1"
+        }
+      }
+    },
+    {
+      "id": "xiaosuanpan",
+      "label": "小算盘",
+      "role": "经营分析与计算",
+      "roleStatus": "registered",
+      "idea": "滑动算珠",
+      "status": "adopted",
+      "sourceSha256": "83b145b6e6e3705fbab91161f26bab9fca6f4087070014c303ffb8e6931e7641",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaosuanpan.png",
+          "sha256": "83b145b6e6e3705fbab91161f26bab9fca6f4087070014c303ffb8e6931e7641"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaosuanpan.png",
+          "sha256": "989f8ad9d399bb319e24b0d34988206e751e57e19a7a34f5ec3ea43191c077de"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaosuanpan.png",
+          "sha256": "22c278bfad0d3ccd4a17dc556f027b27138cb7bdeb1daca4f2cbbadd63fd32d6"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaosuanpan.webp",
+          "sha256": "bc56ab9d8545d70d9e64db1d89e54ea6175d81f568a43e07fce95cb0ee556e30"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaosuanpan.webp",
+          "sha256": "ea56cc2793bafe383cbbdab089240e15f7bf5a0324c4467a3874950a407840a7"
+        }
+      }
+    },
+    {
+      "id": "xiaojinkuang",
+      "label": "小金矿",
+      "role": "门店价值与健康发现",
+      "roleStatus": "registered",
+      "idea": "柔角晶面",
+      "status": "adopted",
+      "sourceSha256": "264763bb61d8ac20402d040e09a41160b94f4d84fc4d33bcf4f62c32d70081fe",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaojinkuang.png",
+          "sha256": "264763bb61d8ac20402d040e09a41160b94f4d84fc4d33bcf4f62c32d70081fe"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaojinkuang.png",
+          "sha256": "5cf67e9c062d0a7eaaf6cc7bd8032a1c40dd7991270446f6ebc965f4018fbf30"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaojinkuang.png",
+          "sha256": "f90a665467bea0f3e946ab00f743519b4bb982d5810365de2e88f3623e3f296b"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaojinkuang.webp",
+          "sha256": "f071d9e965a7a429998a9d1e61795ab6091fa1bc0f1bdabb3eb44107f2bacba8"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaojinkuang.webp",
+          "sha256": "234f3f2b8c8c6156bd4b699144ffd70f76b562687c58b37733636afe68b61787"
+        }
+      }
+    },
+    {
+      "id": "xiaohulu",
+      "label": "小葫芦",
+      "role": "供应链管理",
+      "roleStatus": "registered",
+      "idea": "双腔流线",
+      "status": "adopted",
+      "sourceSha256": "1ed391b8d0b2340894602917716cc4feefc15a3c3ad0263058b20f7807668fcb",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaohulu.png",
+          "sha256": "1ed391b8d0b2340894602917716cc4feefc15a3c3ad0263058b20f7807668fcb"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaohulu.png",
+          "sha256": "3d1287bb83888a3c98e01bfad866682a430a21d37badcf24ec652c35444db204"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaohulu.png",
+          "sha256": "5a4a549801c6ed673edd54eb5cacdcf4f3ded479c3f9cec9d34ce79c58329e0b"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaohulu.webp",
+          "sha256": "9b998a55bc722736606c7eafdf25a15b6340102f0fd6a7745860b5e460b4710d"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaohulu.webp",
+          "sha256": "c875f8ef826da679fa81fd9b1ed8f790a61c391617c1b874e1bb3f14ffb0b0fe"
+        }
+      }
+    },
+    {
+      "id": "xiaozishu",
+      "label": "小紫薯",
+      "role": "产品研发与进度",
+      "roleStatus": "registered",
+      "idea": "卷曲种子",
+      "status": "adopted",
+      "sourceSha256": "8b1f79f7176bbbbc763ae899ce53fec9f681acc00f676dff73c5cee52846c4f1",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaozishu.png",
+          "sha256": "8b1f79f7176bbbbc763ae899ce53fec9f681acc00f676dff73c5cee52846c4f1"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaozishu.png",
+          "sha256": "d01dd03f97a05b80aa95c8f52159d8d4a1f8ac2c651c3768ea77b435f6319ef4"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaozishu.png",
+          "sha256": "87cbfe481ab2b2562bd06f217a0eaa559e8210e0a29be7e3fcb581eabf60555b"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaozishu.webp",
+          "sha256": "74f89b32bd9856451e574d1b77fc6aaa4d4ceb12514247ef60d243d3df522a22"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaozishu.webp",
+          "sha256": "8059dd4bc4aaaf5088832295f43a97ab8d19af3f9119e9ae95e9c9e1574b1a09"
+        }
+      }
+    },
+    {
+      "id": "xiaotaiyang",
+      "label": "小太阳",
+      "role": "达人及品牌运营",
+      "roleStatus": "registered",
+      "idea": "暖光旋涡",
+      "status": "adopted",
+      "sourceSha256": "5567e460f102ffcb1f9575814ba3527c864b1b3a88773ce6a1ff4d3a2fa8ca64",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaotaiyang.png",
+          "sha256": "5567e460f102ffcb1f9575814ba3527c864b1b3a88773ce6a1ff4d3a2fa8ca64"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaotaiyang.png",
+          "sha256": "25bb297bb1332086a1d42725799fe2fe1982e2045af41a63b5417441cebfcec6"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaotaiyang.png",
+          "sha256": "1181b10df99eadcdc4fa9c2618e4b7971146a5f8633b556772649a46c7794c25"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaotaiyang.webp",
+          "sha256": "cd17d98bd0a8740e0b6a79a4d02d482dbfda8dcfa5cf14902b1243162dd1b87d"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaotaiyang.webp",
+          "sha256": "c581e2186075facdf8e7933ecda7696db89cc686a23f97faa014db36d01e1b5f"
+        }
+      }
+    },
+    {
+      "id": "xiaodianwei",
+      "label": "小点位",
+      "role": "候选点位与拓展评估",
+      "roleStatus": "registered",
+      "idea": "回转定位",
+      "status": "adopted",
+      "sourceSha256": "94b2f1a78623b63478297ec39ed64386f1c26116d713ee54ef25f2a834d9b151",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaodianwei.png",
+          "sha256": "94b2f1a78623b63478297ec39ed64386f1c26116d713ee54ef25f2a834d9b151"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaodianwei.png",
+          "sha256": "93856f1135d30aefe79743a65e4d0194046ca98943a37fb6453d2805d19971bd"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaodianwei.png",
+          "sha256": "813ebd9bef228fb0d3615283303780e8f6b96671584e1617d319c3ceceab672a"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaodianwei.webp",
+          "sha256": "5b17ba2898e9ffbf85e7dca2145aa0c8ca04c89d8569552ef8c7938b81eb2688"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaodianwei.webp",
+          "sha256": "d0b30776a7e9e88de46276ce23dbe099405f237188c43f818c4e2ed6d4bf42be"
+        }
+      }
+    },
+    {
+      "id": "yuanmaxiang",
+      "label": "元码象",
+      "role": "代码与数字贡献",
+      "roleStatus": "registered",
+      "idea": "卷鼻侧像",
+      "status": "adopted",
+      "sourceSha256": "6c1d1964ba052c13f9075fb0b4b1366604b2a275cd9f82894b88ec9dce9e4782",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/yuanmaxiang.png",
+          "sha256": "6c1d1964ba052c13f9075fb0b4b1366604b2a275cd9f82894b88ec9dce9e4782"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/yuanmaxiang.png",
+          "sha256": "a24323e1a440905631dcdb62d263490ba56f90d8af792fbf0b5af276a63cf41f"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/yuanmaxiang.png",
+          "sha256": "a5dc4f5806c73f8bf07ab6095f0801d1aa39d46a644adbea598adaded887c416"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/yuanmaxiang.webp",
+          "sha256": "bd56166c1888a40d614625b7d4e61dc8d23b3fffe6dd9a25def98791c0c415b0"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/yuanmaxiang.webp",
+          "sha256": "4932af73e916be0b2e7992212b0513d5d614f1161bb5e46627c4bb4485ee6f70"
+        }
+      }
+    },
+    {
+      "id": "suyuanli",
+      "label": "溯源狸",
+      "role": "供应与信息追溯",
+      "roleStatus": "registered",
+      "idea": "折面狸面",
+      "status": "adopted",
+      "sourceSha256": "96329e910281c9d54f7e15f98a13a2a96293837559df690f80267051a8b157ca",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/suyuanli.png",
+          "sha256": "96329e910281c9d54f7e15f98a13a2a96293837559df690f80267051a8b157ca"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/suyuanli.png",
+          "sha256": "8965d9482f2da42c4ea0b221b7de37a9c36c4837eb8d4a85339f09a2117e4842"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/suyuanli.png",
+          "sha256": "86fe2762fc0cd400ae90499bbe35b9da17fed5b433931d6dd37c7a10a4fa9db1"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/suyuanli.webp",
+          "sha256": "8e9a4b46ec515a97bb57acde677e470efad3e0e952582862682795f820b11f4e"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/suyuanli.webp",
+          "sha256": "d84fa2a18214dd32eb7af7b85e83cbd749a5d2704ac893017c274a90f6c668c8"
+        }
+      }
+    },
+    {
+      "id": "xiaozongguan",
+      "label": "小总管",
+      "role": "组织与系统治理",
+      "roleStatus": "registered",
+      "idea": "环抱协同",
+      "status": "adopted",
+      "sourceSha256": "0d731474c2c6906f5bf9aa44e52a961d2f074927f345362ccd0cb3bcdb11594c",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaozongguan.png",
+          "sha256": "0d731474c2c6906f5bf9aa44e52a961d2f074927f345362ccd0cb3bcdb11594c"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaozongguan.png",
+          "sha256": "0c578601a0752aef799b32cf5af88127876b7d8c57c60005ccccab97a8af3885"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaozongguan.png",
+          "sha256": "f3c1d7f182278430a704aaca303c2d513bed451cb22493a063c2a5332bdaa575"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaozongguan.webp",
+          "sha256": "f2cf55d4d5c2311e39c4312d3a918eef83353d32403e869b549ab3c65e99be42"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaozongguan.webp",
+          "sha256": "caff9ace9cf309c843a958e2f47c27b2262c977cfb72ebd786982a6471191193"
+        }
+      }
+    },
+    {
+      "id": "zhuxu",
+      "label": "筑序",
+      "role": "工程与验收",
+      "roleStatus": "registered",
+      "idea": "连续拱带",
+      "status": "adopted",
+      "sourceSha256": "702b71d76ba2632ac94fd4f39e34c1f4b334622f4e3500c6dcace77a42fecc9b",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/zhuxu.png",
+          "sha256": "702b71d76ba2632ac94fd4f39e34c1f4b334622f4e3500c6dcace77a42fecc9b"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/zhuxu.png",
+          "sha256": "781a5ef08f7d0724fee54ef3568745e5a5aa271906d0c13a140bdfc74505f23f"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/zhuxu.png",
+          "sha256": "b91ea4bcd3c805019437fdd2fdb4ab11f67aeb02809d90b9d2d0a2e5b1a5e0f3"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/zhuxu.webp",
+          "sha256": "8159cd404372397a75f8b7fa369b6df32a911f2e644221c1c9ecc72314b7197c"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/zhuxu.webp",
+          "sha256": "250c30b395f10c2344418513eaa60653a4ace6a4d64a3fd2e567643888d30e2e"
+        }
+      }
+    },
+    {
+      "id": "xiaogongfang",
+      "label": "小工坊",
+      "role": "创意与交付",
+      "roleStatus": "registered",
+      "idea": "编织回环",
+      "status": "adopted",
+      "sourceSha256": "f860ec674d52d04344eb6f0b2b896e40cf01a2bd25971913a943618467601377",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaogongfang.png",
+          "sha256": "f860ec674d52d04344eb6f0b2b896e40cf01a2bd25971913a943618467601377"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaogongfang.png",
+          "sha256": "844b030c1e0a2a2f665834100f67d2b22a36940a6eef612847118747d606eef4"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaogongfang.png",
+          "sha256": "b32d960ba61f8db0bc2e56925046f0053dfa332c0a39554408b9483f76a4e13c"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaogongfang.webp",
+          "sha256": "c180622679fe3f491da0143a4cdb046ad4cca7022a407d3e5db9893fd7e27641"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaogongfang.webp",
+          "sha256": "7875ffb7961332bfb75378112c054baafc9c32c54d6465e237a9a45773ce75a4"
+        }
+      }
+    },
+    {
+      "id": "xiaotaizhang",
+      "label": "小台账",
+      "role": "台账记录 · 暂拟",
+      "roleStatus": "provisional",
+      "idea": "双页展开",
+      "status": "adopted",
+      "sourceSha256": "fd73ddbc8ce5831211f4b5d1ccfa6d7ebf4b70ae220240d68435724abbd605ad",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/v010/original/xiaotaizhang.png",
+          "sha256": "fd73ddbc8ce5831211f4b5d1ccfa6d7ebf4b70ae220240d68435724abbd605ad"
+        },
+        "app": {
+          "path": "icons/product-identities/v010/app/xiaotaizhang.png",
+          "sha256": "13b7089462aa7811fe9b14e32a8401b7516be328e2e7732e71ac018b155d4cf6"
+        },
+        "quietGlass": {
+          "path": "icons/product-identities/quiet-glass/xiaotaizhang.png",
+          "sha256": "820fa5c3e2bf465b4fd48ff625388b24939c8784606e82759e389c22bdaf63ae"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/preview/original/xiaotaizhang.webp",
+          "sha256": "39aeec70d26a773c552bcf2bfc5189fe2427255c907811435fa81ffcec87e68e"
+        },
+        "previewGlass": {
+          "path": "icons/product-identities/preview/quiet-glass/xiaotaizhang.webp",
+          "sha256": "b2744efdef30065cf06c18ff0a150d0136246effbb837b2f9d04a0aa96cdb707"
+        }
+      }
+    }
+  ]
+}
