@@ -1,0 +1,36 @@
+/* Opt-in example. Obtain official unmodified WOFF2 + license first.
+   Replace these same-origin paths for your application's basePath.
+   This Skill intentionally does not distribute font binaries. */
+@font-face {
+  font-family: "MiSans";
+  src: url("/fonts/misans/MiSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MiSans";
+  src: url("/fonts/misans/MiSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MiSans";
+  src: url("/fonts/misans/MiSans-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --leego-font-ui: "MiSans", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", Arial, sans-serif;
+}
+body { font-family: var(--leego-font-ui); font-weight: 400; font-synthesis: style; }
+button, input, textarea, select { font-family: inherit; }
+input, textarea, select { font-weight: 400; }
+button { font-weight: 500; }
+/* Map semantic roles; do not globally restyle every h2 or button as a title/action. */
+[data-ui-type="body"], [data-ui-type="navigation"] { font-weight: 400; }
+[data-ui-type="button"], [data-ui-type="section-title"], [data-ui-type="card-title"], [data-ui-type="table-header"] { font-weight: 500; }
+[data-ui-type="page-title"], [data-ui-type="metric"], strong, b { font-weight: 600; }
+code, pre, kbd, samp { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }

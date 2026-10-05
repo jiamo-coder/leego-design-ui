@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.19.0
+// Version: 2.21.0
 export type UiDesignRead = {
   mode: 'new-design' | 'audit' | 'implementation';
   platform: 'web' | 'mobile' | 'tablet' | 'website';
@@ -25,8 +25,8 @@ export type UiQualityRule = {
 };
 export const uiQualityCatalog = {
   "standard": "leego-design-ui",
-  "version": "2.19.0",
-  "updated": "2026-10-04",
+  "version": "2.21.0",
+  "updated": "2026-10-05",
   "designReadRequiredFields": [
     "mode",
     "platform",
@@ -198,7 +198,7 @@ export const uiQualityCatalog = {
       "category": "typography",
       "severity": "P0",
       "automated": true,
-      "message": "字重只允许 400、500、600、700。",
+      "message": "MiSans 只使用 400、500、600；按正文/导航、按钮/小标题、大标题分配，不使用伪粗体。",
       "checkMethod": "static",
       "checker": "scripts/validate-ui-standard.mjs"
     },
@@ -309,6 +309,30 @@ export const uiQualityCatalog = {
       "message": "快速反向不排队、不卸载任务或输入；保持草稿、选择、搜索和滚动，减少动态时取消位移。",
       "checkMethod": "review",
       "checker": "UI_DELIVERY_WORKFLOW_2026.md"
+    },
+    {
+      "id": "UI-FONT-001",
+      "category": "typography",
+      "severity": "P1",
+      "automated": false,
+      "checkMethod": "browser",
+      "message": "验证实际渲染字体与400/500/600语义映射；CSS字体栈声明不代表MiSans已加载。"
+    },
+    {
+      "id": "UI-FONT-002",
+      "category": "typography",
+      "severity": "P1",
+      "automated": false,
+      "checkMethod": "review",
+      "message": "核对官方原件、随附许可、软件字体声明与同源加载；Skill不分发字库，不默认裁剪改编。"
+    },
+    {
+      "id": "UI-FONT-003",
+      "category": "accessibility",
+      "severity": "P0",
+      "automated": false,
+      "checkMethod": "browser",
+      "message": "字体失败、缩放或换行不得使文字不可读、遮挡核心任务或阻断操作；原生平台保留字号缩放。"
     }
   ]
 } as const;

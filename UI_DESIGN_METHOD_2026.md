@@ -3,7 +3,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.19.0
+Version: 2.21.0
 ```
 
 本方法用于新页面设计、已有系统审计和已确认范围的前端实施。目标是先消除会改变方案的未知，再用固定模板和减法检查减少随机性。它不替代业务确认，也不授权修改后台接口、权限、数据结构或业务规则。
@@ -122,7 +122,7 @@ Design Read 用于澄清范围，不是审批门禁。会实质改变目标且�
 - Web 工作顶栏：64px，仅页面上下文与真实全局搜索；账号、通知固定侧栏底部，设置与真实退出进入账号浮层。
 - Web 内容：左 28px、右 16px、首模块和模块间距 12px。
 - Web 正文 14/22px；Mobile 正文 16/24px；所有可见文字不低于 12px。
-- 字重只使用 400、500、600、700。
+- 字重只使用 400、500、600。
 - 通用图标使用 24×24 网格和 1.75px 圆角线条；导航 20px，顶栏 18px，纯图标按钮热区至少 44px。
 - 组件规范覆盖 Default、Hover、Focus-visible、Active、Disabled、Loading、Error、Success。
 

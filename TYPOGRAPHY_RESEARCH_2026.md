@@ -1,5 +1,7 @@
 # Leego Design UI · 中文字体调研
 
+> 历史调研快照。2.21.0 起字体与字重执行 `MISANS_TYPOGRAPHY_STANDARD_2026.md`：MiSans 400/500/600，选中导航400；以下系统字体优先和700等旧结论不再是当前实施规则。字号、缩放与中文阅读研究仍可参考。
+
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui

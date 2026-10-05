@@ -1,7 +1,7 @@
 // Generated; third-party originals remain website-only.
 export const systemIdentityFamily = {
   "standard": "leego-design-ui",
-  "version": "2.19.0",
+  "version": "2.21.0",
   "sourcePackage": "system-logo-family/v007",
   "adoption": "user-authorized-publication-2026-10-05",
   "defaultRoute": "soft-crystal",

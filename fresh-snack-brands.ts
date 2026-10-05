@@ -1,7 +1,7 @@
 // Generated from fresh-snack-brands.json. Metadata only; third-party originals are not distributed.
 export const freshSnackBrands = {
   "standard": "leego-design-ui",
-  "version": "2.19.0",
+  "version": "2.21.0",
   "updated": "2026-09-12",
   "count": 61,
   "verificationMaxAgeDays": 180,

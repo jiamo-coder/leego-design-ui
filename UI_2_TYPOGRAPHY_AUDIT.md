@@ -1,5 +1,7 @@
 # Leego Design UI · 字体审计
 
+> 历史审计记录；当前字体与字重以 MISANS_TYPOGRAPHY_STANDARD_2026.md 为准，旧700字重不再用于新设计。
+
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui

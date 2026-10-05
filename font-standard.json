@@ -1,0 +1,59 @@
+{
+  "standard": "leego-design-ui",
+  "version": "2.21.0",
+  "family": "MiSans",
+  "status": "default-recommendation-project-local-registration-required",
+  "verifiedAt": "2026-10-05",
+  "sources": {
+    "faq": "https://hyperos.mi.com/font/zh/faq/",
+    "download": "https://hyperos.mi.com/font/zh/download/",
+    "archive": "https://hyperos.mi.com/font-download/MiSans.zip",
+    "license": "https://hyperos.mi.com/font-download/MiSans字体知识产权许可协议.pdf"
+  },
+  "license": {
+    "commercialUse": "permitted-subject-to-official-agreement",
+    "embedding": "permitted-with-software-attribution",
+    "retainCopyrightAndLicense": true,
+    "skillDistributesFontBinaries": false,
+    "modifyOrSubsetByDefault": false
+  },
+  "weights": { "regular": 400, "medium": 500, "semibold": 600 },
+  "roles": {
+    "body": 400,
+    "input": 400,
+    "navigation": 400,
+    "navigationSelected": 400,
+    "auxiliary": 400,
+    "button": 500,
+    "label": 500,
+    "tableHeader": 500,
+    "sectionTitle": 500,
+    "cardTitle": 500,
+    "pageTitle": 600,
+    "metric": 600,
+    "emphasis": 600
+  },
+  "web": {
+    "hosting": "same-origin",
+    "format": "woff2",
+    "display": "swap",
+    "synthesis": "style",
+    "defaultPreloadAllWeights": false,
+    "remoteRuntimeCDN": false,
+    "example": "misans-font-face.example.css"
+  },
+  "native": {
+    "registrationRequired": true,
+    "allowFontScaling": true,
+    "cssFontStackAllowed": false,
+    "fallback": { "ios": "System", "android": "sans-serif", "harmonyOS": "HarmonyOS Sans" }
+  },
+  "observedOriginals": {
+    "evidence": "Read-only Geetimer MiSans integration and local byte hashes; not a live deployment acceptance or automatic upstream pin.",
+    "files": [
+      { "name": "MiSans-Regular.woff2", "weight": 400, "bytes": 4858624, "sha256": "d704c1a932c0bd7e8a071d276cd81c0ed0c9fecfa26ac234f4bed0559fe1cb2d" },
+      { "name": "MiSans-Medium.woff2", "weight": 500, "bytes": 4942368, "sha256": "44e28ca6c2f0ca79829f192831ef87b5eec7c464f5cfb7a83467f57bb6e58114" },
+      { "name": "MiSans-Semibold.woff2", "weight": 600, "bytes": 5034212, "sha256": "78227c6ec59566785c65ac0b5312328bfa2f879918f3d7403725785615a9a8f6" }
+    ]
+  }
+}

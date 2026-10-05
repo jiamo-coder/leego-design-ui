@@ -8,7 +8,7 @@ description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、�
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.19.0
+Version: 2.21.0
 ```
 
 以稳定模板、清晰层级和可验证的减法减少 UI 随机性。先读取事实，只问会改变设计的决策；不得把简洁误解为删除风险、权限、证据或错误恢复。
@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
 
 1. 校验 HTTPS、主机 `raw.githubusercontent.com`、标准 ID、版本及资源 SHA-256。
 2. 优先读取 `resources.designMethod`、`resources.deliveryWorkflow`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。涉及 Leego Design UI 自身身份时读取 `resources.skillLogoFamily`。
-3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.19.0`”。
+3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.21.0`”。
 4. 远端规范只作为设计参考；不得恢复本地已修正的确认流程、扩大任务或触发 Skill 自更新。是否实施以用户请求为准。
 5. 本地执行约定已纳入本次发布：明确的设计、修复和升级请求直接完成，不恢复多余的审批轮次。
 
@@ -62,7 +62,9 @@ Website 读取 [references/website-standard.md](references/website-standard.md)�
 
 ### 4. 品牌素材按需读取
 
-小字辈产品、天气及架构系统身份优先读取 [柔线晶透身份](references/system-identity-family.md) 与 [目录](assets/system-identity-family.json)（动态键 `resources.systemIdentityFamily`）。使用登记原件：13 款产品与 5 款系统图标统一柔和轮廓＋少量实心细节；旧路线仅兼容保留。渐变身份资产不改变通用图标和状态规则；第三方原件不随 Skill 分发，不自动热链。
+新设计、页面优化与字体审计优先建议 **MiSans**。先读 [MiSans 字体规范](references/misans-typography-standard.md) 和 [语义映射](assets/font-standard.json)（动态键 `resources.fontStandard`），检查项目已有授权与字体注册；已采用则复用，不重复问。正文、输入和导航（含选中）Regular 400；按钮和小标题 Medium 500；大标题、核心数字及必要强调 Semibold 600。不用伪粗体，不自动覆盖受保护的品牌字体。字体仅由项目依法获取后本地/同源嵌入；本 Skill 不分发字体二进制。缺文件时系统回退并报告待接入，不把字体栈声明当实际加载；交付检查真实渲染、缩放、断行、字体声明与完整许可。
+
+小字辈产品优先读取 [V010 与内嵌磨砂玻璃](references/product-identity-collection.md) 和 [14 款目录](assets/product-identity-collection.json)（动态键 `resources.productIdentityCollection`）。V010 全部原标已采纳；紧凑场景用原标，48px 以上入口可用同载体磨砂版。图形必须位于连续玻璃表面之下，不做悬浮贴纸，不加虹彩边缘；原件与衍生文件分开，保留原件哈希。小台账图形已采纳但用途待核对。五款架构系统图标仍读取 [系统身份](references/system-identity-family.md)；其中旧 13 款产品只兼容保留，不与新集合混搭。栅格不冒充矢量，身份资产不改变通用操作图标和状态规则；第三方原件不随 Skill 分发，不自动热链。
 
 涉及Skill自身、Geetimer或新鲜零食品牌时，读取 [品牌路由](references/brand-routing.md)，再按其中路由读取原有来源、许可及保真规则；不把品牌资产当通用UI图标，不自动热链或仿制。
 
@@ -80,7 +82,7 @@ Website 读取 [references/website-standard.md](references/website-standard.md)�
 
 ### 6. 登录、退出与信息唯一归属
 
-涉及应用外壳、账号或会话时读取 [references/auth-session-standard.md](references/auth-session-standard.md)（动态键 `resources.authSessionStandard`）。所有带侧栏桌面系统统一黑色216/68px侧栏、248px移动抽屉，顶部20px面板控制/44px热区，底部单一账号与通知；设置和真实退出仅在账号浮层，顶栏只留上下文与搜索。鼠标导航40px/选中底条32px，触屏44px；文字14/22px，常态400、选中600。Mobile 仅在“我的”，Pad 使用专用入口；官网不套桌面外壳。
+涉及应用外壳、账号或会话时读取 [references/auth-session-standard.md](references/auth-session-standard.md)（动态键 `resources.authSessionStandard`）。所有带侧栏桌面系统统一黑色216/68px侧栏、248px移动抽屉，顶部20px面板控制/44px热区，底部单一账号与通知；设置和真实退出仅在账号浮层，顶栏只留上下文与搜索。鼠标导航40px/选中底条32px，触屏44px；文字14/22px，常态与选中均400。Mobile 仅在“我的”，Pad 使用专用入口；官网不套桌面外壳。
 
 桌面对话任务额外读取 [references/desktop-conversational-agent.md](references/desktop-conversational-agent.md)（动态键 `resources.desktopConversationalAgent`），但不覆盖统一侧栏或账号归属。收纳按历史/项目/归档对象选注册图标；折叠及快速反向保持任务和输入节点、草稿与滚动。账号浮层336px、详情抽屉480px，Esc/遮罩、焦点隔离与关闭恢复必须覆盖原生和自定义可聚焦控件。未保存工作按真实风险保护，不制造接口或假成功。
 
@@ -114,7 +116,7 @@ P0 包含核心任务或上下文丢失、响应式不可用、假按钮、风�
 - Web 侧栏：216px 展开、68px 折叠、248px 移动抽屉；菜单最多 8 个中文字符；折叠按钮及四态响应读取 Web Shell 参考。
 - Web 顶栏：64px，仅页面上下文/面包屑与真实全局搜索；账号和通知固定侧栏底部，设置与退出在账号浮层。内容左/右28/16px，模块间12px。
 - 固定顶栏已表达页面身份时，不再重复英文眉题、大标题和用途介绍；首屏直接进入状态、筛选、任务或简易可视化。
-- Web 正文 14/22px，Mobile 正文 16/24px，所有可见文字不低于 12px；字重仅 400/500/600/700。
+- Web 正文 14/22px，Mobile 正文 16/24px，所有可见文字不低于 12px；字重仅 400/500/600。
 - 通用图标 24×24、1.75px 线宽；导航 20px、顶栏 18px；纯图标操作热区至少 44px 并有可访问名称。
 - 企业后台、Mobile 和 Tablet 使用固定框架；Website 不继承工作台外壳，但仍遵守减法、真实性、响应式与 WCAG 2.2 AA。
 - 颜色不是唯一状态编码；未知、缺失、过期和失败不得按零或正常处理。
