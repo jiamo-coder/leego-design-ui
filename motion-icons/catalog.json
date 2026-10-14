@@ -1,0 +1,84 @@
+{
+  "standard": "leego-design-ui",
+  "version": "2.25.0",
+  "id": "robot-spark",
+  "sourceRevision": "v001",
+  "approvalDate": "2026-10-12",
+  "viewBox": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "cycleMs": 6400,
+  "defaultState": "static",
+  "reducedMotion": "static",
+  "networkRequests": 0,
+  "assets": [
+    {
+      "path": "robot-spark/icon.mjs",
+      "sha256": "6d6a0d755931f4b9cc9a1a1cccc6fe6881057e9ddd0e5b3f4df275e0b4936f45",
+      "provenance": "approved-v001-byte-identical"
+    },
+    {
+      "path": "robot-spark/runtime.mjs",
+      "sha256": "c971094ca0db3b1fbdb933ac2ca4161e5c814b91ffb82e7c812316207b147216",
+      "provenance": "new-lifecycle-adapter"
+    },
+    {
+      "path": "robot-spark/robot-spark.svg",
+      "sha256": "dfb3cfe56721d224b03c5bee18757cf6140cb3bff4fbabdceceff3abd9fe2e38",
+      "provenance": "approved-v001-byte-identical"
+    },
+    {
+      "path": "robot-spark/robot-static.svg",
+      "sha256": "750dc7cd37380315027d2809f2118962a1bab77bedec76ab5565602d852e54ed",
+      "provenance": "approved-v001-byte-identical"
+    },
+    {
+      "path": "robot-spark/stars-static.svg",
+      "sha256": "d73854dc559ca8af2b8bfdf655dcebb7e793b3f481df6c54ea1f6928839d07de",
+      "provenance": "approved-v001-byte-identical"
+    },
+    {
+      "path": "planet-puzzle/icon.mjs",
+      "sha256": "63526eafd7d7f98da926d70c67f435780017a62dd2ff26a922ef075a9314137d",
+      "provenance": "approved-v001-byte-identical"
+    },
+    {
+      "path": "planet-puzzle/runtime.mjs",
+      "sha256": "3cf0b3e3fd68e5a35fd58744779a24d63ce604e5704f76c9a38efee107185877",
+      "provenance": "new-lifecycle-adapter"
+    },
+    {
+      "path": "planet-puzzle/planet-puzzle.svg",
+      "sha256": "0ae5f4c3e0a73664d2cec19e2a4f0fb7ce29c6f2522f2a9c67d7352d6b20f498",
+      "provenance": "approved-v001-byte-identical"
+    },
+    {
+      "path": "planet-puzzle/planet-static.svg",
+      "sha256": "18b0b9d4b8d13e45ff9d003b8fc4d5145097e5b063bcd768dfe8fee6953debb7",
+      "provenance": "approved-v001-byte-identical"
+    },
+    {
+      "path": "planet-puzzle/puzzle-static.svg",
+      "sha256": "04f029d2e39fdaec6f2eadc9b780de6ef45d8915248b36ab27732f658112fa33",
+      "provenance": "approved-v001-byte-identical"
+    }
+  ],
+  "updatedAt": "2026-10-13",
+  "entries": [
+    {
+      "id": "robot-spark",
+      "sourceRevision": "v001",
+      "approvalDate": "2026-10-12",
+      "cycleMs": 6400
+    },
+    {
+      "id": "planet-puzzle",
+      "sourceRevision": "v001",
+      "approvalDate": "2026-10-13",
+      "cycleMs": 6400
+    }
+  ]
+}

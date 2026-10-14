@@ -1,0 +1,78 @@
+{
+  "standard": "leego-design-ui",
+  "version": "2.25.0",
+  "contract": "interaction-contract-1",
+  "web": {
+    "geometrySource": "tokens.web.applicationShell.sidebar",
+    "selectionNodes": 1,
+    "durationMs": 260,
+    "maximumOvershootPx": 2,
+    "recomputeOn": [
+      "font-load",
+      "resize",
+      "labels",
+      "permission-filter"
+    ],
+    "preserve": [
+      "input-node",
+      "draft",
+      "selection",
+      "search",
+      "scroll"
+    ]
+  },
+  "native": {
+    "unit": "dp",
+    "textUnit": "sp",
+    "minimumTouchTarget": 48,
+    "tabs": {
+      "surface": "edge-attached-selected-capsule",
+      "minimumHeight": 62,
+      "padding": 5,
+      "minimumItemHeight": 52,
+      "minimumItemWidth": 48,
+      "iconSize": 22,
+      "labelSize": 12,
+      "labelLineHeight": 18,
+      "labelWeight": 400,
+      "indicatorDurationMs": 240,
+      "iconCrossfadeMs": 140,
+      "fontScalePolicy": "grow-container-not-shrink-text",
+      "unknownSelection": "none",
+      "reselect": "preserve-context",
+      "safeInsetOwner": "navigation-container-once"
+    },
+    "drawer": {
+      "durationMs": 260,
+      "maximumWidthRatio": 0.85,
+      "exposedCornerRadius": 28
+    },
+    "sheet": {
+      "durationMs": 220,
+      "maximumHeightRatio": 0.85,
+      "topCornerRadius": 28
+    }
+  },
+  "feedback": {
+    "loadingDelayMs": 280,
+    "loadingMinimumVisibleMs": 360,
+    "delayDataOrErrors": false,
+    "cleanupOn": [
+      "complete",
+      "cancel",
+      "background",
+      "unmount"
+    ],
+    "reducedMotion": "static-feedback"
+  },
+  "evidence": {
+    "staticValidation": "contract-only",
+    "runtimeValidation": "consumer-required",
+    "statuses": [
+      "pass",
+      "fail",
+      "unverified",
+      "not-applicable"
+    ]
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "standard": "leego-design-ui",
+  "version": "2.25.0",
+  "capturedAt": "2026-10-12T15:48:37.193Z",
+  "approvalDate": "2026-10-12",
+  "sourceThreads": [
+    "UI分析",
+    "UI分析｜恢复"
+  ],
+  "sourceCoverage": {
+    "uniqueLinks": 176,
+    "snapshotLocations": 49,
+    "previewLocations": 44
+  },
+  "precedence": "later-explicit-correction-per-interaction",
+  "privacy": "Only distilled rules and source identifiers distributed; private conversations, business media and sample data excluded.",
+  "runtimeValidation": "design-approval-is-not-implementation-or-release-acceptance",
+  "previews": [
+    {
+      "id": "capability-center-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/capability-center-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "4feecb3a4a3d5d137ff837bd6cea14cbb20e2096cb9173d222c5e84255d67cc9",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "owned-capabilities-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/owned-capabilities-v2",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "Web能力目录与授权分层",
+      "entrySha256": "01edcb077ee16bbe8a2f3e3e5ee0ecac73853a798b2f248deeb7747ee811927f",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "xiangai-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/xiangai-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "c296819bc4715a95c1938d208e1d968fd6ca08852cb781a3a2a32c0167364769",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "xiangai-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/xiangai-v2",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "d189cc7acecce77aa62d0391efdb8221f5e24819533a66957debf9807ad1fb40",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "composer-context-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/composer-context-v1",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "Web上下文与任务归属",
+      "entrySha256": "e76014e3fb8f7bed23da35b8b1cb55e1a7ade8f1d36915553a8fd0f877c76a3b",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "xiangai-scroll-world-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/xiangai-scroll-world-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "5c4628c72f4b0561d7b8b42f2b70eba843402c46909ed3d2ba78522c83587315",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "xiangai-dashboard-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/xiangai-dashboard-v2",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "429beeaeb2d44e4b10d84657cc4fe96736a330795a0d107a8b622d2071b11bbf",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "brand-ordering-chat-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/brand-ordering-chat-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "2309241c3e478ce420cbe395aa248fd62f56fa4bf064a679a18c2c574e8c8996",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "brand-ordering-chat-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/brand-ordering-chat-v2",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "版本化草稿、去向核对与逐项回执",
+      "entrySha256": "b53a4c30abf37c09d2ea61be6c34ffca5bae9ddba5c1f411b917f1d53331fae6",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "calendar-split-view-v3",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/calendar-split-view-v3",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "Web日历最终浅色圆角版",
+      "entrySha256": "a77bbd2ea977118292e06c46940cc0b216fdd8182c7ba381e56c3c1a4bc90d95",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "calendar-solid-orbit-v4",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/calendar-solid-orbit-v4",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "a77bbd2ea977118292e06c46940cc0b216fdd8182c7ba381e56c3c1a4bc90d95",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "xiangai-panorama-v3",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/xiangai-panorama-v3",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "672f4af28fb062d6b8e3e891473feeada72cfaa3950c79054c31d5198f55b5db",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "xiangai-panorama-v6",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/xiangai-panorama-v6",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "专题全景可视化，不推广整页入场",
+      "entrySha256": "5cb3f3fa8b4c857f4d59e02edd0557998666397f19663e9e878938820200e0da",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "geetimer-color-system-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/geetimer-color-system-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "7cbb0acc2888eaeca6b9d12857241705e7d1a509799b5d13df94db55f747b5af",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-ui-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-ui-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "5dd2b61fa79868c8d427aa7d201b98986d9503a62043c0eb039a311e8110abe9",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-ui-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-ui-v2",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "b97d98eb95004a2fec26d3ace2ec32ae566e5ff357b4cd59ed242917481fce9b",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-ui-v3-concepts",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-ui-v3-concepts",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "2aec78e09412e059a951c957908fe1c335809bdc2cc998e29a565533cc53bdb5",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-ui-style-comparison",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-ui-style-comparison",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "8b3a0c5b137da6f2dbc4448a0586b3f178b41c4e99f0aac0192fe49541f1be68",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-conversation-motion-v4",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-conversation-motion-v4",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "可中断侧栏与稳定导航槽；浮动外壳由后续替代",
+      "entrySha256": "5596fe8ce7bf560dc8f424ad3a73074c95092a9ae34dd0f054b7c9ec49515b39",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-interaction-v5",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-interaction-v5",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "附件恢复、回复操作、侧栏历史",
+      "entrySha256": "bf2e7538490a482e38de8750214fbaa85d3310176662a44f804751c06d718f34",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-approval-list-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-approval-list-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "afb797c5f0f65ac501c454c25604fb099dff85de76680d15cd9d1917e97ec4c9",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-approval-batch-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-approval-batch-v2",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "92b9cf9045c7673f18f0abd8273a7a64cd9f2c3cd9fdee89bfffe80ddfa9e0bc",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-calendar-energy-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-calendar-energy-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "91e393445de7cf04207631e67f6cc5b3333360b5b91b35d23b57701d0f88b6f5",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "xiangai-lab-native-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/xiangai-lab-native-v2",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "333ec5b6e3e85b72c85645bcd8f33c17ab60ab03cfe5d060879f877fb4c944c4",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "xiangai-lab-ai-v3",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/xiangai-lab-ai-v3",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "研究任务：问答、地图与结论按任务分工",
+      "entrySha256": "f7ac8b8b26ee9f42d85393b7bb126de35fcf68bccef2b2711c1d60299b929bb5",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-update-motion-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-update-motion-v1",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "原位更新状态与同源红点；暂停规则沿V3",
+      "entrySha256": "e30a242125eb0ccabe19a2b3d49d3f1ceb083b42d8ed760ef6fcb61726d33c17",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-task-context-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-task-context-v1",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "来源、项目与模型配置语义",
+      "entrySha256": "53f9e4db6fa1535f2b3ee2f14e2fe75a925ac2e4955561523d2ba049ce1cbe25",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "geetimer-login-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/geetimer-login-v2",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "品牌登录、主授权与渐进备用入口",
+      "entrySha256": "43747302b8cfe8572bbd2083a00444173f5910f72841753910ab960f8a3c26dd",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-composer-polish-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-composer-polish-v2",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "5a6b26de922a4dd453fc9ad1613767eb881232fac22280e63189221a16ab19de",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-chat-continuity-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-chat-continuity-v1",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "消息身份与滚动协调；后续布局纠正优先",
+      "entrySha256": "2bddab208dbc736407abdbe03c50dc113ec5bf432cae722ae4ca7dff8c803109",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-capability-discovery-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-capability-discovery-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "298dbc982585756bfa5cf473281a51ac88703abeda8f491e26ffbf69e5211e5d",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-capability-discovery-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-capability-discovery-v2",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "搜索、最近使用、分类与列表",
+      "entrySha256": "9db23da0b7494fd27f4927adfbb14eaf2c496219b93ceeede8a35adc1746bf57",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "native-calendar-todo-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/native-calendar-todo-v1",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "2c40a054d432935d00caa61ad0d1e26415aeb28ca0dbdd110ede2601c9758917",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "native-calendar-todo-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/native-calendar-todo-v2",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "消息内日历与同组件全屏",
+      "entrySha256": "fe75a6f01ffcc0793a34f6e2188b3bcd822390d3fb564efa15ee95ad41d1334a",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-conversation-motion-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-conversation-motion-v2",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "50327f6f9bdaf63fd356ae75d69715eb5dc421cc897882db16c0a578160707d8",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-system-atlas-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-system-atlas-v1",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "关系定位、返回上下文与方向动效",
+      "entrySha256": "1d4a23643941866956c807fc13a83c557de71a7c0cbcd7b8872d2be017082529",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-approval-chat-v3",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-approval-chat-v3",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "任务连续查询、结果、风险与逐项回执",
+      "entrySha256": "eb6a335c37a45eaa1e9de511addfaf4900ef082f6c2f632f35020b031d66ace6",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-update-visual-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-update-visual-v2",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "83cf14350b2b2ec236f484777f1dc3a492405ada15ebdb375de786ccd13580ad",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-composer-fluid-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-composer-fluid-v1",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "输入收合与可选背景；整条悬浮底栏被替代",
+      "entrySha256": "f676b1ae7368ef4c9968b927dcd1bfdd4d1bfa3b4427e7aa6fe39542b1db5366",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-chat-knowledge-polish-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-chat-knowledge-polish-v2",
+      "approval": "design-approved",
+      "role": "retained-reference",
+      "scope": "历史方向保留；不覆盖同任务后续明确修订",
+      "entrySha256": "3ff8b232eb685e201448c5b9923ed23be6deb349a40261bfd8c75cc6b20c5e4f",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-chat-layout-v3",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-chat-layout-v3",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "贴底Tab、结果去重、自然高度与紧凑输入",
+      "entrySha256": "06e5355d45a675efba4546456ee032a0c90cde0a63c3482310eecc7fa6d1800d",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-update-knowledge-v3",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-update-knowledge-v3",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "更新真实状态、完整日志与紧凑知识库",
+      "entrySha256": "a241c3865ee1b57009691c57538e291948164c25cda2afc03077430ef0711616",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-voice-review-v1",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-voice-review-v1",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "语音上下文冻结；标题摘要由V2删除",
+      "entrySha256": "4d51d677c4de8bd65e632d058f80489149df022a27d4ebb6e694ff36608d528b",
+      "runtimeValidation": "unverified-this-release"
+    },
+    {
+      "id": "android-voice-calendar-v2",
+      "sourceProject": "Geetimer",
+      "sourcePath": "docs/design/previews/android-voice-calendar-v2",
+      "approval": "design-approved",
+      "role": "distilled",
+      "scope": "语音确认与IME、日历局部稳定性",
+      "entrySha256": "006b313ea7101dc98a67839d61a660c2a973df610577364d31ed10c4397dd66b",
+      "runtimeValidation": "unverified-this-release"
+    }
+  ]
+}

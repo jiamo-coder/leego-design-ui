@@ -1,0 +1,4527 @@
+{
+  "schemaVersion": 1,
+  "version": "2.25.0",
+  "base": "/skills/leego-design-ui/site/icon-api/v1",
+  "updatePolicy": "snapshot-on-session-start",
+  "categories": [
+    {
+      "id": "skills",
+      "label": "Leego Skills",
+      "group": "身份与品牌"
+    },
+    {
+      "id": "products",
+      "label": "小字辈产品",
+      "group": "身份与品牌"
+    },
+    {
+      "id": "systems",
+      "label": "系统能力",
+      "group": "身份与品牌"
+    },
+    {
+      "id": "geetimer",
+      "label": "Geetimer",
+      "group": "身份与品牌"
+    },
+    {
+      "id": "research",
+      "label": "行业研究",
+      "group": "身份与品牌"
+    },
+    {
+      "id": "ui-navigation",
+      "label": "导航与方向",
+      "group": "通用界面图标"
+    },
+    {
+      "id": "ui-actions",
+      "label": "操作与编辑",
+      "group": "通用界面图标"
+    },
+    {
+      "id": "ui-status",
+      "label": "状态与反馈",
+      "group": "通用界面图标"
+    },
+    {
+      "id": "ui-data",
+      "label": "数据与分析",
+      "group": "通用界面图标"
+    },
+    {
+      "id": "ui-business",
+      "label": "业务与对象",
+      "group": "通用界面图标"
+    },
+    {
+      "id": "ui-ecosystem",
+      "label": "生态与渠道",
+      "group": "通用界面图标"
+    },
+    {
+      "id": "motion",
+      "label": "Tab 表达动效",
+      "group": "动效"
+    },
+    {
+      "id": "brand-enterprise-service",
+      "label": "企业服务",
+      "group": "外部品牌 · 仅参考"
+    },
+    {
+      "id": "brand-social-content",
+      "label": "社交与内容",
+      "group": "外部品牌 · 仅参考"
+    },
+    {
+      "id": "brand-commerce-local",
+      "label": "电商与本地生活",
+      "group": "外部品牌 · 仅参考"
+    },
+    {
+      "id": "brand-payment",
+      "label": "支付渠道",
+      "group": "外部品牌 · 仅参考"
+    },
+    {
+      "id": "brand-maps-logistics",
+      "label": "地图与物流",
+      "group": "外部品牌 · 仅参考"
+    },
+    {
+      "id": "brand-bank",
+      "label": "银行",
+      "group": "外部品牌 · 仅参考"
+    },
+    {
+      "id": "snacks",
+      "label": "新鲜零食品牌",
+      "group": "外部品牌 · 仅参考"
+    }
+  ],
+  "entries": [
+    {
+      "id": "skill.leego-prd",
+      "label": "产品规划",
+      "category": "skills",
+      "aliases": [
+        "leego-design-prd",
+        "Leego Design PRD",
+        "prd"
+      ],
+      "source": "V006 · 用户确认积木家族",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bff6e2f3925682a0b573c74bb5ac3089052102d4ff1474ebd3f707843c04867b.svg",
+          "sha256": "bff6e2f3925682a0b573c74bb5ac3089052102d4ff1474ebd3f707843c04867b",
+          "format": "svg",
+          "bytes": 733
+        },
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d42fee4df7bd69cc094678072af89bfe378bfd86dd9fb93abcadde2af8062eb2.svg",
+          "sha256": "d42fee4df7bd69cc094678072af89bfe378bfd86dd9fb93abcadde2af8062eb2",
+          "format": "svg",
+          "bytes": 943
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2b08edf6e293a1de8b0974ed9bcef60dce7ec10244c64ae81c72e322ed6f6071.svg",
+          "sha256": "2b08edf6e293a1de8b0974ed9bcef60dce7ec10244c64ae81c72e322ed6f6071",
+          "format": "svg",
+          "bytes": 733
+        },
+        "png": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1d7ed09e3e201f1c10743f89905ef67cddc4e04b6326d225f19118d877e153be.png",
+          "sha256": "1d7ed09e3e201f1c10743f89905ef67cddc4e04b6326d225f19118d877e153be",
+          "format": "png",
+          "bytes": 10523
+        }
+      }
+    },
+    {
+      "id": "skill.leego-ui",
+      "label": "界面设计",
+      "category": "skills",
+      "aliases": [
+        "leego-design-ui",
+        "Leego Design UI",
+        "ui"
+      ],
+      "source": "V006 · 用户确认积木家族",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8eb699e6d27b57ca39305d373493866bb1dd3ff6311a1663d0524273806caaa2.svg",
+          "sha256": "8eb699e6d27b57ca39305d373493866bb1dd3ff6311a1663d0524273806caaa2",
+          "format": "svg",
+          "bytes": 721
+        },
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7c91311729b3c75e94598541bd5e1c163b203747047788d26952ddd7e9e95599.svg",
+          "sha256": "7c91311729b3c75e94598541bd5e1c163b203747047788d26952ddd7e9e95599",
+          "format": "svg",
+          "bytes": 931
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a47151689ab26b78c7ba80f51d53bbf44407f4441db256748c25766f2016c7ca.svg",
+          "sha256": "a47151689ab26b78c7ba80f51d53bbf44407f4441db256748c25766f2016c7ca",
+          "format": "svg",
+          "bytes": 721
+        },
+        "png": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/60ab58286839ae40f4f89ea2c5da74f1de9d9f9606e8c45ae8b0565977480818.png",
+          "sha256": "60ab58286839ae40f4f89ea2c5da74f1de9d9f9606e8c45ae8b0565977480818",
+          "format": "png",
+          "bytes": 9435
+        }
+      }
+    },
+    {
+      "id": "skill.leego-vi",
+      "label": "品牌设计",
+      "category": "skills",
+      "aliases": [
+        "leego-design-vi",
+        "Leego Design VI",
+        "vi"
+      ],
+      "source": "V006 · 用户确认积木家族",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d6813f100967496d104ac5e4899d1e3238c004004100c0c517975f322882fa39.svg",
+          "sha256": "d6813f100967496d104ac5e4899d1e3238c004004100c0c517975f322882fa39",
+          "format": "svg",
+          "bytes": 850
+        },
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7611daed07fad4e08e80a2a26a8e5f291cf86767a484dac32dba1be43329d722.svg",
+          "sha256": "7611daed07fad4e08e80a2a26a8e5f291cf86767a484dac32dba1be43329d722",
+          "format": "svg",
+          "bytes": 1060
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2ea31352d65c520ab36a080e7ea9c518ab1c346e10847689ad9e42d2015479c4.svg",
+          "sha256": "2ea31352d65c520ab36a080e7ea9c518ab1c346e10847689ad9e42d2015479c4",
+          "format": "svg",
+          "bytes": 850
+        },
+        "png": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e552474c4d5f7f8deabbeb402b4d4bac6c7f723add78a14599965a55cdc4e275.png",
+          "sha256": "e552474c4d5f7f8deabbeb402b4d4bac6c7f723add78a14599965a55cdc4e275",
+          "format": "png",
+          "bytes": 11899
+        }
+      }
+    },
+    {
+      "id": "skill.leego-ppt",
+      "label": "演示叙事",
+      "category": "skills",
+      "aliases": [
+        "leego-design-ppt",
+        "Leego Design PPT",
+        "ppt"
+      ],
+      "source": "V006 · 用户确认积木家族",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f0193a256fd1dab29bf3467da4fa29ffe64536f5b1416af0139320b25c80a2e2.svg",
+          "sha256": "f0193a256fd1dab29bf3467da4fa29ffe64536f5b1416af0139320b25c80a2e2",
+          "format": "svg",
+          "bytes": 692
+        },
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a18bd51ed83bf029bdb2074ca577ccc21fd99bbe8c987caea2efe1e8d57b4733.svg",
+          "sha256": "a18bd51ed83bf029bdb2074ca577ccc21fd99bbe8c987caea2efe1e8d57b4733",
+          "format": "svg",
+          "bytes": 902
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b24ef7e2a2e85b0e1c0ea363e222bbf0efbb336f76ddc5b9c02ef9331859afd0.svg",
+          "sha256": "b24ef7e2a2e85b0e1c0ea363e222bbf0efbb336f76ddc5b9c02ef9331859afd0",
+          "format": "svg",
+          "bytes": 692
+        },
+        "png": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/843e75e3cd98dd728597c608bb11d1e694aee204d7d7ff0013a876b417c5ce3c.png",
+          "sha256": "843e75e3cd98dd728597c608bb11d1e694aee204d7d7ff0013a876b417c5ce3c",
+          "format": "png",
+          "bytes": 9539
+        }
+      }
+    },
+    {
+      "id": "skill.leego-space",
+      "label": "空间设计",
+      "category": "skills",
+      "aliases": [
+        "leego-design-space",
+        "Leego Design Space",
+        "space"
+      ],
+      "source": "V006 · 用户确认积木家族",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4401be3b117d3e19677434b1f7a99e9833c09a555151baab44c8fa24048c24b8.svg",
+          "sha256": "4401be3b117d3e19677434b1f7a99e9833c09a555151baab44c8fa24048c24b8",
+          "format": "svg",
+          "bytes": 695
+        },
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6f6d56ea57b698759710b3ee69a32e5ed75f08f3f73a1dc8d4c2f08c2304c044.svg",
+          "sha256": "6f6d56ea57b698759710b3ee69a32e5ed75f08f3f73a1dc8d4c2f08c2304c044",
+          "format": "svg",
+          "bytes": 905
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ce43c25481e267e8aa9c4b56aedf939be95027fb03e933f25951b69bc7546f48.svg",
+          "sha256": "ce43c25481e267e8aa9c4b56aedf939be95027fb03e933f25951b69bc7546f48",
+          "format": "svg",
+          "bytes": 695
+        },
+        "png": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/df7486af825d27b9d09b36db5f2872cdf3b5772a29c09da8d5395f5a0380ce3b.png",
+          "sha256": "df7486af825d27b9d09b36db5f2872cdf3b5772a29c09da8d5395f5a0380ce3b",
+          "format": "png",
+          "bytes": 9085
+        }
+      }
+    },
+    {
+      "id": "skill.leego-law",
+      "label": "法律辅助",
+      "category": "skills",
+      "aliases": [
+        "leego-proposal-law",
+        "Leego Proposal Law",
+        "law"
+      ],
+      "source": "V006 · 用户确认积木家族",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6bc46456f503716adc95469984e2ddb2ef0d6c883713b7d0dc877849e8812364.svg",
+          "sha256": "6bc46456f503716adc95469984e2ddb2ef0d6c883713b7d0dc877849e8812364",
+          "format": "svg",
+          "bytes": 671
+        },
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9fecafe1927b9c2963e52b5d6037f6a165acb4e2ee8b12207dbf34d274a0139b.svg",
+          "sha256": "9fecafe1927b9c2963e52b5d6037f6a165acb4e2ee8b12207dbf34d274a0139b",
+          "format": "svg",
+          "bytes": 881
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b829679c93e28b9173b303b74df732fb70c37f2dae3f644bd4ca7fb446d10744.svg",
+          "sha256": "b829679c93e28b9173b303b74df732fb70c37f2dae3f644bd4ca7fb446d10744",
+          "format": "svg",
+          "bytes": 671
+        },
+        "png": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/213918da50b8a470e2996cea860627689871693b8bc2fa40168063351b91c55e.png",
+          "sha256": "213918da50b8a470e2996cea860627689871693b8bc2fa40168063351b91c55e",
+          "format": "png",
+          "bytes": 9744
+        }
+      }
+    },
+    {
+      "id": "product.xiaoputao",
+      "label": "小葡萄",
+      "category": "products",
+      "aliases": [
+        "xiaoputao",
+        "项目与任务管理",
+        "流动果簇"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b85b44e9b97b8fec726c5e6be994f501907f4a0d69399d6f1a4fffebb8debca9.png",
+          "sha256": "b85b44e9b97b8fec726c5e6be994f501907f4a0d69399d6f1a4fffebb8debca9",
+          "format": "png",
+          "bytes": 423414
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a3591296482b2a2158ad78624f64c9d7655b8d559ffdea6e21d366230ecdd50d.png",
+          "sha256": "a3591296482b2a2158ad78624f64c9d7655b8d559ffdea6e21d366230ecdd50d",
+          "format": "png",
+          "bytes": 540097
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9635fe1b71144471bf15c45e00a0e458399abded511e461eb8700a49d96bd7a1.png",
+          "sha256": "9635fe1b71144471bf15c45e00a0e458399abded511e461eb8700a49d96bd7a1",
+          "format": "png",
+          "bytes": 603497
+        }
+      }
+    },
+    {
+      "id": "product.xiaohonghua",
+      "label": "小红花",
+      "category": "products",
+      "aliases": [
+        "xiaohonghua",
+        "员工成长与认可",
+        "旋转花瓣"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cc99028c254a85bd469cd39d92dda98482eebf185d57f2fc86e4a893aef4f6a7.png",
+          "sha256": "cc99028c254a85bd469cd39d92dda98482eebf185d57f2fc86e4a893aef4f6a7",
+          "format": "png",
+          "bytes": 474487
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/70dea28fa3b561ddce05aad4c0ee23df2c2507ac22c3ab5ae42cd0e06ef71f1f.png",
+          "sha256": "70dea28fa3b561ddce05aad4c0ee23df2c2507ac22c3ab5ae42cd0e06ef71f1f",
+          "format": "png",
+          "bytes": 662368
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e1f8da0af03722f8ef3752820bcdb9d009f2b7ebab7e6525a533fb3482132964.png",
+          "sha256": "e1f8da0af03722f8ef3752820bcdb9d009f2b7ebab7e6525a533fb3482132964",
+          "format": "png",
+          "bytes": 600861
+        }
+      }
+    },
+    {
+      "id": "product.xiaosuanpan",
+      "label": "小算盘",
+      "category": "products",
+      "aliases": [
+        "xiaosuanpan",
+        "经营分析与计算",
+        "滑动算珠"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/989f8ad9d399bb319e24b0d34988206e751e57e19a7a34f5ec3ea43191c077de.png",
+          "sha256": "989f8ad9d399bb319e24b0d34988206e751e57e19a7a34f5ec3ea43191c077de",
+          "format": "png",
+          "bytes": 561206
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/83b145b6e6e3705fbab91161f26bab9fca6f4087070014c303ffb8e6931e7641.png",
+          "sha256": "83b145b6e6e3705fbab91161f26bab9fca6f4087070014c303ffb8e6931e7641",
+          "format": "png",
+          "bytes": 757398
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/22c278bfad0d3ccd4a17dc556f027b27138cb7bdeb1daca4f2cbbadd63fd32d6.png",
+          "sha256": "22c278bfad0d3ccd4a17dc556f027b27138cb7bdeb1daca4f2cbbadd63fd32d6",
+          "format": "png",
+          "bytes": 606992
+        }
+      }
+    },
+    {
+      "id": "product.xiaojinkuang",
+      "label": "小金矿",
+      "category": "products",
+      "aliases": [
+        "xiaojinkuang",
+        "门店价值与健康发现",
+        "柔角晶面"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5cf67e9c062d0a7eaaf6cc7bd8032a1c40dd7991270446f6ebc965f4018fbf30.png",
+          "sha256": "5cf67e9c062d0a7eaaf6cc7bd8032a1c40dd7991270446f6ebc965f4018fbf30",
+          "format": "png",
+          "bytes": 482585
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/264763bb61d8ac20402d040e09a41160b94f4d84fc4d33bcf4f62c32d70081fe.png",
+          "sha256": "264763bb61d8ac20402d040e09a41160b94f4d84fc4d33bcf4f62c32d70081fe",
+          "format": "png",
+          "bytes": 674196
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f90a665467bea0f3e946ab00f743519b4bb982d5810365de2e88f3623e3f296b.png",
+          "sha256": "f90a665467bea0f3e946ab00f743519b4bb982d5810365de2e88f3623e3f296b",
+          "format": "png",
+          "bytes": 594819
+        }
+      }
+    },
+    {
+      "id": "product.xiaohulu",
+      "label": "小葫芦",
+      "category": "products",
+      "aliases": [
+        "xiaohulu",
+        "供应链管理",
+        "双腔流线"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3d1287bb83888a3c98e01bfad866682a430a21d37badcf24ec652c35444db204.png",
+          "sha256": "3d1287bb83888a3c98e01bfad866682a430a21d37badcf24ec652c35444db204",
+          "format": "png",
+          "bytes": 494610
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1ed391b8d0b2340894602917716cc4feefc15a3c3ad0263058b20f7807668fcb.png",
+          "sha256": "1ed391b8d0b2340894602917716cc4feefc15a3c3ad0263058b20f7807668fcb",
+          "format": "png",
+          "bytes": 649226
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5a4a549801c6ed673edd54eb5cacdcf4f3ded479c3f9cec9d34ce79c58329e0b.png",
+          "sha256": "5a4a549801c6ed673edd54eb5cacdcf4f3ded479c3f9cec9d34ce79c58329e0b",
+          "format": "png",
+          "bytes": 599521
+        }
+      }
+    },
+    {
+      "id": "product.xiaozishu",
+      "label": "小紫薯",
+      "category": "products",
+      "aliases": [
+        "xiaozishu",
+        "产品研发与进度",
+        "卷曲种子"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d01dd03f97a05b80aa95c8f52159d8d4a1f8ac2c651c3768ea77b435f6319ef4.png",
+          "sha256": "d01dd03f97a05b80aa95c8f52159d8d4a1f8ac2c651c3768ea77b435f6319ef4",
+          "format": "png",
+          "bytes": 513779
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8b1f79f7176bbbbc763ae899ce53fec9f681acc00f676dff73c5cee52846c4f1.png",
+          "sha256": "8b1f79f7176bbbbc763ae899ce53fec9f681acc00f676dff73c5cee52846c4f1",
+          "format": "png",
+          "bytes": 634604
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/87cbfe481ab2b2562bd06f217a0eaa559e8210e0a29be7e3fcb581eabf60555b.png",
+          "sha256": "87cbfe481ab2b2562bd06f217a0eaa559e8210e0a29be7e3fcb581eabf60555b",
+          "format": "png",
+          "bytes": 606466
+        }
+      }
+    },
+    {
+      "id": "product.xiaotaiyang",
+      "label": "小太阳",
+      "category": "products",
+      "aliases": [
+        "xiaotaiyang",
+        "达人及品牌运营",
+        "暖光旋涡"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/25bb297bb1332086a1d42725799fe2fe1982e2045af41a63b5417441cebfcec6.png",
+          "sha256": "25bb297bb1332086a1d42725799fe2fe1982e2045af41a63b5417441cebfcec6",
+          "format": "png",
+          "bytes": 541993
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5567e460f102ffcb1f9575814ba3527c864b1b3a88773ce6a1ff4d3a2fa8ca64.png",
+          "sha256": "5567e460f102ffcb1f9575814ba3527c864b1b3a88773ce6a1ff4d3a2fa8ca64",
+          "format": "png",
+          "bytes": 724833
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1181b10df99eadcdc4fa9c2618e4b7971146a5f8633b556772649a46c7794c25.png",
+          "sha256": "1181b10df99eadcdc4fa9c2618e4b7971146a5f8633b556772649a46c7794c25",
+          "format": "png",
+          "bytes": 597478
+        }
+      }
+    },
+    {
+      "id": "product.xiaodianwei",
+      "label": "小点位",
+      "category": "products",
+      "aliases": [
+        "xiaodianwei",
+        "候选点位与拓展评估",
+        "回转定位"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/93856f1135d30aefe79743a65e4d0194046ca98943a37fb6453d2805d19971bd.png",
+          "sha256": "93856f1135d30aefe79743a65e4d0194046ca98943a37fb6453d2805d19971bd",
+          "format": "png",
+          "bytes": 347767
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/94b2f1a78623b63478297ec39ed64386f1c26116d713ee54ef25f2a834d9b151.png",
+          "sha256": "94b2f1a78623b63478297ec39ed64386f1c26116d713ee54ef25f2a834d9b151",
+          "format": "png",
+          "bytes": 498467
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/813ebd9bef228fb0d3615283303780e8f6b96671584e1617d319c3ceceab672a.png",
+          "sha256": "813ebd9bef228fb0d3615283303780e8f6b96671584e1617d319c3ceceab672a",
+          "format": "png",
+          "bytes": 607937
+        }
+      }
+    },
+    {
+      "id": "product.yuanmaxiang",
+      "label": "元码象",
+      "category": "products",
+      "aliases": [
+        "yuanmaxiang",
+        "代码与数字贡献",
+        "卷鼻侧像"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a24323e1a440905631dcdb62d263490ba56f90d8af792fbf0b5af276a63cf41f.png",
+          "sha256": "a24323e1a440905631dcdb62d263490ba56f90d8af792fbf0b5af276a63cf41f",
+          "format": "png",
+          "bytes": 547532
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6c1d1964ba052c13f9075fb0b4b1366604b2a275cd9f82894b88ec9dce9e4782.png",
+          "sha256": "6c1d1964ba052c13f9075fb0b4b1366604b2a275cd9f82894b88ec9dce9e4782",
+          "format": "png",
+          "bytes": 698789
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a5dc4f5806c73f8bf07ab6095f0801d1aa39d46a644adbea598adaded887c416.png",
+          "sha256": "a5dc4f5806c73f8bf07ab6095f0801d1aa39d46a644adbea598adaded887c416",
+          "format": "png",
+          "bytes": 607791
+        }
+      }
+    },
+    {
+      "id": "product.suyuanli",
+      "label": "溯源狸",
+      "category": "products",
+      "aliases": [
+        "suyuanli",
+        "供应与信息追溯",
+        "折面狸面"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8965d9482f2da42c4ea0b221b7de37a9c36c4837eb8d4a85339f09a2117e4842.png",
+          "sha256": "8965d9482f2da42c4ea0b221b7de37a9c36c4837eb8d4a85339f09a2117e4842",
+          "format": "png",
+          "bytes": 572685
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/96329e910281c9d54f7e15f98a13a2a96293837559df690f80267051a8b157ca.png",
+          "sha256": "96329e910281c9d54f7e15f98a13a2a96293837559df690f80267051a8b157ca",
+          "format": "png",
+          "bytes": 807179
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/86fe2762fc0cd400ae90499bbe35b9da17fed5b433931d6dd37c7a10a4fa9db1.png",
+          "sha256": "86fe2762fc0cd400ae90499bbe35b9da17fed5b433931d6dd37c7a10a4fa9db1",
+          "format": "png",
+          "bytes": 612179
+        }
+      }
+    },
+    {
+      "id": "product.xiaozongguan",
+      "label": "小总管",
+      "category": "products",
+      "aliases": [
+        "xiaozongguan",
+        "组织与系统治理",
+        "环抱协同"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0c578601a0752aef799b32cf5af88127876b7d8c57c60005ccccab97a8af3885.png",
+          "sha256": "0c578601a0752aef799b32cf5af88127876b7d8c57c60005ccccab97a8af3885",
+          "format": "png",
+          "bytes": 533312
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0d731474c2c6906f5bf9aa44e52a961d2f074927f345362ccd0cb3bcdb11594c.png",
+          "sha256": "0d731474c2c6906f5bf9aa44e52a961d2f074927f345362ccd0cb3bcdb11594c",
+          "format": "png",
+          "bytes": 702513
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f3c1d7f182278430a704aaca303c2d513bed451cb22493a063c2a5332bdaa575.png",
+          "sha256": "f3c1d7f182278430a704aaca303c2d513bed451cb22493a063c2a5332bdaa575",
+          "format": "png",
+          "bytes": 605358
+        }
+      }
+    },
+    {
+      "id": "product.zhuxu",
+      "label": "筑序",
+      "category": "products",
+      "aliases": [
+        "zhuxu",
+        "工程与验收",
+        "连续拱带"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/781a5ef08f7d0724fee54ef3568745e5a5aa271906d0c13a140bdfc74505f23f.png",
+          "sha256": "781a5ef08f7d0724fee54ef3568745e5a5aa271906d0c13a140bdfc74505f23f",
+          "format": "png",
+          "bytes": 441584
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/702b71d76ba2632ac94fd4f39e34c1f4b334622f4e3500c6dcace77a42fecc9b.png",
+          "sha256": "702b71d76ba2632ac94fd4f39e34c1f4b334622f4e3500c6dcace77a42fecc9b",
+          "format": "png",
+          "bytes": 636035
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b91ea4bcd3c805019437fdd2fdb4ab11f67aeb02809d90b9d2d0a2e5b1a5e0f3.png",
+          "sha256": "b91ea4bcd3c805019437fdd2fdb4ab11f67aeb02809d90b9d2d0a2e5b1a5e0f3",
+          "format": "png",
+          "bytes": 595394
+        }
+      }
+    },
+    {
+      "id": "product.xiaogongfang",
+      "label": "小工坊",
+      "category": "products",
+      "aliases": [
+        "xiaogongfang",
+        "创意与交付",
+        "编织回环"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/844b030c1e0a2a2f665834100f67d2b22a36940a6eef612847118747d606eef4.png",
+          "sha256": "844b030c1e0a2a2f665834100f67d2b22a36940a6eef612847118747d606eef4",
+          "format": "png",
+          "bytes": 661854
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f860ec674d52d04344eb6f0b2b896e40cf01a2bd25971913a943618467601377.png",
+          "sha256": "f860ec674d52d04344eb6f0b2b896e40cf01a2bd25971913a943618467601377",
+          "format": "png",
+          "bytes": 788337
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b32d960ba61f8db0bc2e56925046f0053dfa332c0a39554408b9483f76a4e13c.png",
+          "sha256": "b32d960ba61f8db0bc2e56925046f0053dfa332c0a39554408b9483f76a4e13c",
+          "format": "png",
+          "bytes": 611163
+        }
+      }
+    },
+    {
+      "id": "product.xiaotaizhang",
+      "label": "小台账",
+      "category": "products",
+      "aliases": [
+        "xiaotaizhang",
+        "台账记录 · 暂拟",
+        "双页展开"
+      ],
+      "source": "V010 · 已采纳原件 / 内嵌磨砂",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/13b7089462aa7811fe9b14e32a8401b7516be328e2e7732e71ac018b155d4cf6.png",
+          "sha256": "13b7089462aa7811fe9b14e32a8401b7516be328e2e7732e71ac018b155d4cf6",
+          "format": "png",
+          "bytes": 522255
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/fd73ddbc8ce5831211f4b5d1ccfa6d7ebf4b70ae220240d68435724abbd605ad.png",
+          "sha256": "fd73ddbc8ce5831211f4b5d1ccfa6d7ebf4b70ae220240d68435724abbd605ad",
+          "format": "png",
+          "bytes": 724062
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/820fa5c3e2bf465b4fd48ff625388b24939c8784606e82759e389c22bdaf63ae.png",
+          "sha256": "820fa5c3e2bf465b4fd48ff625388b24939c8784606e82759e389c22bdaf63ae",
+          "format": "png",
+          "bytes": 587215
+        }
+      }
+    },
+    {
+      "id": "system.weather",
+      "label": "天气服务",
+      "category": "systems",
+      "aliases": [
+        "天气与环境",
+        "weather"
+      ],
+      "source": "已采纳系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/14bcafb68c6d2f37241c52521cd74387d36de6c76df5632e0af1c9dce448641c.svg",
+          "sha256": "14bcafb68c6d2f37241c52521cd74387d36de6c76df5632e0af1c9dce448641c",
+          "format": "svg",
+          "bytes": 2419
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/af5e656cc79bd32e6ac8295dc00bcc2ccc5ac7d9b940a9b4a1679a94032b33b4.svg",
+          "sha256": "af5e656cc79bd32e6ac8295dc00bcc2ccc5ac7d9b940a9b4a1679a94032b33b4",
+          "format": "svg",
+          "bytes": 2008
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3241f895f58cef945bc0a099947815f31b4a51cfb93478e2d01e4f9c57295cbc.svg",
+          "sha256": "3241f895f58cef945bc0a099947815f31b4a51cfb93478e2d01e4f9c57295cbc",
+          "format": "svg",
+          "bytes": 478
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/23594a22263b62ba8a9c6d036531f8ec94015dceeb5672802222cc7af83a581e.svg",
+          "sha256": "23594a22263b62ba8a9c6d036531f8ec94015dceeb5672802222cc7af83a581e",
+          "format": "svg",
+          "bytes": 478
+        }
+      }
+    },
+    {
+      "id": "system.business-center",
+      "label": "Business Center",
+      "category": "systems",
+      "aliases": [
+        "业务中枢",
+        "business-center"
+      ],
+      "source": "已采纳系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/635cca3e967604d77512d4cd6d9b6bbcbeacd595a70e6283dcbd6c5283fec4b2.svg",
+          "sha256": "635cca3e967604d77512d4cd6d9b6bbcbeacd595a70e6283dcbd6c5283fec4b2",
+          "format": "svg",
+          "bytes": 2508
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/da0906c53b922622b44dec9703fa983c7e900ff6cc01fc6e28aecaa7c20090e2.svg",
+          "sha256": "da0906c53b922622b44dec9703fa983c7e900ff6cc01fc6e28aecaa7c20090e2",
+          "format": "svg",
+          "bytes": 2073
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5dcaefbd1bed4ec77669ec880cbe1011de9712e25b2a7bc7ca5c0a291f7a0930.svg",
+          "sha256": "5dcaefbd1bed4ec77669ec880cbe1011de9712e25b2a7bc7ca5c0a291f7a0930",
+          "format": "svg",
+          "bytes": 479
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3c4fddfc6f1889304c66296274b63f6f8debafdde7e2539e00b58ef5e5f7911d.svg",
+          "sha256": "3c4fddfc6f1889304c66296274b63f6f8debafdde7e2539e00b58ef5e5f7911d",
+          "format": "svg",
+          "bytes": 479
+        }
+      }
+    },
+    {
+      "id": "system.integration-hub",
+      "label": "Integration Hub",
+      "category": "systems",
+      "aliases": [
+        "集成中枢",
+        "integration-hub"
+      ],
+      "source": "已采纳系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/025388d48ddeb54c250bef05c777351ff9d68e143884a3e8919d60b01f4e605d.svg",
+          "sha256": "025388d48ddeb54c250bef05c777351ff9d68e143884a3e8919d60b01f4e605d",
+          "format": "svg",
+          "bytes": 2734
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/832ad966edd615a5dcd58a4986c6b409e327871ce4d4ea816f4cc5c274084ecc.svg",
+          "sha256": "832ad966edd615a5dcd58a4986c6b409e327871ce4d4ea816f4cc5c274084ecc",
+          "format": "svg",
+          "bytes": 2299
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/aae77dc3d3928b4f2a9fb2d686daa8b55472253c3737e8f226328e54a614b3e9.svg",
+          "sha256": "aae77dc3d3928b4f2a9fb2d686daa8b55472253c3737e8f226328e54a614b3e9",
+          "format": "svg",
+          "bytes": 705
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/48a27e8504d8be84ca60e48d0ddf158701d1a50d501b81f08899a6cb139cb3fb.svg",
+          "sha256": "48a27e8504d8be84ca60e48d0ddf158701d1a50d501b81f08899a6cb139cb3fb",
+          "format": "svg",
+          "bytes": 705
+        }
+      }
+    },
+    {
+      "id": "system.security",
+      "label": "信息安全中心",
+      "category": "systems",
+      "aliases": [
+        "安全与保护",
+        "security"
+      ],
+      "source": "已采纳系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/65b43ffd1908c1f71aeef1580ed941b3f4b7d971b0c37dbfeac6fa5439cffaf4.svg",
+          "sha256": "65b43ffd1908c1f71aeef1580ed941b3f4b7d971b0c37dbfeac6fa5439cffaf4",
+          "format": "svg",
+          "bytes": 2446
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c28262cf2aef3aad09624a34b987776552de6a758a52c56f74f2c42c5d6821dc.svg",
+          "sha256": "c28262cf2aef3aad09624a34b987776552de6a758a52c56f74f2c42c5d6821dc",
+          "format": "svg",
+          "bytes": 2032
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f39306f01c18c5a595abc0cffad90bc7a8c1af199b759500929e83d0aab6a8ac.svg",
+          "sha256": "f39306f01c18c5a595abc0cffad90bc7a8c1af199b759500929e83d0aab6a8ac",
+          "format": "svg",
+          "bytes": 494
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/aa3fa5f81de42163c3f98b6c67eb5114c3891ab53a62d4ee3395f395a7c96bd3.svg",
+          "sha256": "aa3fa5f81de42163c3f98b6c67eb5114c3891ab53a62d4ee3395f395a7c96bd3",
+          "format": "svg",
+          "bytes": 494
+        }
+      }
+    },
+    {
+      "id": "system.identity",
+      "label": "统一身份与组织",
+      "category": "systems",
+      "aliases": [
+        "账号与组织",
+        "identity"
+      ],
+      "source": "已采纳系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6639f7d8443e1aabbe87bce7fb9edfbc8cdf84b09758c6f01f58b7c3341a677a.svg",
+          "sha256": "6639f7d8443e1aabbe87bce7fb9edfbc8cdf84b09758c6f01f58b7c3341a677a",
+          "format": "svg",
+          "bytes": 2412
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cf34100960dee638e45e0d2892f6879f4c7710a8d3ae94828b23d5c193ff10fa.svg",
+          "sha256": "cf34100960dee638e45e0d2892f6879f4c7710a8d3ae94828b23d5c193ff10fa",
+          "format": "svg",
+          "bytes": 1998
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/486eb8bf2fc0c0198b66026380a942695785cfb3efd951a6cd8c15f66c30b58a.svg",
+          "sha256": "486eb8bf2fc0c0198b66026380a942695785cfb3efd951a6cd8c15f66c30b58a",
+          "format": "svg",
+          "bytes": 460
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7fa67242e687283dee7880899d8919440aa0147fb084df3c66d3eb8d74a4ef92.svg",
+          "sha256": "7fa67242e687283dee7880899d8919440aa0147fb084df3c66d3eb8d74a4ef92",
+          "format": "svg",
+          "bytes": 460
+        }
+      }
+    },
+    {
+      "id": "brand.geetimer.g",
+      "label": "Geetimer · G",
+      "category": "geetimer",
+      "aliases": [
+        "Gtime",
+        "GitTimer",
+        "吉泰默"
+      ],
+      "source": "v007 02 紫晶柔光",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/27d77f9cca16337a7f35f6fdc5b01555568a8e4eaea8bd150b3e4d5e2ed183bb.svg",
+          "sha256": "27d77f9cca16337a7f35f6fdc5b01555568a8e4eaea8bd150b3e4d5e2ed183bb",
+          "format": "svg",
+          "bytes": 1182
+        },
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d925d78a7eca6ee6d1ea6b1d05a2c6d61db13643857183a4eb78fabf7223b43e.svg",
+          "sha256": "d925d78a7eca6ee6d1ea6b1d05a2c6d61db13643857183a4eb78fabf7223b43e",
+          "format": "svg",
+          "bytes": 520
+        },
+        "png": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e5a873e7708dcab48bf7a92cae789ebfc07da638ac97467111a364b06d7926d2.png",
+          "sha256": "e5a873e7708dcab48bf7a92cae789ebfc07da638ac97467111a364b06d7926d2",
+          "format": "png",
+          "bytes": 51675
+        }
+      }
+    },
+    {
+      "id": "brand.geetimer.app",
+      "label": "Geetimer · App",
+      "category": "geetimer",
+      "aliases": [],
+      "source": "v007 02 紫晶柔光",
+      "rights": "project-reuse",
+      "defaultVariant": "white",
+      "variants": {
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/18d4d072a063112317b9897303eb4fa8284f0f93f3faf95e5f215e0b11566d33.png",
+          "sha256": "18d4d072a063112317b9897303eb4fa8284f0f93f3faf95e5f215e0b11566d33",
+          "format": "png",
+          "bytes": 50984
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f9a8fc49ff0d195149042733ed4f647c7c8d372bacac05043768f103d98a93f8.png",
+          "sha256": "f9a8fc49ff0d195149042733ed4f647c7c8d372bacac05043768f103d98a93f8",
+          "format": "png",
+          "bytes": 66000
+        },
+        "purple": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2036170d3d7bc611babd2d9afe11ea6ee54ddc1c0941bdc62995ae0d46b136fa.png",
+          "sha256": "2036170d3d7bc611babd2d9afe11ea6ee54ddc1c0941bdc62995ae0d46b136fa",
+          "format": "png",
+          "bytes": 63458
+        }
+      }
+    },
+    {
+      "id": "brand.geetimer.wordmark",
+      "label": "Geetimer · 字标",
+      "category": "geetimer",
+      "aliases": [],
+      "source": "v011 02 紫晶柔光",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/39bb0613e65907455a00eff22807269fba0836e259850bcdd0e653e3cab26500.svg",
+          "sha256": "39bb0613e65907455a00eff22807269fba0836e259850bcdd0e653e3cab26500",
+          "format": "svg",
+          "bytes": 3188
+        },
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/58655a1f704e4fc6e48e6e817ab144d05986965ff6e90a8ab6475a7ba7b84bd1.svg",
+          "sha256": "58655a1f704e4fc6e48e6e817ab144d05986965ff6e90a8ab6475a7ba7b84bd1",
+          "format": "svg",
+          "bytes": 3177
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/34636122ab6c48f81a6ebe11c4e771788129d03b6697a3318feb47fe52ec3fd8.svg",
+          "sha256": "34636122ab6c48f81a6ebe11c4e771788129d03b6697a3318feb47fe52ec3fd8",
+          "format": "svg",
+          "bytes": 3174
+        },
+        "png": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/77c401c5a70c0bff09b67e08e89a0e3eb4d19187afe0496cc5d38eefcc041c9f.png",
+          "sha256": "77c401c5a70c0bff09b67e08e89a0e3eb4d19187afe0496cc5d38eefcc041c9f",
+          "format": "png",
+          "bytes": 66356
+        }
+      }
+    },
+    {
+      "id": "product.xiangai",
+      "label": "鲜改",
+      "category": "research",
+      "aliases": [
+        "鲜改",
+        "新鲜零食行研",
+        "新鲜零食行业研究",
+        "xian-gai"
+      ],
+      "source": "v007 02 叶片洞察",
+      "rights": "project-reuse",
+      "defaultVariant": "original",
+      "variants": {
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2e2ae5653a386e2d58de3256b3930c05b07d4c5c3233f53284bc7c206077540c.png",
+          "sha256": "2e2ae5653a386e2d58de3256b3930c05b07d4c5c3233f53284bc7c206077540c",
+          "format": "png",
+          "bytes": 601387
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5a63cd68169359788bfa1474c48d6b9a5a7b99caa5f901c6500b9a04ae33dcc4.png",
+          "sha256": "5a63cd68169359788bfa1474c48d6b9a5a7b99caa5f901c6500b9a04ae33dcc4",
+          "format": "png",
+          "bytes": 5246
+        }
+      }
+    },
+    {
+      "id": "ui.home",
+      "label": "首页",
+      "category": "ui-navigation",
+      "aliases": [
+        "home"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/781045f48f5928111827a5e364e78609956b9d40ea66893ad3f70e190b79aa2f.svg",
+          "sha256": "781045f48f5928111827a5e364e78609956b9d40ea66893ad3f70e190b79aa2f",
+          "format": "svg",
+          "bytes": 272
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.dashboard",
+      "label": "概览",
+      "category": "ui-navigation",
+      "aliases": [
+        "dashboard"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/889c6e0bf69fc448812a5817c1121dbad18c20c46bc5a3b74985a86cd9b15a7c.svg",
+          "sha256": "889c6e0bf69fc448812a5817c1121dbad18c20c46bc5a3b74985a86cd9b15a7c",
+          "format": "svg",
+          "bytes": 269
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.grid",
+      "label": "应用",
+      "category": "ui-navigation",
+      "aliases": [
+        "grid"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7dec66c14ebccd4f31da243ddc50a83fbb41fb03b0de5bb8eeb0c14a1dbcd22e.svg",
+          "sha256": "7dec66c14ebccd4f31da243ddc50a83fbb41fb03b0de5bb8eeb0c14a1dbcd22e",
+          "format": "svg",
+          "bytes": 229
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.menu",
+      "label": "菜单",
+      "category": "ui-navigation",
+      "aliases": [
+        "menu"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d2791ffed00861caf67fc64cf1c7c3e56da452abbc9128ccf09726e718efca32.svg",
+          "sha256": "d2791ffed00861caf67fc64cf1c7c3e56da452abbc9128ccf09726e718efca32",
+          "format": "svg",
+          "bytes": 202
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.search",
+      "label": "搜索",
+      "category": "ui-navigation",
+      "aliases": [
+        "search"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/067a1435c60d2232561de06a807ee025fe010656b1b0bc388e8d02ad09421bc3.svg",
+          "sha256": "067a1435c60d2232561de06a807ee025fe010656b1b0bc388e8d02ad09421bc3",
+          "format": "svg",
+          "bytes": 249
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.filter",
+      "label": "筛选",
+      "category": "ui-navigation",
+      "aliases": [
+        "filter"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/811e7fad83b136b98a9b2db2086ba33af5e515e3d1ee349e500f74250400c704.svg",
+          "sha256": "811e7fad83b136b98a9b2db2086ba33af5e515e3d1ee349e500f74250400c704",
+          "format": "svg",
+          "bytes": 217
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.back",
+      "label": "返回",
+      "category": "ui-navigation",
+      "aliases": [
+        "back"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/dafd239d55aacaaae50a271925c53cd1cdcee7a1d303772d7d1a7d9ad1a1d74c.svg",
+          "sha256": "dafd239d55aacaaae50a271925c53cd1cdcee7a1d303772d7d1a7d9ad1a1d74c",
+          "format": "svg",
+          "bytes": 202
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.forward",
+      "label": "前进",
+      "category": "ui-navigation",
+      "aliases": [
+        "forward"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1cf30d28901897f2abb1678b96cd769fea2c46d28156e449b57b1f1ed14c0b71.svg",
+          "sha256": "1cf30d28901897f2abb1678b96cd769fea2c46d28156e449b57b1f1ed14c0b71",
+          "format": "svg",
+          "bytes": 202
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.chevron-down",
+      "label": "展开",
+      "category": "ui-navigation",
+      "aliases": [
+        "chevron-down"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0456d32138f12f7cb0b7761e3be3e0282f2904103d39258c86e5f7fd6b2afc7a.svg",
+          "sha256": "0456d32138f12f7cb0b7761e3be3e0282f2904103d39258c86e5f7fd6b2afc7a",
+          "format": "svg",
+          "bytes": 193
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.expand",
+      "label": "全屏",
+      "category": "ui-navigation",
+      "aliases": [
+        "expand"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6a176159144172e0aba74be226380ee219aec2ba11761d0e56020dd628a4f7ec.svg",
+          "sha256": "6a176159144172e0aba74be226380ee219aec2ba11761d0e56020dd628a4f7ec",
+          "format": "svg",
+          "bytes": 217
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.collapse",
+      "label": "收起",
+      "category": "ui-navigation",
+      "aliases": [
+        "collapse"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/14907e140e0f5319ca67aad69bfced3423d1be9952fc35941fc9e72c56ffbda9.svg",
+          "sha256": "14907e140e0f5319ca67aad69bfced3423d1be9952fc35941fc9e72c56ffbda9",
+          "format": "svg",
+          "bytes": 217
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.close",
+      "label": "关闭",
+      "category": "ui-navigation",
+      "aliases": [
+        "close"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e1991175b1421d0b67aef1b9af5d4a543da77a1352b4104048cfd5826c1b858b.svg",
+          "sha256": "e1991175b1421d0b67aef1b9af5d4a543da77a1352b4104048cfd5826c1b858b",
+          "format": "svg",
+          "bytes": 199
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.sidebar-panel",
+      "label": "侧栏面板",
+      "category": "ui-navigation",
+      "aliases": [
+        "sidebar-panel"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/580545395a8bb14101a4e9d72c5cf0e0c95a2fbe30b90ff235c6d751bda1bca3.svg",
+          "sha256": "580545395a8bb14101a4e9d72c5cf0e0c95a2fbe30b90ff235c6d751bda1bca3",
+          "format": "svg",
+          "bytes": 257
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.history",
+      "label": "历史记录",
+      "category": "ui-navigation",
+      "aliases": [
+        "history"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/42e599454719c5e8e7cc7c552c359c7e6a9dba61e9d38fdc7173db1befe3dbb3.svg",
+          "sha256": "42e599454719c5e8e7cc7c552c359c7e6a9dba61e9d38fdc7173db1befe3dbb3",
+          "format": "svg",
+          "bytes": 217
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.project-folder",
+      "label": "项目",
+      "category": "ui-navigation",
+      "aliases": [
+        "project-folder"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/350eeb4cf6c7c551e9060dcfce9673784dd5fc2a13ed74ca3433898d5c2fee9c.svg",
+          "sha256": "350eeb4cf6c7c551e9060dcfce9673784dd5fc2a13ed74ca3433898d5c2fee9c",
+          "format": "svg",
+          "bytes": 213
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.archive",
+      "label": "归档",
+      "category": "ui-navigation",
+      "aliases": [
+        "archive"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a0dbe3935b0de381e1d205a3e6a79dfcf5a10f4e64f8974066625be8ff16ec37.svg",
+          "sha256": "a0dbe3935b0de381e1d205a3e6a79dfcf5a10f4e64f8974066625be8ff16ec37",
+          "format": "svg",
+          "bytes": 210
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.logout",
+      "label": "退出登录",
+      "category": "ui-navigation",
+      "aliases": [
+        "logout"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/77a8ef11c98d91b21712c97d243a76d9ce9efe60200329f869acefe1925b080f.svg",
+          "sha256": "77a8ef11c98d91b21712c97d243a76d9ce9efe60200329f869acefe1925b080f",
+          "format": "svg",
+          "bytes": 218
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.check",
+      "label": "已选择",
+      "category": "ui-navigation",
+      "aliases": [
+        "check"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/92eacfbd0e87ebdbf9d1aecdf48a34b708f1f5f2c4ebf5e1d66f724ce46fad8c.svg",
+          "sha256": "92eacfbd0e87ebdbf9d1aecdf48a34b708f1f5f2c4ebf5e1d66f724ce46fad8c",
+          "format": "svg",
+          "bytes": 194
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.add",
+      "label": "新建",
+      "category": "ui-actions",
+      "aliases": [
+        "add"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/171120f222c873c8d3c31eee513e44ceff7f9351b0435e05240640f05d690e23.svg",
+          "sha256": "171120f222c873c8d3c31eee513e44ceff7f9351b0435e05240640f05d690e23",
+          "format": "svg",
+          "bytes": 195
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.edit",
+      "label": "编辑",
+      "category": "ui-actions",
+      "aliases": [
+        "edit"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d2a8443c825492dac6067acaa8a8473a3316cdd0ef167b5893345813a1b14d09.svg",
+          "sha256": "d2a8443c825492dac6067acaa8a8473a3316cdd0ef167b5893345813a1b14d09",
+          "format": "svg",
+          "bytes": 297
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.delete",
+      "label": "删除",
+      "category": "ui-actions",
+      "aliases": [
+        "delete"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2396a9c52ea085106ad2b85a391e890e10c4bf69338d41fc22b515182cfa58d3.svg",
+          "sha256": "2396a9c52ea085106ad2b85a391e890e10c4bf69338d41fc22b515182cfa58d3",
+          "format": "svg",
+          "bytes": 253
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.copy",
+      "label": "复制",
+      "category": "ui-actions",
+      "aliases": [
+        "copy"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f03ad0995c15d1892445bf58b220cb02cf6f9ed581f5505edbf1d211839c883f.svg",
+          "sha256": "f03ad0995c15d1892445bf58b220cb02cf6f9ed581f5505edbf1d211839c883f",
+          "format": "svg",
+          "bytes": 231
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.save",
+      "label": "保存",
+      "category": "ui-actions",
+      "aliases": [
+        "save"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bc2a77d73564bc599aacc81cfb815072ca67526d68b4ca7d2f0e89eb6a613391.svg",
+          "sha256": "bc2a77d73564bc599aacc81cfb815072ca67526d68b4ca7d2f0e89eb6a613391",
+          "format": "svg",
+          "bytes": 218
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.download",
+      "label": "下载",
+      "category": "ui-actions",
+      "aliases": [
+        "download"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cc7347e9818932630394c3dd5a477ad772857d2eb91a4b4aadf31c2cdc547785.svg",
+          "sha256": "cc7347e9818932630394c3dd5a477ad772857d2eb91a4b4aadf31c2cdc547785",
+          "format": "svg",
+          "bytes": 220
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.upload",
+      "label": "上传",
+      "category": "ui-actions",
+      "aliases": [
+        "upload"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4597d1eaa95d650b7785a47a531e203e0704c72462a680723ba1d637b1a2ecd2.svg",
+          "sha256": "4597d1eaa95d650b7785a47a531e203e0704c72462a680723ba1d637b1a2ecd2",
+          "format": "svg",
+          "bytes": 216
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.refresh",
+      "label": "刷新",
+      "category": "ui-actions",
+      "aliases": [
+        "refresh"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9c0d26a608ab2fbcb42b56b159ec2430fc1bfe6051dc5f0c5b6d9a88f4d609d9.svg",
+          "sha256": "9c0d26a608ab2fbcb42b56b159ec2430fc1bfe6051dc5f0c5b6d9a88f4d609d9",
+          "format": "svg",
+          "bytes": 255
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.share",
+      "label": "分享",
+      "category": "ui-actions",
+      "aliases": [
+        "share"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/190dd41ff9c30899b933f03af52094dad6bd600f4d6e2ef63eaf6ad0b436f67b.svg",
+          "sha256": "190dd41ff9c30899b933f03af52094dad6bd600f4d6e2ef63eaf6ad0b436f67b",
+          "format": "svg",
+          "bytes": 342
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.export",
+      "label": "导出",
+      "category": "ui-actions",
+      "aliases": [
+        "export"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2c6819f2f9cfbaac501ba953bfc25601a0f465588a70e55a7976b66fefdcb49e.svg",
+          "sha256": "2c6819f2f9cfbaac501ba953bfc25601a0f465588a70e55a7976b66fefdcb49e",
+          "format": "svg",
+          "bytes": 214
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.import",
+      "label": "导入",
+      "category": "ui-actions",
+      "aliases": [
+        "import"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/df471e5b57472c61e292cf43159430c3983bbd2931b2828c3f6c2919c2fbd131.svg",
+          "sha256": "df471e5b57472c61e292cf43159430c3983bbd2931b2828c3f6c2919c2fbd131",
+          "format": "svg",
+          "bytes": 227
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.print",
+      "label": "打印",
+      "category": "ui-actions",
+      "aliases": [
+        "print"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/26ad752f935571116b1227e16f75d17817f18aeaf26567caeabc87306c4429bd.svg",
+          "sha256": "26ad752f935571116b1227e16f75d17817f18aeaf26567caeabc87306c4429bd",
+          "format": "svg",
+          "bytes": 326
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.more",
+      "label": "更多",
+      "category": "ui-actions",
+      "aliases": [
+        "more"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bf6a41a380ba6120965371fd8892f6960a24258115a006a3d0f3f8d68687313c.svg",
+          "sha256": "bf6a41a380ba6120965371fd8892f6960a24258115a006a3d0f3f8d68687313c",
+          "format": "svg",
+          "bytes": 208
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.settings",
+      "label": "设置",
+      "category": "ui-actions",
+      "aliases": [
+        "settings"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6bbbe1a0c7e0f287c2c8886f19440473f3e7a90c1c488384af447163ed71f3e5.svg",
+          "sha256": "6bbbe1a0c7e0f287c2c8886f19440473f3e7a90c1c488384af447163ed71f3e5",
+          "format": "svg",
+          "bytes": 458
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.sort",
+      "label": "排序",
+      "category": "ui-actions",
+      "aliases": [
+        "sort"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5658ce416497d9a28abab11223f2afbb655ebcda2148d0664d239a68ea93ebd5.svg",
+          "sha256": "5658ce416497d9a28abab11223f2afbb655ebcda2148d0664d239a68ea93ebd5",
+          "format": "svg",
+          "bytes": 238
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.drag",
+      "label": "拖动",
+      "category": "ui-actions",
+      "aliases": [
+        "drag"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ae0954af1c0c7b316359b23c2105619922842907ce0c275dc71d69b4903dc688.svg",
+          "sha256": "ae0954af1c0c7b316359b23c2105619922842907ce0c275dc71d69b4903dc688",
+          "format": "svg",
+          "bytes": 234
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.info",
+      "label": "信息",
+      "category": "ui-status",
+      "aliases": [
+        "info"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5ddc29582365e3fc886b7c8789c982cc0c70d083b840ad7607221cde4e9ead0a.svg",
+          "sha256": "5ddc29582365e3fc886b7c8789c982cc0c70d083b840ad7607221cde4e9ead0a",
+          "format": "svg",
+          "bytes": 237
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.success",
+      "label": "成功",
+      "category": "ui-status",
+      "aliases": [
+        "success"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ed65fbce0597a1051a093431df6214388f05cbc6e16126c930740b05dd84b080.svg",
+          "sha256": "ed65fbce0597a1051a093431df6214388f05cbc6e16126c930740b05dd84b080",
+          "format": "svg",
+          "bytes": 231
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.warning",
+      "label": "关注",
+      "category": "ui-status",
+      "aliases": [
+        "warning"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f99910905f830cf069b6a96cde25bb7d7a6c6b0ec6438026413fd9d3468d6ea4.svg",
+          "sha256": "f99910905f830cf069b6a96cde25bb7d7a6c6b0ec6438026413fd9d3468d6ea4",
+          "format": "svg",
+          "bytes": 287
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.danger",
+      "label": "危险",
+      "category": "ui-status",
+      "aliases": [
+        "danger"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8c15745c6377e9e9cc735fdc1db41e36b02555cb1d715928a77fc40a32beadfb.svg",
+          "sha256": "8c15745c6377e9e9cc735fdc1db41e36b02555cb1d715928a77fc40a32beadfb",
+          "format": "svg",
+          "bytes": 236
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.help",
+      "label": "帮助",
+      "category": "ui-status",
+      "aliases": [
+        "help"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/69d10a2ea8b587420e39616ff90d144428cec1985794e3301675a012e20ba40b.svg",
+          "sha256": "69d10a2ea8b587420e39616ff90d144428cec1985794e3301675a012e20ba40b",
+          "format": "svg",
+          "bytes": 277
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.pending",
+      "label": "待处理",
+      "category": "ui-status",
+      "aliases": [
+        "pending"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/665b8732929e3868630efbf4b8c8670e225a1c45b8c8760928a3e2f44a37667c.svg",
+          "sha256": "665b8732929e3868630efbf4b8c8670e225a1c45b8c8760928a3e2f44a37667c",
+          "format": "svg",
+          "bytes": 229
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.loading",
+      "label": "处理中",
+      "category": "ui-status",
+      "aliases": [
+        "loading"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b6e859b31e8357859f53b77c79f98283f9868e16cd67ed7af9c032a075be700b.svg",
+          "sha256": "b6e859b31e8357859f53b77c79f98283f9868e16cd67ed7af9c032a075be700b",
+          "format": "svg",
+          "bytes": 218
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.lock",
+      "label": "锁定",
+      "category": "ui-status",
+      "aliases": [
+        "lock"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/fcdd81a7bdd216681c9ceb6e7f487e4bf25e794a47f6e08a6b747a057b0ba444.svg",
+          "sha256": "fcdd81a7bdd216681c9ceb6e7f487e4bf25e794a47f6e08a6b747a057b0ba444",
+          "format": "svg",
+          "bytes": 235
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.unlock",
+      "label": "解锁",
+      "category": "ui-status",
+      "aliases": [
+        "unlock"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5aa36e0ec92189a40da743ef346639d87efab1f0ad44705ddd56fccf537297f7.svg",
+          "sha256": "5aa36e0ec92189a40da743ef346639d87efab1f0ad44705ddd56fccf537297f7",
+          "format": "svg",
+          "bytes": 236
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.visible",
+      "label": "可见",
+      "category": "ui-status",
+      "aliases": [
+        "visible"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d82e20cde7873054b821bd54e06062d693eb6310a9678d10ec63422916e02d2f.svg",
+          "sha256": "d82e20cde7873054b821bd54e06062d693eb6310a9678d10ec63422916e02d2f",
+          "format": "svg",
+          "bytes": 270
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.hidden",
+      "label": "隐藏",
+      "category": "ui-status",
+      "aliases": [
+        "hidden"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a6f8c7986f889f0301bc903380112484e196417aea02e06f8884b2c14d132e83.svg",
+          "sha256": "a6f8c7986f889f0301bc903380112484e196417aea02e06f8884b2c14d132e83",
+          "format": "svg",
+          "bytes": 346
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.disabled",
+      "label": "禁用",
+      "category": "ui-status",
+      "aliases": [
+        "disabled"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/644b756b421739fca3c51c174fe8033db41d6445cf7ef8088a6d734acb8c37ed.svg",
+          "sha256": "644b756b421739fca3c51c174fe8033db41d6445cf7ef8088a6d734acb8c37ed",
+          "format": "svg",
+          "bytes": 236
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.chart-line",
+      "label": "趋势图",
+      "category": "ui-data",
+      "aliases": [
+        "chart-line"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2bf09ec538e2483e87ebc562fb8f4519bb90f023a61103c4b1094125d116da21.svg",
+          "sha256": "2bf09ec538e2483e87ebc562fb8f4519bb90f023a61103c4b1094125d116da21",
+          "format": "svg",
+          "bytes": 208
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.chart-bar",
+      "label": "柱状图",
+      "category": "ui-data",
+      "aliases": [
+        "chart-bar"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4b1ef492c6a2ba066c3a5231429cb914bf528f20fdf442b9a61ed25c73354e27.svg",
+          "sha256": "4b1ef492c6a2ba066c3a5231429cb914bf528f20fdf442b9a61ed25c73354e27",
+          "format": "svg",
+          "bytes": 225
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.chart-pie",
+      "label": "构成图",
+      "category": "ui-data",
+      "aliases": [
+        "chart-pie"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/257cbfa6d354ec2c20d898b65aa46b55d7bbbdf815b8d45a9221ceea0bbe5de5.svg",
+          "sha256": "257cbfa6d354ec2c20d898b65aa46b55d7bbbdf815b8d45a9221ceea0bbe5de5",
+          "format": "svg",
+          "bytes": 245
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.table",
+      "label": "数据表",
+      "category": "ui-data",
+      "aliases": [
+        "table"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/133dd5c1c549bfd4216a5142929719ca62efb0fdfd511048ebe691dea2769758.svg",
+          "sha256": "133dd5c1c549bfd4216a5142929719ca62efb0fdfd511048ebe691dea2769758",
+          "format": "svg",
+          "bytes": 233
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.trend-up",
+      "label": "上升",
+      "category": "ui-data",
+      "aliases": [
+        "trend-up"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7d0ec4f0c687317007f1bffdf5f579f8e853baf1c66ff1a77184f631b84c6d43.svg",
+          "sha256": "7d0ec4f0c687317007f1bffdf5f579f8e853baf1c66ff1a77184f631b84c6d43",
+          "format": "svg",
+          "bytes": 207
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.trend-down",
+      "label": "下降",
+      "category": "ui-data",
+      "aliases": [
+        "trend-down"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/04f1906904a62517c2eb991f8660e27f4ab7087b31a4469e5a40f7c1ff1a9c52.svg",
+          "sha256": "04f1906904a62517c2eb991f8660e27f4ab7087b31a4469e5a40f7c1ff1a9c52",
+          "format": "svg",
+          "bytes": 206
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.report",
+      "label": "报表",
+      "category": "ui-data",
+      "aliases": [
+        "report"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4862bb6116cdc9a42efa059858eb48e0cb5b8ad28ad26dfcf14c902da3113004.svg",
+          "sha256": "4862bb6116cdc9a42efa059858eb48e0cb5b8ad28ad26dfcf14c902da3113004",
+          "format": "svg",
+          "bytes": 236
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.database",
+      "label": "数据库",
+      "category": "ui-data",
+      "aliases": [
+        "database"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a7de4bec8c7a40cf8d904aa6e51646a7acdacfe345d439309e981c340a1d6735.svg",
+          "sha256": "a7de4bec8c7a40cf8d904aa6e51646a7acdacfe345d439309e981c340a1d6735",
+          "format": "svg",
+          "bytes": 322
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.sync",
+      "label": "同步",
+      "category": "ui-data",
+      "aliases": [
+        "sync"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d3da39ba56c7f85e3f064ee795272b1fb982838ce2859f3d52ff9013b239959c.svg",
+          "sha256": "d3da39ba56c7f85e3f064ee795272b1fb982838ce2859f3d52ff9013b239959c",
+          "format": "svg",
+          "bytes": 253
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.compare",
+      "label": "对比",
+      "category": "ui-data",
+      "aliases": [
+        "compare"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5658ce416497d9a28abab11223f2afbb655ebcda2148d0664d239a68ea93ebd5.svg",
+          "sha256": "5658ce416497d9a28abab11223f2afbb655ebcda2148d0664d239a68ea93ebd5",
+          "format": "svg",
+          "bytes": 238
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.calendar",
+      "label": "日期",
+      "category": "ui-data",
+      "aliases": [
+        "calendar"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/828a545bb56c245e70568d5574f238eadc77f9c600f79882533b583078443f84.svg",
+          "sha256": "828a545bb56c245e70568d5574f238eadc77f9c600f79882533b583078443f84",
+          "format": "svg",
+          "bytes": 267
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.clock",
+      "label": "时间",
+      "category": "ui-data",
+      "aliases": [
+        "clock"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/665b8732929e3868630efbf4b8c8670e225a1c45b8c8760928a3e2f44a37667c.svg",
+          "sha256": "665b8732929e3868630efbf4b8c8670e225a1c45b8c8760928a3e2f44a37667c",
+          "format": "svg",
+          "bytes": 229
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.target",
+      "label": "目标",
+      "category": "ui-data",
+      "aliases": [
+        "target"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2201655b552169830c511c7bc8930a21fa4fd8f37a58eb0d7292134e5456fbce.svg",
+          "sha256": "2201655b552169830c511c7bc8930a21fa4fd8f37a58eb0d7292134e5456fbce",
+          "format": "svg",
+          "bytes": 298
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.funnel",
+      "label": "漏斗",
+      "category": "ui-data",
+      "aliases": [
+        "funnel"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5ab8fb8d87a780efedcc059b7724e12599226c42d4c07e0f92e2af0cb474d6c6.svg",
+          "sha256": "5ab8fb8d87a780efedcc059b7724e12599226c42d4c07e0f92e2af0cb474d6c6",
+          "format": "svg",
+          "bytes": 208
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.user",
+      "label": "用户",
+      "category": "ui-business",
+      "aliases": [
+        "user"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/185f91523f2c5a5ffdd22530670b51060e8cd93dd3b9b1b3e5becb580f864bf6.svg",
+          "sha256": "185f91523f2c5a5ffdd22530670b51060e8cd93dd3b9b1b3e5becb580f864bf6",
+          "format": "svg",
+          "bytes": 240
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.users",
+      "label": "用户组",
+      "category": "ui-business",
+      "aliases": [
+        "users"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/73bd98cd93e87c3fa751c4dc62e89d83586f6541c45048430cfd2c58a91b0b5d.svg",
+          "sha256": "73bd98cd93e87c3fa751c4dc62e89d83586f6541c45048430cfd2c58a91b0b5d",
+          "format": "svg",
+          "bytes": 296
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.role",
+      "label": "角色",
+      "category": "ui-business",
+      "aliases": [
+        "role"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/96d70a83d0dd056a8a023b7345ed42f87eac7de6326ddb69f3601196493f8d8a.svg",
+          "sha256": "96d70a83d0dd056a8a023b7345ed42f87eac7de6326ddb69f3601196493f8d8a",
+          "format": "svg",
+          "bytes": 249
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.department",
+      "label": "组织",
+      "category": "ui-business",
+      "aliases": [
+        "department"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1f6e88442f786183a1680c7832e1e76276390e25a91082575c63d33770de74c3.svg",
+          "sha256": "1f6e88442f786183a1680c7832e1e76276390e25a91082575c63d33770de74c3",
+          "format": "svg",
+          "bytes": 260
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.store",
+      "label": "站点",
+      "category": "ui-business",
+      "aliases": [
+        "store"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/73734c6012648c768f5e07452f54b0b825ec9e29ff7c7b1186738dd7c9e53193.svg",
+          "sha256": "73734c6012648c768f5e07452f54b0b825ec9e29ff7c7b1186738dd7c9e53193",
+          "format": "svg",
+          "bytes": 281
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.location",
+      "label": "位置",
+      "category": "ui-business",
+      "aliases": [
+        "location"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2177ae6f3297459f29f6569fa7da3bb5b91ca81ded35fd25efda46d199b1f0df.svg",
+          "sha256": "2177ae6f3297459f29f6569fa7da3bb5b91ca81ded35fd25efda46d199b1f0df",
+          "format": "svg",
+          "bytes": 281
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.task",
+      "label": "任务",
+      "category": "ui-business",
+      "aliases": [
+        "task"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/506559c63fe37fb32f9509eac876fbd95f01ca0b854f7f1c94a70abc4281c46a.svg",
+          "sha256": "506559c63fe37fb32f9509eac876fbd95f01ca0b854f7f1c94a70abc4281c46a",
+          "format": "svg",
+          "bytes": 227
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.bell",
+      "label": "通知",
+      "category": "ui-business",
+      "aliases": [
+        "bell"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/84998647a170688c3b5fd5fd74dfcf10d14303932c9593fb4d38e3a6d1b80d96.svg",
+          "sha256": "84998647a170688c3b5fd5fd74dfcf10d14303932c9593fb4d38e3a6d1b80d96",
+          "format": "svg",
+          "bytes": 231
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.message",
+      "label": "消息",
+      "category": "ui-business",
+      "aliases": [
+        "message"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b52e6eb77772748cb6b20fb4209b3ddcb567106baed13ee1233151b50b9a20ea.svg",
+          "sha256": "b52e6eb77772748cb6b20fb4209b3ddcb567106baed13ee1233151b50b9a20ea",
+          "format": "svg",
+          "bytes": 212
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.phone",
+      "label": "电话",
+      "category": "ui-business",
+      "aliases": [
+        "phone"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e4b2b7b4d3866f5e334d539e6b5dbeb1fcb07cdbd570339fbc2baaae34a1fa19.svg",
+          "sha256": "e4b2b7b4d3866f5e334d539e6b5dbeb1fcb07cdbd570339fbc2baaae34a1fa19",
+          "format": "svg",
+          "bytes": 281
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.file",
+      "label": "文件",
+      "category": "ui-business",
+      "aliases": [
+        "file"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4683a912e08411ef8cba10e4bfe56f2c9a75e81dca1b76768d348c53f9709937.svg",
+          "sha256": "4683a912e08411ef8cba10e4bfe56f2c9a75e81dca1b76768d348c53f9709937",
+          "format": "svg",
+          "bytes": 225
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.folder",
+      "label": "文件夹",
+      "category": "ui-business",
+      "aliases": [
+        "folder"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5c5561b69ae0eb8536401211cf018f3d9451065c84a9e9bea2b27f9e62b0cd4a.svg",
+          "sha256": "5c5561b69ae0eb8536401211cf018f3d9451065c84a9e9bea2b27f9e62b0cd4a",
+          "format": "svg",
+          "bytes": 212
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.attachment",
+      "label": "附件",
+      "category": "ui-business",
+      "aliases": [
+        "attachment"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/76a564f2a01b8859b44b7cbeae3b657a5c3ecf451118f988f169ef8e34a9d801.svg",
+          "sha256": "76a564f2a01b8859b44b7cbeae3b657a5c3ecf451118f988f169ef8e34a9d801",
+          "format": "svg",
+          "bytes": 278
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.link",
+      "label": "链接",
+      "category": "ui-business",
+      "aliases": [
+        "link"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e768e98e6f129d0841a107f7d9e5ef1da03eca51e1e27e2ba7c73997daff036a.svg",
+          "sha256": "e768e98e6f129d0841a107f7d9e5ef1da03eca51e1e27e2ba7c73997daff036a",
+          "format": "svg",
+          "bytes": 301
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.channel",
+      "label": "渠道",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "channel"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5640437e3331d89d9c4ee5118de0776786c230d8d58a71192b6b3b4ed25ce05b.svg",
+          "sha256": "5640437e3331d89d9c4ee5118de0776786c230d8d58a71192b6b3b4ed25ce05b",
+          "format": "svg",
+          "bytes": 250
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.social",
+      "label": "社交",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "social"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a04dccdfdafe07608e48e385955650d7843a5247c8a05e8bbd9ee8cc4d726ed3.svg",
+          "sha256": "a04dccdfdafe07608e48e385955650d7843a5247c8a05e8bbd9ee8cc4d726ed3",
+          "format": "svg",
+          "bytes": 239
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.content",
+      "label": "内容",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "content"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/68b7c7734674092b4f567285d6af0e2360ccf1b7e1a1be8c25147702e04986b7.svg",
+          "sha256": "68b7c7734674092b4f567285d6af0e2360ccf1b7e1a1be8c25147702e04986b7",
+          "format": "svg",
+          "bytes": 214
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.short-video",
+      "label": "短视频",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "short-video"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7d5f6e67bad491718a786079c50be5d5c68e3ce4187b2a19b39eb39a87919fdc.svg",
+          "sha256": "7d5f6e67bad491718a786079c50be5d5c68e3ce4187b2a19b39eb39a87919fdc",
+          "format": "svg",
+          "bytes": 223
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.live",
+      "label": "直播",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "live"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2b4a875b417aab04be5db3fe406732950dfc4fe6394f417ddb1ec93a4a452c5c.svg",
+          "sha256": "2b4a875b417aab04be5db3fe406732950dfc4fe6394f417ddb1ec93a4a452c5c",
+          "format": "svg",
+          "bytes": 298
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.marketplace",
+      "label": "电商平台",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "marketplace"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/73734c6012648c768f5e07452f54b0b825ec9e29ff7c7b1186738dd7c9e53193.svg",
+          "sha256": "73734c6012648c768f5e07452f54b0b825ec9e29ff7c7b1186738dd7c9e53193",
+          "format": "svg",
+          "bytes": 281
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.instant-retail",
+      "label": "即时零售",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "instant-retail"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e5ae640932823a2e4f5f6ee68b845e5e8f239321afcef990c1d66407f157c61e.svg",
+          "sha256": "e5ae640932823a2e4f5f6ee68b845e5e8f239321afcef990c1d66407f157c61e",
+          "format": "svg",
+          "bytes": 243
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.review",
+      "label": "评价",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "review"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9e9455ce03f8ef1feaa207f0f97d9164df601c132d9feec6cfc57db87ef3bc84.svg",
+          "sha256": "9e9455ce03f8ef1feaa207f0f97d9164df601c132d9feec6cfc57db87ef3bc84",
+          "format": "svg",
+          "bytes": 268
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.payment",
+      "label": "支付",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "payment"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6f8e09518485443bc13418968d13dc16990ad4f38803ac62d2fc48a3e39e9b40.svg",
+          "sha256": "6f8e09518485443bc13418968d13dc16990ad4f38803ac62d2fc48a3e39e9b40",
+          "format": "svg",
+          "bytes": 227
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.bank",
+      "label": "银行",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "bank"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0a925232e4722ec55a6346eb10a75f39edd7affc1cdb1914172318757f23d0e1.svg",
+          "sha256": "0a925232e4722ec55a6346eb10a75f39edd7affc1cdb1914172318757f23d0e1",
+          "format": "svg",
+          "bytes": 230
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.bank-card",
+      "label": "银行卡",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "bank-card"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8cab934844bcbe306d1fd9893f883538acdb5d6c7fa93f6759e0640849bc0893.svg",
+          "sha256": "8cab934844bcbe306d1fd9893f883538acdb5d6c7fa93f6759e0640849bc0893",
+          "format": "svg",
+          "bytes": 220
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.wallet",
+      "label": "钱包",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "wallet"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/907370b4e58da7f49826087dc5efb2213862d798e7f0a4822775c8ec80fe590f.svg",
+          "sha256": "907370b4e58da7f49826087dc5efb2213862d798e7f0a4822775c8ec80fe590f",
+          "format": "svg",
+          "bytes": 262
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.delivery",
+      "label": "配送",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "delivery"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f8ce82ca04917065d5cf04a0531cbf1072d95251987dafe15dd25f19594ca696.svg",
+          "sha256": "f8ce82ca04917065d5cf04a0531cbf1072d95251987dafe15dd25f19594ca696",
+          "format": "svg",
+          "bytes": 278
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.logistics",
+      "label": "物流",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "logistics"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e72ad20b29fb2e4b51bd57760331238f85509a5d3427b2951df3fbd1efb84285.svg",
+          "sha256": "e72ad20b29fb2e4b51bd57760331238f85509a5d3427b2951df3fbd1efb84285",
+          "format": "svg",
+          "bytes": 231
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.mini-program",
+      "label": "小程序",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "mini-program"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6a8920b1dce5f08f6b176767311b866fc605cad9241fe37335e32abf23f3881e.svg",
+          "sha256": "6a8920b1dce5f08f6b176767311b866fc605cad9241fe37335e32abf23f3881e",
+          "format": "svg",
+          "bytes": 246
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.qr-code",
+      "label": "二维码",
+      "category": "ui-ecosystem",
+      "aliases": [
+        "qr-code"
+      ],
+      "source": "Leego 通用图标 · 24 网格 / 1.75 线宽",
+      "rights": "project-reuse",
+      "defaultVariant": "mono",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2067e4fddb3c36431df0b9680e157c08aab7d61d983b8cce0f0425c5237e81ca.svg",
+          "sha256": "2067e4fddb3c36431df0b9680e157c08aab7d61d983b8cce0f0425c5237e81ca",
+          "format": "svg",
+          "bytes": 283
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "motion.robot-spark",
+      "label": "机器人 / 双星",
+      "category": "motion",
+      "aliases": [],
+      "source": "v001 · 用户认可 / 6.4 秒",
+      "rights": "project-reuse",
+      "defaultVariant": "static",
+      "variants": {
+        "static": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/750dc7cd37380315027d2809f2118962a1bab77bedec76ab5565602d852e54ed.svg",
+          "sha256": "750dc7cd37380315027d2809f2118962a1bab77bedec76ab5565602d852e54ed",
+          "format": "svg",
+          "bytes": 998
+        },
+        "alternate": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d73854dc559ca8af2b8bfdf655dcebb7e793b3f481df6c54ea1f6928839d07de.svg",
+          "sha256": "d73854dc559ca8af2b8bfdf655dcebb7e793b3f481df6c54ea1f6928839d07de",
+          "format": "svg",
+          "bytes": 1167
+        },
+        "animated": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/dfb3cfe56721d224b03c5bee18757cf6140cb3bff4fbabdceceff3abd9fe2e38.svg",
+          "sha256": "dfb3cfe56721d224b03c5bee18757cf6140cb3bff4fbabdceceff3abd9fe2e38",
+          "format": "svg",
+          "bytes": 155630
+        }
+      },
+      "cycleMs": 6400
+    },
+    {
+      "id": "motion.planet-puzzle",
+      "label": "星球 / 华容道",
+      "category": "motion",
+      "aliases": [],
+      "source": "v001 · 用户认可 / 6.4 秒",
+      "rights": "project-reuse",
+      "defaultVariant": "static",
+      "variants": {
+        "static": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/18b0b9d4b8d13e45ff9d003b8fc4d5145097e5b063bcd768dfe8fee6953debb7.svg",
+          "sha256": "18b0b9d4b8d13e45ff9d003b8fc4d5145097e5b063bcd768dfe8fee6953debb7",
+          "format": "svg",
+          "bytes": 1875
+        },
+        "alternate": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/04f029d2e39fdaec6f2eadc9b780de6ef45d8915248b36ab27732f658112fa33.svg",
+          "sha256": "04f029d2e39fdaec6f2eadc9b780de6ef45d8915248b36ab27732f658112fa33",
+          "format": "svg",
+          "bytes": 1871
+        },
+        "animated": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0ae5f4c3e0a73664d2cec19e2a4f0fb7ce29c6f2522f2a9c67d7352d6b20f498.svg",
+          "sha256": "0ae5f4c3e0a73664d2cec19e2a4f0fb7ce29c6f2522f2a9c67d7352d6b20f498",
+          "format": "svg",
+          "bytes": 418432
+        }
+      },
+      "cycleMs": 6400
+    },
+    {
+      "id": "external.feishu",
+      "label": "飞书",
+      "category": "brand-enterprise-service",
+      "aliases": [
+        "Feishu",
+        "飞书办公",
+        "飞书协作",
+        "Lark"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.feishu.cn/"
+    },
+    {
+      "id": "external.qmai",
+      "label": "企迈",
+      "category": "brand-enterprise-service",
+      "aliases": [
+        "Qmai",
+        "企迈科技",
+        "企迈数店",
+        "企迈鸿图"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.qmai.com/"
+    },
+    {
+      "id": "external.wechat",
+      "label": "微信",
+      "category": "brand-social-content",
+      "aliases": [
+        "WeChat",
+        "微信客户端"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://weixin.qq.com/"
+    },
+    {
+      "id": "external.wecom",
+      "label": "企业微信",
+      "category": "brand-social-content",
+      "aliases": [
+        "WeCom",
+        "企业微信客户端"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://work.weixin.qq.com/"
+    },
+    {
+      "id": "external.qq",
+      "label": "QQ",
+      "category": "brand-social-content",
+      "aliases": [
+        "QQ",
+        "腾讯QQ"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://im.qq.com/"
+    },
+    {
+      "id": "external.tencent",
+      "label": "腾讯",
+      "category": "brand-social-content",
+      "aliases": [
+        "Tencent",
+        "腾讯集团"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.tencent.com/"
+    },
+    {
+      "id": "external.weibo",
+      "label": "微博",
+      "category": "brand-social-content",
+      "aliases": [
+        "Weibo",
+        "新浪微博"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://weibo.com/"
+    },
+    {
+      "id": "external.douyin",
+      "label": "抖音",
+      "category": "brand-social-content",
+      "aliases": [
+        "Douyin",
+        "抖音短视频"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.douyin.com/"
+    },
+    {
+      "id": "external.kuaishou",
+      "label": "快手",
+      "category": "brand-social-content",
+      "aliases": [
+        "Kuaishou",
+        "快手短视频"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.kuaishou.com/"
+    },
+    {
+      "id": "external.xiaohongshu",
+      "label": "小红书",
+      "category": "brand-social-content",
+      "aliases": [
+        "Xiaohongshu",
+        "REDnote"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.xiaohongshu.com/"
+    },
+    {
+      "id": "external.bilibili",
+      "label": "哔哩哔哩",
+      "category": "brand-social-content",
+      "aliases": [
+        "bilibili",
+        "B站"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.bilibili.com/"
+    },
+    {
+      "id": "external.zhihu",
+      "label": "知乎",
+      "category": "brand-social-content",
+      "aliases": [
+        "Zhihu",
+        "知乎社区"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.zhihu.com/"
+    },
+    {
+      "id": "external.meituan",
+      "label": "美团",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Meituan",
+        "美团平台"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.meituan.com/"
+    },
+    {
+      "id": "external.dianping",
+      "label": "大众点评",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Dianping",
+        "点评"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.dianping.com/"
+    },
+    {
+      "id": "external.meituan-waimai",
+      "label": "美团外卖",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Meituan Waimai",
+        "美团外送"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://waimai.meituan.com/"
+    },
+    {
+      "id": "external.meituan-instashopping",
+      "label": "美团闪购",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Meituan Instashopping",
+        "美团即时零售"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.meituan.com/"
+    },
+    {
+      "id": "external.taobao",
+      "label": "淘宝",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Taobao",
+        "淘宝网"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.taobao.com/"
+    },
+    {
+      "id": "external.tmall",
+      "label": "天猫",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Tmall",
+        "天猫商城"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.tmall.com/"
+    },
+    {
+      "id": "external.taobao-flash",
+      "label": "淘宝闪购",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Taobao Flash",
+        "淘宝即时零售"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.taobao.com/"
+    },
+    {
+      "id": "external.jd",
+      "label": "京东",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "JD.com",
+        "京东商城"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.jd.com/"
+    },
+    {
+      "id": "external.jd-instant",
+      "label": "京东秒送",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "JD NOW",
+        "京东即时零售"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.jd.com/"
+    },
+    {
+      "id": "external.pinduoduo",
+      "label": "拼多多",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Pinduoduo",
+        "拼多多平台"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.pinduoduo.com/"
+    },
+    {
+      "id": "external.eleme",
+      "label": "饿了么",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Ele.me",
+        "饿了么外卖"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.ele.me/"
+    },
+    {
+      "id": "external.hema",
+      "label": "盒马",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Freshippo",
+        "盒马鲜生"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.freshhema.com/"
+    },
+    {
+      "id": "external.vipshop",
+      "label": "唯品会",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "Vipshop",
+        "唯品会商城"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.vip.com/"
+    },
+    {
+      "id": "external.alipay",
+      "label": "支付宝",
+      "category": "brand-payment",
+      "aliases": [
+        "Alipay",
+        "支付宝支付"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.alipay.com/"
+    },
+    {
+      "id": "external.wechat-pay",
+      "label": "微信支付",
+      "category": "brand-payment",
+      "aliases": [
+        "WeChat Pay",
+        "微信付款"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://pay.weixin.qq.com/"
+    },
+    {
+      "id": "external.unionpay",
+      "label": "中国银联",
+      "category": "brand-payment",
+      "aliases": [
+        "China UnionPay",
+        "银联"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.unionpay.com/"
+    },
+    {
+      "id": "external.cloud-quickpass",
+      "label": "云闪付",
+      "category": "brand-payment",
+      "aliases": [
+        "Cloud QuickPass",
+        "银联云闪付"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.95516.com/"
+    },
+    {
+      "id": "external.ecny",
+      "label": "数字人民币",
+      "category": "brand-payment",
+      "aliases": [
+        "e-CNY",
+        "数币"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://pilot.app.ecny.pbcdci.cn/"
+    },
+    {
+      "id": "external.jd-pay",
+      "label": "京东支付",
+      "category": "brand-payment",
+      "aliases": [
+        "JD Pay",
+        "京东付款"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://pay.jd.com/"
+    },
+    {
+      "id": "external.douyin-pay",
+      "label": "抖音支付",
+      "category": "brand-payment",
+      "aliases": [
+        "Douyin Pay",
+        "抖音付款"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://pay.douyin.com/"
+    },
+    {
+      "id": "external.amap",
+      "label": "高德地图",
+      "category": "brand-maps-logistics",
+      "aliases": [
+        "Amap",
+        "高德"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.amap.com/"
+    },
+    {
+      "id": "external.baidu-map",
+      "label": "百度地图",
+      "category": "brand-maps-logistics",
+      "aliases": [
+        "Baidu Maps",
+        "百度地图开放平台"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://map.baidu.com/"
+    },
+    {
+      "id": "external.tencent-map",
+      "label": "腾讯地图",
+      "category": "brand-maps-logistics",
+      "aliases": [
+        "Tencent Maps",
+        "腾讯位置服务"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://map.qq.com/"
+    },
+    {
+      "id": "external.sf-express",
+      "label": "顺丰",
+      "category": "brand-maps-logistics",
+      "aliases": [
+        "SF Express",
+        "顺丰速运"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.sf-express.com/"
+    },
+    {
+      "id": "external.jd-logistics",
+      "label": "京东物流",
+      "category": "brand-maps-logistics",
+      "aliases": [
+        "JD Logistics",
+        "京东快递"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.jdl.com/"
+    },
+    {
+      "id": "external.cainiao",
+      "label": "菜鸟",
+      "category": "brand-maps-logistics",
+      "aliases": [
+        "Cainiao",
+        "菜鸟物流"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.cainiao.com/"
+    },
+    {
+      "id": "external.dada-now",
+      "label": "达达秒送",
+      "category": "brand-maps-logistics",
+      "aliases": [
+        "Dada Now",
+        "达达配送"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.imdada.cn/"
+    },
+    {
+      "id": "external.meituan-delivery",
+      "label": "美团配送",
+      "category": "brand-maps-logistics",
+      "aliases": [
+        "Meituan Delivery",
+        "美团履约"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.meituan.com/"
+    },
+    {
+      "id": "external.icbc",
+      "label": "工商银行",
+      "category": "brand-bank",
+      "aliases": [
+        "ICBC",
+        "中国工商银行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.icbc.com.cn/"
+    },
+    {
+      "id": "external.boc",
+      "label": "中国银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Bank of China",
+        "中行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.boc.cn/"
+    },
+    {
+      "id": "external.ccb",
+      "label": "建设银行",
+      "category": "brand-bank",
+      "aliases": [
+        "China Construction Bank",
+        "中国建设银行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.ccb.com/"
+    },
+    {
+      "id": "external.abc",
+      "label": "农业银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Agricultural Bank of China",
+        "中国农业银行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.abchina.com/"
+    },
+    {
+      "id": "external.bocom",
+      "label": "交通银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Bank of Communications",
+        "交行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.bankcomm.com/"
+    },
+    {
+      "id": "external.psbc",
+      "label": "邮储银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Postal Savings Bank of China",
+        "中国邮政储蓄银行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.psbc.com/"
+    },
+    {
+      "id": "external.cmb",
+      "label": "招商银行",
+      "category": "brand-bank",
+      "aliases": [
+        "China Merchants Bank",
+        "招行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.cmbchina.com/"
+    },
+    {
+      "id": "external.cib",
+      "label": "兴业银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Industrial Bank",
+        "兴业"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.cib.com.cn/"
+    },
+    {
+      "id": "external.spdb",
+      "label": "浦发银行",
+      "category": "brand-bank",
+      "aliases": [
+        "SPD Bank",
+        "上海浦东发展银行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.spdb.com.cn/"
+    },
+    {
+      "id": "external.cmbc",
+      "label": "民生银行",
+      "category": "brand-bank",
+      "aliases": [
+        "China Minsheng Bank",
+        "中国民生银行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.cmbc.com.cn/"
+    },
+    {
+      "id": "external.citic",
+      "label": "中信银行",
+      "category": "brand-bank",
+      "aliases": [
+        "China CITIC Bank",
+        "中信"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.citicbank.com/"
+    },
+    {
+      "id": "external.ceb",
+      "label": "光大银行",
+      "category": "brand-bank",
+      "aliases": [
+        "China Everbright Bank",
+        "中国光大银行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.cebbank.com/"
+    },
+    {
+      "id": "external.pingan-bank",
+      "label": "平安银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Ping An Bank",
+        "平安银行股份有限公司"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://bank.pingan.com/"
+    },
+    {
+      "id": "external.hxb",
+      "label": "华夏银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Hua Xia Bank",
+        "华夏"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.hxb.com.cn/"
+    },
+    {
+      "id": "external.cgb",
+      "label": "广发银行",
+      "category": "brand-bank",
+      "aliases": [
+        "China Guangfa Bank",
+        "广东发展银行"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.cgbchina.com.cn/"
+    },
+    {
+      "id": "external.czbank",
+      "label": "浙商银行",
+      "category": "brand-bank",
+      "aliases": [
+        "China Zheshang Bank",
+        "浙商"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.czbank.com/"
+    },
+    {
+      "id": "external.bank-of-beijing",
+      "label": "北京银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Bank of Beijing",
+        "北银"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.bankofbeijing.com.cn/"
+    },
+    {
+      "id": "external.bank-of-shanghai",
+      "label": "上海银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Bank of Shanghai",
+        "上银"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.bosc.cn/"
+    },
+    {
+      "id": "external.bank-of-jiangsu",
+      "label": "江苏银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Bank of Jiangsu",
+        "苏银"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.jsbchina.cn/"
+    },
+    {
+      "id": "external.bank-of-nanjing",
+      "label": "南京银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Bank of Nanjing",
+        "南银"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.njcb.com.cn/"
+    },
+    {
+      "id": "external.bank-of-ningbo",
+      "label": "宁波银行",
+      "category": "brand-bank",
+      "aliases": [
+        "Bank of Ningbo",
+        "宁银"
+      ],
+      "source": "外部品牌 · 需确认授权",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {},
+      "sourceUrl": "https://www.nbcb.com.cn/"
+    },
+    {
+      "id": "snack.jinlimen",
+      "label": "金粒门",
+      "category": "snacks",
+      "aliases": [
+        "KING LOMO"
+      ],
+      "source": "用户指定的 KING LOMO 单张组合标；不附加上一版的新鲜零食商店宣传语，旧版本保留。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.jiduoquan",
+      "label": "几多全",
+      "category": "snacks",
+      "aliases": [
+        "Jido plus"
+      ],
+      "source": "来图中的紫色圆形 Jido plus 版本；此前公开手册版本保留在历史来源中。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.yili-nutco",
+      "label": "一栗NUTCO",
+      "category": "snacks",
+      "aliases": [
+        "一栗",
+        "NUTCO",
+        "NUT CO."
+      ],
+      "source": "用户指定的一栗 nutco 完整中英文组合标；此前仅“一栗”字样的拼版版本保留。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.pumama",
+      "label": "蒲妈妈",
+      "category": "snacks",
+      "aliases": [
+        "Pumama"
+      ],
+      "source": "用户指定的绿色底、白色 Pumama 蒲妈妈组合标，保留两个注册标记；不是由旧版改色生成。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.xueji",
+      "label": "薛记炒货",
+      "category": "snacks",
+      "aliases": [],
+      "source": "FoodTalks 品牌图，保留红黑原色；不是品牌方提供的授权素材包。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.limanduo",
+      "label": "栗满多",
+      "category": "snacks",
+      "aliases": [],
+      "source": "已核对官网当前提供的完整组合标识；不裁切、改色或重绘。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.shanliwang",
+      "label": "山栗王",
+      "category": "snacks",
+      "aliases": [],
+      "source": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.xianziyuan",
+      "label": "鲜滋源",
+      "category": "snacks",
+      "aliases": [],
+      "source": "存在同名果汁供应商等结果，尚未确认用户所指的鲜零食连锁主体。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.lyfen-life",
+      "label": "来伊份 LYFEN life 新鲜生活",
+      "category": "snacks",
+      "aliases": [
+        "LYFEN life"
+      ],
+      "source": "来图明确包含 LYFEN life 新鲜生活，不使用普通来伊份 Logo 替代。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.bestore-fresh-life",
+      "label": "良品铺子鲜生活",
+      "category": "snacks",
+      "aliases": [],
+      "source": "需要鲜生活业态的独立标识；不以普通良品铺子 Logo 代替。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.three-squirrels",
+      "label": "三只松鼠",
+      "category": "snacks",
+      "aliases": [],
+      "source": "已核对官网当前提供的完整组合标识；不裁切、改色或重绘。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.juewei-fresh",
+      "label": "绝味新鲜零食",
+      "category": "snacks",
+      "aliases": [],
+      "source": "来图明确包含“绝味 新鲜零食”字样，不以绝味鸭脖标识替代。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.you-tuijian",
+      "label": "有·推荐",
+      "category": "snacks",
+      "aliases": [
+        "有.推荐"
+      ],
+      "source": "来图为“有·推荐”字标；与“有点推荐”的关系仍待确认，不复制为第二个品牌标识。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.baipinhao-benwei",
+      "label": "百品好·本味",
+      "category": "snacks",
+      "aliases": [],
+      "source": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.youyou-wanwei",
+      "label": "有友玩味家族",
+      "category": "snacks",
+      "aliases": [],
+      "source": "公开资料多使用“玩味族”，与输入“玩味家族”的正式名称待核对。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.jishi-shangwei",
+      "label": "吉时赏味",
+      "category": "snacks",
+      "aliases": [],
+      "source": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.lemon-right-fresh",
+      "label": "柠檬向右新鲜零食店",
+      "category": "snacks",
+      "aliases": [],
+      "source": "已取得官网柠檬向右母品牌字标，仅作母品牌参考，不计入新鲜零食店独立 Logo。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.haidilao-shop",
+      "label": "海底捞严选小铺",
+      "category": "snacks",
+      "aliases": [],
+      "source": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.jiushishan",
+      "label": "久食山",
+      "category": "snacks",
+      "aliases": [
+        "JoySeason"
+      ],
+      "source": "来图中的 JoySeason 久食山组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.lingtuantuan",
+      "label": "零团团",
+      "category": "snacks",
+      "aliases": [
+        "TaTa Ling"
+      ],
+      "source": "用户指定的零团团 TaTa Ling 组合标，保留注册标记与“新鲜·现制·零食”附属文字；此前熊猫版保留，不推断品牌官方换标时间。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.qiaxiaoke",
+      "label": "洽小可",
+      "category": "snacks",
+      "aliases": [
+        "恰小可",
+        "qaqaco"
+      ],
+      "source": "原输入为“洽小可”，来图文字为“恰小可”；按 qaqaco 图形建立参考映射，保留名称差异待核对。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.moshanyu",
+      "label": "茉山语",
+      "category": "snacks",
+      "aliases": [
+        "MOSSANEE"
+      ],
+      "source": "取自餐饮界品牌报道所附宣传页底部的完整平面字标；保留原绿色背景，不使用门头照片抠图。此为该资料版本，不代替所有门店现行组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.qingshansen",
+      "label": "清山森",
+      "category": "snacks",
+      "aliases": [
+        "qingsense"
+      ],
+      "source": "来图中的 qingsense 清山森组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.nihao-beixi",
+      "label": "你好，焙禧",
+      "category": "snacks",
+      "aliases": [
+        "你好·焙禧",
+        "你好焙禧",
+        "Hellobeicy"
+      ],
+      "source": "取自公开大会介绍中的完整平面组合标，保留注册标记和附属文字；不是门店效果图，也不是官方授权包。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.wuxiaohai",
+      "label": "五小海",
+      "category": "snacks",
+      "aliases": [
+        "W Small Sea"
+      ],
+      "source": "第二张来图：五小海圆角竖向版本；此前公开资料版保留。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.jingqizi",
+      "label": "京七子",
+      "category": "snacks",
+      "aliases": [],
+      "source": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.xianboshi",
+      "label": "鲜博士",
+      "category": "snacks",
+      "aliases": [],
+      "source": "区分辉山鲜博士乳品品牌与用户所指新鲜食物商店的标识。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.richu-xianwu",
+      "label": "日初鲜屋",
+      "category": "snacks",
+      "aliases": [
+        "Freshouse"
+      ],
+      "source": "来图中的 Freshouse 日初鲜屋组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.chaoren-lingshi",
+      "label": "超人零拾",
+      "category": "snacks",
+      "aliases": [],
+      "source": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.qinghefeng",
+      "label": "轻禾风/轻禾丰",
+      "category": "snacks",
+      "aliases": [
+        "轻禾风",
+        "轻禾丰",
+        "CHILL HUFF"
+      ],
+      "source": "第二张来图：轻禾丰与附属文字；不据此确认轻禾风为同一主体。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.dakoushou",
+      "label": "大口兽",
+      "category": "snacks",
+      "aliases": [
+        "TOP SOLD"
+      ],
+      "source": "用户指定的红蓝 TOP SOLD 单张组合标；替代主展示中的横向宣传组合，旧版本保留。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.xianbenjia",
+      "label": "鲜本家",
+      "category": "snacks",
+      "aliases": [],
+      "source": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.guoliyuan",
+      "label": "果栗园nutland",
+      "category": "snacks",
+      "aliases": [
+        "果栗园",
+        "nutland"
+      ],
+      "source": "不得使用荷兰 Nutland 的同名 Logo；需确认中国果栗园对应的英文组合。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.yeye-xianshiju",
+      "label": "也也鲜食局",
+      "category": "snacks",
+      "aliases": [],
+      "source": "YeYe 也也鲜食局；源图仅 80px，按原始清晰度显示，不伪造高清版。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.shijian-tanmi",
+      "label": "食尖探觅",
+      "category": "snacks",
+      "aliases": [
+        "POPMI"
+      ],
+      "source": "取自 2022 年公开展会报道所附品牌展板左上平面组合标；保留图形、字标和口号。不代表已核实为当前版本，也不据来源站名称推断认证或背书。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.yikou-shiwu",
+      "label": "一口时物",
+      "category": "snacks",
+      "aliases": [
+        "eakoco"
+      ],
+      "source": "来图中的 eakoco 一口时物组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.kaishishou",
+      "label": "开食兽",
+      "category": "snacks",
+      "aliases": [],
+      "source": "尚未取得可确认归属、可清晰展示的真实标识素材。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.youdian-tuijian",
+      "label": "有点推荐",
+      "category": "snacks",
+      "aliases": [],
+      "source": "与“有·推荐”存在同品牌线索；当前不重复宣称是两个已核验品牌。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.qiwang",
+      "label": "琦王花生",
+      "category": "snacks",
+      "aliases": [],
+      "source": "官网当前为 HTTP；官网内引用的 CDN 原始图片通过 HTTPS 获取，明确保留来源协议。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.baipinhao",
+      "label": "百品好",
+      "category": "snacks",
+      "aliases": [
+        "GOOD/OO"
+      ],
+      "source": "新增来图中的百品好；没有“本味”字样，不替代百品好·本味的专用标识。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.haidiya",
+      "label": "海地亚",
+      "category": "snacks",
+      "aliases": [
+        "haidear"
+      ],
+      "source": "第二张来图同为 haidear 标识；中文小字不清，保留此前登记名称待核对，不据此确认中文名称或法律主体。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.chaochaoxian",
+      "label": "潮潮鲜",
+      "category": "snacks",
+      "aliases": [
+        "C.C.XIAN"
+      ],
+      "source": "第二张来图：潮潮鲜完整竖向组合；此前横向紧凑版保留。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.william-uncle",
+      "label": "威廉叔叔",
+      "category": "snacks",
+      "aliases": [
+        "UNCLE WILLIAM"
+      ],
+      "source": "第二张来图：含新鲜零食商店中英文附属文字；此前紧凑版保留。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.xianpupu",
+      "label": "鲜噗噗",
+      "category": "snacks",
+      "aliases": [],
+      "source": "第二张来图：鲜噗噗及下方新鲜零食商店文案；此前紧凑版保留。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.henrybaba",
+      "label": "亨利爸爸",
+      "category": "snacks",
+      "aliases": [
+        "HenryBaba"
+      ],
+      "source": "新增来图中的 HenryBaba 亨利爸爸；附属文案只作原图内容，不作为本项目经营承诺。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.wangxiangqing",
+      "label": "王相卿",
+      "category": "snacks",
+      "aliases": [
+        "novo seek"
+      ],
+      "source": "来图中的王相卿 novo seek 组合标；品牌主体待核验。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.deguocang",
+      "label": "德果仓",
+      "category": "snacks",
+      "aliases": [
+        "GOCA",
+        "德果包"
+      ],
+      "source": "GOCA 来图标识；中文按图暂记“德果仓”，低清字形与主体待核验，不关联近似名称品牌。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.lixiancang",
+      "label": "粒鲜仓",
+      "category": "snacks",
+      "aliases": [],
+      "source": "来图中的粒鲜仓 FRESH 组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.kaidai",
+      "label": "开代",
+      "category": "snacks",
+      "aliases": [
+        "KAIDAI"
+      ],
+      "source": "原图包含“上海首发 / OPENING SOON”宣传语，仅保留素材内容，不表示当前开业状态。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.mangu",
+      "label": "满谷",
+      "category": "snacks",
+      "aliases": [
+        "mogo"
+      ],
+      "source": "来图中的满谷 mogo 新鲜零食组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.xiangxiangli",
+      "label": "想像栗",
+      "category": "snacks",
+      "aliases": [
+        "SHINEMY LEE"
+      ],
+      "source": "按来图登记“想像栗”；保留原字形，不自动改为“想象栗”。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.jinglimen",
+      "label": "京栗门",
+      "category": "snacks",
+      "aliases": [
+        "JING LOMO"
+      ],
+      "source": "京栗门是本图另一条标识；不因与金粒门图形配色近似而合并。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.kaqushiji",
+      "label": "咔趣食集",
+      "category": "snacks",
+      "aliases": [
+        "CRUNCH"
+      ],
+      "source": "来图中的咔趣食集横向组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.mankouyangguang",
+      "label": "满口阳光",
+      "category": "snacks",
+      "aliases": [
+        "SUNKISSED"
+      ],
+      "source": "来图中的满口阳光 SUNKISSED 组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.jinlilai",
+      "label": "金栗来",
+      "category": "snacks",
+      "aliases": [
+        "KING LEE"
+      ],
+      "source": "低清实拍标识，仅保留整张照片为参考；需取得独立原稿。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.lixiaozan",
+      "label": "粒小赞",
+      "category": "snacks",
+      "aliases": [
+        "LEZAN"
+      ],
+      "source": "低清实拍标识，仅保留整张照片为参考，不抠图或提高清晰度冒充原稿。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.pengchengren",
+      "label": "彭城仁",
+      "category": "snacks",
+      "aliases": [
+        "PENG CHENGREN"
+      ],
+      "source": "图中文字暂记彭城仁；照片分辨率低，中文名称和品牌主体待核对。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.cailiren",
+      "label": "采栗人",
+      "category": "snacks",
+      "aliases": [
+        "CAILIREN"
+      ],
+      "source": "来图中的采栗人 CAILIREN 组合标。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.liduomei",
+      "label": "栗多美",
+      "category": "snacks",
+      "aliases": [
+        "litomi"
+      ],
+      "source": "门头照片线索；不从门头抠取图标、不当作独立 Logo 原稿。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.meidisen",
+      "label": "美迪森",
+      "category": "snacks",
+      "aliases": [],
+      "source": "低清宣传页，名称暂记美迪森；不将超级工厂等宣传内容视为本项目已核实事实。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    },
+    {
+      "id": "snack.hailixiang",
+      "label": "海栗香",
+      "category": "snacks",
+      "aliases": [],
+      "source": "低清品牌手册封面，名称暂记海栗香；保留整页线索，不放大封面小标冒充高清 Logo。",
+      "rights": "reference-only",
+      "defaultVariant": null,
+      "variants": {}
+    }
+  ]
+}
