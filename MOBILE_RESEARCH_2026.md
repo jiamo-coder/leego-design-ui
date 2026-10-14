@@ -3,10 +3,12 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.21.0
+Version: 2.24.1
 ```
 
 ## 研究范围
+
+本文件提供数据页面布局，不是原生根导航规范。原生App的Tab、键盘、安全区、抽屉和个人中心优先读取随包 `references/interaction-consistency.md` 与 `assets/interaction-contract.json`。其中48dp原生热区、可随系统字号增长的62dp最小Tab容器与22dp同轴图标，不由旧Web移动预览的68px导航/44px热区覆盖；保留已有令牌供旧调用兼容，不能将其当新原生默认。
 
 本次研究基于用户提供的四张中文企业经营 App 截图，仅提炼移动端的信息架构、阅读顺序和交互模式。示例中的品牌、行业文案、绿色主色、图标造型和装饰效果不进入规范；视觉实现继续读取“Leego Design UI”的青黛紫、玉青、朱砂与中性色令牌。
 

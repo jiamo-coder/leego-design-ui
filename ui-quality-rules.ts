@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.21.0
+// Version: 2.25.0
 export type UiDesignRead = {
   mode: 'new-design' | 'audit' | 'implementation';
   platform: 'web' | 'mobile' | 'tablet' | 'website';
@@ -25,8 +25,8 @@ export type UiQualityRule = {
 };
 export const uiQualityCatalog = {
   "standard": "leego-design-ui",
-  "version": "2.21.0",
-  "updated": "2026-10-05",
+  "version": "2.25.0",
+  "updated": "2026-10-09",
   "designReadRequiredFields": [
     "mode",
     "platform",
@@ -333,6 +333,42 @@ export const uiQualityCatalog = {
       "automated": false,
       "checkMethod": "browser",
       "message": "字体失败、缩放或换行不得使文字不可读、遮挡核心任务或阻断操作；原生平台保留字号缩放。"
+    },
+    {
+      "id": "UI-NATIVE-NAV-001",
+      "category": "interaction",
+      "severity": "P1",
+      "automated": false,
+      "checkMethod": "review",
+      "checker": "references/interaction-consistency.md",
+      "message": "原生Tab槽位、同家族线/面图标与标签轴稳定；重复点击保留上下文，未知路由不假选。"
+    },
+    {
+      "id": "UI-NATIVE-INSET-001",
+      "category": "accessibility",
+      "severity": "P0",
+      "automated": false,
+      "checkMethod": "review",
+      "checker": "references/interaction-consistency.md",
+      "message": "原生键盘/详情返回保持任务；安全区只补一次，200%系统字号不裁字，热区至少48dp。"
+    },
+    {
+      "id": "UI-TASK-CONTINUITY-001",
+      "category": "interaction",
+      "severity": "P0",
+      "automated": false,
+      "checkMethod": "review",
+      "checker": "references/interaction-consistency.md",
+      "message": "动画反向和叠层退出不丢草稿焦点；读历史不强制跳底，旧请求不污染新任务。"
+    },
+    {
+      "id": "UI-LOADING-LIFECYCLE-001",
+      "category": "interaction",
+      "severity": "P1",
+      "automated": false,
+      "checkMethod": "review",
+      "checker": "references/interaction-consistency.md",
+      "message": "加载防闪不延迟数据/错误/取消；后台与卸载清理，减少动态仍有静态反馈。"
     }
   ]
 } as const;

@@ -9,7 +9,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.21.0
+Version: 2.25.0
 ```
 
 ## 账号、会话与信息归属（2.16）
@@ -220,11 +220,10 @@ Pad 是独立的平台层，主要服务企业现场作业、连续审核、配�
 
 Leego Design UI 使用独立的 Skill Logo 家族，不能与小字辈产品 Logo、通用界面图标或第三方品牌混用。
 
-- `R02 开口框架` 是官网导航、Skill 入口、文档页眉与能力总览的固定主标。
-- `R01 圆润构件` 只用于轻量内容与有名称伴随的友好入口；`R03 实心模块` 用于 favicon、Skill 列表、小尺寸和深色背景。
-- UI 身份蓝固定为 `#3F67E8`，右上身份点、64×64 视图框和内部构件比例不得更改；身份蓝不承担信息、成功或选中状态。
-- 浅色背景默认 R02；低于 20px 或深色背景使用 R03。R02 若出现在深色表面，放入中性浅色容器，不使用 CSS `filter` 临时改色。
-- 数字界面使用“SVG 符号＋真实文本 `Leego Design UI`”，版本号独立展示；SVG 字标尚未轮廓化，不用于不可变印刷和商标申请。
+- 六个 Skill 统一使用已采纳 V006 积木家族；app 为默认彩色版，white 为浅色版，mono 为单色版。
+- 保留双凸点、几何负形与各成员色值，不加右上角身份点。常用32–48px，低于24px不作为唯一识别入口。
+- 名称与技术调用ID不变；此家族不替换产品Logo、通用按钮或第三方标识。
+- V001–V005 与原 R01/R02/R03 已停用，不作回退。
 
 完整规则读取 `SKILL_LOGO_FAMILY_2026.md` 与 `skill-logo-family.json`。
 
@@ -232,7 +231,7 @@ Leego Design UI 使用独立的 Skill Logo 家族，不能与小字辈产品 Log
 
 2.19.0 起，新建与更新界面默认使用 `SYSTEM_IDENTITY_FAMILY_2026.md` 和 `system-identity-family.json` 登记的柔线晶透家族：13 款产品、5 款系统身份，提供 app、compact、mono-dark、mono-light 共 72 个原件。图形统一为柔和轮廓与少量语义实面；明亮定向渐变仅用于身份，不扩展到通用操作图标或状态色。小尺寸使用专用 compact 原件。外部品牌保留已核验原标，不重绘；其网站展示授权不等于共享包再分发授权。
 
-以下三路线为历史兼容规则，只约束旧资产；不作为新版默认，不与新家族混搭。Leego Design UI 自身的 R02 标志保持不变。
+以下三路线为历史兼容规则，只约束旧资产；不作为新版默认，不与新家族混搭。Leego Design UI 自身使用 V006 积木标识。
 
 小葡萄、小红花、小算盘、小金矿、小葫芦、小紫薯、小太阳、小点位、元码象、溯源狸和小总管采用三路线响应式家族。完整规则读取 `PRODUCT_LOGO_FAMILY_2026.md` 与 `product-logo-family.json`：
 

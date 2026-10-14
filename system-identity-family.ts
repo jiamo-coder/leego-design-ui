@@ -1,7 +1,7 @@
 // Generated; third-party originals remain website-only.
 export const systemIdentityFamily = {
   "standard": "leego-design-ui",
-  "version": "2.21.0",
+  "version": "2.25.0",
   "sourcePackage": "system-logo-family/v007",
   "adoption": "user-authorized-publication-2026-10-05",
   "defaultRoute": "soft-crystal",
@@ -607,11 +607,11 @@ export const systemIdentityFamily = {
     {
       "id": "geetimer",
       "label": "Geetimer",
-      "path": "system-identity-previews/geetimer.svg",
-      "sha256": "df13e9f866974f836fe83f12d08c7690cad32d09b42f921685bf319f2f9cd736",
+      "path": "icons/geetimer/v011/G-amethyst.svg",
+      "sha256": "27d77f9cca16337a7f35f6fdc5b01555568a8e4eaea8bd150b3e4d5e2ed183bb",
       "sourcePage": null,
       "sourceAsset": null,
-      "provenance": "existing-registered-original",
+      "provenance": "user-approved-amethyst-current-family-v011",
       "projectPreviewApproved": true,
       "redistribution": false
     },

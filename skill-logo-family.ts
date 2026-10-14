@@ -1,106 +1,250 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.21.0
-export type SkillLogoRouteId = 'r01' | 'r02' | 'r03';
+// Version: 2.25.0
 export const skillLogoFamily = {
   "standard": "leego-design-ui",
-  "version": "2.21.0",
-  "family": "Leego Design Skill Logo Family",
+  "version": "2.25.0",
+  "family": "Leego Skill Family",
+  "revision": "v006",
+  "status": "approved",
+  "approvedAt": "2026-10-13",
+  "defaultVariant": "app",
   "member": {
     "id": "leego-design-ui",
     "displayName": "Leego Design UI",
-    "accent": "#3F67E8",
-    "ink": "#191A17",
-    "primaryRoute": "r02"
+    "accent": "#4169E6",
+    "primaryRoute": "app"
   },
-  "sourcePackage": {
-    "name": "leego-design-skill-family",
-    "version": "v003",
-    "adoptionStatus": "r02-approved-as-primary-r01-r03-contextual",
-    "note": "用户已确认本组 Skill Logo 选型；R02 为主标，R01 与 R03 仅按场景响应。"
-  },
-  "sharedInvariants": [
-    "64×64 视图框",
-    "右上身份点",
-    "UI 专属蓝 #3F67E8",
-    "固定几何比例",
-    "不得增加眼睛、星芒、机器人或灯泡等装饰"
-  ],
-  "routes": [
+  "members": [
     {
-      "id": "r01",
-      "title": "圆润构件",
-      "englishTitle": "ROUNDED COMPONENTS",
-      "role": "light-expression",
-      "asset": "skill-logo/r01-symbol.svg",
-      "websiteAsset": "brand/leego-design-ui/r01-symbol.svg",
-      "minimumSize": 24,
-      "uses": [
-        "内容栏目",
-        "轻量品牌表达",
-        "有名称伴随的社交头像"
-      ],
-      "avoid": [
-        "增加构件数量",
-        "把身份点并入普通组件",
-        "替代官网主标"
-      ]
+      "id": "prd",
+      "name": "Leego Design PRD",
+      "cn": "产品规划",
+      "color": "#0B8B72",
+      "idea": "需求层级 · 收敛与决策",
+      "desc": "需求、边界与决策，连接成可执行的产品路径。",
+      "skill": "leego-design-prd",
+      "kind": "积木版"
     },
     {
-      "id": "r02",
-      "title": "开口框架",
-      "englishTitle": "OPEN FRAME",
-      "role": "primary",
-      "asset": "skill-logo/r02-symbol.svg",
-      "websiteAsset": "brand/leego-design-ui/r02-symbol.svg",
-      "minimumSize": 20,
-      "uses": [
-        "官网导航",
-        "Skill 入口",
-        "文档页眉",
-        "能力总览"
-      ],
-      "avoid": [
-        "封闭开口",
-        "移动身份点",
-        "改变内部模块数量",
-        "深色底直接使用黑色原稿"
-      ]
+      "id": "ui",
+      "name": "Leego Design UI",
+      "cn": "界面设计",
+      "color": "#3F67E8",
+      "idea": "分栏模块 · 界面与组件",
+      "desc": "把页面与组件，组织成清晰一致的界面。",
+      "skill": "leego-design-ui",
+      "kind": "积木版"
     },
     {
-      "id": "r03",
-      "title": "实心模块",
-      "englishTitle": "SOLID MODULE",
-      "role": "micro",
-      "asset": "skill-logo/r03-symbol.svg",
-      "websiteAsset": "brand/leego-design-ui/r03-symbol.svg",
-      "minimumSize": 16,
-      "uses": [
-        "Skill 列表",
-        "favicon",
-        "App Icon",
-        "系统切换器",
-        "深色背景"
-      ],
-      "avoid": [
-        "替代官网横向主标",
-        "移除右上身份点",
-        "添加阴影或渐变"
-      ]
+      "id": "vi",
+      "name": "Leego Design VI",
+      "cn": "品牌设计",
+      "color": "#E34D35",
+      "idea": "开合色片 · 品牌与识别",
+      "desc": "保留品牌母体，延展为连续的视觉识别。",
+      "skill": "leego-design-vi",
+      "kind": "积木版"
+    },
+    {
+      "id": "ppt",
+      "name": "Leego Design PPT",
+      "cn": "演示叙事",
+      "color": "#7256E8",
+      "idea": "叙事推进 · 内容与讲述",
+      "desc": "把信息的先后关系，转成有节奏的讲述。",
+      "skill": "leego-design-ppt",
+      "kind": "积木版"
+    },
+    {
+      "id": "space",
+      "name": "Leego Design Space",
+      "cn": "空间设计",
+      "color": "#267F91",
+      "idea": "围合转角 · 空间与关系",
+      "desc": "从平面到立体，建立可进入的空间关系。",
+      "skill": "leego-design-space",
+      "kind": "积木版"
+    },
+    {
+      "id": "law",
+      "name": "Leego Proposal Law",
+      "cn": "法律辅助",
+      "color": "#AC772D",
+      "idea": "对等构件 · 权利与义务",
+      "desc": "用清楚的边界与平衡，表达权利和义务。",
+      "skill": "leego-proposal-law",
+      "kind": "积木版"
     }
   ],
+  "variants": [
+    "app",
+    "white",
+    "mono"
+  ],
+  "assets": [
+    {
+      "id": "prd",
+      "variant": "app",
+      "path": "skill-logo/app/prd.svg",
+      "sha256": "bff6e2f3925682a0b573c74bb5ac3089052102d4ff1474ebd3f707843c04867b",
+      "key": "prd.app",
+      "websitePath": "brand/leego-design-ui/app/prd.svg"
+    },
+    {
+      "id": "ui",
+      "variant": "app",
+      "path": "skill-logo/app/ui.svg",
+      "sha256": "8eb699e6d27b57ca39305d373493866bb1dd3ff6311a1663d0524273806caaa2",
+      "key": "ui.app",
+      "websitePath": "brand/leego-design-ui/app/ui.svg"
+    },
+    {
+      "id": "vi",
+      "variant": "app",
+      "path": "skill-logo/app/vi.svg",
+      "sha256": "d6813f100967496d104ac5e4899d1e3238c004004100c0c517975f322882fa39",
+      "key": "vi.app",
+      "websitePath": "brand/leego-design-ui/app/vi.svg"
+    },
+    {
+      "id": "ppt",
+      "variant": "app",
+      "path": "skill-logo/app/ppt.svg",
+      "sha256": "f0193a256fd1dab29bf3467da4fa29ffe64536f5b1416af0139320b25c80a2e2",
+      "key": "ppt.app",
+      "websitePath": "brand/leego-design-ui/app/ppt.svg"
+    },
+    {
+      "id": "space",
+      "variant": "app",
+      "path": "skill-logo/app/space.svg",
+      "sha256": "4401be3b117d3e19677434b1f7a99e9833c09a555151baab44c8fa24048c24b8",
+      "key": "space.app",
+      "websitePath": "brand/leego-design-ui/app/space.svg"
+    },
+    {
+      "id": "law",
+      "variant": "app",
+      "path": "skill-logo/app/law.svg",
+      "sha256": "6bc46456f503716adc95469984e2ddb2ef0d6c883713b7d0dc877849e8812364",
+      "key": "law.app",
+      "websitePath": "brand/leego-design-ui/app/law.svg"
+    },
+    {
+      "id": "prd",
+      "variant": "white",
+      "path": "skill-logo/white/prd.svg",
+      "sha256": "d42fee4df7bd69cc094678072af89bfe378bfd86dd9fb93abcadde2af8062eb2",
+      "key": "prd.white",
+      "websitePath": "brand/leego-design-ui/white/prd.svg"
+    },
+    {
+      "id": "ui",
+      "variant": "white",
+      "path": "skill-logo/white/ui.svg",
+      "sha256": "7c91311729b3c75e94598541bd5e1c163b203747047788d26952ddd7e9e95599",
+      "key": "ui.white",
+      "websitePath": "brand/leego-design-ui/white/ui.svg"
+    },
+    {
+      "id": "vi",
+      "variant": "white",
+      "path": "skill-logo/white/vi.svg",
+      "sha256": "7611daed07fad4e08e80a2a26a8e5f291cf86767a484dac32dba1be43329d722",
+      "key": "vi.white",
+      "websitePath": "brand/leego-design-ui/white/vi.svg"
+    },
+    {
+      "id": "ppt",
+      "variant": "white",
+      "path": "skill-logo/white/ppt.svg",
+      "sha256": "a18bd51ed83bf029bdb2074ca577ccc21fd99bbe8c987caea2efe1e8d57b4733",
+      "key": "ppt.white",
+      "websitePath": "brand/leego-design-ui/white/ppt.svg"
+    },
+    {
+      "id": "space",
+      "variant": "white",
+      "path": "skill-logo/white/space.svg",
+      "sha256": "6f6d56ea57b698759710b3ee69a32e5ed75f08f3f73a1dc8d4c2f08c2304c044",
+      "key": "space.white",
+      "websitePath": "brand/leego-design-ui/white/space.svg"
+    },
+    {
+      "id": "law",
+      "variant": "white",
+      "path": "skill-logo/white/law.svg",
+      "sha256": "9fecafe1927b9c2963e52b5d6037f6a165acb4e2ee8b12207dbf34d274a0139b",
+      "key": "law.white",
+      "websitePath": "brand/leego-design-ui/white/law.svg"
+    },
+    {
+      "id": "prd",
+      "variant": "mono",
+      "path": "skill-logo/mono/prd.svg",
+      "sha256": "2b08edf6e293a1de8b0974ed9bcef60dce7ec10244c64ae81c72e322ed6f6071",
+      "key": "prd.mono",
+      "websitePath": "brand/leego-design-ui/mono/prd.svg"
+    },
+    {
+      "id": "ui",
+      "variant": "mono",
+      "path": "skill-logo/mono/ui.svg",
+      "sha256": "a47151689ab26b78c7ba80f51d53bbf44407f4441db256748c25766f2016c7ca",
+      "key": "ui.mono",
+      "websitePath": "brand/leego-design-ui/mono/ui.svg"
+    },
+    {
+      "id": "vi",
+      "variant": "mono",
+      "path": "skill-logo/mono/vi.svg",
+      "sha256": "2ea31352d65c520ab36a080e7ea9c518ab1c346e10847689ad9e42d2015479c4",
+      "key": "vi.mono",
+      "websitePath": "brand/leego-design-ui/mono/vi.svg"
+    },
+    {
+      "id": "ppt",
+      "variant": "mono",
+      "path": "skill-logo/mono/ppt.svg",
+      "sha256": "b24ef7e2a2e85b0e1c0ea363e222bbf0efbb336f76ddc5b9c02ef9331859afd0",
+      "key": "ppt.mono",
+      "websitePath": "brand/leego-design-ui/mono/ppt.svg"
+    },
+    {
+      "id": "space",
+      "variant": "mono",
+      "path": "skill-logo/mono/space.svg",
+      "sha256": "ce43c25481e267e8aa9c4b56aedf939be95027fb03e933f25951b69bc7546f48",
+      "key": "space.mono",
+      "websitePath": "brand/leego-design-ui/mono/space.svg"
+    },
+    {
+      "id": "law",
+      "variant": "mono",
+      "path": "skill-logo/mono/law.svg",
+      "sha256": "b829679c93e28b9173b303b74df732fb70c37f2dae3f644bd4ca7fb446d10744",
+      "key": "law.mono",
+      "websitePath": "brand/leego-design-ui/mono/law.svg"
+    }
+  ],
+  "sharedInvariants": [
+    "viewBox 0 0 64 64",
+    "双凸点积木；正面为实心几何与负形留白",
+    "无右上角身份点",
+    "原始几何和色值不变；不加滤镜、渐变或阴影"
+  ],
   "displayRules": {
-    "lightBackground": "优先 R02；小于 20px 使用 R03。",
-    "darkBackground": "使用 R03，或将 R02 放入白色/浅色中性容器；禁止 CSS filter 改色。",
-    "wordmark": "符号旁以真实文本显示 Leego Design UI，避免 SVG 字体许可与跨平台替换问题。",
-    "clearSpace": "最小保护空间为身份点直径，四周不得贴边。",
-    "minimumTouchTarget": 44
+    "recommendedSize": "32–48px",
+    "minimumSize": 24,
+    "stressPreviewSize": 16,
+    "minimumTouchTarget": 44,
+    "clearSpace": "周围至少4px；不裁剪SVG内留白",
+    "usage": "Skill 身份，配合正式名称；不是业务产品或通用操作图标"
   },
-  "status": {
-    "digitalUse": "approved",
-    "outlinedWordmark": "pending",
-    "trademarkSearch": "not-performed"
-  }
+  "retired": "V001–V005 与原 R01/R02/R03 停用，不作为回退或兼容路径"
 } as const;
-export const skillLogoAssetPath = (route: SkillLogoRouteId) => `/brand/leego-design-ui/${route}-symbol.svg`;
+export type SkillLogoMemberId = typeof skillLogoFamily.members[number]['id'];
+export type SkillLogoRouteId = 'app' | 'white' | 'mono';
+export const skillLogoAssetPath = (member: SkillLogoMemberId = 'ui', variant: SkillLogoRouteId = 'app') => `/brand/leego-design-ui/${variant}/${member}.svg`;

@@ -3,7 +3,7 @@
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.21.0
+Version: 2.24.1
 ```
 
 ## 结论

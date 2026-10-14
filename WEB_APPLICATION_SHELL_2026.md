@@ -2,13 +2,15 @@
 
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.21.0
+Version: 2.25.0
 
 适用所有带侧栏的企业 Web 工作台，包括桌面对话画布。官网、连续阅读文档、Mobile App、Pad 专用作业台使用各自标准。Geetimer 是只读交互研究来源，不携带其业务接口、品牌坐标或积分规则。
 
 ## 固定尺寸与归属
 
-唯一源为 `web.applicationShell`。展开216px、折叠68px、移动导航抽屉248px；黑色#10161D。没有264px浅色AI特例，不允许拖拽、文字或权限改变宽度。
+唯一源为 `web.applicationShell`。展开216px、折叠68px、移动导航抽屉248px；黑色#111114。没有264px浅色AI特例，不允许拖拽、文字或权限改变宽度。
+
+选中面遵循随包 `references/sidebar-consistency.md`（sidebar-contract-1）：单一持久紫色面、深色Regular文字，文字和图标不动；字体加载、标签、权限过滤及窗口变化后重新测量。旧每行灰底示例不作为新系统默认。App使用 `references/interaction-consistency.md` 的原生契约，不套本文件尺寸。
 
 顶部分为品牌区与固定面板控制；中部导航和历史/项目收纳列表独立滚动；底部固定单一账号与通知。工作顶栏64px只放页面上下文/面包屑与真实全局搜索，不复制账号、通知或退出。账号浮层内放设置与真实退出；不存在的能力隐藏，不做假按钮或虚构数量。
 

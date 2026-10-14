@@ -1,132 +1,65 @@
 ---
 name: leego-design-ui
-description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、移动 App、官网和数据界面。仅审阅时只读；用户要求设计、修复或升级时直接完成对应交付。
+description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、移动 App、官网和数据界面。统一菜单、Tab、图标键位、字体、抽屉与任务状态；只审阅保持只读，要求修复或升级则完成对应交付。
 ---
 
 # Leego Design UI
 
-```text
-Design Standard: Leego Design UI
-Standard ID: leego-design-ui
-Version: 2.21.0
-```
+Design Standard: Leego Design UI · Standard ID: leego-design-ui · Version: 2.25.0
 
-以稳定模板、清晰层级和可验证的减法减少 UI 随机性。先读取事实，只问会改变设计的决策；不得把简洁误解为删除风险、权限、证据或错误恢复。
+固定骨架、有限品牌差异；先读事实，继承项目方向，复用组件，再做减法与验证。不要把每次页面修改变成重新选风格，也不把构建成功当视觉验收。
 
-## 规范来源与更新
+## 执行顺序
 
-默认使用本地规范；用户要求最新版或本地规则不足以解决当前问题时，只从以下固定可信清单核验更新：
+1. 读项目说明、实际使用的组件、样式、路由、截图及已有决定；核实工作树与当前实现，不将旧截图或未被调用的组件当现状。明确用户、首要任务、平台、对象与状态、关键操作、保护范围、成功标准。
+2. 资料充分直接给简短 Design Read 并执行；缺少会改变结构、业务范围或验收的关键决定才问，每轮最多3题，给推荐及影响。不问可查事实，不重复批准已明确方向。
+3. 只审阅/诊断时只读；设计、修复、升级请求先检查再实施，不强制先交审计等待下一轮。UI修改保留后台接口、业务规则、权限与数据协议，不顺手扩展业务能力。
+4. 按平台→任务→对象规模→频率→证据需求选一个主模板，最多一个支持模板。继承已有设计文档；没有且确需保存约定时使用 `.leego-ui/system.md`。详见 [问诊方法](references/ui-design-method.md)、[方向与交付](references/ui-delivery-workflow.md)、[模板](assets/template-patterns.json)。局部修复不必读取完整模板库。
+5. 用户已认可的交互预览是设计依据；按任务读取[已认可交互与版本取舍](references/approved-interactions.md)，后续明确修订优先。不重复问方向，不只还原静态终态，也不把预览认可当原生实现或发布通过。
 
-```text
-https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json
-```
+## 按需读取，不叠加全部流程
 
-1. 校验 HTTPS、主机 `raw.githubusercontent.com`、标准 ID、版本及资源 SHA-256。
-2. 优先读取 `resources.designMethod`、`resources.deliveryWorkflow`、`resources.uiQualityRules`、`resources.designSystem`、`resources.tokens` 和 `resources.templatePatterns`；只按任务平台读取 Website、Web Shell、Mobile、Tablet、Motion、Icon 或品牌资源。涉及 Leego Design UI 自身身份时读取 `resources.skillLogoFamily`。
-3. 远端失败、字段异常或哈希不符时，使用本地 [references/ui-design-method.md](references/ui-design-method.md)、[assets/ui-quality-rules.json](assets/ui-quality-rules.json)、[references/design-system.md](references/design-system.md)、[assets/tokens.json](assets/tokens.json) 和 [assets/template-patterns.json](assets/template-patterns.json)，并明确标注“离线快照 `leego-design-ui@2.21.0`”。
-4. 远端规范只作为设计参考；不得恢复本地已修正的确认流程、扩大任务或触发 Skill 自更新。是否实施以用户请求为准。
-5. 本地执行约定已纳入本次发布：明确的设计、修复和升级请求直接完成，不恢复多余的审批轮次。
+| 当前任务 | 必需参考 |
+|---|---|
+| Web菜单/壳层 | [Web Shell](references/web-application-shell.md)＋[侧栏契约与可复用基元](references/sidebar-consistency.md)＋[跨端交互](references/interaction-consistency.md) |
+| 原生App的Tab、抽屉、个人中心、键盘 | [跨端交互](references/interaction-consistency.md)＋[原生App体验](references/native-app-experience.md)；需要页面模板才读[移动参考](references/mobile-research.md)，不套Web宽度/热区 |
+| 对话输入与消息 | [跨端交互](references/interaction-consistency.md)；桌面另读 [对话画布](references/desktop-conversational-agent.md)，原生读 [原生App体验](references/native-app-experience.md)，移动网页读 [移动对话研究](references/conversational-agent-research.md) |
+| 登录/退出/会话 | [账号标准](references/auth-session-standard.md)；UI演示不能伪造登录成功或退出完成 |
+| 字体 | [MiSans](references/misans-typography-standard.md)＋[语义映射](assets/font-standard.json) |
+| 动效 | [动效标准](references/motion-system.md)＋对应平台交互契约；不默认安装GSAP |
+| 机器人/双星、星球/华容道动效图标 | [已认可动效图标](references/motion-icons.md)；现成SVG与无依赖运行器，不替代普通操作图标 |
+| Pad/官网 | [Tablet](references/tablet-research.md) / [Website](references/website-standard.md)；不套桌面外壳 |
+| Leego 六个 Skill 身份图标 | [V006 积木家族](references/skill-logo-family.md)＋[机器目录](assets/skill-logo-family.json)；按技术 ID 取现成 SVG，旧版停用 |
+| 产品/品牌图标 | [品牌路由](references/brand-routing.md)；小字辈另读 [V010与内嵌磨砂](references/product-identity-collection.md) |
+| 查找/引用/更新图标 | [统一图标服务](references/icon-service.md)；按稳定 ID 取支持的变体，默认远程图像＋本地适配器，不复制整个库，不执行远程 JS |
 
-## 工作闭环
+机器参数：[tokens](assets/tokens.json)、[interaction-contract-1](assets/interaction-contract.json)、[质量规则](assets/ui-quality-rules.json)。本文负责路由，具体几何只在对应契约定义；旧模板与新契约冲突时修公共组件，不继续复制旧示例。
 
-```text
-读取项目 → 明确设计方向 → 统一页面与组件 → 做减法 →
-视觉与技术检查 → 修复并交付
-```
+## 不允许漂移的基线
 
-### 1. 先读取，后提问
+- Web保留216/68/248px、64px顶栏、34px图标轴与56px文字轴。菜单只一个持久选中面；文字、图标、热区不随选中改变位置。底部账号与通知同行，折叠才纵排；顶部不重复账号。
+- 原生App固定Tab槽位，同家族线/面图标同框切换，标签不跳；选中指示面可中断，页面立即响应。键盘/详情收起根导航，返回恢复原上下文。安全区只补一次，系统字号放大时容器增长；不得用缩字、隐藏功能换取整齐。
+- 推荐依法本地/同源接入MiSans：正文、输入、导航含选中Regular400；按钮、小标题Medium500；大标题、核心数字Semibold600。所有文字至少12px，Web正文14/22、Mobile16/24；App使用sp缩放，热区使用dp。保留受保护品牌字体，不伪粗体。缺字库可继续实施但报告字体未接入，CSS声明不是加载证据；Skill不分发字体二进制。
+- 通用操作图标用同一语义家族与固定槽位，不能把玻璃App Logo塞进按钮。Web通用24网格/1.75线宽，导航20px、辅助18px、热区44px；原生Tab按独立契约22dp图标、至少48dp热区，不与Web混用。
+- 保留已采纳小字辈V010与磨砂版、Geetimer v011「02 紫晶柔光」完整家族。紧凑用原标，48px以上身份入口才用磨砂；图形位于玻璃之下，不做贴纸。正式拼写Geetimer，保留原件哈希，不重画品牌或把栅格冒充矢量。第三方资产按来源许可，不自动热链或分发原件。
+- 动效服务状态与空间关系，单次UI转场最长280ms；禁止transition:all与正文缩放。持续真实进度与明确采纳的表达循环（如6.4秒机器人/双星）不属于单次转场；须可停止并清理，减少动态时静态反馈。后台、离屏和卸载不能留下旧回调或继续运行动画。
 
-读取仓库说明、现有页面、组件、样式、截图、业务文档和可见状态。禁止询问能够自行发现的事实。
+## 做减法，保留真正的上下文
 
-- 资料充分：不提问，直接输出紧凑 `Design Read`。
-- 缺少会改变结构、范围、权限或验收的决定：每轮只问 1–3 个问题，每题给出推荐答案及影响。
-- 只有新系统、需求明显模糊或用户明确要求深度访谈时才多轮追问。
+每个可见元素至少服务：页面上下文、用户决策、业务行动、状态风险、数据证据、可访问性。检查身份、数据、操作、容器、说明、装饰六类重复。
 
-进入设计前必须明确主要用户、首要任务、平台设备、对象与状态、关键操作、不可改范围和成功标准。完整格式与 UI-ready 判定读取 [references/ui-design-method.md](references/ui-design-method.md)。
+删重复页头/KPI/同义CTA、全局入口、多层空容器、功能卡墙与整页入场；账号工具按任务收纳，更新入口主要归“关于”。不要推广产品专属宠物、积分、充值、业务菜单与Logo坐标。首页建议项少而有效，进入任务后收起；不要把某个产品的卡片数量规定为全部产品的数量。
 
-### 2. 判断模式
+保留对象、范围、时间、新鲜度、风险、权限、证据、错误恢复及必要帮助。通知、数量、红点、加载、成功必须来自真实状态；无能力隐藏或明确标为原型。图表同系列、同名指标与同一行为跨页面保持含义、格式、名称及位置一致。
 
-- **新设计**：简短说明 Design Read 后直接交付所需方案或原型；只有核心业务决策缺失才问。
-- **只读审计**：用户仅要求审阅、分析或诊断时提供发现；完整审计用 `UI_2_AUDIT.md`，局部评审可直接回复。
-- **设计或修复实施**：用户要求改好、优化或实现即授权对应前端范围；先检查再实施，不强制先交审计等待下一轮。覆盖请求中的页面与组件，不仅限于 P0/P1。
+## 验证与交付
 
-### 3. 确定性选模板
+先查令牌缺失、组件重复、真实任务差异还是局部缺陷；在正确层级修，不逐页叠样式。局部修改只验受影响路径，公共壳层扩大到代表性页面和设备。跨端行为用 [交互验收矩阵](references/interaction-consistency.md)；Web探针位于 `scripts/audit-sidebar.mjs`，它不证明App或全部动效通过。
 
-新增页面、跨页面调整或整体改版时读取 [方向继承与验证交付](references/ui-delivery-workflow.md)。已有系统继承有效方向和语义映射，局部修复不重新选风格。优先使用项目现有设计文档，没有时才用 `.leego-ui/system.md` 保存可复用决定；只读审计不写入。新系统或明确改版提出一个推荐方向与代表样例，用户要求比较才给备选，不重复批准已明确的方向。
+每项报告：对象→方法→通过/失败/未验证/不适用→证据与限制。菜单同轴偏差≤1 CSS px；折叠/反向20次保留输入节点、草稿、搜索与滚动；浮层只关闭最上层并恢复焦点；原生键盘、安全区、系统字号200%、系统Back及TalkBack/VoiceOver必须用对应平台验证。缺原生运行环境就标未验证，不以Web截图替代。
 
-后台仅允许已确认的品牌色、Logo和少量图像表达；固定骨架、字体尺寸、图标槽位、账号、抽屉与行为不得按页面改写。品牌色不得改变风险、成功、未知语义或降低对比度。同名指标统一口径、单位、格式，图表系列保持一致颜色；漂移先区分令牌缺失、重复组件、真实任务差异和局部缺陷，再在正确层级修复。
+完整审计交付 `UI_2_AUDIT.md`：Design Read、模板与保护范围、可见问题→用户成本→调整→保护内容、P0/P1/P2与方法。局部评审可直接回复。P0为任务/草稿/焦点丢失、遮挡、假操作及风险/权限隐藏；P1为对齐、字号图标、重复信息与状态漂移。实施交付实际改动、验证和限制；源文件、安装、ZIP、远端与业务项目状态分开说明。
 
-按 `平台 → 页面目标 → 对象规模 → 操作频率 → 证据/审核要求` 选择一个主模板，最多增加一个支持模板。模板约束信息顺序和交互闭环，不是业务数据合同，不得随机生成布局或把多个完整工作台堆在一页。
+## 固定更新源
 
-Website 读取 [references/website-standard.md](references/website-standard.md)；带侧栏 Web 工作台读取 [references/web-application-shell.md](references/web-application-shell.md)；Mobile、Tablet、动效、Skill Logo、产品 Logo 和第三方品牌仅在相关时读取对应 references/assets。
-
-### 4. 品牌素材按需读取
-
-新设计、页面优化与字体审计优先建议 **MiSans**。先读 [MiSans 字体规范](references/misans-typography-standard.md) 和 [语义映射](assets/font-standard.json)（动态键 `resources.fontStandard`），检查项目已有授权与字体注册；已采用则复用，不重复问。正文、输入和导航（含选中）Regular 400；按钮和小标题 Medium 500；大标题、核心数字及必要强调 Semibold 600。不用伪粗体，不自动覆盖受保护的品牌字体。字体仅由项目依法获取后本地/同源嵌入；本 Skill 不分发字体二进制。缺文件时系统回退并报告待接入，不把字体栈声明当实际加载；交付检查真实渲染、缩放、断行、字体声明与完整许可。
-
-小字辈产品优先读取 [V010 与内嵌磨砂玻璃](references/product-identity-collection.md) 和 [14 款目录](assets/product-identity-collection.json)（动态键 `resources.productIdentityCollection`）。V010 全部原标已采纳；紧凑场景用原标，48px 以上入口可用同载体磨砂版。图形必须位于连续玻璃表面之下，不做悬浮贴纸，不加虹彩边缘；原件与衍生文件分开，保留原件哈希。小台账图形已采纳但用途待核对。五款架构系统图标仍读取 [系统身份](references/system-identity-family.md)；其中旧 13 款产品只兼容保留，不与新集合混搭。栅格不冒充矢量，身份资产不改变通用操作图标和状态规则；第三方原件不随 Skill 分发，不自动热链。
-
-涉及Skill自身、Geetimer或新鲜零食品牌时，读取 [品牌路由](references/brand-routing.md)，再按其中路由读取原有来源、许可及保真规则；不把品牌资产当通用UI图标，不自动热链或仿制。
-
-### 5. 先做减法
-
-每个可见元素必须至少服务于：`页面上下文 / 用户决策 / 业务行动 / 状态风险 / 数据证据 / 可访问性`。否则删除、合并或降级。
-
-检查身份、数据、操作、容器、说明和装饰六类重复。不得删除对象身份、范围与时间、风险结论、数据新鲜度、权限上下文、证据来源、错误恢复、必要字段帮助及法律安全信息。
-
-审计每项发现使用：
-
-```text
-屏幕上看到什么 → 给用户造成什么成本 → 删除或调整什么 → 保护哪些内容
-```
-
-### 6. 登录、退出与信息唯一归属
-
-涉及应用外壳、账号或会话时读取 [references/auth-session-standard.md](references/auth-session-standard.md)（动态键 `resources.authSessionStandard`）。所有带侧栏桌面系统统一黑色216/68px侧栏、248px移动抽屉，顶部20px面板控制/44px热区，底部单一账号与通知；设置和真实退出仅在账号浮层，顶栏只留上下文与搜索。鼠标导航40px/选中底条32px，触屏44px；文字14/22px，常态与选中均400。Mobile 仅在“我的”，Pad 使用专用入口；官网不套桌面外壳。
-
-桌面对话任务额外读取 [references/desktop-conversational-agent.md](references/desktop-conversational-agent.md)（动态键 `resources.desktopConversationalAgent`），但不覆盖统一侧栏或账号归属。收纳按历史/项目/归档对象选注册图标；折叠及快速反向保持任务和输入节点、草稿与滚动。账号浮层336px、详情抽屉480px，Esc/遮罩、焦点隔离与关闭恢复必须覆盖原生和自定义可聚焦控件。未保存工作按真实风险保护，不制造接口或假成功。
-
-每个信息点指定一个主要归属区，先删除重复身份、全局搜索、页头、KPI 复述与容器；保留对象、范围、时间、风险、证据、权限及恢复操作。不按审美随机改变已固定的尺寸和导航。
-
-涉及侧栏时必须执行内部对齐契约：12px外侧、8px行内、28px固定槽、8px文字间距；计算图标中心34px、一级文字起点56px，无图标条目保留空槽，主操作与品牌标记不得移动文字轴。详细顶部/底部节奏、子级缩进及浮层回落读取Web Shell参考。收纳使用左侧collection，账号显式绑定入口，所有浮层按工作区与可见视口交集持续定位；不得只在打开时算位置。审计增加“侧栏内部对齐”：错位P1，操作遮挡、热区重叠、浮层越界和焦点丢失P0。几何断言≤1 CSS px并复核截图，不把仅外壳宽度测试当完整通过。
-
-## 审计交付
-
-
-`UI_2_AUDIT.md` 必须包含：
-
-1. 需求完整度与 Design Read。
-2. 页面到主/支持模板的映射及不可照搬部分。
-3. 减法机会与受保护内容。
-4. 固定素材一致性：字体、图标、侧栏、顶栏、边距、组件状态、动效和登录/退出；检查同一身份与全局操作是否重复。
-5. P0/P1/P2、影响页面、用户成本、迁移风险及验收方法。
-
-P0 包含核心任务或上下文丢失、响应式不可用、假按钮、风险/权限/更新时间被隐藏、固定应用外壳严重漂移。P1 包含重复页头、重复 KPI/CTA、错误字号图标、局部间距和组件状态不完整。仅审计请求到结论即完成；包含修复要求时继续实现和验证。
-
-## 实施边界
-
-1. 只改用户请求及已有授权覆盖的前端范围，优先复用现有组件与设计令牌。
-2. 纯 UI 修改保留后台接口、权限与数据协议；必要的前端依赖按项目约定选用。超出请求的业务能力或对外数据传输不自行添加。
-3. 不存在的通知、搜索、提交、联系、证据或成功状态必须隐藏、禁用或明确标记原型，不得伪造。
-4. 覆盖受影响功能实际存在的加载、空、错误、权限和交互状态；不为无此行为的组件新增状态体系。
-5. 先运行最快相关检查；按改动选择项目校验器、Lint、构建和响应式验收。全局样式或新页面检查主要宽度；局部改动聚焦受影响页面，已通过且无新风险不重复检查。
-
-## 不可降级的固定值
-
-- Web 侧栏：216px 展开、68px 折叠、248px 移动抽屉；菜单最多 8 个中文字符；折叠按钮及四态响应读取 Web Shell 参考。
-- Web 顶栏：64px，仅页面上下文/面包屑与真实全局搜索；账号和通知固定侧栏底部，设置与退出在账号浮层。内容左/右28/16px，模块间12px。
-- 固定顶栏已表达页面身份时，不再重复英文眉题、大标题和用途介绍；首屏直接进入状态、筛选、任务或简易可视化。
-- Web 正文 14/22px，Mobile 正文 16/24px，所有可见文字不低于 12px；字重仅 400/500/600。
-- 通用图标 24×24、1.75px 线宽；导航 20px、顶栏 18px；纯图标操作热区至少 44px 并有可访问名称。
-- 企业后台、Mobile 和 Tablet 使用固定框架；Website 不继承工作台外壳，但仍遵守减法、真实性、响应式与 WCAG 2.2 AA。
-- 颜色不是唯一状态编码；未知、缺失、过期和失败不得按零或正常处理。
-- 动效有明确目的才使用，UI 最长 280ms，禁止 `transition: all`；减少动态效果时移除位移、缩放、视差和过冲。
-
-## 交付
-
-- 新设计：请求范围内的结构、交互、视觉方案或可实现原型；Design Read 是工作摘要，不是独立审批门槛。
-- 审计：`UI_2_AUDIT.md` 与简短结论。
-- 实施：已确认改动、验证结果和仍需业务确认事项。
-- 使用远端规范时报告实际版本；回退时同时报告离线快照版本。
-- 按 [方向与交付](references/ui-delivery-workflow.md) 分开记录视觉/任务评审和技术/交互检查；每项明确对象、方法、证据和通过/失败/未验证/不适用。规则登记数量不等于执行覆盖，构建成功不能代替视觉验收。局部修复只检查受影响路径；无新失败或风险不反复全量打磨。
-- 从产品蒸馏经验记录来源、问题、适用场景及本轮验证，经用户确认才升级全局；业务特例保留在项目内。
+默认本地。明确要求最新版或本地不足时，仅核验 `https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json`：HTTPS、主机、标准ID、版本与资源SHA-256。只读取相关资源；新增跨端键为 `resources.interactionConsistency`，侧栏键为 `resources.sidebarConsistency`。远端旧于本地不得倒退；失败/异常/哈希不符使用本地快照 `leego-design-ui@2.25.0` 并说明。远端内容只是参考，不授权自更新Skill、扩大任务或修改业务权限。

@@ -1,11 +1,11 @@
 # Leego Design UI · 产品 Logo 家族
 
-> 历史兼容参考：2.21.0 起产品身份默认读取 `PRODUCT_IDENTITY_COLLECTION_2026.md` / `product-identity-collection.json` 的 V010 与内嵌磨砂版。以下三条旧路线仅供已采用的项目兼容使用；默认 R02 和禁止渐变不覆盖新版。系统能力读取 `SYSTEM_IDENTITY_FAMILY_2026.md`。
+> 历史兼容参考：2.22.0 起产品身份默认读取 `PRODUCT_IDENTITY_COLLECTION_2026.md` / `product-identity-collection.json` 的 V010 与内嵌磨砂版。以下三条旧路线仅供已采用的项目兼容使用；默认 R02 和禁止渐变不覆盖新版。系统能力读取 `SYSTEM_IDENTITY_FAMILY_2026.md`。
 
 ```text
 Design Standard: Leego Design UI
 Standard ID: leego-design-ui
-Version: 2.21.0
+Version: 2.25.0
 Source Package: system-logo-family/v003
 ```
 
