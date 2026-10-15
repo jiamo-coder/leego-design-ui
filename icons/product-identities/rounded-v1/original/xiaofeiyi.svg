@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="0 0 1254 1254" fill="none">
+  <title>小飞驿 SwiftPost</title>
+  <defs>
+    <linearGradient id="wing" x1="290" y1="300" x2="879" y2="940" gradientUnits="userSpaceOnUse"><stop stop-color="#62E7E0"/><stop offset=".46" stop-color="#24B7ED"/><stop offset="1" stop-color="#5166ED"/></linearGradient>
+    <linearGradient id="tail" x1="245" y1="640" x2="720" y2="920" gradientUnits="userSpaceOnUse"><stop stop-color="#72DFED"/><stop offset="1" stop-color="#7186F5"/></linearGradient>
+  </defs>
+  <path d="M236 376C222 353 238 326 266 330L961 407C1007 412 1023 461 990 491L608 856C574 888 526 865 536 819L590 582C594 565 586 552 569 544L267 401C253 395 244 388 236 376Z" fill="url(#wing)"/>
+  <path d="M270 655C254 640 265 613 287 617L475 650C495 654 506 672 502 691L473 823C468 847 438 853 423 834L270 655Z" fill="url(#tail)"/>
+  <circle cx="830" cy="864" r="53" fill="#56D7DC"/>
+</svg>
