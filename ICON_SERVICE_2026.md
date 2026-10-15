@@ -1,6 +1,8 @@
-# Leego Icon Service · 2.25.0
+# Leego Icon Service · 2.25.4
 
 接入前先请求下述 stable 地址，确认可用版本与目录哈希。2.25.0 的本地实现/安装不等于公网已发布；发布未完成或端点不可达时使用已校验的本地资产，不把计划中的生产地址当已可用服务。
+
+六款 `system.*` 使用 V018 家族（产品中心为 V019 扩展）。将远端条目的 variant SHA-256 与 `assets/system-identity-family.json` 对照；若远端仍是旧版，不用旧图替代，使用本地 `assets/icons/system-identities/` 已校验文件。当前目录快照另见 `assets/icon-library.json`。2.25.4 修复目录绑定漏更新，是否上线仍须核验公网实际哈希。
 
 ## 选择与复用
 
@@ -51,6 +53,8 @@ const {snapshot, fromCache} = await loadIconSnapshot({storage: localStorage});
 品牌用 `<img>` 保真。通用单色图标可通过受信来源的 CSS mask 使用 `currentColor`；不要依赖跨域 SVG `<use>`，也不把任意远程 SVG 字符串注入 HTML。允许域配置 CSP `img-src` 到此主机，fetch目录配置 `connect-src`；按实际项目验证 mask 的 CSP。
 
 ## 原生 Android
+
+企迈、金蝶、飞书、美团与美团收银 ERP 已登记的托管集成图标见 [生态 App 图标](external-app-icons.md)。目录中的 `usageScope` / `permission` 是对 `project-reuse` 的具体范围限制，不可把它理解成无条件商标授权；其余 `reference-only` 项仍不开放引用。
 
 采用同一目录协议，不把 Web 验收当 App 验收：
 

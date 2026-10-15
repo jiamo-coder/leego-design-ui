@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.25.0
+// Version: 2.25.5
 export type ExternalBrandAssetStatus = 'official-source' | 'fallback';
 export type ExternalBrandAsset = {
   status: ExternalBrandAssetStatus;

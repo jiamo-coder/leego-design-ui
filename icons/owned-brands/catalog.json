@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "edition": "v001",
+  "assetRelease": "2.25.8",
+  "source": "用户提供，2026-10-15",
+  "permission": "用户要求收录、托管及项目复用；不转授商标权",
+  "members": [
+    {
+      "id": "gofofo",
+      "label": "狗福福",
+      "aliases": [
+        "Gofofo",
+        "狗福福",
+        "鲜奶零食"
+      ],
+      "ink": "#004882",
+      "source": {
+        "file": "design-system/owned-brand-sources/gofofo.png",
+        "sha256": "dc76531c8b1dd28e7163022bfa5e606a2de0b2526d17e6a51cb3786fc8b26a02",
+        "width": 3000,
+        "height": 3000
+      },
+      "processing": {
+        "method": "original-alpha-lossless-crop",
+        "maxWhiteReconstructionError": 0,
+        "inkBounds": [
+          756,
+          1117,
+          2244,
+          1883
+        ],
+        "chineseLineEnd": null
+      },
+      "variants": {
+        "primary": {
+          "file": "gofofo-primary.png",
+          "sha256": "3a1f72006de1f6f309d9aee5870304f423ecf7a7ff4660dd419d97b1eecc40d5",
+          "width": 1580,
+          "height": 858,
+          "format": "png",
+          "transparent": true
+        },
+        "capsule": {
+          "file": "gofofo-capsule.png",
+          "sha256": "89078791157b89025d53f15c5260e62fa60989aaaa7ff1e5bf765b7f5ad056c8",
+          "width": 480,
+          "height": 160,
+          "format": "png",
+          "transparent": true,
+          "usage": "静态展示载体；真实按钮用 primary/button 加 CSS，不以图片代替交互"
+        }
+      },
+      "note": "保留用户原件完整中英组合；透明背景，不添加 App 底板。"
+    },
+    {
+      "id": "baisense",
+      "label": "柏善堂",
+      "aliases": [
+        "BAISENSE",
+        "柏善堂",
+        "品牌切换",
+        "长条按键"
+      ],
+      "ink": "#064231",
+      "source": {
+        "file": "design-system/owned-brand-sources/baisense.png",
+        "sha256": "72a3e7c777bbebd22e520a693af5c5633524d059401e33c2ef291e9037bedc80",
+        "width": 1182,
+        "height": 1182
+      },
+      "processing": {
+        "method": "original-alpha-lossless-crop",
+        "maxWhiteReconstructionError": 0,
+        "inkBounds": [
+          217,
+          459,
+          964,
+          722
+        ],
+        "chineseLineEnd": 644
+      },
+      "variants": {
+        "primary": {
+          "file": "baisense-primary.png",
+          "sha256": "d4a382615dd8094f82b78d5add1242f6403f8538e5f40a7b924e2ca3387ae3f2",
+          "width": 779,
+          "height": 295,
+          "format": "png",
+          "transparent": true
+        },
+        "button": {
+          "file": "baisense-button.png",
+          "sha256": "5ddc5b6215299b8da2cc1456a4799754d3886cf2dc7e373b2cfb4613e7781ec4",
+          "width": 771,
+          "height": 209,
+          "format": "png",
+          "transparent": true
+        },
+        "capsule": {
+          "file": "baisense-capsule.png",
+          "sha256": "75ecbf67f7f36516142cb2079eab97e811a90c204d3f44727730ad2e61cc88c7",
+          "width": 480,
+          "height": 160,
+          "format": "png",
+          "transparent": true,
+          "usage": "静态展示载体；真实按钮用 primary/button 加 CSS，不以图片代替交互"
+        }
+      },
+      "note": "完整中英组合保留原件；button 为原中文字形响应式紧凑版，仅省去英文行，不替代品牌主标。"
+    }
+  ]
+}

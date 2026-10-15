@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.25.0",
+  "version": "2.25.8",
   "base": "/skills/leego-design-ui/site/icon-api/v1",
   "updatePolicy": "snapshot-on-session-start",
   "categories": [
@@ -67,37 +67,42 @@
     {
       "id": "brand-enterprise-service",
       "label": "企业服务",
-      "group": "外部品牌 · 仅参考"
+      "group": "外部品牌"
     },
     {
       "id": "brand-social-content",
       "label": "社交与内容",
-      "group": "外部品牌 · 仅参考"
+      "group": "外部品牌"
     },
     {
       "id": "brand-commerce-local",
       "label": "电商与本地生活",
-      "group": "外部品牌 · 仅参考"
+      "group": "外部品牌"
     },
     {
       "id": "brand-payment",
       "label": "支付渠道",
-      "group": "外部品牌 · 仅参考"
+      "group": "外部品牌"
     },
     {
       "id": "brand-maps-logistics",
       "label": "地图与物流",
-      "group": "外部品牌 · 仅参考"
+      "group": "外部品牌"
     },
     {
       "id": "brand-bank",
       "label": "银行",
-      "group": "外部品牌 · 仅参考"
+      "group": "外部品牌"
     },
     {
       "id": "snacks",
       "label": "新鲜零食品牌",
       "group": "外部品牌 · 仅参考"
+    },
+    {
+      "id": "owned-brands",
+      "label": "自有品牌字标",
+      "group": "身份与品牌"
     }
   ],
   "entries": [
@@ -336,658 +341,6 @@
       }
     },
     {
-      "id": "product.xiaoputao",
-      "label": "小葡萄",
-      "category": "products",
-      "aliases": [
-        "xiaoputao",
-        "项目与任务管理",
-        "流动果簇"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b85b44e9b97b8fec726c5e6be994f501907f4a0d69399d6f1a4fffebb8debca9.png",
-          "sha256": "b85b44e9b97b8fec726c5e6be994f501907f4a0d69399d6f1a4fffebb8debca9",
-          "format": "png",
-          "bytes": 423414
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a3591296482b2a2158ad78624f64c9d7655b8d559ffdea6e21d366230ecdd50d.png",
-          "sha256": "a3591296482b2a2158ad78624f64c9d7655b8d559ffdea6e21d366230ecdd50d",
-          "format": "png",
-          "bytes": 540097
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9635fe1b71144471bf15c45e00a0e458399abded511e461eb8700a49d96bd7a1.png",
-          "sha256": "9635fe1b71144471bf15c45e00a0e458399abded511e461eb8700a49d96bd7a1",
-          "format": "png",
-          "bytes": 603497
-        }
-      }
-    },
-    {
-      "id": "product.xiaohonghua",
-      "label": "小红花",
-      "category": "products",
-      "aliases": [
-        "xiaohonghua",
-        "员工成长与认可",
-        "旋转花瓣"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cc99028c254a85bd469cd39d92dda98482eebf185d57f2fc86e4a893aef4f6a7.png",
-          "sha256": "cc99028c254a85bd469cd39d92dda98482eebf185d57f2fc86e4a893aef4f6a7",
-          "format": "png",
-          "bytes": 474487
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/70dea28fa3b561ddce05aad4c0ee23df2c2507ac22c3ab5ae42cd0e06ef71f1f.png",
-          "sha256": "70dea28fa3b561ddce05aad4c0ee23df2c2507ac22c3ab5ae42cd0e06ef71f1f",
-          "format": "png",
-          "bytes": 662368
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e1f8da0af03722f8ef3752820bcdb9d009f2b7ebab7e6525a533fb3482132964.png",
-          "sha256": "e1f8da0af03722f8ef3752820bcdb9d009f2b7ebab7e6525a533fb3482132964",
-          "format": "png",
-          "bytes": 600861
-        }
-      }
-    },
-    {
-      "id": "product.xiaosuanpan",
-      "label": "小算盘",
-      "category": "products",
-      "aliases": [
-        "xiaosuanpan",
-        "经营分析与计算",
-        "滑动算珠"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/989f8ad9d399bb319e24b0d34988206e751e57e19a7a34f5ec3ea43191c077de.png",
-          "sha256": "989f8ad9d399bb319e24b0d34988206e751e57e19a7a34f5ec3ea43191c077de",
-          "format": "png",
-          "bytes": 561206
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/83b145b6e6e3705fbab91161f26bab9fca6f4087070014c303ffb8e6931e7641.png",
-          "sha256": "83b145b6e6e3705fbab91161f26bab9fca6f4087070014c303ffb8e6931e7641",
-          "format": "png",
-          "bytes": 757398
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/22c278bfad0d3ccd4a17dc556f027b27138cb7bdeb1daca4f2cbbadd63fd32d6.png",
-          "sha256": "22c278bfad0d3ccd4a17dc556f027b27138cb7bdeb1daca4f2cbbadd63fd32d6",
-          "format": "png",
-          "bytes": 606992
-        }
-      }
-    },
-    {
-      "id": "product.xiaojinkuang",
-      "label": "小金矿",
-      "category": "products",
-      "aliases": [
-        "xiaojinkuang",
-        "门店价值与健康发现",
-        "柔角晶面"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5cf67e9c062d0a7eaaf6cc7bd8032a1c40dd7991270446f6ebc965f4018fbf30.png",
-          "sha256": "5cf67e9c062d0a7eaaf6cc7bd8032a1c40dd7991270446f6ebc965f4018fbf30",
-          "format": "png",
-          "bytes": 482585
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/264763bb61d8ac20402d040e09a41160b94f4d84fc4d33bcf4f62c32d70081fe.png",
-          "sha256": "264763bb61d8ac20402d040e09a41160b94f4d84fc4d33bcf4f62c32d70081fe",
-          "format": "png",
-          "bytes": 674196
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f90a665467bea0f3e946ab00f743519b4bb982d5810365de2e88f3623e3f296b.png",
-          "sha256": "f90a665467bea0f3e946ab00f743519b4bb982d5810365de2e88f3623e3f296b",
-          "format": "png",
-          "bytes": 594819
-        }
-      }
-    },
-    {
-      "id": "product.xiaohulu",
-      "label": "小葫芦",
-      "category": "products",
-      "aliases": [
-        "xiaohulu",
-        "供应链管理",
-        "双腔流线"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3d1287bb83888a3c98e01bfad866682a430a21d37badcf24ec652c35444db204.png",
-          "sha256": "3d1287bb83888a3c98e01bfad866682a430a21d37badcf24ec652c35444db204",
-          "format": "png",
-          "bytes": 494610
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1ed391b8d0b2340894602917716cc4feefc15a3c3ad0263058b20f7807668fcb.png",
-          "sha256": "1ed391b8d0b2340894602917716cc4feefc15a3c3ad0263058b20f7807668fcb",
-          "format": "png",
-          "bytes": 649226
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5a4a549801c6ed673edd54eb5cacdcf4f3ded479c3f9cec9d34ce79c58329e0b.png",
-          "sha256": "5a4a549801c6ed673edd54eb5cacdcf4f3ded479c3f9cec9d34ce79c58329e0b",
-          "format": "png",
-          "bytes": 599521
-        }
-      }
-    },
-    {
-      "id": "product.xiaozishu",
-      "label": "小紫薯",
-      "category": "products",
-      "aliases": [
-        "xiaozishu",
-        "产品研发与进度",
-        "卷曲种子"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d01dd03f97a05b80aa95c8f52159d8d4a1f8ac2c651c3768ea77b435f6319ef4.png",
-          "sha256": "d01dd03f97a05b80aa95c8f52159d8d4a1f8ac2c651c3768ea77b435f6319ef4",
-          "format": "png",
-          "bytes": 513779
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8b1f79f7176bbbbc763ae899ce53fec9f681acc00f676dff73c5cee52846c4f1.png",
-          "sha256": "8b1f79f7176bbbbc763ae899ce53fec9f681acc00f676dff73c5cee52846c4f1",
-          "format": "png",
-          "bytes": 634604
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/87cbfe481ab2b2562bd06f217a0eaa559e8210e0a29be7e3fcb581eabf60555b.png",
-          "sha256": "87cbfe481ab2b2562bd06f217a0eaa559e8210e0a29be7e3fcb581eabf60555b",
-          "format": "png",
-          "bytes": 606466
-        }
-      }
-    },
-    {
-      "id": "product.xiaotaiyang",
-      "label": "小太阳",
-      "category": "products",
-      "aliases": [
-        "xiaotaiyang",
-        "达人及品牌运营",
-        "暖光旋涡"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/25bb297bb1332086a1d42725799fe2fe1982e2045af41a63b5417441cebfcec6.png",
-          "sha256": "25bb297bb1332086a1d42725799fe2fe1982e2045af41a63b5417441cebfcec6",
-          "format": "png",
-          "bytes": 541993
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5567e460f102ffcb1f9575814ba3527c864b1b3a88773ce6a1ff4d3a2fa8ca64.png",
-          "sha256": "5567e460f102ffcb1f9575814ba3527c864b1b3a88773ce6a1ff4d3a2fa8ca64",
-          "format": "png",
-          "bytes": 724833
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1181b10df99eadcdc4fa9c2618e4b7971146a5f8633b556772649a46c7794c25.png",
-          "sha256": "1181b10df99eadcdc4fa9c2618e4b7971146a5f8633b556772649a46c7794c25",
-          "format": "png",
-          "bytes": 597478
-        }
-      }
-    },
-    {
-      "id": "product.xiaodianwei",
-      "label": "小点位",
-      "category": "products",
-      "aliases": [
-        "xiaodianwei",
-        "候选点位与拓展评估",
-        "回转定位"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/93856f1135d30aefe79743a65e4d0194046ca98943a37fb6453d2805d19971bd.png",
-          "sha256": "93856f1135d30aefe79743a65e4d0194046ca98943a37fb6453d2805d19971bd",
-          "format": "png",
-          "bytes": 347767
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/94b2f1a78623b63478297ec39ed64386f1c26116d713ee54ef25f2a834d9b151.png",
-          "sha256": "94b2f1a78623b63478297ec39ed64386f1c26116d713ee54ef25f2a834d9b151",
-          "format": "png",
-          "bytes": 498467
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/813ebd9bef228fb0d3615283303780e8f6b96671584e1617d319c3ceceab672a.png",
-          "sha256": "813ebd9bef228fb0d3615283303780e8f6b96671584e1617d319c3ceceab672a",
-          "format": "png",
-          "bytes": 607937
-        }
-      }
-    },
-    {
-      "id": "product.yuanmaxiang",
-      "label": "元码象",
-      "category": "products",
-      "aliases": [
-        "yuanmaxiang",
-        "代码与数字贡献",
-        "卷鼻侧像"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a24323e1a440905631dcdb62d263490ba56f90d8af792fbf0b5af276a63cf41f.png",
-          "sha256": "a24323e1a440905631dcdb62d263490ba56f90d8af792fbf0b5af276a63cf41f",
-          "format": "png",
-          "bytes": 547532
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6c1d1964ba052c13f9075fb0b4b1366604b2a275cd9f82894b88ec9dce9e4782.png",
-          "sha256": "6c1d1964ba052c13f9075fb0b4b1366604b2a275cd9f82894b88ec9dce9e4782",
-          "format": "png",
-          "bytes": 698789
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a5dc4f5806c73f8bf07ab6095f0801d1aa39d46a644adbea598adaded887c416.png",
-          "sha256": "a5dc4f5806c73f8bf07ab6095f0801d1aa39d46a644adbea598adaded887c416",
-          "format": "png",
-          "bytes": 607791
-        }
-      }
-    },
-    {
-      "id": "product.suyuanli",
-      "label": "溯源狸",
-      "category": "products",
-      "aliases": [
-        "suyuanli",
-        "供应与信息追溯",
-        "折面狸面"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8965d9482f2da42c4ea0b221b7de37a9c36c4837eb8d4a85339f09a2117e4842.png",
-          "sha256": "8965d9482f2da42c4ea0b221b7de37a9c36c4837eb8d4a85339f09a2117e4842",
-          "format": "png",
-          "bytes": 572685
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/96329e910281c9d54f7e15f98a13a2a96293837559df690f80267051a8b157ca.png",
-          "sha256": "96329e910281c9d54f7e15f98a13a2a96293837559df690f80267051a8b157ca",
-          "format": "png",
-          "bytes": 807179
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/86fe2762fc0cd400ae90499bbe35b9da17fed5b433931d6dd37c7a10a4fa9db1.png",
-          "sha256": "86fe2762fc0cd400ae90499bbe35b9da17fed5b433931d6dd37c7a10a4fa9db1",
-          "format": "png",
-          "bytes": 612179
-        }
-      }
-    },
-    {
-      "id": "product.xiaozongguan",
-      "label": "小总管",
-      "category": "products",
-      "aliases": [
-        "xiaozongguan",
-        "组织与系统治理",
-        "环抱协同"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0c578601a0752aef799b32cf5af88127876b7d8c57c60005ccccab97a8af3885.png",
-          "sha256": "0c578601a0752aef799b32cf5af88127876b7d8c57c60005ccccab97a8af3885",
-          "format": "png",
-          "bytes": 533312
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0d731474c2c6906f5bf9aa44e52a961d2f074927f345362ccd0cb3bcdb11594c.png",
-          "sha256": "0d731474c2c6906f5bf9aa44e52a961d2f074927f345362ccd0cb3bcdb11594c",
-          "format": "png",
-          "bytes": 702513
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f3c1d7f182278430a704aaca303c2d513bed451cb22493a063c2a5332bdaa575.png",
-          "sha256": "f3c1d7f182278430a704aaca303c2d513bed451cb22493a063c2a5332bdaa575",
-          "format": "png",
-          "bytes": 605358
-        }
-      }
-    },
-    {
-      "id": "product.zhuxu",
-      "label": "筑序",
-      "category": "products",
-      "aliases": [
-        "zhuxu",
-        "工程与验收",
-        "连续拱带"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/781a5ef08f7d0724fee54ef3568745e5a5aa271906d0c13a140bdfc74505f23f.png",
-          "sha256": "781a5ef08f7d0724fee54ef3568745e5a5aa271906d0c13a140bdfc74505f23f",
-          "format": "png",
-          "bytes": 441584
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/702b71d76ba2632ac94fd4f39e34c1f4b334622f4e3500c6dcace77a42fecc9b.png",
-          "sha256": "702b71d76ba2632ac94fd4f39e34c1f4b334622f4e3500c6dcace77a42fecc9b",
-          "format": "png",
-          "bytes": 636035
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b91ea4bcd3c805019437fdd2fdb4ab11f67aeb02809d90b9d2d0a2e5b1a5e0f3.png",
-          "sha256": "b91ea4bcd3c805019437fdd2fdb4ab11f67aeb02809d90b9d2d0a2e5b1a5e0f3",
-          "format": "png",
-          "bytes": 595394
-        }
-      }
-    },
-    {
-      "id": "product.xiaogongfang",
-      "label": "小工坊",
-      "category": "products",
-      "aliases": [
-        "xiaogongfang",
-        "创意与交付",
-        "编织回环"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/844b030c1e0a2a2f665834100f67d2b22a36940a6eef612847118747d606eef4.png",
-          "sha256": "844b030c1e0a2a2f665834100f67d2b22a36940a6eef612847118747d606eef4",
-          "format": "png",
-          "bytes": 661854
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f860ec674d52d04344eb6f0b2b896e40cf01a2bd25971913a943618467601377.png",
-          "sha256": "f860ec674d52d04344eb6f0b2b896e40cf01a2bd25971913a943618467601377",
-          "format": "png",
-          "bytes": 788337
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b32d960ba61f8db0bc2e56925046f0053dfa332c0a39554408b9483f76a4e13c.png",
-          "sha256": "b32d960ba61f8db0bc2e56925046f0053dfa332c0a39554408b9483f76a4e13c",
-          "format": "png",
-          "bytes": 611163
-        }
-      }
-    },
-    {
-      "id": "product.xiaotaizhang",
-      "label": "小台账",
-      "category": "products",
-      "aliases": [
-        "xiaotaizhang",
-        "台账记录 · 暂拟",
-        "双页展开"
-      ],
-      "source": "V010 · 已采纳原件 / 内嵌磨砂",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/13b7089462aa7811fe9b14e32a8401b7516be328e2e7732e71ac018b155d4cf6.png",
-          "sha256": "13b7089462aa7811fe9b14e32a8401b7516be328e2e7732e71ac018b155d4cf6",
-          "format": "png",
-          "bytes": 522255
-        },
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/fd73ddbc8ce5831211f4b5d1ccfa6d7ebf4b70ae220240d68435724abbd605ad.png",
-          "sha256": "fd73ddbc8ce5831211f4b5d1ccfa6d7ebf4b70ae220240d68435724abbd605ad",
-          "format": "png",
-          "bytes": 724062
-        },
-        "glass": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/820fa5c3e2bf465b4fd48ff625388b24939c8784606e82759e389c22bdaf63ae.png",
-          "sha256": "820fa5c3e2bf465b4fd48ff625388b24939c8784606e82759e389c22bdaf63ae",
-          "format": "png",
-          "bytes": 587215
-        }
-      }
-    },
-    {
-      "id": "system.weather",
-      "label": "天气服务",
-      "category": "systems",
-      "aliases": [
-        "天气与环境",
-        "weather"
-      ],
-      "source": "已采纳系统身份",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/14bcafb68c6d2f37241c52521cd74387d36de6c76df5632e0af1c9dce448641c.svg",
-          "sha256": "14bcafb68c6d2f37241c52521cd74387d36de6c76df5632e0af1c9dce448641c",
-          "format": "svg",
-          "bytes": 2419
-        },
-        "compact": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/af5e656cc79bd32e6ac8295dc00bcc2ccc5ac7d9b940a9b4a1679a94032b33b4.svg",
-          "sha256": "af5e656cc79bd32e6ac8295dc00bcc2ccc5ac7d9b940a9b4a1679a94032b33b4",
-          "format": "svg",
-          "bytes": 2008
-        },
-        "mono-dark": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3241f895f58cef945bc0a099947815f31b4a51cfb93478e2d01e4f9c57295cbc.svg",
-          "sha256": "3241f895f58cef945bc0a099947815f31b4a51cfb93478e2d01e4f9c57295cbc",
-          "format": "svg",
-          "bytes": 478
-        },
-        "mono-light": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/23594a22263b62ba8a9c6d036531f8ec94015dceeb5672802222cc7af83a581e.svg",
-          "sha256": "23594a22263b62ba8a9c6d036531f8ec94015dceeb5672802222cc7af83a581e",
-          "format": "svg",
-          "bytes": 478
-        }
-      }
-    },
-    {
-      "id": "system.business-center",
-      "label": "Business Center",
-      "category": "systems",
-      "aliases": [
-        "业务中枢",
-        "business-center"
-      ],
-      "source": "已采纳系统身份",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/635cca3e967604d77512d4cd6d9b6bbcbeacd595a70e6283dcbd6c5283fec4b2.svg",
-          "sha256": "635cca3e967604d77512d4cd6d9b6bbcbeacd595a70e6283dcbd6c5283fec4b2",
-          "format": "svg",
-          "bytes": 2508
-        },
-        "compact": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/da0906c53b922622b44dec9703fa983c7e900ff6cc01fc6e28aecaa7c20090e2.svg",
-          "sha256": "da0906c53b922622b44dec9703fa983c7e900ff6cc01fc6e28aecaa7c20090e2",
-          "format": "svg",
-          "bytes": 2073
-        },
-        "mono-dark": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5dcaefbd1bed4ec77669ec880cbe1011de9712e25b2a7bc7ca5c0a291f7a0930.svg",
-          "sha256": "5dcaefbd1bed4ec77669ec880cbe1011de9712e25b2a7bc7ca5c0a291f7a0930",
-          "format": "svg",
-          "bytes": 479
-        },
-        "mono-light": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3c4fddfc6f1889304c66296274b63f6f8debafdde7e2539e00b58ef5e5f7911d.svg",
-          "sha256": "3c4fddfc6f1889304c66296274b63f6f8debafdde7e2539e00b58ef5e5f7911d",
-          "format": "svg",
-          "bytes": 479
-        }
-      }
-    },
-    {
-      "id": "system.integration-hub",
-      "label": "Integration Hub",
-      "category": "systems",
-      "aliases": [
-        "集成中枢",
-        "integration-hub"
-      ],
-      "source": "已采纳系统身份",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/025388d48ddeb54c250bef05c777351ff9d68e143884a3e8919d60b01f4e605d.svg",
-          "sha256": "025388d48ddeb54c250bef05c777351ff9d68e143884a3e8919d60b01f4e605d",
-          "format": "svg",
-          "bytes": 2734
-        },
-        "compact": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/832ad966edd615a5dcd58a4986c6b409e327871ce4d4ea816f4cc5c274084ecc.svg",
-          "sha256": "832ad966edd615a5dcd58a4986c6b409e327871ce4d4ea816f4cc5c274084ecc",
-          "format": "svg",
-          "bytes": 2299
-        },
-        "mono-dark": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/aae77dc3d3928b4f2a9fb2d686daa8b55472253c3737e8f226328e54a614b3e9.svg",
-          "sha256": "aae77dc3d3928b4f2a9fb2d686daa8b55472253c3737e8f226328e54a614b3e9",
-          "format": "svg",
-          "bytes": 705
-        },
-        "mono-light": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/48a27e8504d8be84ca60e48d0ddf158701d1a50d501b81f08899a6cb139cb3fb.svg",
-          "sha256": "48a27e8504d8be84ca60e48d0ddf158701d1a50d501b81f08899a6cb139cb3fb",
-          "format": "svg",
-          "bytes": 705
-        }
-      }
-    },
-    {
-      "id": "system.security",
-      "label": "信息安全中心",
-      "category": "systems",
-      "aliases": [
-        "安全与保护",
-        "security"
-      ],
-      "source": "已采纳系统身份",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/65b43ffd1908c1f71aeef1580ed941b3f4b7d971b0c37dbfeac6fa5439cffaf4.svg",
-          "sha256": "65b43ffd1908c1f71aeef1580ed941b3f4b7d971b0c37dbfeac6fa5439cffaf4",
-          "format": "svg",
-          "bytes": 2446
-        },
-        "compact": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c28262cf2aef3aad09624a34b987776552de6a758a52c56f74f2c42c5d6821dc.svg",
-          "sha256": "c28262cf2aef3aad09624a34b987776552de6a758a52c56f74f2c42c5d6821dc",
-          "format": "svg",
-          "bytes": 2032
-        },
-        "mono-dark": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f39306f01c18c5a595abc0cffad90bc7a8c1af199b759500929e83d0aab6a8ac.svg",
-          "sha256": "f39306f01c18c5a595abc0cffad90bc7a8c1af199b759500929e83d0aab6a8ac",
-          "format": "svg",
-          "bytes": 494
-        },
-        "mono-light": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/aa3fa5f81de42163c3f98b6c67eb5114c3891ab53a62d4ee3395f395a7c96bd3.svg",
-          "sha256": "aa3fa5f81de42163c3f98b6c67eb5114c3891ab53a62d4ee3395f395a7c96bd3",
-          "format": "svg",
-          "bytes": 494
-        }
-      }
-    },
-    {
-      "id": "system.identity",
-      "label": "统一身份与组织",
-      "category": "systems",
-      "aliases": [
-        "账号与组织",
-        "identity"
-      ],
-      "source": "已采纳系统身份",
-      "rights": "project-reuse",
-      "defaultVariant": "app",
-      "variants": {
-        "app": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6639f7d8443e1aabbe87bce7fb9edfbc8cdf84b09758c6f01f58b7c3341a677a.svg",
-          "sha256": "6639f7d8443e1aabbe87bce7fb9edfbc8cdf84b09758c6f01f58b7c3341a677a",
-          "format": "svg",
-          "bytes": 2412
-        },
-        "compact": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cf34100960dee638e45e0d2892f6879f4c7710a8d3ae94828b23d5c193ff10fa.svg",
-          "sha256": "cf34100960dee638e45e0d2892f6879f4c7710a8d3ae94828b23d5c193ff10fa",
-          "format": "svg",
-          "bytes": 1998
-        },
-        "mono-dark": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/486eb8bf2fc0c0198b66026380a942695785cfb3efd951a6cd8c15f66c30b58a.svg",
-          "sha256": "486eb8bf2fc0c0198b66026380a942695785cfb3efd951a6cd8c15f66c30b58a",
-          "format": "svg",
-          "bytes": 460
-        },
-        "mono-light": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7fa67242e687283dee7880899d8919440aa0147fb084df3c66d3eb8d74a4ef92.svg",
-          "sha256": "7fa67242e687283dee7880899d8919440aa0147fb084df3c66d3eb8d74a4ef92",
-          "format": "svg",
-          "bytes": 460
-        }
-      }
-    },
-    {
       "id": "brand.geetimer.g",
       "label": "Geetimer · G",
       "category": "geetimer",
@@ -1017,35 +370,6 @@
           "sha256": "e5a873e7708dcab48bf7a92cae789ebfc07da638ac97467111a364b06d7926d2",
           "format": "png",
           "bytes": 51675
-        }
-      }
-    },
-    {
-      "id": "brand.geetimer.app",
-      "label": "Geetimer · App",
-      "category": "geetimer",
-      "aliases": [],
-      "source": "v007 02 紫晶柔光",
-      "rights": "project-reuse",
-      "defaultVariant": "white",
-      "variants": {
-        "white": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/18d4d072a063112317b9897303eb4fa8284f0f93f3faf95e5f215e0b11566d33.png",
-          "sha256": "18d4d072a063112317b9897303eb4fa8284f0f93f3faf95e5f215e0b11566d33",
-          "format": "png",
-          "bytes": 50984
-        },
-        "black": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f9a8fc49ff0d195149042733ed4f647c7c8d372bacac05043768f103d98a93f8.png",
-          "sha256": "f9a8fc49ff0d195149042733ed4f647c7c8d372bacac05043768f103d98a93f8",
-          "format": "png",
-          "bytes": 66000
-        },
-        "purple": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2036170d3d7bc611babd2d9afe11ea6ee54ddc1c0941bdc62995ae0d46b136fa.png",
-          "sha256": "2036170d3d7bc611babd2d9afe11ea6ee54ddc1c0941bdc62995ae0d46b136fa",
-          "format": "png",
-          "bytes": 63458
         }
       }
     },
@@ -1081,34 +405,6 @@
           "sha256": "77c401c5a70c0bff09b67e08e89a0e3eb4d19187afe0496cc5d38eefcc041c9f",
           "format": "png",
           "bytes": 66356
-        }
-      }
-    },
-    {
-      "id": "product.xiangai",
-      "label": "鲜改",
-      "category": "research",
-      "aliases": [
-        "鲜改",
-        "新鲜零食行研",
-        "新鲜零食行业研究",
-        "xian-gai"
-      ],
-      "source": "v007 02 叶片洞察",
-      "rights": "project-reuse",
-      "defaultVariant": "original",
-      "variants": {
-        "original": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2e2ae5653a386e2d58de3256b3930c05b07d4c5c3233f53284bc7c206077540c.png",
-          "sha256": "2e2ae5653a386e2d58de3256b3930c05b07d4c5c3233f53284bc7c206077540c",
-          "format": "png",
-          "bytes": 601387
-        },
-        "compact": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5a63cd68169359788bfa1474c48d6b9a5a7b99caa5f901c6500b9a04ae33dcc4.png",
-          "sha256": "5a63cd68169359788bfa1474c48d6b9a5a7b99caa5f901c6500b9a04ae33dcc4",
-          "format": "png",
-          "bytes": 5246
         }
       }
     },
@@ -2973,38 +2269,6 @@
       "cycleMs": 6400
     },
     {
-      "id": "external.feishu",
-      "label": "飞书",
-      "category": "brand-enterprise-service",
-      "aliases": [
-        "Feishu",
-        "飞书办公",
-        "飞书协作",
-        "Lark"
-      ],
-      "source": "外部品牌 · 需确认授权",
-      "rights": "reference-only",
-      "defaultVariant": null,
-      "variants": {},
-      "sourceUrl": "https://www.feishu.cn/"
-    },
-    {
-      "id": "external.qmai",
-      "label": "企迈",
-      "category": "brand-enterprise-service",
-      "aliases": [
-        "Qmai",
-        "企迈科技",
-        "企迈数店",
-        "企迈鸿图"
-      ],
-      "source": "外部品牌 · 需确认授权",
-      "rights": "reference-only",
-      "defaultVariant": null,
-      "variants": {},
-      "sourceUrl": "https://www.qmai.com/"
-    },
-    {
       "id": "external.wechat",
       "label": "微信",
       "category": "brand-social-content",
@@ -3143,20 +2407,6 @@
       "defaultVariant": null,
       "variants": {},
       "sourceUrl": "https://www.zhihu.com/"
-    },
-    {
-      "id": "external.meituan",
-      "label": "美团",
-      "category": "brand-commerce-local",
-      "aliases": [
-        "Meituan",
-        "美团平台"
-      ],
-      "source": "外部品牌 · 需确认授权",
-      "rights": "reference-only",
-      "defaultVariant": null,
-      "variants": {},
-      "sourceUrl": "https://www.meituan.com/"
     },
     {
       "id": "external.dianping",
@@ -4522,6 +3772,1435 @@
       "rights": "reference-only",
       "defaultVariant": null,
       "variants": {}
+    },
+    {
+      "id": "product.xiaoputao",
+      "label": "小葡萄",
+      "category": "products",
+      "aliases": [
+        "xiaoputao",
+        "项目与任务管理",
+        "流动果簇"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2aa02dbf97516b0844cf0c9ba67086f9675b53981cf3a12da96962a92f65afe8.png",
+          "sha256": "2aa02dbf97516b0844cf0c9ba67086f9675b53981cf3a12da96962a92f65afe8",
+          "format": "png",
+          "bytes": 412555
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a3591296482b2a2158ad78624f64c9d7655b8d559ffdea6e21d366230ecdd50d.png",
+          "sha256": "a3591296482b2a2158ad78624f64c9d7655b8d559ffdea6e21d366230ecdd50d",
+          "format": "png",
+          "bytes": 540097
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9635fe1b71144471bf15c45e00a0e458399abded511e461eb8700a49d96bd7a1.png",
+          "sha256": "9635fe1b71144471bf15c45e00a0e458399abded511e461eb8700a49d96bd7a1",
+          "format": "png",
+          "bytes": 603497
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ebc41c69c417f634ab2a8765588bf16b3f70a4ea1f69045619796ddcc8a83c51.png",
+          "sha256": "ebc41c69c417f634ab2a8765588bf16b3f70a4ea1f69045619796ddcc8a83c51",
+          "format": "png",
+          "bytes": 414451
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c590703f359c52028cec092f461126d10a260e434151351b4975675e73464c00.png",
+          "sha256": "c590703f359c52028cec092f461126d10a260e434151351b4975675e73464c00",
+          "format": "png",
+          "bytes": 38838
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e4923ee36a68dc67d070c521b1c3e6683d3b2c489a098321a12d77531ee9e257.png",
+          "sha256": "e4923ee36a68dc67d070c521b1c3e6683d3b2c489a098321a12d77531ee9e257",
+          "format": "png",
+          "bytes": 34272
+        }
+      }
+    },
+    {
+      "id": "product.xiaohonghua",
+      "label": "小红花",
+      "category": "products",
+      "aliases": [
+        "xiaohonghua",
+        "员工成长与认可",
+        "旋转花瓣"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/155f69402fc2a60770a3f2ffe7cd5871ff7391f0bab17b83eeb88501f1eb8f02.png",
+          "sha256": "155f69402fc2a60770a3f2ffe7cd5871ff7391f0bab17b83eeb88501f1eb8f02",
+          "format": "png",
+          "bytes": 471637
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/70dea28fa3b561ddce05aad4c0ee23df2c2507ac22c3ab5ae42cd0e06ef71f1f.png",
+          "sha256": "70dea28fa3b561ddce05aad4c0ee23df2c2507ac22c3ab5ae42cd0e06ef71f1f",
+          "format": "png",
+          "bytes": 662368
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e1f8da0af03722f8ef3752820bcdb9d009f2b7ebab7e6525a533fb3482132964.png",
+          "sha256": "e1f8da0af03722f8ef3752820bcdb9d009f2b7ebab7e6525a533fb3482132964",
+          "format": "png",
+          "bytes": 600861
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f67cac739cce8773cbf4565daea75163d9688e716dab34167ae2809781f7a677.png",
+          "sha256": "f67cac739cce8773cbf4565daea75163d9688e716dab34167ae2809781f7a677",
+          "format": "png",
+          "bytes": 477270
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3bc418499064515864385fdd204e787bb934cfd3240a5eae789f256077cdbcb8.png",
+          "sha256": "3bc418499064515864385fdd204e787bb934cfd3240a5eae789f256077cdbcb8",
+          "format": "png",
+          "bytes": 56374
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7e2d60e439eda4f4113f452df1b16f7dd1d9fdd561d82d41d65811e0efd8807d.png",
+          "sha256": "7e2d60e439eda4f4113f452df1b16f7dd1d9fdd561d82d41d65811e0efd8807d",
+          "format": "png",
+          "bytes": 50978
+        }
+      }
+    },
+    {
+      "id": "product.xiaosuanpan",
+      "label": "小算盘",
+      "category": "products",
+      "aliases": [
+        "xiaosuanpan",
+        "经营分析与计算",
+        "滑动算珠"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3ed0a13c4e8992ba5afe0019bcce35a33dc8581e99e78afa992aca5b894b6a04.png",
+          "sha256": "3ed0a13c4e8992ba5afe0019bcce35a33dc8581e99e78afa992aca5b894b6a04",
+          "format": "png",
+          "bytes": 557417
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/83b145b6e6e3705fbab91161f26bab9fca6f4087070014c303ffb8e6931e7641.png",
+          "sha256": "83b145b6e6e3705fbab91161f26bab9fca6f4087070014c303ffb8e6931e7641",
+          "format": "png",
+          "bytes": 757398
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/22c278bfad0d3ccd4a17dc556f027b27138cb7bdeb1daca4f2cbbadd63fd32d6.png",
+          "sha256": "22c278bfad0d3ccd4a17dc556f027b27138cb7bdeb1daca4f2cbbadd63fd32d6",
+          "format": "png",
+          "bytes": 606992
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8053c054d4939f66cc9e1bc33f60dc09e237ebb363b4bfb1df09929dd4bccee4.png",
+          "sha256": "8053c054d4939f66cc9e1bc33f60dc09e237ebb363b4bfb1df09929dd4bccee4",
+          "format": "png",
+          "bytes": 556752
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ae4eeaaea49f6de00d2680d57e96640b123962a118c48c3e81bf5d8f3af5e91e.png",
+          "sha256": "ae4eeaaea49f6de00d2680d57e96640b123962a118c48c3e81bf5d8f3af5e91e",
+          "format": "png",
+          "bytes": 62276
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/19b8bcefb8c7891fe53b9135d253a7e1dcbf146baeb88e71e90ff58ec187a82e.png",
+          "sha256": "19b8bcefb8c7891fe53b9135d253a7e1dcbf146baeb88e71e90ff58ec187a82e",
+          "format": "png",
+          "bytes": 55839
+        }
+      }
+    },
+    {
+      "id": "product.xiaojinkuang",
+      "label": "小金矿",
+      "category": "products",
+      "aliases": [
+        "xiaojinkuang",
+        "门店价值与健康发现",
+        "柔角晶面"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e00fb3dabcfd2a17aede3c1e9d53cc23caed5e8336ba128154404611bc7833a1.png",
+          "sha256": "e00fb3dabcfd2a17aede3c1e9d53cc23caed5e8336ba128154404611bc7833a1",
+          "format": "png",
+          "bytes": 474066
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/264763bb61d8ac20402d040e09a41160b94f4d84fc4d33bcf4f62c32d70081fe.png",
+          "sha256": "264763bb61d8ac20402d040e09a41160b94f4d84fc4d33bcf4f62c32d70081fe",
+          "format": "png",
+          "bytes": 674196
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f90a665467bea0f3e946ab00f743519b4bb982d5810365de2e88f3623e3f296b.png",
+          "sha256": "f90a665467bea0f3e946ab00f743519b4bb982d5810365de2e88f3623e3f296b",
+          "format": "png",
+          "bytes": 594819
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9b1c2c2559367fed15c8bcf64a8b10177f342afe5a2b0803466d5d3e2b8c6439.png",
+          "sha256": "9b1c2c2559367fed15c8bcf64a8b10177f342afe5a2b0803466d5d3e2b8c6439",
+          "format": "png",
+          "bytes": 483572
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f082396008d2332af3c65c7a2197478cd34ec6eaf7ed567585a2feddee5951ca.png",
+          "sha256": "f082396008d2332af3c65c7a2197478cd34ec6eaf7ed567585a2feddee5951ca",
+          "format": "png",
+          "bytes": 49252
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/18cdd5a973315cb9194fa0de45d5148eab6e4385699736ce5214d6ddd9de536e.png",
+          "sha256": "18cdd5a973315cb9194fa0de45d5148eab6e4385699736ce5214d6ddd9de536e",
+          "format": "png",
+          "bytes": 45108
+        }
+      }
+    },
+    {
+      "id": "product.xiaohulu",
+      "label": "小葫芦",
+      "category": "products",
+      "aliases": [
+        "xiaohulu",
+        "供应链管理",
+        "双腔流线"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e1d05c4ee62fd1f1dac62c7161f0dd2ac9e088f89ae0fc8588c240a2f49505c6.png",
+          "sha256": "e1d05c4ee62fd1f1dac62c7161f0dd2ac9e088f89ae0fc8588c240a2f49505c6",
+          "format": "png",
+          "bytes": 476254
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1ed391b8d0b2340894602917716cc4feefc15a3c3ad0263058b20f7807668fcb.png",
+          "sha256": "1ed391b8d0b2340894602917716cc4feefc15a3c3ad0263058b20f7807668fcb",
+          "format": "png",
+          "bytes": 649226
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5a4a549801c6ed673edd54eb5cacdcf4f3ded479c3f9cec9d34ce79c58329e0b.png",
+          "sha256": "5a4a549801c6ed673edd54eb5cacdcf4f3ded479c3f9cec9d34ce79c58329e0b",
+          "format": "png",
+          "bytes": 599521
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4795de4df6b145f8f638762301831f7776fe35e5de3e4d560873fa8bd6880ab7.png",
+          "sha256": "4795de4df6b145f8f638762301831f7776fe35e5de3e4d560873fa8bd6880ab7",
+          "format": "png",
+          "bytes": 478183
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/287ac1950dae6933be63a6ed4b4f06a432fcd60200d10e02c56bc5b86725a872.png",
+          "sha256": "287ac1950dae6933be63a6ed4b4f06a432fcd60200d10e02c56bc5b86725a872",
+          "format": "png",
+          "bytes": 40140
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6120e0d1a8667bd223f088dcfeeb7e71113bb916093845f8452f542419491318.png",
+          "sha256": "6120e0d1a8667bd223f088dcfeeb7e71113bb916093845f8452f542419491318",
+          "format": "png",
+          "bytes": 35722
+        }
+      }
+    },
+    {
+      "id": "product.xiaozishu",
+      "label": "小紫薯",
+      "category": "products",
+      "aliases": [
+        "xiaozishu",
+        "产品研发与进度",
+        "卷曲种子"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/12406feec8892875fca22805bfc88d8e6ad2a96a8618e2d868213bc3dfdcb0bc.png",
+          "sha256": "12406feec8892875fca22805bfc88d8e6ad2a96a8618e2d868213bc3dfdcb0bc",
+          "format": "png",
+          "bytes": 493379
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8b1f79f7176bbbbc763ae899ce53fec9f681acc00f676dff73c5cee52846c4f1.png",
+          "sha256": "8b1f79f7176bbbbc763ae899ce53fec9f681acc00f676dff73c5cee52846c4f1",
+          "format": "png",
+          "bytes": 634604
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/87cbfe481ab2b2562bd06f217a0eaa559e8210e0a29be7e3fcb581eabf60555b.png",
+          "sha256": "87cbfe481ab2b2562bd06f217a0eaa559e8210e0a29be7e3fcb581eabf60555b",
+          "format": "png",
+          "bytes": 606466
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c6da1b06dd84f0102278ee74a743ae4dec7237c2995fdf4f011dea3a85650941.png",
+          "sha256": "c6da1b06dd84f0102278ee74a743ae4dec7237c2995fdf4f011dea3a85650941",
+          "format": "png",
+          "bytes": 496425
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e784815b857b5d829f4fc7469598f33495b0ca16eb68bbb3e4c0926129183f22.png",
+          "sha256": "e784815b857b5d829f4fc7469598f33495b0ca16eb68bbb3e4c0926129183f22",
+          "format": "png",
+          "bytes": 40725
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2f2737e5a57454b621984cbb1da7c0fbfbee6cd85ca6ff25ea87290020680ff9.png",
+          "sha256": "2f2737e5a57454b621984cbb1da7c0fbfbee6cd85ca6ff25ea87290020680ff9",
+          "format": "png",
+          "bytes": 35975
+        }
+      }
+    },
+    {
+      "id": "product.xiaotaiyang",
+      "label": "小太阳",
+      "category": "products",
+      "aliases": [
+        "xiaotaiyang",
+        "达人及品牌运营",
+        "暖光旋涡"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/40110d090e62e222d72f057887db875ba643a81ba9e622e3ed1f100b03c85304.png",
+          "sha256": "40110d090e62e222d72f057887db875ba643a81ba9e622e3ed1f100b03c85304",
+          "format": "png",
+          "bytes": 529701
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5567e460f102ffcb1f9575814ba3527c864b1b3a88773ce6a1ff4d3a2fa8ca64.png",
+          "sha256": "5567e460f102ffcb1f9575814ba3527c864b1b3a88773ce6a1ff4d3a2fa8ca64",
+          "format": "png",
+          "bytes": 724833
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1181b10df99eadcdc4fa9c2618e4b7971146a5f8633b556772649a46c7794c25.png",
+          "sha256": "1181b10df99eadcdc4fa9c2618e4b7971146a5f8633b556772649a46c7794c25",
+          "format": "png",
+          "bytes": 597478
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d5fd054453581114486e49c5230f53e674c2b382f440d64144a60a6decaf7bd9.png",
+          "sha256": "d5fd054453581114486e49c5230f53e674c2b382f440d64144a60a6decaf7bd9",
+          "format": "png",
+          "bytes": 539798
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/788b42d54e171d38d6e565b33b2bad78bd7056848df3e5bda2c32a676c0b9d35.png",
+          "sha256": "788b42d54e171d38d6e565b33b2bad78bd7056848df3e5bda2c32a676c0b9d35",
+          "format": "png",
+          "bytes": 54223
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/67559f65ba7525d9e1e9bf6e97b5a36f58d827ab2240a57752b68b2f7d3a128b.png",
+          "sha256": "67559f65ba7525d9e1e9bf6e97b5a36f58d827ab2240a57752b68b2f7d3a128b",
+          "format": "png",
+          "bytes": 49345
+        }
+      }
+    },
+    {
+      "id": "product.xiaodianwei",
+      "label": "小点位",
+      "category": "products",
+      "aliases": [
+        "xiaodianwei",
+        "候选点位与拓展评估",
+        "回转定位"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/577df627500fdccc59b39b2a0a1dddf9560b906a714a9d70b5fd98e1f68d07bd.png",
+          "sha256": "577df627500fdccc59b39b2a0a1dddf9560b906a714a9d70b5fd98e1f68d07bd",
+          "format": "png",
+          "bytes": 348366
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/94b2f1a78623b63478297ec39ed64386f1c26116d713ee54ef25f2a834d9b151.png",
+          "sha256": "94b2f1a78623b63478297ec39ed64386f1c26116d713ee54ef25f2a834d9b151",
+          "format": "png",
+          "bytes": 498467
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/813ebd9bef228fb0d3615283303780e8f6b96671584e1617d319c3ceceab672a.png",
+          "sha256": "813ebd9bef228fb0d3615283303780e8f6b96671584e1617d319c3ceceab672a",
+          "format": "png",
+          "bytes": 607937
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f6a07244a7c5f16fb0a12287f415bdc0c86ae19a19dbdd02d7cc7c3e3d9036ce.png",
+          "sha256": "f6a07244a7c5f16fb0a12287f415bdc0c86ae19a19dbdd02d7cc7c3e3d9036ce",
+          "format": "png",
+          "bytes": 350591
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b036b6b0cda02b4cc30f00a6b1affcd27bf4ca4e3e1f210c57bed24e7c6267fe.png",
+          "sha256": "b036b6b0cda02b4cc30f00a6b1affcd27bf4ca4e3e1f210c57bed24e7c6267fe",
+          "format": "png",
+          "bytes": 47564
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/213f426b8d7ab038c4bc8da3b7acf628e929f4ed1c8a9378daaf778c09eabfa9.png",
+          "sha256": "213f426b8d7ab038c4bc8da3b7acf628e929f4ed1c8a9378daaf778c09eabfa9",
+          "format": "png",
+          "bytes": 42193
+        }
+      }
+    },
+    {
+      "id": "product.yuanmaxiang",
+      "label": "元码象",
+      "category": "products",
+      "aliases": [
+        "yuanmaxiang",
+        "代码与数字贡献",
+        "卷鼻侧像"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4bde70628d6035984ac5d1040c1002df603263c479b1d2ba735b052c2a1bb0ec.png",
+          "sha256": "4bde70628d6035984ac5d1040c1002df603263c479b1d2ba735b052c2a1bb0ec",
+          "format": "png",
+          "bytes": 523859
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6c1d1964ba052c13f9075fb0b4b1366604b2a275cd9f82894b88ec9dce9e4782.png",
+          "sha256": "6c1d1964ba052c13f9075fb0b4b1366604b2a275cd9f82894b88ec9dce9e4782",
+          "format": "png",
+          "bytes": 698789
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a5dc4f5806c73f8bf07ab6095f0801d1aa39d46a644adbea598adaded887c416.png",
+          "sha256": "a5dc4f5806c73f8bf07ab6095f0801d1aa39d46a644adbea598adaded887c416",
+          "format": "png",
+          "bytes": 607791
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6183c50322582136afb903778e2b86e7f053cb5e09878750031c23cab72d319c.png",
+          "sha256": "6183c50322582136afb903778e2b86e7f053cb5e09878750031c23cab72d319c",
+          "format": "png",
+          "bytes": 522100
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8690e0b0bb124ca7d066ed55af2b7245115232ed509e9becd0560d6f09cc6e0f.png",
+          "sha256": "8690e0b0bb124ca7d066ed55af2b7245115232ed509e9becd0560d6f09cc6e0f",
+          "format": "png",
+          "bytes": 50383
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/989549a2ea9978b669ddfd139370240c57b39bbdc7bbabf6d9d4e0a54a0bbaaa.png",
+          "sha256": "989549a2ea9978b669ddfd139370240c57b39bbdc7bbabf6d9d4e0a54a0bbaaa",
+          "format": "png",
+          "bytes": 44643
+        }
+      }
+    },
+    {
+      "id": "product.suyuanli",
+      "label": "溯源狸",
+      "category": "products",
+      "aliases": [
+        "suyuanli",
+        "供应与信息追溯",
+        "折面狸面"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ee5b487eba540dc1b5cc2570294b247804bcf6f3569ff97b31014ecc2a3dcd90.png",
+          "sha256": "ee5b487eba540dc1b5cc2570294b247804bcf6f3569ff97b31014ecc2a3dcd90",
+          "format": "png",
+          "bytes": 547584
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/96329e910281c9d54f7e15f98a13a2a96293837559df690f80267051a8b157ca.png",
+          "sha256": "96329e910281c9d54f7e15f98a13a2a96293837559df690f80267051a8b157ca",
+          "format": "png",
+          "bytes": 807179
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/86fe2762fc0cd400ae90499bbe35b9da17fed5b433931d6dd37c7a10a4fa9db1.png",
+          "sha256": "86fe2762fc0cd400ae90499bbe35b9da17fed5b433931d6dd37c7a10a4fa9db1",
+          "format": "png",
+          "bytes": 612179
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4bf6e3012ff28b42950345fea952b789cf271c787bd2106adb4add71c4469e6b.png",
+          "sha256": "4bf6e3012ff28b42950345fea952b789cf271c787bd2106adb4add71c4469e6b",
+          "format": "png",
+          "bytes": 549440
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cc12e672772ef71d17b591da74f984b3aeb492f1381888ab3542b49fc4ff87c9.png",
+          "sha256": "cc12e672772ef71d17b591da74f984b3aeb492f1381888ab3542b49fc4ff87c9",
+          "format": "png",
+          "bytes": 42793
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/879a274a65bb3e1627dca830b04e4237a0478be64873418f52be069b295c780d.png",
+          "sha256": "879a274a65bb3e1627dca830b04e4237a0478be64873418f52be069b295c780d",
+          "format": "png",
+          "bytes": 37775
+        }
+      }
+    },
+    {
+      "id": "product.xiaozongguan",
+      "label": "小总管",
+      "category": "products",
+      "aliases": [
+        "xiaozongguan",
+        "组织与系统治理",
+        "环抱协同"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/644984f9f6984a6ae66320f5bc8fc7ce22b165c2f6aad03c95e3645b4a805066.png",
+          "sha256": "644984f9f6984a6ae66320f5bc8fc7ce22b165c2f6aad03c95e3645b4a805066",
+          "format": "png",
+          "bytes": 516668
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0d731474c2c6906f5bf9aa44e52a961d2f074927f345362ccd0cb3bcdb11594c.png",
+          "sha256": "0d731474c2c6906f5bf9aa44e52a961d2f074927f345362ccd0cb3bcdb11594c",
+          "format": "png",
+          "bytes": 702513
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f3c1d7f182278430a704aaca303c2d513bed451cb22493a063c2a5332bdaa575.png",
+          "sha256": "f3c1d7f182278430a704aaca303c2d513bed451cb22493a063c2a5332bdaa575",
+          "format": "png",
+          "bytes": 605358
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/70602b42a3eb861ef09c3e39069859eb453ebf05bb980a73fb99a4e2c92db05f.png",
+          "sha256": "70602b42a3eb861ef09c3e39069859eb453ebf05bb980a73fb99a4e2c92db05f",
+          "format": "png",
+          "bytes": 521790
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/06e120fa6c05f0f2b887a512d5d6fed16a41f9f33f1f2ba1127e9ce3150eb5dd.png",
+          "sha256": "06e120fa6c05f0f2b887a512d5d6fed16a41f9f33f1f2ba1127e9ce3150eb5dd",
+          "format": "png",
+          "bytes": 51034
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/11766596fe7419c71a88f9d97e13b526817427d02a8551edf44a399c6e8e8a0d.png",
+          "sha256": "11766596fe7419c71a88f9d97e13b526817427d02a8551edf44a399c6e8e8a0d",
+          "format": "png",
+          "bytes": 45281
+        }
+      }
+    },
+    {
+      "id": "product.zhuxu",
+      "label": "筑序",
+      "category": "products",
+      "aliases": [
+        "zhuxu",
+        "工程与验收",
+        "连续拱带"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/00b5c4c617b88f0ce353c0c8495ff6aef729905be58af8cddeb4a060cfdda3d8.png",
+          "sha256": "00b5c4c617b88f0ce353c0c8495ff6aef729905be58af8cddeb4a060cfdda3d8",
+          "format": "png",
+          "bytes": 424078
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/702b71d76ba2632ac94fd4f39e34c1f4b334622f4e3500c6dcace77a42fecc9b.png",
+          "sha256": "702b71d76ba2632ac94fd4f39e34c1f4b334622f4e3500c6dcace77a42fecc9b",
+          "format": "png",
+          "bytes": 636035
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b91ea4bcd3c805019437fdd2fdb4ab11f67aeb02809d90b9d2d0a2e5b1a5e0f3.png",
+          "sha256": "b91ea4bcd3c805019437fdd2fdb4ab11f67aeb02809d90b9d2d0a2e5b1a5e0f3",
+          "format": "png",
+          "bytes": 595394
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/618eb22dfdd3e612edee1624431c3d85272e43c3acb0a59cab85a749775e157b.png",
+          "sha256": "618eb22dfdd3e612edee1624431c3d85272e43c3acb0a59cab85a749775e157b",
+          "format": "png",
+          "bytes": 428273
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d3491c842ef4f4daabeaf915098d9168dd7619a3b6c983baf5a326f02b91b0bc.png",
+          "sha256": "d3491c842ef4f4daabeaf915098d9168dd7619a3b6c983baf5a326f02b91b0bc",
+          "format": "png",
+          "bytes": 42901
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/008b9d75c5f994f6761b2fff5ee2ff3c35056691c907dbf05b2827f4c8f071e5.png",
+          "sha256": "008b9d75c5f994f6761b2fff5ee2ff3c35056691c907dbf05b2827f4c8f071e5",
+          "format": "png",
+          "bytes": 38544
+        }
+      }
+    },
+    {
+      "id": "product.xiaogongfang",
+      "label": "小工坊",
+      "category": "products",
+      "aliases": [
+        "xiaogongfang",
+        "创意与交付",
+        "编织回环"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b056fe41869c8e296292857d435746fc447d3c6129735d6ba70aa5160edf80a7.png",
+          "sha256": "b056fe41869c8e296292857d435746fc447d3c6129735d6ba70aa5160edf80a7",
+          "format": "png",
+          "bytes": 630787
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f860ec674d52d04344eb6f0b2b896e40cf01a2bd25971913a943618467601377.png",
+          "sha256": "f860ec674d52d04344eb6f0b2b896e40cf01a2bd25971913a943618467601377",
+          "format": "png",
+          "bytes": 788337
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b32d960ba61f8db0bc2e56925046f0053dfa332c0a39554408b9483f76a4e13c.png",
+          "sha256": "b32d960ba61f8db0bc2e56925046f0053dfa332c0a39554408b9483f76a4e13c",
+          "format": "png",
+          "bytes": 611163
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5e1cde71310156e0e93f2dc2be273b457c97247709acb72efe6591db559c4bd0.png",
+          "sha256": "5e1cde71310156e0e93f2dc2be273b457c97247709acb72efe6591db559c4bd0",
+          "format": "png",
+          "bytes": 634449
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4a2a34a7dc892f323de6b6cf2dd5b2eded25d4221f4923da2997e3b61933aadf.png",
+          "sha256": "4a2a34a7dc892f323de6b6cf2dd5b2eded25d4221f4923da2997e3b61933aadf",
+          "format": "png",
+          "bytes": 47571
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/93ebd504eb4d9f966a32b878989c6cb99078e15331fae427f0bfb6ce7c8bcffa.png",
+          "sha256": "93ebd504eb4d9f966a32b878989c6cb99078e15331fae427f0bfb6ce7c8bcffa",
+          "format": "png",
+          "bytes": 42096
+        }
+      }
+    },
+    {
+      "id": "product.xiaotaizhang",
+      "label": "小台账",
+      "category": "products",
+      "aliases": [
+        "xiaotaizhang",
+        "台账记录 · 暂拟",
+        "双页展开"
+      ],
+      "source": "V010 原件保真 · 统一圆角正式版",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/92504602f7b8b566b377122ff322824d517d8791306be33785118d715bbb69aa.png",
+          "sha256": "92504602f7b8b566b377122ff322824d517d8791306be33785118d715bbb69aa",
+          "format": "png",
+          "bytes": 496140
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/fd73ddbc8ce5831211f4b5d1ccfa6d7ebf4b70ae220240d68435724abbd605ad.png",
+          "sha256": "fd73ddbc8ce5831211f4b5d1ccfa6d7ebf4b70ae220240d68435724abbd605ad",
+          "format": "png",
+          "bytes": 724062
+        },
+        "glass": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/820fa5c3e2bf465b4fd48ff625388b24939c8784606e82759e389c22bdaf63ae.png",
+          "sha256": "820fa5c3e2bf465b4fd48ff625388b24939c8784606e82759e389c22bdaf63ae",
+          "format": "png",
+          "bytes": 587215
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/432fa21f3836e0b090ebfa096f78d90788a730379c923034a43d35e0a90553bb.png",
+          "sha256": "432fa21f3836e0b090ebfa096f78d90788a730379c923034a43d35e0a90553bb",
+          "format": "png",
+          "bytes": 499117
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4b16fa5804637ecc5249645a41709d092929faee3e04f0c15e9001b8b5607a67.png",
+          "sha256": "4b16fa5804637ecc5249645a41709d092929faee3e04f0c15e9001b8b5607a67",
+          "format": "png",
+          "bytes": 47546
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9246bc0d369223181f8bdc557415b1307bd9a16f1d3e4080722749cd7f307fb8.png",
+          "sha256": "9246bc0d369223181f8bdc557415b1307bd9a16f1d3e4080722749cd7f307fb8",
+          "format": "png",
+          "bytes": 42912
+        }
+      }
+    },
+    {
+      "id": "product.xiaofeiyi",
+      "label": "小飞驿",
+      "category": "products",
+      "aliases": [
+        "xiaofeiyi",
+        "SwiftPost",
+        "车队配送与到店协同",
+        "向前飞行的柔弧飞翼与抵达节点"
+      ],
+      "source": "小飞驿 · 新增飞翼标识",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9f3426b10323c8684afe2458ac410cb527ce40a8b08c956602a61d85bf40ac23.png",
+          "sha256": "9f3426b10323c8684afe2458ac410cb527ce40a8b08c956602a61d85bf40ac23",
+          "format": "png",
+          "bytes": 55945
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/73a4ad398f58f115438da55d6680ffefbbd8eb852ef2a44c021826372ca85bdb.svg",
+          "sha256": "73a4ad398f58f115438da55d6680ffefbbd8eb852ef2a44c021826372ca85bdb",
+          "format": "svg",
+          "bytes": 958
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b05603da6c1569178952e448c478d72185c3596903be7bd9950a0824dcc679a5.png",
+          "sha256": "b05603da6c1569178952e448c478d72185c3596903be7bd9950a0824dcc679a5",
+          "format": "png",
+          "bytes": 58445
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/11a9059550925ad7e25a6499b835d6993c89e443bbd22f6f286c34d8e41f96e8.png",
+          "sha256": "11a9059550925ad7e25a6499b835d6993c89e443bbd22f6f286c34d8e41f96e8",
+          "format": "png",
+          "bytes": 17532
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2599aef75d5839ce158b4f8b01bd68c5bcae85ff8ac24c5aedca2e915dead816.png",
+          "sha256": "2599aef75d5839ce158b4f8b01bd68c5bcae85ff8ac24c5aedca2e915dead816",
+          "format": "png",
+          "bytes": 13172
+        }
+      }
+    },
+    {
+      "id": "system.weather",
+      "label": "天气服务",
+      "category": "systems",
+      "aliases": [
+        "天气与环境",
+        "weather"
+      ],
+      "source": "V018 · 已采纳几何块面系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d9b05e26620e95d60e7fe13103c133539d859a116bcb069ca320731b3cc01c16.svg",
+          "sha256": "d9b05e26620e95d60e7fe13103c133539d859a116bcb069ca320731b3cc01c16",
+          "format": "svg",
+          "bytes": 857
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/499144e23da3fb4e5bbe9d4a57a0801c48b23ce1815ee2108ddc843e512f1238.svg",
+          "sha256": "499144e23da3fb4e5bbe9d4a57a0801c48b23ce1815ee2108ddc843e512f1238",
+          "format": "svg",
+          "bytes": 504
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d95833d476f71c5e5ac4d2fbde10f980bdf3eb66e9e4dd988a0b6297c197f31b.svg",
+          "sha256": "d95833d476f71c5e5ac4d2fbde10f980bdf3eb66e9e4dd988a0b6297c197f31b",
+          "format": "svg",
+          "bytes": 693
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c00e91ba1af0867bd9ab586bb94353c4c1f5d28ac6513030ab2e99d977f410e5.svg",
+          "sha256": "c00e91ba1af0867bd9ab586bb94353c4c1f5d28ac6513030ab2e99d977f410e5",
+          "format": "svg",
+          "bytes": 693
+        }
+      }
+    },
+    {
+      "id": "system.business-center",
+      "label": "Business Center",
+      "category": "systems",
+      "aliases": [
+        "业务中枢",
+        "business-center"
+      ],
+      "source": "V018 · 已采纳几何块面系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/281ed1e7d9c69cef2ead7b52ecbc436e493312d9d690ea67166877b1b7a9483d.svg",
+          "sha256": "281ed1e7d9c69cef2ead7b52ecbc436e493312d9d690ea67166877b1b7a9483d",
+          "format": "svg",
+          "bytes": 839
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c8c3b7fcec61a238f3fcc4926c906948f238331318f44104b5233eb15e20cbfb.svg",
+          "sha256": "c8c3b7fcec61a238f3fcc4926c906948f238331318f44104b5233eb15e20cbfb",
+          "format": "svg",
+          "bytes": 486
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/88afcc7fb08e0c542921bc74d4fa753d0dcc778979ac85508878def0445d395f.svg",
+          "sha256": "88afcc7fb08e0c542921bc74d4fa753d0dcc778979ac85508878def0445d395f",
+          "format": "svg",
+          "bytes": 675
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/750c54c05d13f49870cf3f2b54c0cd964a8e7884bc96ff5d50154e044403b2f0.svg",
+          "sha256": "750c54c05d13f49870cf3f2b54c0cd964a8e7884bc96ff5d50154e044403b2f0",
+          "format": "svg",
+          "bytes": 675
+        }
+      }
+    },
+    {
+      "id": "system.integration-hub",
+      "label": "Integration Hub",
+      "category": "systems",
+      "aliases": [
+        "集成中枢",
+        "integration-hub"
+      ],
+      "source": "V018 · 已采纳几何块面系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9b0a7d7a363eafbf112afbf61eb63d714c614542c019f107daa4d109ba57bc95.svg",
+          "sha256": "9b0a7d7a363eafbf112afbf61eb63d714c614542c019f107daa4d109ba57bc95",
+          "format": "svg",
+          "bytes": 1006
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0c35cfd88e7d08a6794122cf7789900a2c8b421a5f943fb7560539adb8ca9689.svg",
+          "sha256": "0c35cfd88e7d08a6794122cf7789900a2c8b421a5f943fb7560539adb8ca9689",
+          "format": "svg",
+          "bytes": 653
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4beeae8d03f68bd29af88e464cab9ddc0ef4dcb9d1eade96ae568b128720eb72.svg",
+          "sha256": "4beeae8d03f68bd29af88e464cab9ddc0ef4dcb9d1eade96ae568b128720eb72",
+          "format": "svg",
+          "bytes": 842
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cffda021cce444c33eab263b37c7d242fcc6043b223fd12b0e5e79089e82da94.svg",
+          "sha256": "cffda021cce444c33eab263b37c7d242fcc6043b223fd12b0e5e79089e82da94",
+          "format": "svg",
+          "bytes": 842
+        }
+      }
+    },
+    {
+      "id": "system.security",
+      "label": "信息安全中心",
+      "category": "systems",
+      "aliases": [
+        "安全与保护",
+        "security"
+      ],
+      "source": "V018 · 已采纳几何块面系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3615a208ab48222eae14c244f206376f99a2a6c6ebff57c52f3137a0051dbca5.svg",
+          "sha256": "3615a208ab48222eae14c244f206376f99a2a6c6ebff57c52f3137a0051dbca5",
+          "format": "svg",
+          "bytes": 912
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d76e4676f5360d55c24ec48430047a33c8ce7e4e1435bae51a3a93ec9ee396be.svg",
+          "sha256": "d76e4676f5360d55c24ec48430047a33c8ce7e4e1435bae51a3a93ec9ee396be",
+          "format": "svg",
+          "bytes": 559
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bbbd44698354f2482afc86a0dd503e024420012b91d13efc79b9d2fe9f922f76.svg",
+          "sha256": "bbbd44698354f2482afc86a0dd503e024420012b91d13efc79b9d2fe9f922f76",
+          "format": "svg",
+          "bytes": 748
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5b19d3ea8fda588b99029974c0ef6c9502b9c7298a3ead19d31ff928c2b54dab.svg",
+          "sha256": "5b19d3ea8fda588b99029974c0ef6c9502b9c7298a3ead19d31ff928c2b54dab",
+          "format": "svg",
+          "bytes": 748
+        }
+      }
+    },
+    {
+      "id": "system.identity",
+      "label": "统一身份与组织",
+      "category": "systems",
+      "aliases": [
+        "账号与组织",
+        "identity"
+      ],
+      "source": "V018 · 已采纳几何块面系统身份",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/941cd40a7c7931cbe9c71ff3fb18c66e67e67e2039776a855fd80877d28155da.svg",
+          "sha256": "941cd40a7c7931cbe9c71ff3fb18c66e67e67e2039776a855fd80877d28155da",
+          "format": "svg",
+          "bytes": 903
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/18934ae70d3fac66a3e6568b805efc895b720feb3dac48e7adb4a97418255328.svg",
+          "sha256": "18934ae70d3fac66a3e6568b805efc895b720feb3dac48e7adb4a97418255328",
+          "format": "svg",
+          "bytes": 550
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b4308925d1d0fce599f464d6ed0fffb0387fb8c0df04f2bd9a8f0ea086806bda.svg",
+          "sha256": "b4308925d1d0fce599f464d6ed0fffb0387fb8c0df04f2bd9a8f0ea086806bda",
+          "format": "svg",
+          "bytes": 739
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/26a0342115149ea75d4a834e794a616b4c25156c100bcd69a072ba0e0c223ebf.svg",
+          "sha256": "26a0342115149ea75d4a834e794a616b4c25156c100bcd69a072ba0e0c223ebf",
+          "format": "svg",
+          "bytes": 739
+        }
+      }
+    },
+    {
+      "id": "brand.geetimer.app",
+      "label": "Geetimer · App",
+      "category": "geetimer",
+      "aliases": [],
+      "source": "v007 02 紫晶柔光 · 对外圆角 / 原生安装分离",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f4002da0223261e7674da58338a0bca1a97c4fbca30c72236465979fc75d15f9.svg",
+          "sha256": "f4002da0223261e7674da58338a0bca1a97c4fbca30c72236465979fc75d15f9",
+          "format": "svg",
+          "bytes": 1255
+        },
+        "white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f4002da0223261e7674da58338a0bca1a97c4fbca30c72236465979fc75d15f9.svg",
+          "sha256": "f4002da0223261e7674da58338a0bca1a97c4fbca30c72236465979fc75d15f9",
+          "format": "svg",
+          "bytes": 1255
+        },
+        "native-white": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/18d4d072a063112317b9897303eb4fa8284f0f93f3faf95e5f215e0b11566d33.png",
+          "sha256": "18d4d072a063112317b9897303eb4fa8284f0f93f3faf95e5f215e0b11566d33",
+          "format": "png",
+          "bytes": 50984
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/483dcfe719d7ced6fb8227dd7808877e4eb7d52bf8525647088bc38780d4dfcc.svg",
+          "sha256": "483dcfe719d7ced6fb8227dd7808877e4eb7d52bf8525647088bc38780d4dfcc",
+          "format": "svg",
+          "bytes": 1255
+        },
+        "native-black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f9a8fc49ff0d195149042733ed4f647c7c8d372bacac05043768f103d98a93f8.png",
+          "sha256": "f9a8fc49ff0d195149042733ed4f647c7c8d372bacac05043768f103d98a93f8",
+          "format": "png",
+          "bytes": 66000
+        },
+        "purple": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1ed8244b1bc2a568af9d96354452febbfe15115edc950530204b12b8721abb02.svg",
+          "sha256": "1ed8244b1bc2a568af9d96354452febbfe15115edc950530204b12b8721abb02",
+          "format": "svg",
+          "bytes": 1261
+        },
+        "native-purple": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2036170d3d7bc611babd2d9afe11ea6ee54ddc1c0941bdc62995ae0d46b136fa.png",
+          "sha256": "2036170d3d7bc611babd2d9afe11ea6ee54ddc1c0941bdc62995ae0d46b136fa",
+          "format": "png",
+          "bytes": 63458
+        }
+      }
+    },
+    {
+      "id": "product.xiangai",
+      "label": "鲜改",
+      "category": "research",
+      "aliases": [
+        "鲜改",
+        "新鲜零食行研",
+        "新鲜零食行业研究",
+        "xian-gai"
+      ],
+      "source": "v008 圆角应用版 · v007 叶片洞察原件保真",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e3081453590fc67d524f8591d74fb29a6b39f5744aad56ab11cad52ea5de377e.png",
+          "sha256": "e3081453590fc67d524f8591d74fb29a6b39f5744aad56ab11cad52ea5de377e",
+          "format": "png",
+          "bytes": 441902
+        },
+        "black": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3b3291efd4550525c9b1064c1beaac87c76dfb4b5e605a6120d8b959589b66d3.png",
+          "sha256": "3b3291efd4550525c9b1064c1beaac87c76dfb4b5e605a6120d8b959589b66d3",
+          "format": "png",
+          "bytes": 443447
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2e2ae5653a386e2d58de3256b3930c05b07d4c5c3233f53284bc7c206077540c.png",
+          "sha256": "2e2ae5653a386e2d58de3256b3930c05b07d4c5c3233f53284bc7c206077540c",
+          "format": "png",
+          "bytes": 601387
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5a63cd68169359788bfa1474c48d6b9a5a7b99caa5f901c6500b9a04ae33dcc4.png",
+          "sha256": "5a63cd68169359788bfa1474c48d6b9a5a7b99caa5f901c6500b9a04ae33dcc4",
+          "format": "png",
+          "bytes": 5246
+        }
+      }
+    },
+    {
+      "id": "external.qmai",
+      "label": "企迈",
+      "category": "brand-enterprise-service",
+      "aliases": [
+        "qmai",
+        "企迈科技",
+        "企迈数店",
+        "企迈鸿图",
+        "系统集成",
+        "App"
+      ],
+      "source": "官方原件 · 统一应用承载 · 用户确认集成展示许可",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a687a1d366cb39d49dcde8658e62fda64747e1cc7ec42d1256286b3ced934fc9.svg",
+          "sha256": "a687a1d366cb39d49dcde8658e62fda64747e1cc7ec42d1256286b3ced934fc9",
+          "format": "svg",
+          "bytes": 4370
+        },
+        "png64": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/09af0234562dfc89aac6ef21f3239a313d1c66e015de8adb9e37276e8c6dfef5.png",
+          "sha256": "09af0234562dfc89aac6ef21f3239a313d1c66e015de8adb9e37276e8c6dfef5",
+          "format": "png",
+          "bytes": 2170
+        },
+        "png256": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9c9819db0b2c009b3d5c5de3b3b4f325bea317655c41761df33b8eccd51e53de.png",
+          "sha256": "9c9819db0b2c009b3d5c5de3b3b4f325bea317655c41761df33b8eccd51e53de",
+          "format": "png",
+          "bytes": 9768
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1a8febdfec012044e54b50da09f2b10439d27d838364fc3f2d2d904c172de52a.svg",
+          "sha256": "1a8febdfec012044e54b50da09f2b10439d27d838364fc3f2d2d904c172de52a",
+          "format": "svg",
+          "bytes": 2811
+        }
+      },
+      "sourceUrl": "https://www.qmai.com/",
+      "usageScope": "系统集成展示、Leego 图标库托管引用",
+      "permission": {
+        "status": "user-confirmed",
+        "confirmedAt": "2026-10-15",
+        "scope": "系统集成展示、Leego 图标库托管引用",
+        "evidence": "用户在本线程明确回复：已有相关许可，可按该范围开放引用。",
+        "independentlyReviewed": false,
+        "notGranted": [
+          "商标权转授",
+          "无关广告宣传",
+          "第三方通用素材包再分发"
+        ]
+      },
+      "sourceNote": "官网矢量组合标中的独立 Q 符号；路径与原色不变。"
+    },
+    {
+      "id": "external.kingdee",
+      "label": "金蝶",
+      "category": "brand-enterprise-service",
+      "aliases": [
+        "kingdee",
+        "系统集成",
+        "App"
+      ],
+      "source": "官方原件 · 统一应用承载 · 用户确认集成展示许可",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ac8b8a5b0db3f4ae8757bfa958564bda27e67afa9475e639f8a002ea442c484d.svg",
+          "sha256": "ac8b8a5b0db3f4ae8757bfa958564bda27e67afa9475e639f8a002ea442c484d",
+          "format": "svg",
+          "bytes": 698626
+        },
+        "png64": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0cdacc95a7148cf6d3eda086c0e356cc089c99b4399de373165edb825ae2d645.png",
+          "sha256": "0cdacc95a7148cf6d3eda086c0e356cc089c99b4399de373165edb825ae2d645",
+          "format": "png",
+          "bytes": 850
+        },
+        "png256": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/293ada3d4f61e60e12cff3e2550a00c2a43b70a06d17118a136ac4ffa435fe81.png",
+          "sha256": "293ada3d4f61e60e12cff3e2550a00c2a43b70a06d17118a136ac4ffa435fe81",
+          "format": "png",
+          "bytes": 5748
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/85f504349689e44d42687ed817cb8d07e8fca9e8e1553f2fe5e8104cc701fa64.png",
+          "sha256": "85f504349689e44d42687ed817cb8d07e8fca9e8e1553f2fe5e8104cc701fa64",
+          "format": "png",
+          "bytes": 523495
+        }
+      },
+      "sourceUrl": "https://www.kingdee.com/",
+      "usageScope": "系统集成展示、Leego 图标库托管引用",
+      "permission": {
+        "status": "user-confirmed",
+        "confirmedAt": "2026-10-15",
+        "scope": "系统集成展示、Leego 图标库托管引用",
+        "evidence": "用户在本线程明确回复：已有相关许可，可按该范围开放引用。",
+        "independentlyReviewed": false,
+        "notGranted": [
+          "商标权转授",
+          "无关广告宣传",
+          "第三方通用素材包再分发"
+        ]
+      },
+      "sourceNote": "官网 9134px 组合标的四色圆点符号，与官网 favicon 语义一致；不替代金蝶各子产品标志。"
+    },
+    {
+      "id": "external.feishu",
+      "label": "飞书",
+      "category": "brand-enterprise-service",
+      "aliases": [
+        "feishu",
+        "飞书办公",
+        "飞书协作",
+        "Lark",
+        "系统集成",
+        "App"
+      ],
+      "source": "官方原件 · 统一应用承载 · 用户确认集成展示许可",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0c919d304ab35492b974f4ae607a592fc2ba88b3d8f63916f2c9f394aee2eb7c.svg",
+          "sha256": "0c919d304ab35492b974f4ae607a592fc2ba88b3d8f63916f2c9f394aee2eb7c",
+          "format": "svg",
+          "bytes": 19038
+        },
+        "png64": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f6ca261746d63ec7eda495d65c132c05ef376df15b5876567525edabd255ef6f.png",
+          "sha256": "f6ca261746d63ec7eda495d65c132c05ef376df15b5876567525edabd255ef6f",
+          "format": "png",
+          "bytes": 1571
+        },
+        "png256": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cae00c05d9631a8d7a265db36f448572de4cd95975b5dc10f81f3a30bbc01437.png",
+          "sha256": "cae00c05d9631a8d7a265db36f448572de4cd95975b5dc10f81f3a30bbc01437",
+          "format": "png",
+          "bytes": 7521
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cfd2b879c472a2674520492c84a0304c537a19964b8a2dcd3562c57de773268b.png",
+          "sha256": "cfd2b879c472a2674520492c84a0304c537a19964b8a2dcd3562c57de773268b",
+          "format": "png",
+          "bytes": 13812
+        }
+      },
+      "sourceUrl": "https://www.feishu.cn/",
+      "usageScope": "系统集成展示、Leego 图标库托管引用",
+      "permission": {
+        "status": "user-confirmed",
+        "confirmedAt": "2026-10-15",
+        "scope": "系统集成展示、Leego 图标库托管引用",
+        "evidence": "用户在本线程明确回复：已有相关许可，可按该范围开放引用。",
+        "independentlyReviewed": false,
+        "notGranted": [
+          "商标权转授",
+          "无关广告宣传",
+          "第三方通用素材包再分发"
+        ]
+      },
+      "sourceNote": "原 CDN 的 700px 飞鸟标志；替换原 100px 缩略图，不改形、不改色。"
+    },
+    {
+      "id": "external.meituan",
+      "label": "美团",
+      "category": "brand-commerce-local",
+      "aliases": [
+        "meituan",
+        "美团平台",
+        "系统集成",
+        "App"
+      ],
+      "source": "官方原件 · 统一应用承载 · 用户确认集成展示许可",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7efcabcd6ae5ebe1a836b1262178b43e84dbeef5fd530b20d56a84b402fca3d7.svg",
+          "sha256": "7efcabcd6ae5ebe1a836b1262178b43e84dbeef5fd530b20d56a84b402fca3d7",
+          "format": "svg",
+          "bytes": 45869
+        },
+        "png64": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ac8c201b3c808eed56bf7ede942cfaf7881458173fd3e01517bbda92c24a0455.png",
+          "sha256": "ac8c201b3c808eed56bf7ede942cfaf7881458173fd3e01517bbda92c24a0455",
+          "format": "png",
+          "bytes": 1580
+        },
+        "png256": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/85f7cca4e7552060fc9f5c68e1044542bf4afba9f3d2425c0ccc0aefee50b16f.png",
+          "sha256": "85f7cca4e7552060fc9f5c68e1044542bf4afba9f3d2425c0ccc0aefee50b16f",
+          "format": "png",
+          "bytes": 6743
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/49b41e8adae5547675ca04cded446a613225a821c29d8eec98e2477f06b93a55.png",
+          "sha256": "49b41e8adae5547675ca04cded446a613225a821c29d8eec98e2477f06b93a55",
+          "format": "png",
+          "bytes": 33935
+        }
+      },
+      "sourceUrl": "https://www.meituan.com/media",
+      "usageScope": "系统集成展示、Leego 图标库托管引用",
+      "permission": {
+        "status": "user-confirmed",
+        "confirmedAt": "2026-10-15",
+        "scope": "系统集成展示、Leego 图标库托管引用",
+        "evidence": "用户在本线程明确回复：已有相关许可，可按该范围开放引用。",
+        "independentlyReviewed": false,
+        "notGranted": [
+          "商标权转授",
+          "无关广告宣传",
+          "第三方通用素材包再分发"
+        ]
+      },
+      "sourceNote": "官方媒体包的独立黄色应用标；保留黑色字形和黄色，不混用外卖、闪购、配送标志。"
+    },
+    {
+      "id": "system.product-center",
+      "label": "Product Center",
+      "category": "systems",
+      "aliases": [
+        "产品中心",
+        "product-center",
+        "产品中心",
+        "Product Center"
+      ],
+      "source": "V019 · V018 家族扩展 / 产品中心",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f286d46e0021ad36e08a4db717e3e79a8979e7362b83bf177d968535fa97b7ab.svg",
+          "sha256": "f286d46e0021ad36e08a4db717e3e79a8979e7362b83bf177d968535fa97b7ab",
+          "format": "svg",
+          "bytes": 985
+        },
+        "compact": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8abe34c649db444dbf7e642fcbc8fae7a5fa6e9da760e2838cb46ceef31dd2ed.svg",
+          "sha256": "8abe34c649db444dbf7e642fcbc8fae7a5fa6e9da760e2838cb46ceef31dd2ed",
+          "format": "svg",
+          "bytes": 632
+        },
+        "mono-dark": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ef1d2c453a4150381d4d9e69e92aa6c43ded3151b94cdd0e904bb65bda7abadb.svg",
+          "sha256": "ef1d2c453a4150381d4d9e69e92aa6c43ded3151b94cdd0e904bb65bda7abadb",
+          "format": "svg",
+          "bytes": 632
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d1a7feb8c37ce747b68858290a51d54dedcf13968db54ddfa627ea7a23263e79.svg",
+          "sha256": "d1a7feb8c37ce747b68858290a51d54dedcf13968db54ddfa627ea7a23263e79",
+          "format": "svg",
+          "bytes": 632
+        }
+      }
+    },
+    {
+      "id": "external.meituan-pos",
+      "label": "美团收银 ERP",
+      "category": "brand-enterprise-service",
+      "aliases": [
+        "meituan-pos",
+        "美团收银",
+        "美团餐饮系统",
+        "Meituan POS",
+        "Meituan ERP",
+        "系统集成",
+        "App"
+      ],
+      "source": "官方原件 · 统一应用承载 · 用户确认集成展示许可",
+      "rights": "project-reuse",
+      "defaultVariant": "app",
+      "variants": {
+        "app": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3b1b0c09751fb43f67145a4f0927abbd66bd1b37124a59c450c9489abd14ef8a.svg",
+          "sha256": "3b1b0c09751fb43f67145a4f0927abbd66bd1b37124a59c450c9489abd14ef8a",
+          "format": "svg",
+          "bytes": 43135
+        },
+        "png64": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f2e6825ebc7080878de8af412aa94dc7bd69a144aec1d302e3dabf8f405a0c4b.png",
+          "sha256": "f2e6825ebc7080878de8af412aa94dc7bd69a144aec1d302e3dabf8f405a0c4b",
+          "format": "png",
+          "bytes": 1535
+        },
+        "png256": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6e849d0e138f085c7d6439b2a90025fdd00e1068e108cb1fd1602e3c627e8207.png",
+          "sha256": "6e849d0e138f085c7d6439b2a90025fdd00e1068e108cb1fd1602e3c627e8207",
+          "format": "png",
+          "bytes": 7328
+        },
+        "original": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f7946450d3f5edb0732f1c7ff9b07c3e6492f7facbdeec858811219afb32ff8f.png",
+          "sha256": "f7946450d3f5edb0732f1c7ff9b07c3e6492f7facbdeec858811219afb32ff8f",
+          "format": "png",
+          "bytes": 31876
+        }
+      },
+      "sourceUrl": "https://shouyin.meituan.com/",
+      "usageScope": "系统集成展示、Leego 图标库托管引用",
+      "permission": {
+        "status": "user-confirmed",
+        "confirmedAt": "2026-10-15",
+        "scope": "系统集成展示、Leego 图标库托管引用",
+        "evidence": "用户在本线程明确回复：已有相关许可，可按该范围开放引用。",
+        "independentlyReviewed": false,
+        "notGranted": [
+          "商标权转授",
+          "无关广告宣传",
+          "第三方通用素材包再分发"
+        ]
+      },
+      "sourceNote": "美团餐饮系统官网导航组合标中的黄色独立标识；以独立服务 ID 和名称区分美团主品牌，不冒称独立 ERP 商标或具体客户端安装图标。"
+    },
+    {
+      "id": "brand.gofofo",
+      "label": "狗福福",
+      "category": "owned-brands",
+      "aliases": [
+        "Gofofo",
+        "狗福福",
+        "鲜奶零食"
+      ],
+      "source": "用户提供原件 · 透明字标 / 品牌按钮",
+      "rights": "project-reuse",
+      "defaultVariant": "primary",
+      "variants": {
+        "primary": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3a1f72006de1f6f309d9aee5870304f423ecf7a7ff4660dd419d97b1eecc40d5.png",
+          "sha256": "3a1f72006de1f6f309d9aee5870304f423ecf7a7ff4660dd419d97b1eecc40d5",
+          "format": "png",
+          "bytes": 54712
+        },
+        "capsule": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/89078791157b89025d53f15c5260e62fa60989aaaa7ff1e5bf765b7f5ad056c8.png",
+          "sha256": "89078791157b89025d53f15c5260e62fa60989aaaa7ff1e5bf765b7f5ad056c8",
+          "format": "png",
+          "bytes": 13410
+        }
+      },
+      "layout": "wordmark",
+      "sourceNote": "保留用户原件完整中英组合；透明背景，不添加 App 底板。"
+    },
+    {
+      "id": "brand.baisense",
+      "label": "柏善堂",
+      "category": "owned-brands",
+      "aliases": [
+        "BAISENSE",
+        "柏善堂",
+        "品牌切换",
+        "长条按键"
+      ],
+      "source": "用户提供原件 · 透明字标 / 品牌按钮",
+      "rights": "project-reuse",
+      "defaultVariant": "primary",
+      "variants": {
+        "primary": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d4a382615dd8094f82b78d5add1242f6403f8538e5f40a7b924e2ca3387ae3f2.png",
+          "sha256": "d4a382615dd8094f82b78d5add1242f6403f8538e5f40a7b924e2ca3387ae3f2",
+          "format": "png",
+          "bytes": 16227
+        },
+        "button": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5ddc5b6215299b8da2cc1456a4799754d3886cf2dc7e373b2cfb4613e7781ec4.png",
+          "sha256": "5ddc5b6215299b8da2cc1456a4799754d3886cf2dc7e373b2cfb4613e7781ec4",
+          "format": "png",
+          "bytes": 11592
+        },
+        "capsule": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/75ecbf67f7f36516142cb2079eab97e811a90c204d3f44727730ad2e61cc88c7.png",
+          "sha256": "75ecbf67f7f36516142cb2079eab97e811a90c204d3f44727730ad2e61cc88c7",
+          "format": "png",
+          "bytes": 15434
+        }
+      },
+      "layout": "wordmark",
+      "sourceNote": "完整中英组合保留原件；button 为原中文字形响应式紧凑版，仅省去英文行，不替代品牌主标。"
     }
   ]
 }

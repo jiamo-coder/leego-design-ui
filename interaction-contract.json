@@ -1,6 +1,6 @@
 {
   "standard": "leego-design-ui",
-  "version": "2.25.0",
+  "version": "2.25.5",
   "contract": "interaction-contract-1",
   "web": {
     "geometrySource": "tokens.web.applicationShell.sidebar",

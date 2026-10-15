@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "edition": "v002",
+  "updated": "2026-10-15",
+  "geometry": {
+    "canvas": 1024,
+    "inset": 16,
+    "tile": 992,
+    "radius": 224,
+    "outside": "transparent"
+  },
+  "permission": {
+    "status": "user-confirmed",
+    "confirmedAt": "2026-10-15",
+    "scope": "系统集成展示、Leego 图标库托管引用",
+    "evidence": "用户在本线程明确回复：已有相关许可，可按该范围开放引用。",
+    "independentlyReviewed": false,
+    "notGranted": [
+      "商标权转授",
+      "无关广告宣传",
+      "第三方通用素材包再分发"
+    ]
+  },
+  "members": [
+    {
+      "id": "qmai",
+      "label": "企迈",
+      "file": "qmai.svg",
+      "page": "https://www.qmai.com/",
+      "url": "https://images.qmai.cn/s0/2025/06/06/dccab8c2182234702b.svg",
+      "viewport": [
+        0,
+        0,
+        26,
+        26
+      ],
+      "box": [
+        190,
+        190,
+        644,
+        644
+      ],
+      "note": "官网矢量组合标中的独立 Q 符号；路径与原色不变。",
+      "sourceWidth": 80,
+      "sourceHeight": 26,
+      "sourceSha256": "1a8febdfec012044e54b50da09f2b10439d27d838364fc3f2d2d904c172de52a",
+      "variants": {
+        "png24": {
+          "path": "/external-brands/apps/qmai-app-24.png",
+          "sha256": "b1dbb8d8c0135546e227e638247a7061b73600a0b22ceacc0328284dfd8b8e25",
+          "width": 24,
+          "height": 24
+        },
+        "png32": {
+          "path": "/external-brands/apps/qmai-app-32.png",
+          "sha256": "1885a503378287ddafe64e0b73d1cf4331abb01fd015ec74e6c81a9092abcf61",
+          "width": 32,
+          "height": 32
+        },
+        "png48": {
+          "path": "/external-brands/apps/qmai-app-48.png",
+          "sha256": "97a5f235c5eb012df5aba714d728ae616767ad14232e7816a2642859844df930",
+          "width": 48,
+          "height": 48
+        },
+        "png64": {
+          "path": "/external-brands/apps/qmai-app-64.png",
+          "sha256": "09af0234562dfc89aac6ef21f3239a313d1c66e015de8adb9e37276e8c6dfef5",
+          "width": 64,
+          "height": 64
+        },
+        "png128": {
+          "path": "/external-brands/apps/qmai-app-128.png",
+          "sha256": "78066d9b0039621cc98116e4439283fe9229708ccad24cf08ca47ad1d126f4d7",
+          "width": 128,
+          "height": 128
+        },
+        "png256": {
+          "path": "/external-brands/apps/qmai-app-256.png",
+          "sha256": "9c9819db0b2c009b3d5c5de3b3b4f325bea317655c41761df33b8eccd51e53de",
+          "width": 256,
+          "height": 256
+        },
+        "png512": {
+          "path": "/external-brands/apps/qmai-app-512.png",
+          "sha256": "1ebc603a3e3d9fd40d91b848e1f214e5193ac199a545b9ca89b975af54bc4939",
+          "width": 512,
+          "height": 512
+        },
+        "png1024": {
+          "path": "/external-brands/apps/qmai-app-1024.png",
+          "sha256": "4c953c6904d3883648d4029dd14f5b7b8fa8e4dfc1842842f539c5bd70185d7f",
+          "width": 1024,
+          "height": 1024
+        },
+        "app": {
+          "path": "/external-brands/apps/qmai-app.svg",
+          "sha256": "a687a1d366cb39d49dcde8658e62fda64747e1cc7ec42d1256286b3ced934fc9",
+          "format": "svg",
+          "embeddedRaster": false
+        },
+        "original": {
+          "path": "/external-brands/apps/sources/qmai.svg",
+          "sha256": "1a8febdfec012044e54b50da09f2b10439d27d838364fc3f2d2d904c172de52a",
+          "format": "svg"
+        }
+      }
+    },
+    {
+      "id": "kingdee",
+      "label": "金蝶",
+      "file": "kingdee.png",
+      "page": "https://www.kingdee.com/",
+      "url": "https://www.kingdee.com/r/cms/www/default/2025Assets/img2025/logo.png",
+      "viewport": [
+        350,
+        250,
+        2850,
+        4100
+      ],
+      "box": [
+        276,
+        172,
+        472,
+        680
+      ],
+      "note": "官网 9134px 组合标的四色圆点符号，与官网 favicon 语义一致；不替代金蝶各子产品标志。",
+      "sourceWidth": 9134,
+      "sourceHeight": 4655,
+      "sourceSha256": "85f504349689e44d42687ed817cb8d07e8fca9e8e1553f2fe5e8104cc701fa64",
+      "variants": {
+        "png24": {
+          "path": "/external-brands/apps/kingdee-app-24.png",
+          "sha256": "15145cd753b7be83adf7db5303f5dcab57e06e8169e8a1c67874cdabb902f08b",
+          "width": 24,
+          "height": 24
+        },
+        "png32": {
+          "path": "/external-brands/apps/kingdee-app-32.png",
+          "sha256": "a3560b717254ffd5f1e438af93d010485c627e474a608041c04bb34f278c36d0",
+          "width": 32,
+          "height": 32
+        },
+        "png48": {
+          "path": "/external-brands/apps/kingdee-app-48.png",
+          "sha256": "4a55c25f45cf3fdc4bd2dcd0e01811421bcfdd850d2217e716aca59239b4697a",
+          "width": 48,
+          "height": 48
+        },
+        "png64": {
+          "path": "/external-brands/apps/kingdee-app-64.png",
+          "sha256": "0cdacc95a7148cf6d3eda086c0e356cc089c99b4399de373165edb825ae2d645",
+          "width": 64,
+          "height": 64
+        },
+        "png128": {
+          "path": "/external-brands/apps/kingdee-app-128.png",
+          "sha256": "78d6a9fcf4aaf76ee4ce225904842b54794a20b7e384fc318b39a8f84c7fefcb",
+          "width": 128,
+          "height": 128
+        },
+        "png256": {
+          "path": "/external-brands/apps/kingdee-app-256.png",
+          "sha256": "293ada3d4f61e60e12cff3e2550a00c2a43b70a06d17118a136ac4ffa435fe81",
+          "width": 256,
+          "height": 256
+        },
+        "png512": {
+          "path": "/external-brands/apps/kingdee-app-512.png",
+          "sha256": "d96cb3ffbcd80a9ba639a9802c64e639abe528b77cf5b009fa21aec132799caf",
+          "width": 512,
+          "height": 512
+        },
+        "png1024": {
+          "path": "/external-brands/apps/kingdee-app-1024.png",
+          "sha256": "93f8175ddf1f502720ed846a05e2a08297722b0229974d20f0efa8158fc2f26a",
+          "width": 1024,
+          "height": 1024
+        },
+        "app": {
+          "path": "/external-brands/apps/kingdee-app.svg",
+          "sha256": "ac8b8a5b0db3f4ae8757bfa958564bda27e67afa9475e639f8a002ea442c484d",
+          "format": "svg",
+          "embeddedRaster": true
+        },
+        "original": {
+          "path": "/external-brands/apps/sources/kingdee.png",
+          "sha256": "85f504349689e44d42687ed817cb8d07e8fca9e8e1553f2fe5e8104cc701fa64",
+          "format": "png"
+        }
+      }
+    },
+    {
+      "id": "feishu",
+      "label": "飞书",
+      "file": "feishu.png",
+      "page": "https://www.feishu.cn/",
+      "url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image",
+      "viewport": [
+        0,
+        0,
+        700,
+        700
+      ],
+      "box": [
+        112,
+        112,
+        800,
+        800
+      ],
+      "note": "原 CDN 的 700px 飞鸟标志；替换原 100px 缩略图，不改形、不改色。",
+      "sourceWidth": 700,
+      "sourceHeight": 700,
+      "sourceSha256": "cfd2b879c472a2674520492c84a0304c537a19964b8a2dcd3562c57de773268b",
+      "variants": {
+        "png24": {
+          "path": "/external-brands/apps/feishu-app-24.png",
+          "sha256": "771c85e0f157010e684684afcd051e984012a1970ca88bcb440b144ede9a439a",
+          "width": 24,
+          "height": 24
+        },
+        "png32": {
+          "path": "/external-brands/apps/feishu-app-32.png",
+          "sha256": "13ce54aaefacf7f154f5d1035c02a2a21f3a445bf01cf5665a0c5b6764bf1fc9",
+          "width": 32,
+          "height": 32
+        },
+        "png48": {
+          "path": "/external-brands/apps/feishu-app-48.png",
+          "sha256": "02700843c5ac281ddf5670f10002e0b7724020382e035fa27204c20e65ce6a00",
+          "width": 48,
+          "height": 48
+        },
+        "png64": {
+          "path": "/external-brands/apps/feishu-app-64.png",
+          "sha256": "f6ca261746d63ec7eda495d65c132c05ef376df15b5876567525edabd255ef6f",
+          "width": 64,
+          "height": 64
+        },
+        "png128": {
+          "path": "/external-brands/apps/feishu-app-128.png",
+          "sha256": "412ea4828aecdcba2af40128b3196492626f1aaaf600d0997f22182b6e55fd66",
+          "width": 128,
+          "height": 128
+        },
+        "png256": {
+          "path": "/external-brands/apps/feishu-app-256.png",
+          "sha256": "cae00c05d9631a8d7a265db36f448572de4cd95975b5dc10f81f3a30bbc01437",
+          "width": 256,
+          "height": 256
+        },
+        "png512": {
+          "path": "/external-brands/apps/feishu-app-512.png",
+          "sha256": "a4b3739b9bd5d6bc9f2a5d667b2739d2511d322395d81575333dbc4a55657cef",
+          "width": 512,
+          "height": 512
+        },
+        "png1024": {
+          "path": "/external-brands/apps/feishu-app-1024.png",
+          "sha256": "a5c02855a8c5b661641996303a2734a3cd80b383b5b9709594a087d46112257b",
+          "width": 1024,
+          "height": 1024
+        },
+        "app": {
+          "path": "/external-brands/apps/feishu-app.svg",
+          "sha256": "0c919d304ab35492b974f4ae607a592fc2ba88b3d8f63916f2c9f394aee2eb7c",
+          "format": "svg",
+          "embeddedRaster": true
+        },
+        "original": {
+          "path": "/external-brands/apps/sources/feishu.png",
+          "sha256": "cfd2b879c472a2674520492c84a0304c537a19964b8a2dcd3562c57de773268b",
+          "format": "png"
+        }
+      }
+    },
+    {
+      "id": "meituan",
+      "label": "美团",
+      "file": "meituan.png",
+      "page": "https://www.meituan.com/media",
+      "url": "https://s3plus.sankuai.com/v1/mss_f5ecef526b384cbaa1117230d53b4bd6/smart/22c45b30-80ba-4aa5-bfad-2bfaed7beb4e.zip",
+      "viewport": [
+        0,
+        0,
+        688,
+        688
+      ],
+      "box": [
+        16,
+        16,
+        992,
+        992
+      ],
+      "note": "官方媒体包的独立黄色应用标；保留黑色字形和黄色，不混用外卖、闪购、配送标志。",
+      "sourceWidth": 1896,
+      "sourceHeight": 687,
+      "sourceSha256": "49b41e8adae5547675ca04cded446a613225a821c29d8eec98e2477f06b93a55",
+      "variants": {
+        "png24": {
+          "path": "/external-brands/apps/meituan-app-24.png",
+          "sha256": "a0771fec737d9309856046395bb46e7e43090cf558d2ef1722ccbfcdf7e52f4a",
+          "width": 24,
+          "height": 24
+        },
+        "png32": {
+          "path": "/external-brands/apps/meituan-app-32.png",
+          "sha256": "ddb6b8de6b772e4afed5e599969487fc009a67438712b105485c480d2b70fed4",
+          "width": 32,
+          "height": 32
+        },
+        "png48": {
+          "path": "/external-brands/apps/meituan-app-48.png",
+          "sha256": "6b25194ac1c223b2ca686ca6b781fdc5c05b36bc99fe000b1e7a800a482196e0",
+          "width": 48,
+          "height": 48
+        },
+        "png64": {
+          "path": "/external-brands/apps/meituan-app-64.png",
+          "sha256": "ac8c201b3c808eed56bf7ede942cfaf7881458173fd3e01517bbda92c24a0455",
+          "width": 64,
+          "height": 64
+        },
+        "png128": {
+          "path": "/external-brands/apps/meituan-app-128.png",
+          "sha256": "8bcc358fcc0965b8f19b491d0d37784e4166ec70eaf150ec4323ed33b4cf834a",
+          "width": 128,
+          "height": 128
+        },
+        "png256": {
+          "path": "/external-brands/apps/meituan-app-256.png",
+          "sha256": "85f7cca4e7552060fc9f5c68e1044542bf4afba9f3d2425c0ccc0aefee50b16f",
+          "width": 256,
+          "height": 256
+        },
+        "png512": {
+          "path": "/external-brands/apps/meituan-app-512.png",
+          "sha256": "726bf40bfda37b37f13d0ee48278d8eb681911ae4fcf326e7a2ef5b14bd19b68",
+          "width": 512,
+          "height": 512
+        },
+        "png1024": {
+          "path": "/external-brands/apps/meituan-app-1024.png",
+          "sha256": "d4d72938b29fc903d435cb36154491cd292799f2f4ef778eda3d98f79b900010",
+          "width": 1024,
+          "height": 1024
+        },
+        "app": {
+          "path": "/external-brands/apps/meituan-app.svg",
+          "sha256": "7efcabcd6ae5ebe1a836b1262178b43e84dbeef5fd530b20d56a84b402fca3d7",
+          "format": "svg",
+          "embeddedRaster": true
+        },
+        "original": {
+          "path": "/external-brands/apps/sources/meituan.png",
+          "sha256": "49b41e8adae5547675ca04cded446a613225a821c29d8eec98e2477f06b93a55",
+          "format": "png"
+        }
+      }
+    },
+    {
+      "id": "meituan-pos",
+      "label": "美团收银 ERP",
+      "aliases": [
+        "美团收银",
+        "美团餐饮系统",
+        "Meituan POS",
+        "Meituan ERP"
+      ],
+      "file": "meituan-pos.png",
+      "page": "https://shouyin.meituan.com/",
+      "url": "https://s3plus.meituan.net/static-prod01/com.sankuai.sjst.erp.www-files/static/pos/assets/images/newlogo.fd74623.png",
+      "viewport": [
+        0,
+        0,
+        333,
+        333
+      ],
+      "box": [
+        16,
+        16,
+        992,
+        992
+      ],
+      "note": "美团餐饮系统官网导航组合标中的黄色独立标识；以独立服务 ID 和名称区分美团主品牌，不冒称独立 ERP 商标或具体客户端安装图标。",
+      "sourceWidth": 2121,
+      "sourceHeight": 333,
+      "sourceSha256": "f7946450d3f5edb0732f1c7ff9b07c3e6492f7facbdeec858811219afb32ff8f",
+      "variants": {
+        "png24": {
+          "path": "/external-brands/apps/meituan-pos-app-24.png",
+          "sha256": "e5c4b3290cd770e4883ef4d0e1502e66a59cc55a096cbadc7b927f10ec627c08",
+          "width": 24,
+          "height": 24
+        },
+        "png32": {
+          "path": "/external-brands/apps/meituan-pos-app-32.png",
+          "sha256": "436ad30a8ee76949825c6d12a967868c47eb9a7e43964b2651904ba913346d01",
+          "width": 32,
+          "height": 32
+        },
+        "png48": {
+          "path": "/external-brands/apps/meituan-pos-app-48.png",
+          "sha256": "863aa6959516487c8d0c66fb9550f62f9c5ecc47034e0321cb29c6354774e9a7",
+          "width": 48,
+          "height": 48
+        },
+        "png64": {
+          "path": "/external-brands/apps/meituan-pos-app-64.png",
+          "sha256": "f2e6825ebc7080878de8af412aa94dc7bd69a144aec1d302e3dabf8f405a0c4b",
+          "width": 64,
+          "height": 64
+        },
+        "png128": {
+          "path": "/external-brands/apps/meituan-pos-app-128.png",
+          "sha256": "0cc5a7e2b946b9f49541ce3b153b9463fd8226dbcd75e3e08b16b5aaacb90979",
+          "width": 128,
+          "height": 128
+        },
+        "png256": {
+          "path": "/external-brands/apps/meituan-pos-app-256.png",
+          "sha256": "6e849d0e138f085c7d6439b2a90025fdd00e1068e108cb1fd1602e3c627e8207",
+          "width": 256,
+          "height": 256
+        },
+        "png512": {
+          "path": "/external-brands/apps/meituan-pos-app-512.png",
+          "sha256": "1e1ae2eced9475acfc86aa0b5ce44e81dca46009bedaea95f9fefc03d1972eed",
+          "width": 512,
+          "height": 512
+        },
+        "png1024": {
+          "path": "/external-brands/apps/meituan-pos-app-1024.png",
+          "sha256": "88e5142565ac4553409cd033c369853b3ddb6a459cc9303ee20cb3a6f517a802",
+          "width": 1024,
+          "height": 1024
+        },
+        "app": {
+          "path": "/external-brands/apps/meituan-pos-app.svg",
+          "sha256": "3b1b0c09751fb43f67145a4f0927abbd66bd1b37124a59c450c9489abd14ef8a",
+          "format": "svg",
+          "embeddedRaster": true
+        },
+        "original": {
+          "path": "/external-brands/apps/sources/meituan-pos.png",
+          "sha256": "f7946450d3f5edb0732f1c7ff9b07c3e6492f7facbdeec858811219afb32ff8f",
+          "format": "png"
+        }
+      }
+    }
+  ]
+}
