@@ -1,4 +1,4 @@
-/* Opt-in example. Obtain official unmodified WOFF2 + license first.
+/* Default Leego UI integration. Obtain official unmodified WOFF2 + license first.
    Replace these same-origin paths for your application's basePath.
    This Skill intentionally does not distribute font binaries. */
 @font-face {
@@ -24,13 +24,17 @@
 }
 :root {
   --leego-font-ui: "MiSans", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", Arial, sans-serif;
+  --leego-weight-body: 400;
+  --leego-weight-navigation: 400;
+  --leego-weight-control: 500;
+  --leego-weight-title: 600;
 }
 body { font-family: var(--leego-font-ui); font-weight: 400; font-synthesis: style; }
 button, input, textarea, select { font-family: inherit; }
 input, textarea, select { font-weight: 400; }
 button { font-weight: 500; }
 /* Map semantic roles; do not globally restyle every h2 or button as a title/action. */
-[data-ui-type="body"], [data-ui-type="navigation"] { font-weight: 400; }
+[data-ui-type="body"], [data-ui-type="input"], [data-ui-type="auxiliary"], [data-ui-type="navigation"], [data-ui-type="navigation"][aria-current], [data-ui-type="navigation"][aria-selected="true"] { font-weight: 400; }
 [data-ui-type="button"], [data-ui-type="section-title"], [data-ui-type="card-title"], [data-ui-type="table-header"] { font-weight: 500; }
 [data-ui-type="page-title"], [data-ui-type="metric"], strong, b { font-weight: 600; }
 code, pre, kbd, samp { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }

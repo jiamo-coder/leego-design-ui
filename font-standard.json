@@ -1,9 +1,10 @@
 {
   "standard": "leego-design-ui",
-  "version": "2.25.0",
+  "version": "2.25.5",
   "family": "MiSans",
-  "status": "default-recommendation-project-local-registration-required",
-  "verifiedAt": "2026-10-05",
+  "status": "default-ui-font-project-local-registration-required",
+  "revision": "2026-10-16",
+  "verifiedAt": "2026-10-16",
   "sources": {
     "faq": "https://hyperos.mi.com/font/zh/faq/",
     "download": "https://hyperos.mi.com/font/zh/download/",

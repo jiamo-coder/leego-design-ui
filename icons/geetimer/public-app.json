@@ -1,0 +1,35 @@
+{
+  "revision": "2.25.3",
+  "defaultVariant": "app",
+  "variants": {
+    "white": {
+      "path": "icons/geetimer/public-rounded-v1/App-white.svg",
+      "sha256": "f4002da0223261e7674da58338a0bca1a97c4fbca30c72236465979fc75d15f9"
+    },
+    "app": {
+      "path": "icons/geetimer/public-rounded-v1/App-white.svg",
+      "sha256": "f4002da0223261e7674da58338a0bca1a97c4fbca30c72236465979fc75d15f9"
+    },
+    "native-white": {
+      "path": "icons/geetimer/v011/App-white.png",
+      "sha256": "18d4d072a063112317b9897303eb4fa8284f0f93f3faf95e5f215e0b11566d33"
+    },
+    "black": {
+      "path": "icons/geetimer/public-rounded-v1/App-black.svg",
+      "sha256": "483dcfe719d7ced6fb8227dd7808877e4eb7d52bf8525647088bc38780d4dfcc"
+    },
+    "native-black": {
+      "path": "icons/geetimer/v011/App-black.png",
+      "sha256": "f9a8fc49ff0d195149042733ed4f647c7c8d372bacac05043768f103d98a93f8"
+    },
+    "purple": {
+      "path": "icons/geetimer/public-rounded-v1/App-purple.svg",
+      "sha256": "1ed8244b1bc2a568af9d96354452febbfe15115edc950530204b12b8721abb02"
+    },
+    "native-purple": {
+      "path": "icons/geetimer/v011/App-purple.png",
+      "sha256": "2036170d3d7bc611babd2d9afe11ea6ee54ddc1c0941bdc62995ae0d46b136fa"
+    }
+  },
+  "note": "Public rounded derivatives only; approved native installation originals are unchanged."
+}

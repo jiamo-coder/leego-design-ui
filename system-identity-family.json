@@ -1,12 +1,12 @@
 {
   "standard": "leego-design-ui",
-  "version": "2.25.0",
+  "version": "2.25.5",
   "sourcePackage": "system-logo-family/v007",
   "adoption": "user-authorized-publication-2026-10-05",
-  "defaultRoute": "soft-crystal",
+  "defaultRoute": "system-geometric-v018",
   "productCount": 13,
-  "systemCount": 5,
-  "assetCount": 72,
+  "systemCount": 6,
+  "assetCount": 76,
   "variants": [
     "app",
     "compact",
@@ -22,10 +22,11 @@
     "compactStroke": 1.85
   },
   "rules": [
-    "同一产品集合统一使用柔线与小块面，不混搭旧路线。",
-    "渐变只用于登记的身份图标；不扩散到通用按钮、风险和状态。",
-    "32px起使用app；20/24px使用compact且配名称；单色背景用对应mono原件。",
-    "外部品牌保持原件；第三方预览文件不进入Skill、ZIP或动态资产库。"
+    "六款系统能力使用 V018 几何家族；原五款保持不变，产品中心为 V019 扩展。银白 App 外壳、黑色块面、清亮点彩；天气保留黄色日光。",
+    "13款旧产品仅兼容；新产品读取V010，Skill身份读取V006积木。",
+    "系统app建议32–48px；compact为20/24px彩色裸标；mono-dark/mono-light为透明底单色裸标。",
+    "稳定ID不变；发布须新版本，不修改旧不可变快照。",
+    "第三方原图不进入 Skill/ZIP；带 catalogId 的已授权集成身份由图标服务托管，范围见 external-app-icons.json；其余参考项不开放引用。"
   ],
   "members": [
     {
@@ -424,29 +425,31 @@
       "role": "天气与环境",
       "kind": "system",
       "palette": [
-        "#B8F0FF",
-        "#6FC5F3",
-        "#989FF0"
+        "#F7F8FA",
+        "#242831",
+        "#FFB627"
       ],
-      "rationale": "保留原识别图形与本轮统一材质。",
+      "rationale": "实心黑云承住明亮圆日，三颗光点保留轻快感。",
       "assets": {
         "app": {
           "path": "icons/system-identities/app/weather.svg",
-          "sha256": "14bcafb68c6d2f37241c52521cd74387d36de6c76df5632e0af1c9dce448641c"
+          "sha256": "d9b05e26620e95d60e7fe13103c133539d859a116bcb069ca320731b3cc01c16"
         },
         "compact": {
           "path": "icons/system-identities/compact/weather.svg",
-          "sha256": "af5e656cc79bd32e6ac8295dc00bcc2ccc5ac7d9b940a9b4a1679a94032b33b4"
+          "sha256": "499144e23da3fb4e5bbe9d4a57a0801c48b23ce1815ee2108ddc843e512f1238"
         },
         "mono-dark": {
           "path": "icons/system-identities/mono-dark/weather.svg",
-          "sha256": "3241f895f58cef945bc0a099947815f31b4a51cfb93478e2d01e4f9c57295cbc"
+          "sha256": "d95833d476f71c5e5ac4d2fbde10f980bdf3eb66e9e4dd988a0b6297c197f31b"
         },
         "mono-light": {
           "path": "icons/system-identities/mono-light/weather.svg",
-          "sha256": "23594a22263b62ba8a9c6d036531f8ec94015dceeb5672802222cc7af83a581e"
+          "sha256": "c00e91ba1af0867bd9ab586bb94353c4c1f5d28ac6513030ab2e99d977f410e5"
         }
-      }
+      },
+      "sourcePackage": "system-logo-family/v018",
+      "route": "system-geometric-v018"
     },
     {
       "id": "business-center",
@@ -454,29 +457,31 @@
       "role": "业务中枢",
       "kind": "system",
       "palette": [
-        "#CFBBFF",
-        "#9A93F1",
-        "#7DAEEE"
+        "#F7F8FA",
+        "#242831",
+        "#397AF2"
       ],
-      "rationale": "保留原识别图形与本轮统一材质。",
+      "rationale": "四个实体模块，用一块蓝色表达焦点；间隙保持清楚。",
       "assets": {
         "app": {
           "path": "icons/system-identities/app/business-center.svg",
-          "sha256": "635cca3e967604d77512d4cd6d9b6bbcbeacd595a70e6283dcbd6c5283fec4b2"
+          "sha256": "281ed1e7d9c69cef2ead7b52ecbc436e493312d9d690ea67166877b1b7a9483d"
         },
         "compact": {
           "path": "icons/system-identities/compact/business-center.svg",
-          "sha256": "da0906c53b922622b44dec9703fa983c7e900ff6cc01fc6e28aecaa7c20090e2"
+          "sha256": "c8c3b7fcec61a238f3fcc4926c906948f238331318f44104b5233eb15e20cbfb"
         },
         "mono-dark": {
           "path": "icons/system-identities/mono-dark/business-center.svg",
-          "sha256": "5dcaefbd1bed4ec77669ec880cbe1011de9712e25b2a7bc7ca5c0a291f7a0930"
+          "sha256": "88afcc7fb08e0c542921bc74d4fa753d0dcc778979ac85508878def0445d395f"
         },
         "mono-light": {
           "path": "icons/system-identities/mono-light/business-center.svg",
-          "sha256": "3c4fddfc6f1889304c66296274b63f6f8debafdde7e2539e00b58ef5e5f7911d"
+          "sha256": "750c54c05d13f49870cf3f2b54c0cd964a8e7884bc96ff5d50154e044403b2f0"
         }
-      }
+      },
+      "sourcePackage": "system-logo-family/v018",
+      "route": "system-geometric-v018"
     },
     {
       "id": "integration-hub",
@@ -484,29 +489,31 @@
       "role": "集成中枢",
       "kind": "system",
       "palette": [
-        "#B8D9FF",
-        "#8A9CEC",
-        "#A27FDC"
+        "#F7F8FA",
+        "#242831",
+        "#397AF2"
       ],
-      "rationale": "保留原识别图形与本轮统一材质。",
+      "rationale": "双环提高线条分量，保留穿插关系与开放内孔。",
       "assets": {
         "app": {
           "path": "icons/system-identities/app/integration-hub.svg",
-          "sha256": "025388d48ddeb54c250bef05c777351ff9d68e143884a3e8919d60b01f4e605d"
+          "sha256": "9b0a7d7a363eafbf112afbf61eb63d714c614542c019f107daa4d109ba57bc95"
         },
         "compact": {
           "path": "icons/system-identities/compact/integration-hub.svg",
-          "sha256": "832ad966edd615a5dcd58a4986c6b409e327871ce4d4ea816f4cc5c274084ecc"
+          "sha256": "0c35cfd88e7d08a6794122cf7789900a2c8b421a5f943fb7560539adb8ca9689"
         },
         "mono-dark": {
           "path": "icons/system-identities/mono-dark/integration-hub.svg",
-          "sha256": "aae77dc3d3928b4f2a9fb2d686daa8b55472253c3737e8f226328e54a614b3e9"
+          "sha256": "4beeae8d03f68bd29af88e464cab9ddc0ef4dcb9d1eade96ae568b128720eb72"
         },
         "mono-light": {
           "path": "icons/system-identities/mono-light/integration-hub.svg",
-          "sha256": "48a27e8504d8be84ca60e48d0ddf158701d1a50d501b81f08899a6cb139cb3fb"
+          "sha256": "cffda021cce444c33eab263b37c7d242fcc6043b223fd12b0e5e79089e82da94"
         }
-      }
+      },
+      "sourcePackage": "system-logo-family/v018",
+      "route": "system-geometric-v018"
     },
     {
       "id": "security",
@@ -514,29 +521,31 @@
       "role": "安全与保护",
       "kind": "system",
       "palette": [
-        "#A9EEDD",
-        "#67CBD1",
-        "#6B9CEA"
+        "#F7F8FA",
+        "#242831",
+        "#397AF2"
       ],
-      "rationale": "保留原识别图形与本轮统一材质。",
+      "rationale": "更有分量的盾形边界，蓝色内核与充足留白形成对比。",
       "assets": {
         "app": {
           "path": "icons/system-identities/app/security.svg",
-          "sha256": "65b43ffd1908c1f71aeef1580ed941b3f4b7d971b0c37dbfeac6fa5439cffaf4"
+          "sha256": "3615a208ab48222eae14c244f206376f99a2a6c6ebff57c52f3137a0051dbca5"
         },
         "compact": {
           "path": "icons/system-identities/compact/security.svg",
-          "sha256": "c28262cf2aef3aad09624a34b987776552de6a758a52c56f74f2c42c5d6821dc"
+          "sha256": "d76e4676f5360d55c24ec48430047a33c8ce7e4e1435bae51a3a93ec9ee396be"
         },
         "mono-dark": {
           "path": "icons/system-identities/mono-dark/security.svg",
-          "sha256": "f39306f01c18c5a595abc0cffad90bc7a8c1af199b759500929e83d0aab6a8ac"
+          "sha256": "bbbd44698354f2482afc86a0dd503e024420012b91d13efc79b9d2fe9f922f76"
         },
         "mono-light": {
           "path": "icons/system-identities/mono-light/security.svg",
-          "sha256": "aa3fa5f81de42163c3f98b6c67eb5114c3891ab53a62d4ee3395f395a7c96bd3"
+          "sha256": "5b19d3ea8fda588b99029974c0ef6c9502b9c7298a3ead19d31ff928c2b54dab"
         }
-      }
+      },
+      "sourcePackage": "system-logo-family/v018",
+      "route": "system-geometric-v018"
     },
     {
       "id": "identity",
@@ -544,27 +553,66 @@
       "role": "账号与组织",
       "kind": "system",
       "palette": [
-        "#D9C5FF",
-        "#AE9CEE",
-        "#90ACF2"
+        "#F7F8FA",
+        "#242831",
+        "#397AF2"
       ],
-      "rationale": "保留原识别图形与本轮统一材质。",
+      "rationale": "实心成员节点与环形中枢连接，黑白关系更清晰。",
       "assets": {
         "app": {
           "path": "icons/system-identities/app/identity.svg",
-          "sha256": "6639f7d8443e1aabbe87bce7fb9edfbc8cdf84b09758c6f01f58b7c3341a677a"
+          "sha256": "941cd40a7c7931cbe9c71ff3fb18c66e67e67e2039776a855fd80877d28155da"
         },
         "compact": {
           "path": "icons/system-identities/compact/identity.svg",
-          "sha256": "cf34100960dee638e45e0d2892f6879f4c7710a8d3ae94828b23d5c193ff10fa"
+          "sha256": "18934ae70d3fac66a3e6568b805efc895b720feb3dac48e7adb4a97418255328"
         },
         "mono-dark": {
           "path": "icons/system-identities/mono-dark/identity.svg",
-          "sha256": "486eb8bf2fc0c0198b66026380a942695785cfb3efd951a6cd8c15f66c30b58a"
+          "sha256": "b4308925d1d0fce599f464d6ed0fffb0387fb8c0df04f2bd9a8f0ea086806bda"
         },
         "mono-light": {
           "path": "icons/system-identities/mono-light/identity.svg",
-          "sha256": "7fa67242e687283dee7880899d8919440aa0147fb084df3c66d3eb8d74a4ef92"
+          "sha256": "26a0342115149ea75d4a834e794a616b4c25156c100bcd69a072ba0e0c223ebf"
+        }
+      },
+      "sourcePackage": "system-logo-family/v018",
+      "route": "system-geometric-v018"
+    },
+    {
+      "id": "product-center",
+      "label": "Product Center",
+      "role": "产品中心",
+      "kind": "system",
+      "palette": [
+        "#F7F8FA",
+        "#242831",
+        "#397AF2"
+      ],
+      "rationale": "三面组合为一个产品实体；蓝色顶面与黑色双侧保持开放接缝，区别于业务中心的四格和集成中心的双环。",
+      "sourcePackage": "system-logo-family/v019",
+      "route": "system-geometric-v018",
+      "catalogSource": "V019 · V018 家族扩展 / 产品中心",
+      "aliases": [
+        "产品中心",
+        "Product Center"
+      ],
+      "assets": {
+        "app": {
+          "path": "icons/system-identities/app/product-center.svg",
+          "sha256": "f286d46e0021ad36e08a4db717e3e79a8979e7362b83bf177d968535fa97b7ab"
+        },
+        "compact": {
+          "path": "icons/system-identities/compact/product-center.svg",
+          "sha256": "8abe34c649db444dbf7e642fcbc8fae7a5fa6e9da760e2838cb46ceef31dd2ed"
+        },
+        "mono-dark": {
+          "path": "icons/system-identities/mono-dark/product-center.svg",
+          "sha256": "ef1d2c453a4150381d4d9e69e92aa6c43ded3151b94cdd0e904bb65bda7abadb"
+        },
+        "mono-light": {
+          "path": "icons/system-identities/mono-light/product-center.svg",
+          "sha256": "d1a7feb8c37ce747b68858290a51d54dedcf13968db54ddfa627ea7a23263e79"
         }
       }
     }
@@ -573,35 +621,41 @@
     {
       "id": "kingdee",
       "label": "金蝶 ERP",
-      "path": "system-identity-previews/kingdee-favicon.ico",
-      "sha256": "83d948470d1432cc2e3b9a0f6778c57e0a2ac635d9b373602df519bee2aa59e0",
-      "sourcePage": "https://www.kingdee.com/cn",
-      "sourceAsset": "https://www.kingdee.com/r/cms/www/default/v0.1/images/favicon.ico",
-      "provenance": "official-source",
+      "path": "external-brands/apps/kingdee-app.svg",
+      "sha256": "ac8b8a5b0db3f4ae8757bfa958564bda27e67afa9475e639f8a002ea442c484d",
+      "sourcePage": "https://www.kingdee.com/",
+      "sourceAsset": "https://www.kingdee.com/r/cms/www/default/2025Assets/img2025/logo.png",
+      "provenance": "official-source-app-carrier",
       "projectPreviewApproved": true,
-      "redistribution": false
+      "redistribution": false,
+      "catalogId": "external.kingdee",
+      "permissionRef": "external-app-icons.json"
     },
     {
       "id": "qmai",
       "label": "企迈 / 收银",
-      "path": "system-identity-previews/qmai-favicon.ico",
-      "sha256": "5a5a703b9e0e701d22c58c50b23a746e6ab6b0996418b5be28cbc575a225a6bf",
-      "sourcePage": "https://www.qmai.com/download/",
-      "sourceAsset": "https://www.qmai.com/favicon.ico",
-      "provenance": "official-source",
+      "path": "external-brands/apps/qmai-app.svg",
+      "sha256": "a687a1d366cb39d49dcde8658e62fda64747e1cc7ec42d1256286b3ced934fc9",
+      "sourcePage": "https://www.qmai.com/",
+      "sourceAsset": "https://images.qmai.cn/s0/2025/06/06/dccab8c2182234702b.svg",
+      "provenance": "official-source-app-carrier",
       "projectPreviewApproved": true,
-      "redistribution": false
+      "redistribution": false,
+      "catalogId": "external.qmai",
+      "permissionRef": "external-app-icons.json"
     },
     {
       "id": "feishu",
       "label": "飞书",
-      "path": "system-identity-previews/feishu.png",
-      "sha256": "a8b56475a902623937409d0fdc68b4b91040aa6ce34cd71e7870acf0cc8a62d9",
-      "sourcePage": null,
-      "sourceAsset": null,
-      "provenance": "existing-registered-original",
+      "path": "external-brands/apps/feishu-app.svg",
+      "sha256": "0c919d304ab35492b974f4ae607a592fc2ba88b3d8f63916f2c9f394aee2eb7c",
+      "sourcePage": "https://www.feishu.cn/",
+      "sourceAsset": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image",
+      "provenance": "official-source-app-carrier",
       "projectPreviewApproved": true,
-      "redistribution": false
+      "redistribution": false,
+      "catalogId": "external.feishu",
+      "permissionRef": "external-app-icons.json"
     },
     {
       "id": "geetimer",
@@ -615,15 +669,34 @@
       "redistribution": false
     },
     {
-      "id": "product-center",
-      "label": "Product Center",
-      "path": "system-identity-previews/product-center.svg",
-      "sha256": "ceeac38434be7a3b4d0f68b8cd8aa2b9ae78c260d6343087c6e095f8031ce4ff",
-      "sourcePage": null,
-      "sourceAsset": null,
-      "provenance": "existing-registered-original",
+      "id": "meituan-pos",
+      "label": "美团收银 ERP",
+      "path": "external-brands/apps/meituan-pos-app.svg",
+      "sha256": "3b1b0c09751fb43f67145a4f0927abbd66bd1b37124a59c450c9489abd14ef8a",
+      "sourcePage": "https://shouyin.meituan.com/",
+      "sourceAsset": "https://s3plus.meituan.net/static-prod01/com.sankuai.sjst.erp.www-files/static/pos/assets/images/newlogo.fd74623.png",
+      "provenance": "official-source-app-carrier",
       "projectPreviewApproved": true,
-      "redistribution": false
+      "redistribution": false,
+      "catalogId": "external.meituan-pos",
+      "permissionRef": "external-app-icons.json"
     }
-  ]
+  ],
+  "systemRevision": {
+    "version": "V018",
+    "adoptedAt": "2026-10-14",
+    "status": "user-approved",
+    "sourcePackage": "system-logo-family/v018",
+    "catalogVersion": "2.25.4"
+  },
+  "legacyProductRoute": "soft-crystal",
+  "geometryScope": "Legacy 13 products only; system geometry is defined by V018 SVG originals.",
+  "extensions": {
+    "product-center": {
+      "version": "V019",
+      "status": "designed-per-user-request",
+      "date": "2026-10-15",
+      "sourcePackage": "system-logo-family/v019"
+    }
+  }
 }
