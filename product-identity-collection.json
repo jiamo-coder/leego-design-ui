@@ -1,11 +1,11 @@
 {
   "standard": "leego-design-ui",
-  "version": "2.25.0",
+  "version": "2.25.5",
   "sourceEdition": "V010",
   "adoptedAt": "2026-10-05",
   "status": "user-adopted-raster",
   "glassStatus": "implemented-under-user-authorization",
-  "defaultRoute": "original",
+  "defaultRoute": "app",
   "carrier": {
     "path": "icons/product-identities/quiet-glass/carrier.png",
     "sha256": "2074329ae0da1e846a01518980216b2b006a69137c6fed44de1a6fe100e6684b"
@@ -35,8 +35,8 @@
           "sha256": "a3591296482b2a2158ad78624f64c9d7655b8d559ffdea6e21d366230ecdd50d"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaoputao.png",
-          "sha256": "b85b44e9b97b8fec726c5e6be994f501907f4a0d69399d6f1a4fffebb8debca9"
+          "path": "icons/product-identities/rounded-v1/app/xiaoputao.png",
+          "sha256": "2aa02dbf97516b0844cf0c9ba67086f9675b53981cf3a12da96962a92f65afe8"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaoputao.png",
@@ -49,6 +49,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaoputao.webp",
           "sha256": "a4cb4953623842ab17fb8fe7d425c93df11edec5dd167adc7da60b1ee7be22c6"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaoputao.png",
+          "sha256": "ebc41c69c417f634ab2a8765588bf16b3f70a4ea1f69045619796ddcc8a83c51"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaoputao.png",
+          "sha256": "c590703f359c52028cec092f461126d10a260e434151351b4975675e73464c00"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaoputao.png",
+          "sha256": "e4923ee36a68dc67d070c521b1c3e6683d3b2c489a098321a12d77531ee9e257"
         }
       }
     },
@@ -66,8 +78,8 @@
           "sha256": "70dea28fa3b561ddce05aad4c0ee23df2c2507ac22c3ab5ae42cd0e06ef71f1f"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaohonghua.png",
-          "sha256": "cc99028c254a85bd469cd39d92dda98482eebf185d57f2fc86e4a893aef4f6a7"
+          "path": "icons/product-identities/rounded-v1/app/xiaohonghua.png",
+          "sha256": "155f69402fc2a60770a3f2ffe7cd5871ff7391f0bab17b83eeb88501f1eb8f02"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaohonghua.png",
@@ -80,6 +92,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaohonghua.webp",
           "sha256": "5da279c1054b24791300ffeb97f50b4e8db83eff691e758c14d69c828a20cdd1"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaohonghua.png",
+          "sha256": "f67cac739cce8773cbf4565daea75163d9688e716dab34167ae2809781f7a677"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaohonghua.png",
+          "sha256": "3bc418499064515864385fdd204e787bb934cfd3240a5eae789f256077cdbcb8"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaohonghua.png",
+          "sha256": "7e2d60e439eda4f4113f452df1b16f7dd1d9fdd561d82d41d65811e0efd8807d"
         }
       }
     },
@@ -97,8 +121,8 @@
           "sha256": "83b145b6e6e3705fbab91161f26bab9fca6f4087070014c303ffb8e6931e7641"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaosuanpan.png",
-          "sha256": "989f8ad9d399bb319e24b0d34988206e751e57e19a7a34f5ec3ea43191c077de"
+          "path": "icons/product-identities/rounded-v1/app/xiaosuanpan.png",
+          "sha256": "3ed0a13c4e8992ba5afe0019bcce35a33dc8581e99e78afa992aca5b894b6a04"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaosuanpan.png",
@@ -111,6 +135,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaosuanpan.webp",
           "sha256": "ea56cc2793bafe383cbbdab089240e15f7bf5a0324c4467a3874950a407840a7"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaosuanpan.png",
+          "sha256": "8053c054d4939f66cc9e1bc33f60dc09e237ebb363b4bfb1df09929dd4bccee4"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaosuanpan.png",
+          "sha256": "ae4eeaaea49f6de00d2680d57e96640b123962a118c48c3e81bf5d8f3af5e91e"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaosuanpan.png",
+          "sha256": "19b8bcefb8c7891fe53b9135d253a7e1dcbf146baeb88e71e90ff58ec187a82e"
         }
       }
     },
@@ -128,8 +164,8 @@
           "sha256": "264763bb61d8ac20402d040e09a41160b94f4d84fc4d33bcf4f62c32d70081fe"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaojinkuang.png",
-          "sha256": "5cf67e9c062d0a7eaaf6cc7bd8032a1c40dd7991270446f6ebc965f4018fbf30"
+          "path": "icons/product-identities/rounded-v1/app/xiaojinkuang.png",
+          "sha256": "e00fb3dabcfd2a17aede3c1e9d53cc23caed5e8336ba128154404611bc7833a1"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaojinkuang.png",
@@ -142,6 +178,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaojinkuang.webp",
           "sha256": "234f3f2b8c8c6156bd4b699144ffd70f76b562687c58b37733636afe68b61787"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaojinkuang.png",
+          "sha256": "9b1c2c2559367fed15c8bcf64a8b10177f342afe5a2b0803466d5d3e2b8c6439"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaojinkuang.png",
+          "sha256": "f082396008d2332af3c65c7a2197478cd34ec6eaf7ed567585a2feddee5951ca"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaojinkuang.png",
+          "sha256": "18cdd5a973315cb9194fa0de45d5148eab6e4385699736ce5214d6ddd9de536e"
         }
       }
     },
@@ -159,8 +207,8 @@
           "sha256": "1ed391b8d0b2340894602917716cc4feefc15a3c3ad0263058b20f7807668fcb"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaohulu.png",
-          "sha256": "3d1287bb83888a3c98e01bfad866682a430a21d37badcf24ec652c35444db204"
+          "path": "icons/product-identities/rounded-v1/app/xiaohulu.png",
+          "sha256": "e1d05c4ee62fd1f1dac62c7161f0dd2ac9e088f89ae0fc8588c240a2f49505c6"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaohulu.png",
@@ -173,6 +221,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaohulu.webp",
           "sha256": "c875f8ef826da679fa81fd9b1ed8f790a61c391617c1b874e1bb3f14ffb0b0fe"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaohulu.png",
+          "sha256": "4795de4df6b145f8f638762301831f7776fe35e5de3e4d560873fa8bd6880ab7"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaohulu.png",
+          "sha256": "287ac1950dae6933be63a6ed4b4f06a432fcd60200d10e02c56bc5b86725a872"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaohulu.png",
+          "sha256": "6120e0d1a8667bd223f088dcfeeb7e71113bb916093845f8452f542419491318"
         }
       }
     },
@@ -190,8 +250,8 @@
           "sha256": "8b1f79f7176bbbbc763ae899ce53fec9f681acc00f676dff73c5cee52846c4f1"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaozishu.png",
-          "sha256": "d01dd03f97a05b80aa95c8f52159d8d4a1f8ac2c651c3768ea77b435f6319ef4"
+          "path": "icons/product-identities/rounded-v1/app/xiaozishu.png",
+          "sha256": "12406feec8892875fca22805bfc88d8e6ad2a96a8618e2d868213bc3dfdcb0bc"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaozishu.png",
@@ -204,6 +264,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaozishu.webp",
           "sha256": "8059dd4bc4aaaf5088832295f43a97ab8d19af3f9119e9ae95e9c9e1574b1a09"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaozishu.png",
+          "sha256": "c6da1b06dd84f0102278ee74a743ae4dec7237c2995fdf4f011dea3a85650941"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaozishu.png",
+          "sha256": "e784815b857b5d829f4fc7469598f33495b0ca16eb68bbb3e4c0926129183f22"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaozishu.png",
+          "sha256": "2f2737e5a57454b621984cbb1da7c0fbfbee6cd85ca6ff25ea87290020680ff9"
         }
       }
     },
@@ -221,8 +293,8 @@
           "sha256": "5567e460f102ffcb1f9575814ba3527c864b1b3a88773ce6a1ff4d3a2fa8ca64"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaotaiyang.png",
-          "sha256": "25bb297bb1332086a1d42725799fe2fe1982e2045af41a63b5417441cebfcec6"
+          "path": "icons/product-identities/rounded-v1/app/xiaotaiyang.png",
+          "sha256": "40110d090e62e222d72f057887db875ba643a81ba9e622e3ed1f100b03c85304"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaotaiyang.png",
@@ -235,6 +307,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaotaiyang.webp",
           "sha256": "c581e2186075facdf8e7933ecda7696db89cc686a23f97faa014db36d01e1b5f"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaotaiyang.png",
+          "sha256": "d5fd054453581114486e49c5230f53e674c2b382f440d64144a60a6decaf7bd9"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaotaiyang.png",
+          "sha256": "788b42d54e171d38d6e565b33b2bad78bd7056848df3e5bda2c32a676c0b9d35"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaotaiyang.png",
+          "sha256": "67559f65ba7525d9e1e9bf6e97b5a36f58d827ab2240a57752b68b2f7d3a128b"
         }
       }
     },
@@ -252,8 +336,8 @@
           "sha256": "94b2f1a78623b63478297ec39ed64386f1c26116d713ee54ef25f2a834d9b151"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaodianwei.png",
-          "sha256": "93856f1135d30aefe79743a65e4d0194046ca98943a37fb6453d2805d19971bd"
+          "path": "icons/product-identities/rounded-v1/app/xiaodianwei.png",
+          "sha256": "577df627500fdccc59b39b2a0a1dddf9560b906a714a9d70b5fd98e1f68d07bd"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaodianwei.png",
@@ -266,6 +350,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaodianwei.webp",
           "sha256": "d0b30776a7e9e88de46276ce23dbe099405f237188c43f818c4e2ed6d4bf42be"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaodianwei.png",
+          "sha256": "f6a07244a7c5f16fb0a12287f415bdc0c86ae19a19dbdd02d7cc7c3e3d9036ce"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaodianwei.png",
+          "sha256": "b036b6b0cda02b4cc30f00a6b1affcd27bf4ca4e3e1f210c57bed24e7c6267fe"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaodianwei.png",
+          "sha256": "213f426b8d7ab038c4bc8da3b7acf628e929f4ed1c8a9378daaf778c09eabfa9"
         }
       }
     },
@@ -283,8 +379,8 @@
           "sha256": "6c1d1964ba052c13f9075fb0b4b1366604b2a275cd9f82894b88ec9dce9e4782"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/yuanmaxiang.png",
-          "sha256": "a24323e1a440905631dcdb62d263490ba56f90d8af792fbf0b5af276a63cf41f"
+          "path": "icons/product-identities/rounded-v1/app/yuanmaxiang.png",
+          "sha256": "4bde70628d6035984ac5d1040c1002df603263c479b1d2ba735b052c2a1bb0ec"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/yuanmaxiang.png",
@@ -297,6 +393,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/yuanmaxiang.webp",
           "sha256": "4932af73e916be0b2e7992212b0513d5d614f1161bb5e46627c4bb4485ee6f70"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/yuanmaxiang.png",
+          "sha256": "6183c50322582136afb903778e2b86e7f053cb5e09878750031c23cab72d319c"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/yuanmaxiang.png",
+          "sha256": "8690e0b0bb124ca7d066ed55af2b7245115232ed509e9becd0560d6f09cc6e0f"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/yuanmaxiang.png",
+          "sha256": "989549a2ea9978b669ddfd139370240c57b39bbdc7bbabf6d9d4e0a54a0bbaaa"
         }
       }
     },
@@ -314,8 +422,8 @@
           "sha256": "96329e910281c9d54f7e15f98a13a2a96293837559df690f80267051a8b157ca"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/suyuanli.png",
-          "sha256": "8965d9482f2da42c4ea0b221b7de37a9c36c4837eb8d4a85339f09a2117e4842"
+          "path": "icons/product-identities/rounded-v1/app/suyuanli.png",
+          "sha256": "ee5b487eba540dc1b5cc2570294b247804bcf6f3569ff97b31014ecc2a3dcd90"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/suyuanli.png",
@@ -328,6 +436,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/suyuanli.webp",
           "sha256": "d84fa2a18214dd32eb7af7b85e83cbd749a5d2704ac893017c274a90f6c668c8"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/suyuanli.png",
+          "sha256": "4bf6e3012ff28b42950345fea952b789cf271c787bd2106adb4add71c4469e6b"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/suyuanli.png",
+          "sha256": "cc12e672772ef71d17b591da74f984b3aeb492f1381888ab3542b49fc4ff87c9"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/suyuanli.png",
+          "sha256": "879a274a65bb3e1627dca830b04e4237a0478be64873418f52be069b295c780d"
         }
       }
     },
@@ -345,8 +465,8 @@
           "sha256": "0d731474c2c6906f5bf9aa44e52a961d2f074927f345362ccd0cb3bcdb11594c"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaozongguan.png",
-          "sha256": "0c578601a0752aef799b32cf5af88127876b7d8c57c60005ccccab97a8af3885"
+          "path": "icons/product-identities/rounded-v1/app/xiaozongguan.png",
+          "sha256": "644984f9f6984a6ae66320f5bc8fc7ce22b165c2f6aad03c95e3645b4a805066"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaozongguan.png",
@@ -359,6 +479,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaozongguan.webp",
           "sha256": "caff9ace9cf309c843a958e2f47c27b2262c977cfb72ebd786982a6471191193"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaozongguan.png",
+          "sha256": "70602b42a3eb861ef09c3e39069859eb453ebf05bb980a73fb99a4e2c92db05f"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaozongguan.png",
+          "sha256": "06e120fa6c05f0f2b887a512d5d6fed16a41f9f33f1f2ba1127e9ce3150eb5dd"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaozongguan.png",
+          "sha256": "11766596fe7419c71a88f9d97e13b526817427d02a8551edf44a399c6e8e8a0d"
         }
       }
     },
@@ -376,8 +508,8 @@
           "sha256": "702b71d76ba2632ac94fd4f39e34c1f4b334622f4e3500c6dcace77a42fecc9b"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/zhuxu.png",
-          "sha256": "781a5ef08f7d0724fee54ef3568745e5a5aa271906d0c13a140bdfc74505f23f"
+          "path": "icons/product-identities/rounded-v1/app/zhuxu.png",
+          "sha256": "00b5c4c617b88f0ce353c0c8495ff6aef729905be58af8cddeb4a060cfdda3d8"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/zhuxu.png",
@@ -390,6 +522,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/zhuxu.webp",
           "sha256": "250c30b395f10c2344418513eaa60653a4ace6a4d64a3fd2e567643888d30e2e"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/zhuxu.png",
+          "sha256": "618eb22dfdd3e612edee1624431c3d85272e43c3acb0a59cab85a749775e157b"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/zhuxu.png",
+          "sha256": "d3491c842ef4f4daabeaf915098d9168dd7619a3b6c983baf5a326f02b91b0bc"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/zhuxu.png",
+          "sha256": "008b9d75c5f994f6761b2fff5ee2ff3c35056691c907dbf05b2827f4c8f071e5"
         }
       }
     },
@@ -407,8 +551,8 @@
           "sha256": "f860ec674d52d04344eb6f0b2b896e40cf01a2bd25971913a943618467601377"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaogongfang.png",
-          "sha256": "844b030c1e0a2a2f665834100f67d2b22a36940a6eef612847118747d606eef4"
+          "path": "icons/product-identities/rounded-v1/app/xiaogongfang.png",
+          "sha256": "b056fe41869c8e296292857d435746fc447d3c6129735d6ba70aa5160edf80a7"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaogongfang.png",
@@ -421,6 +565,18 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaogongfang.webp",
           "sha256": "7875ffb7961332bfb75378112c054baafc9c32c54d6465e237a9a45773ce75a4"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaogongfang.png",
+          "sha256": "5e1cde71310156e0e93f2dc2be273b457c97247709acb72efe6591db559c4bd0"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaogongfang.png",
+          "sha256": "4a2a34a7dc892f323de6b6cf2dd5b2eded25d4221f4923da2997e3b61933aadf"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaogongfang.png",
+          "sha256": "93ebd504eb4d9f966a32b878989c6cb99078e15331fae427f0bfb6ce7c8bcffa"
         }
       }
     },
@@ -438,8 +594,8 @@
           "sha256": "fd73ddbc8ce5831211f4b5d1ccfa6d7ebf4b70ae220240d68435724abbd605ad"
         },
         "app": {
-          "path": "icons/product-identities/v010/app/xiaotaizhang.png",
-          "sha256": "13b7089462aa7811fe9b14e32a8401b7516be328e2e7732e71ac018b155d4cf6"
+          "path": "icons/product-identities/rounded-v1/app/xiaotaizhang.png",
+          "sha256": "92504602f7b8b566b377122ff322824d517d8791306be33785118d715bbb69aa"
         },
         "quietGlass": {
           "path": "icons/product-identities/quiet-glass/xiaotaizhang.png",
@@ -452,8 +608,68 @@
         "previewGlass": {
           "path": "icons/product-identities/preview/quiet-glass/xiaotaizhang.webp",
           "sha256": "b2744efdef30065cf06c18ff0a150d0136246effbb837b2f9d04a0aa96cdb707"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaotaizhang.png",
+          "sha256": "432fa21f3836e0b090ebfa096f78d90788a730379c923034a43d35e0a90553bb"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaotaizhang.png",
+          "sha256": "4b16fa5804637ecc5249645a41709d092929faee3e04f0c15e9001b8b5607a67"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaotaizhang.png",
+          "sha256": "9246bc0d369223181f8bdc557415b1307bd9a16f1d3e4080722749cd7f307fb8"
+        }
+      }
+    },
+    {
+      "id": "xiaofeiyi",
+      "label": "小飞驿",
+      "englishLabel": "SwiftPost",
+      "role": "车队配送与到店协同",
+      "roleStatus": "registered",
+      "idea": "向前飞行的柔弧飞翼与抵达节点",
+      "status": "new-design",
+      "sourceEdition": "rounded-v1",
+      "sourceSha256": "73a4ad398f58f115438da55d6680ffefbbd8eb852ef2a44c021826372ca85bdb",
+      "assets": {
+        "original": {
+          "path": "icons/product-identities/rounded-v1/original/xiaofeiyi.svg",
+          "sha256": "73a4ad398f58f115438da55d6680ffefbbd8eb852ef2a44c021826372ca85bdb"
+        },
+        "app": {
+          "path": "icons/product-identities/rounded-v1/app/xiaofeiyi.png",
+          "sha256": "9f3426b10323c8684afe2458ac410cb527ce40a8b08c956602a61d85bf40ac23"
+        },
+        "black": {
+          "path": "icons/product-identities/rounded-v1/black/xiaofeiyi.png",
+          "sha256": "b05603da6c1569178952e448c478d72185c3596903be7bd9950a0824dcc679a5"
+        },
+        "mono-dark": {
+          "path": "icons/product-identities/rounded-v1/mono-dark/xiaofeiyi.png",
+          "sha256": "11a9059550925ad7e25a6499b835d6993c89e443bbd22f6f286c34d8e41f96e8"
+        },
+        "mono-light": {
+          "path": "icons/product-identities/rounded-v1/mono-light/xiaofeiyi.png",
+          "sha256": "2599aef75d5839ce158b4f8b01bd68c5bcae85ff8ac24c5aedca2e915dead816"
+        },
+        "previewOriginal": {
+          "path": "icons/product-identities/rounded-v1/preview/xiaofeiyi.webp",
+          "sha256": "4ac7a7670f7873696a9bcb08a3f2695616baa86da13ee286067fbd62b987ef0c"
         }
       }
     }
-  ]
+  ],
+  "assetRevision": "2.25.3",
+  "publicGeometry": {
+    "canvas": 1024,
+    "inset": 16,
+    "tileSize": 992,
+    "radius": 224,
+    "markBox": 880,
+    "markOffset": 72,
+    "outside": "transparent",
+    "defaultVariant": "app"
+  }
 }
