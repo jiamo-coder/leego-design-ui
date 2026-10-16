@@ -1,6 +1,6 @@
 # MiSans 统一字体规范
 
-Standard: 2.25.5 · Typography revision: 2026-10-16
+Standard: 2.26.0 · Typography revision: 2026-10-16
 官方 FAQ / 下载页复核日期：2026-10-16。适用 Leego 的 Web、Mobile、Pad 与官网正文；不重绘品牌字标，不改变应用框架几何。
 
 ## 调用时先确定字体
