@@ -1,0 +1,20 @@
+{
+  "id": "navigation-contract-1",
+  "version": "2.26.0",
+  "tokenSource": "tokens.json#web.navigation",
+  "routeInventorySource": "application-router",
+  "owners": ["shellId", "stateOwner", "navigationOwner"],
+  "checks": ["geometry", "typography", "route-continuity", "keyboard-focus", "motion-reversal", "reduced-motion", "responsive-zoom", "search-scope"],
+  "statuses": ["pass", "fail", "unverified", "not-applicable"],
+  "selectors": {
+    "shell": "[data-leego-shell]",
+    "topbar": "[data-leego-topbar]",
+    "breadcrumb": "[data-leego-breadcrumb]",
+    "tabs": "[data-leego-context-tabs]",
+    "tabTrack": "[data-leego-tab-track]",
+    "routeTab": "[data-leego-route-tab]",
+    "search": "[data-leego-search]"
+  },
+  "searchScopes": ["navigation", "global-data", "local-data"],
+  "limitations": "Evidence gate validates submitted coverage and statuses, not actual product behavior. DOM probe covers one rendered frame only."
+}

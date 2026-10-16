@@ -1,10 +1,10 @@
 /* sidebar-contract-1. Host owns responsive navigation and real actions. */
-[data-leego-sidebar]{box-sizing:border-box;width:216px;background:#111114;color:#c8c5d0;padding:12px;display:flex;flex-direction:column;gap:12px;font:400 14px/22px MiSans,sans-serif;font-synthesis:none}
+[data-leego-sidebar]{box-sizing:border-box;width:216px;background:#111114;color:#c8c5d0;padding:12px;display:flex;flex-direction:column;font:400 14px/22px MiSans,sans-serif;font-synthesis:none}
 [data-leego-sidebar] button{font-family:inherit;cursor:pointer}
 [data-leego-tools]{height:44px;display:flex;flex:none}
 [data-leego-toggle],[data-leego-notification]{border:0;padding:0;background:transparent;color:inherit;min-width:44px;width:44px;height:44px;display:grid;place-items:center;border-radius:8px}
 [data-leego-toggle] svg{width:20px;height:20px}
-[data-leego-brand]{height:56px;margin-top:8px;display:flex;align-items:center;gap:8px;padding-inline:8px;flex:none}
+[data-leego-brand]{height:56px;margin:8px 0 12px;display:flex;align-items:center;gap:8px;padding-inline:8px;flex:none}
 [data-leego-scroll]{flex:1;min-height:0;overflow:auto}
 [data-leego-nav]{position:relative;isolation:isolate}
 [data-leego-selection]{position:absolute;top:0;left:0;height:32px;border-radius:8px;background:#a18df7;pointer-events:none;z-index:-1}
@@ -16,7 +16,7 @@
 [data-leego-row][aria-current=page]{color:#111114;font-weight:400}
 [data-leego-row]:not([aria-current=page]):hover{background:#242329;border-radius:8px}
 [data-leego-sidebar] button:focus-visible{outline:2px solid #dddbe5;outline-offset:-2px}
-[data-leego-dock]{display:flex;flex:none;align-items:center;flex-wrap:nowrap}
+[data-leego-dock]{display:flex;flex:none;align-items:center;flex-wrap:nowrap;margin-top:12px}
 [data-leego-account]{box-sizing:border-box;flex:1;min-width:0;height:56px;display:flex;align-items:center;gap:8px;padding:0 8px;border:0;background:transparent;color:inherit;text-align:left;font:400 14px/22px MiSans,sans-serif}
 [data-leego-avatar]{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#3a304e}
 [data-leego-account-copy]{min-width:0;display:grid}

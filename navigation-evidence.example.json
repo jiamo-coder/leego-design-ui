@@ -1,0 +1,20 @@
+{
+  "inventorySource": "application-router",
+  "note": "Replace route patterns and component owners with real router exports. This example intentionally fails until evidence is supplied.",
+  "routes": [{
+    "route": "/",
+    "shellId": "AppShell",
+    "stateOwner": "sidebar-state",
+    "navigationOwner": "router",
+    "checks": {
+      "geometry": {"status":"unverified","evidence":""},
+      "typography": {"status":"unverified","evidence":""},
+      "route-continuity": {"status":"unverified","evidence":""},
+      "keyboard-focus": {"status":"unverified","evidence":""},
+      "motion-reversal": {"status":"unverified","evidence":""},
+      "reduced-motion": {"status":"unverified","evidence":""},
+      "responsive-zoom": {"status":"unverified","evidence":""},
+      "search-scope": {"status":"unverified","evidence":""}
+    }
+  }]
+}
