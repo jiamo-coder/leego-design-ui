@@ -2,13 +2,1409 @@
   "standard": {
     "name": "Leego Design UI",
     "id": "leego-design-ui",
-    "version": "2.26.5",
+    "version": "2.27.0",
     "updated": "2026-10-17"
   },
   "channel": "stable",
   "generatedAt": "2026-10-17T00:00:00+08:00",
   "trustedOrigin": "https://raw.githubusercontent.com",
   "resources": {
+    "productionMode": {
+      "reference": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/PRODUCTION_MODE.md",
+        "sha256": "43af12c0631f336c343af00c28632304641dc1c09b6e4a118744cbbd9e2f67ba"
+      },
+      "assets": {
+        "catalog.json": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/catalog.json",
+          "sha256": "ec98bb43c8d26384bfed5ffbe91d6727a03478ba7134423bb1b772e99f3151a2"
+        },
+        "ProductionModeBadge.tsx": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/ProductionModeBadge.tsx",
+          "sha256": "ee96b3b248519922324b6bd025f63d5a408260574d95ffdbd17881364613d5f6"
+        },
+        "production-mode.css": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/production-mode.css",
+          "sha256": "ad28818a7984250c43cf6846270aecdcf50df71bfec0a7af81b3d6b25bccd795"
+        },
+        "odm-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/odm-color.svg",
+          "sha256": "31fab9e09d133a4f811ba98b38e75cf950ea52eeed2432b2ded38725e576b919"
+        },
+        "odm-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/odm-mono.svg",
+          "sha256": "bd576d0d1a669203cc484c46405618d0a6e59209a121dd1dbda29190c4c4e35c"
+        },
+        "odm-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/odm-mono-light.svg",
+          "sha256": "0e2fc1cd6a2ae23ea0a40de51b4fb4eaef8693d7c1704c3368d059b46b28c504"
+        },
+        "oem-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/oem-color.svg",
+          "sha256": "019d2458ee901cc0f406ac5b6b6fc89714482322d6efaf0a4be057c0c9ca4e99"
+        },
+        "oem-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/oem-mono.svg",
+          "sha256": "104b1304d5db508ab1c5d55cab47a7bddffa8e2b75a70147489b275029329381"
+        },
+        "oem-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/oem-mono-light.svg",
+          "sha256": "daa617383cd3f8f619e08d6525cb1232290472e95719ec0c5ac965f2129cafdb"
+        },
+        "ihm-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/ihm-color.svg",
+          "sha256": "2c43a2556c97db7e5f979d80c389afdf5bb863df5f25c4732611dfd4eb786d0d"
+        },
+        "ihm-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/ihm-mono.svg",
+          "sha256": "5f00c1d970fda92017fb6dd1c606c187f4cb12d908d9aad0f8938d31041a4013"
+        },
+        "ihm-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/production-mode/ihm-mono-light.svg",
+          "sha256": "5db6bc6eec2288e9af14801f6327ec155e5403eaa21b3f5f92ba110874c6ae3a"
+        }
+      }
+    },
+    "tableStatus": {
+      "reference": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/TABLE_STATUS.md",
+        "sha256": "40b797b922b1e5e974c6b845cf10f7dbdddce2a2752a36d10b378ed901406af6"
+      },
+      "taxonomy": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/TABLE_STATUS_TAXONOMY.md",
+        "sha256": "26176e7e4dcd18b9129778f3da96d60eddf7524f51a598ee17798302ffcb2d45"
+      },
+      "assets": {
+        "catalog.json": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/catalog.json",
+          "sha256": "0d531f414b2a1c48415a623f87f8a355d4daa660abbd26ecd5007c73855ce00b"
+        },
+        "StatusBadge.tsx": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/StatusBadge.tsx",
+          "sha256": "eb8be15fde1c9e644bdd3e9c58912469b0ccc733a9831b776865237c6c33abc3"
+        },
+        "StatusFilter.tsx": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/StatusFilter.tsx",
+          "sha256": "49c3b0abfa0d83492d2c954d7dbd51bdbd2e1f26fd3952433d2502159208770f"
+        },
+        "status-badge.css": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/status-badge.css",
+          "sha256": "cdf852564d8dc5aea40473217a3563872c75b06829f7a82e0956b18ba58b1dd8"
+        },
+        "status-filter.css": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/status-filter.css",
+          "sha256": "693465b850b6cab20cf98a42502108671d949f6eceedeb34265dec5b372b411b"
+        },
+        "draft-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/draft-color.svg",
+          "sha256": "f2421ab19083f7d03e414ce73beef269bf772d9c89cb9c679ab6ac737e200948"
+        },
+        "draft-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/draft-mono.svg",
+          "sha256": "d3ea46704ab6b0766f23722a9c2239bc5edc02a21138ed2c65d8e69731a048a2"
+        },
+        "draft-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/draft-mono-light.svg",
+          "sha256": "7c048eb31c54aee27b5b5fbcf48fe0acd900d353c705d9b7462102a863cab62a"
+        },
+        "enabled-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/enabled-color.svg",
+          "sha256": "2d607bf5a6add5a91821a3badb9f44d6bba3fa0aff61f8b413f33986fdac35bb"
+        },
+        "enabled-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/enabled-mono.svg",
+          "sha256": "f48c87346976fb33dd5f93e775ceb74a5a71d246b6a991809ebc68be678239e1"
+        },
+        "enabled-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/enabled-mono-light.svg",
+          "sha256": "0560c1def5771c32cfcc3a3c5b455f4cfd4a44ca835f7feff5258a06975edd62"
+        },
+        "disabled-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/disabled-color.svg",
+          "sha256": "27d231c2383646f82d83a6162b59037bda4943d31ac3400039b304a3ff7e606f"
+        },
+        "disabled-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/disabled-mono.svg",
+          "sha256": "539dda6b7280466962c5655b5c9c8c5a3d528525ca73849efbdfdbeef0939ede"
+        },
+        "disabled-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/disabled-mono-light.svg",
+          "sha256": "5b21936b9d441bcd768ed9c9eeb752d2c22951515439ab97fc302f8a13d62f92"
+        },
+        "archived-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/archived-color.svg",
+          "sha256": "c089b1b2476d63f86ed4ed71a4c129bab4d2ff0f4f06509ee20cbc81a8f96b68"
+        },
+        "archived-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/archived-mono.svg",
+          "sha256": "1e6b0be6a4e7598f96228a228f48607eb45be77f81e53e36cc7c063fbbea3d59"
+        },
+        "archived-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/archived-mono-light.svg",
+          "sha256": "a3acf566fc95aa70dd2718f1d6bf134899955da99aef6a2e08687051fc5330a4"
+        },
+        "lifecycle.unpublished-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.unpublished-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "lifecycle.unpublished-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.unpublished-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "lifecycle.unpublished-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.unpublished-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "lifecycle.publishing-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.publishing-color.svg",
+          "sha256": "bf76ef9f844df3269c13c7448e8632d6508b5b434bc0fe9e0a709fc996fb5d82"
+        },
+        "lifecycle.publishing-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.publishing-mono.svg",
+          "sha256": "2f3e5a6d5044e74054baf8ef4842fa1f1066df1536f1d6ae9b4c340403c23d92"
+        },
+        "lifecycle.publishing-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.publishing-mono-light.svg",
+          "sha256": "c799698b34dbbf1fbfe566292ba562037c36798af419eaf2c89f77901becab10"
+        },
+        "lifecycle.effective-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.effective-color.svg",
+          "sha256": "b1144827007c4667d639c85f4f0738fcb49293e9b0359274396d78fc1c197eaa"
+        },
+        "lifecycle.effective-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.effective-mono.svg",
+          "sha256": "577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63"
+        },
+        "lifecycle.effective-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.effective-mono-light.svg",
+          "sha256": "dc28f91ad36b00afd8980116847b6a78315af0c1be1d055b02519d386018155e"
+        },
+        "lifecycle.superseded-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.superseded-color.svg",
+          "sha256": "031b398647d481d8722b09f66fae1eddbaaf99fd830b8d356d18bc277b275c3c"
+        },
+        "lifecycle.superseded-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.superseded-mono.svg",
+          "sha256": "847d127f8d5e577e21ee3ea5fab55841ccd245e246d3631bff2e896a1e6f7cfa"
+        },
+        "lifecycle.superseded-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/lifecycle.superseded-mono-light.svg",
+          "sha256": "cb05f24d681f0fd7ee62805eadc3f40318f68ab3cad6b83c9a49e84fd8109488"
+        },
+        "approval.unsubmitted-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.unsubmitted-color.svg",
+          "sha256": "799e5d2a456682e3d3055a59971072536e1e8f59b8dd2141e1f2769a20141fdb"
+        },
+        "approval.unsubmitted-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.unsubmitted-mono.svg",
+          "sha256": "467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c"
+        },
+        "approval.unsubmitted-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.unsubmitted-mono-light.svg",
+          "sha256": "b9840bc1db20daf41e77fbc14e3351b16f64de0f026727af310071a9709c1b97"
+        },
+        "approval.pending-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.pending-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "approval.pending-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.pending-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "approval.pending-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.pending-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "approval.reviewing-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.reviewing-color.svg",
+          "sha256": "21a43ca88d54a724222550c36640d6a5480f4d95d060c2125ce610d8fe6bc845"
+        },
+        "approval.reviewing-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.reviewing-mono.svg",
+          "sha256": "af13e08d8ef192280d39ea2512efeef3df8caa43fcf3e2f990e03483aa606445"
+        },
+        "approval.reviewing-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.reviewing-mono-light.svg",
+          "sha256": "6ee5093e35b53e33e99057732712c4a21a206caa17e2088a2ea5c8bfc394c0a6"
+        },
+        "approval.approved-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.approved-color.svg",
+          "sha256": "8dccde68c33d78f07b5f22d3a02a150531f9823c4b344183aba17fb162cbf69b"
+        },
+        "approval.approved-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.approved-mono.svg",
+          "sha256": "af13e08d8ef192280d39ea2512efeef3df8caa43fcf3e2f990e03483aa606445"
+        },
+        "approval.approved-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.approved-mono-light.svg",
+          "sha256": "edf75c931a2d5c9ae4877a69598758c900d89c2f0b4c0c52b91529ed32d192a9"
+        },
+        "approval.rejected-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.rejected-color.svg",
+          "sha256": "3abca1125a246c0b06682711bff02d28e0fd99835c0bb4b2d5e4bc4703eb111c"
+        },
+        "approval.rejected-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.rejected-mono.svg",
+          "sha256": "5f5d3babf56b49cb3f9c1fa3521bd7ffdfed820f5d77c5f0965bb0ad08317d61"
+        },
+        "approval.rejected-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.rejected-mono-light.svg",
+          "sha256": "f062c1d60aaa3da622e51b3c45ccc48e8e99368f95cfcb88b6db9cc78ff32d1a"
+        },
+        "approval.returned-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.returned-color.svg",
+          "sha256": "7c8be146fde40387edca1f46532bd0ac1b4319db32586d373547d5aebaee023e"
+        },
+        "approval.returned-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.returned-mono.svg",
+          "sha256": "d2b37b0f72dd92050d5be2ac0811f51b5a55e078dc61ed561e6de9bd34aa8497"
+        },
+        "approval.returned-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/approval.returned-mono-light.svg",
+          "sha256": "977d38c6d96b5264c41ce1a06060dbf0eba11c26bc5c447707540b5bfd725927"
+        },
+        "confirmation.pending-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.pending-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "confirmation.pending-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.pending-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "confirmation.pending-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.pending-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "confirmation.confirmed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.confirmed-color.svg",
+          "sha256": "b1144827007c4667d639c85f4f0738fcb49293e9b0359274396d78fc1c197eaa"
+        },
+        "confirmation.confirmed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.confirmed-mono.svg",
+          "sha256": "577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63"
+        },
+        "confirmation.confirmed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.confirmed-mono-light.svg",
+          "sha256": "dc28f91ad36b00afd8980116847b6a78315af0c1be1d055b02519d386018155e"
+        },
+        "confirmation.acceptance-pending-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.acceptance-pending-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "confirmation.acceptance-pending-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.acceptance-pending-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "confirmation.acceptance-pending-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.acceptance-pending-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "confirmation.accepted-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.accepted-color.svg",
+          "sha256": "245882276471c7964d945e9ee16cdb19ab496d5d6359877a0289af69499c2e56"
+        },
+        "confirmation.accepted-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.accepted-mono.svg",
+          "sha256": "e06d366d02050739c7cfbda36719aa208bf778ddaff37612f686223ba07161d9"
+        },
+        "confirmation.accepted-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.accepted-mono-light.svg",
+          "sha256": "a6af5b6f0afb6a0a0893735e612aef1e69a736d4168c27b5627a58b27e9e68b7"
+        },
+        "confirmation.acceptance-rejected-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.acceptance-rejected-color.svg",
+          "sha256": "3abca1125a246c0b06682711bff02d28e0fd99835c0bb4b2d5e4bc4703eb111c"
+        },
+        "confirmation.acceptance-rejected-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.acceptance-rejected-mono.svg",
+          "sha256": "5f5d3babf56b49cb3f9c1fa3521bd7ffdfed820f5d77c5f0965bb0ad08317d61"
+        },
+        "confirmation.acceptance-rejected-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/confirmation.acceptance-rejected-mono-light.svg",
+          "sha256": "f062c1d60aaa3da622e51b3c45ccc48e8e99368f95cfcb88b6db9cc78ff32d1a"
+        },
+        "task.not-started-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.not-started-color.svg",
+          "sha256": "799e5d2a456682e3d3055a59971072536e1e8f59b8dd2141e1f2769a20141fdb"
+        },
+        "task.not-started-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.not-started-mono.svg",
+          "sha256": "467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c"
+        },
+        "task.not-started-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.not-started-mono-light.svg",
+          "sha256": "b9840bc1db20daf41e77fbc14e3351b16f64de0f026727af310071a9709c1b97"
+        },
+        "task.pending-receipt-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.pending-receipt-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "task.pending-receipt-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.pending-receipt-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "task.pending-receipt-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.pending-receipt-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "task.queued-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.queued-color.svg",
+          "sha256": "0709b56e4c79cf0f8911f068743ad2d69e50813701b69e3f0de0f371965ed54a"
+        },
+        "task.queued-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.queued-mono.svg",
+          "sha256": "fa5b6879724b7eb79d8bc4dc56d091646f4e2a465d193b499b3ad537039e27ca"
+        },
+        "task.queued-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.queued-mono-light.svg",
+          "sha256": "f2cf6559a6c1df0a14c6cfdc197960c06ded625fbb3b33c4345126a849d54fb7"
+        },
+        "task.planning-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.planning-color.svg",
+          "sha256": "cd2301a2e73fb518fa266decf42dad11985f2c7a0d2ea437aaf04dfcb60b79c3"
+        },
+        "task.planning-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.planning-mono.svg",
+          "sha256": "43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88"
+        },
+        "task.planning-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.planning-mono-light.svg",
+          "sha256": "628b23ece9d3a7dc26b4ccce756b2b0bd3bdf64d707ffdd241e04571f41a6228"
+        },
+        "task.running-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.running-color.svg",
+          "sha256": "5569cf398eee7fe1005d8cd47239e14f29eac0c9355f93cb68e3fa43aaf0d8fb"
+        },
+        "task.running-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.running-mono.svg",
+          "sha256": "89ce721a9821a47f0282bfc757b37f7ef18c88cf3e46e53bb685ec9bddf56d39"
+        },
+        "task.running-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.running-mono-light.svg",
+          "sha256": "26b21494708b0f8a9e2f4f1074b3454dc0b620028d8521cad506cfb7f952ce59"
+        },
+        "task.in-progress-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.in-progress-color.svg",
+          "sha256": "5569cf398eee7fe1005d8cd47239e14f29eac0c9355f93cb68e3fa43aaf0d8fb"
+        },
+        "task.in-progress-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.in-progress-mono.svg",
+          "sha256": "89ce721a9821a47f0282bfc757b37f7ef18c88cf3e46e53bb685ec9bddf56d39"
+        },
+        "task.in-progress-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.in-progress-mono-light.svg",
+          "sha256": "26b21494708b0f8a9e2f4f1074b3454dc0b620028d8521cad506cfb7f952ce59"
+        },
+        "task.paused-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.paused-color.svg",
+          "sha256": "ea48465e8b4e49b891aeeaa06453c90a4f49e88a0ed4fba522b8f8fcefb10dfb"
+        },
+        "task.paused-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.paused-mono.svg",
+          "sha256": "870f802d168b2523712191820cf5d37cc5e7bcead137aa2f6cadf5dcac70f5c0"
+        },
+        "task.paused-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.paused-mono-light.svg",
+          "sha256": "c4023cbff26370b47d812834f991f7d552e910f8fdc9d7fc377e8df2746d3bed"
+        },
+        "task.blocked-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.blocked-color.svg",
+          "sha256": "32bf48afea52e910b68e98aaf7ae628fc0c5ceccffb4e2a64fdf6721fedac6ab"
+        },
+        "task.blocked-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.blocked-mono.svg",
+          "sha256": "968a4bc1263eaf5472c6c6de8de3e916be6775f9ba5b78ee7e0db65ca6ae9518"
+        },
+        "task.blocked-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.blocked-mono-light.svg",
+          "sha256": "14fbec12407fd74690b9b874daf10c1cdb3e3bd5716aafb475375e199bcd9679"
+        },
+        "task.completed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.completed-color.svg",
+          "sha256": "b78f6280eb28ce193305d2f8e17d891eac7485e36e28fc035d1057b0447d04fb"
+        },
+        "task.completed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.completed-mono.svg",
+          "sha256": "a8f43faf82bf6150941c0bd7629e870e6fbaa31d8ba23e4d7f9274bcfd392252"
+        },
+        "task.completed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.completed-mono-light.svg",
+          "sha256": "9299a3118690cbd1f87096eedaf8935b71eaf9c1531cf101e64d146b01a0d0f6"
+        },
+        "task.cancelled-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.cancelled-color.svg",
+          "sha256": "5b64bf40c1721f503696deb9854f7e6596aa8b0336410c8eedd567a3b1901071"
+        },
+        "task.cancelled-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.cancelled-mono.svg",
+          "sha256": "9c76a0b033518e67d628344ee497df980655a96c5510e881e44d183f4906e328"
+        },
+        "task.cancelled-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.cancelled-mono-light.svg",
+          "sha256": "8bb07373e92eec66dbf6003740f56c0aec343e138b1257fe0eec5bec0ebbaaf6"
+        },
+        "task.failed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.failed-color.svg",
+          "sha256": "bdd5e19b510989bcd8ebf0ff9486bab7600f115d4ef7644c0ac16bfe816e8ff7"
+        },
+        "task.failed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.failed-mono.svg",
+          "sha256": "14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0"
+        },
+        "task.failed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/task.failed-mono-light.svg",
+          "sha256": "bfe67e491eedf2bb74b524d628187a6e2e86393e4bc35732b8936cf987f24365"
+        },
+        "product.preparing-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.preparing-color.svg",
+          "sha256": "ecfff51e6b61e84fe9fa59e9af58a901d8f5a5b12cf9b78de55dcc2b7efb3bf3"
+        },
+        "product.preparing-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.preparing-mono.svg",
+          "sha256": "7ca77c40b49770d2adf194732b5eaa1b274ab03138f5863be157ca07d40c2efc"
+        },
+        "product.preparing-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.preparing-mono-light.svg",
+          "sha256": "84b406725f2cd8f7f48ae7a9251f76b26fb492034cb607aa1f1d1df4e679e009"
+        },
+        "product.pending-listing-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.pending-listing-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "product.pending-listing-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.pending-listing-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "product.pending-listing-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.pending-listing-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "product.partially-listed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.partially-listed-color.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2"
+        },
+        "product.partially-listed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.partially-listed-mono.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed"
+        },
+        "product.partially-listed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.partially-listed-mono-light.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb"
+        },
+        "product.on-sale-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.on-sale-color.svg",
+          "sha256": "dfc17f3268e64dc63fb02325fe702e62b8a2455d41e3ef597a0f49f1e8d13b56"
+        },
+        "product.on-sale-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.on-sale-mono.svg",
+          "sha256": "2283cab2edcf4c8594773a4bee1899cd8d4101728cf60173ba230cc6b647724f"
+        },
+        "product.on-sale-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.on-sale-mono-light.svg",
+          "sha256": "a76937736c5839e6e5e2f7ea88858edd4972349f2d67d3361b442a107de9fb0f"
+        },
+        "product.off-shelf-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.off-shelf-color.svg",
+          "sha256": "2ac6c06f7eb56c3fd4191784afd2303a69b5c0bbb2199a01e04542ac33832592"
+        },
+        "product.off-shelf-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.off-shelf-mono.svg",
+          "sha256": "7c0bedc18efc5b07856090199a2d22138540ee9c2b40b8e6e35f45e52dde8ec2"
+        },
+        "product.off-shelf-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/product.off-shelf-mono-light.svg",
+          "sha256": "b11394d06084ce1804418a72b16f464dd71af771d859889cbae154f40e9089f7"
+        },
+        "fulfillment.accepted-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.accepted-color.svg",
+          "sha256": "a752aa3624491eb03a08a82c6e95eefdeb0b6333357ba14f0a1b1faf823e704e"
+        },
+        "fulfillment.accepted-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.accepted-mono.svg",
+          "sha256": "577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63"
+        },
+        "fulfillment.accepted-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.accepted-mono-light.svg",
+          "sha256": "81e5c43c3df30ed6ce2ce314760686faafade65dcb0543c4391fc49f1541c6d4"
+        },
+        "fulfillment.unscheduled-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.unscheduled-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "fulfillment.unscheduled-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.unscheduled-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "fulfillment.unscheduled-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.unscheduled-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "fulfillment.manufacturing-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.manufacturing-color.svg",
+          "sha256": "dd99839c758b6ee3ab21e413636dc46567541de10aff4a153365acbadbcc6382"
+        },
+        "fulfillment.manufacturing-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.manufacturing-mono.svg",
+          "sha256": "7c362be3299d9a577d61231f6d5b62ec45e57f993769771a3f76a160e39a39be"
+        },
+        "fulfillment.manufacturing-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.manufacturing-mono-light.svg",
+          "sha256": "6d2407c8c2bd37786eac52c4fc072aa51797a24d9916f1e845b46caf902e3c89"
+        },
+        "fulfillment.partially-shipped-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.partially-shipped-color.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2"
+        },
+        "fulfillment.partially-shipped-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.partially-shipped-mono.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed"
+        },
+        "fulfillment.partially-shipped-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.partially-shipped-mono-light.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb"
+        },
+        "fulfillment.shipped-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.shipped-color.svg",
+          "sha256": "cd06906c1dbd8d2f4e3a1109ceda3ffa3d25f8215029aa86fbb03c827a5d7fc2"
+        },
+        "fulfillment.shipped-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.shipped-mono.svg",
+          "sha256": "61706213bce436c2b4035d620a5427010a49af922b5a8e53368dea66dda1726e"
+        },
+        "fulfillment.shipped-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.shipped-mono-light.svg",
+          "sha256": "1ab825feed8741637aa14f45ff6428df49178bc03e205fe63f7a546bb1c582e0"
+        },
+        "fulfillment.in-transit-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.in-transit-color.svg",
+          "sha256": "cd06906c1dbd8d2f4e3a1109ceda3ffa3d25f8215029aa86fbb03c827a5d7fc2"
+        },
+        "fulfillment.in-transit-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.in-transit-mono.svg",
+          "sha256": "61706213bce436c2b4035d620a5427010a49af922b5a8e53368dea66dda1726e"
+        },
+        "fulfillment.in-transit-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.in-transit-mono-light.svg",
+          "sha256": "1ab825feed8741637aa14f45ff6428df49178bc03e205fe63f7a546bb1c582e0"
+        },
+        "fulfillment.delivered-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.delivered-color.svg",
+          "sha256": "428e23aa511cd091cebb1a0abd5632a73e59de2966e9cf43413737cc85dbfad3"
+        },
+        "fulfillment.delivered-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.delivered-mono.svg",
+          "sha256": "2bca780f7668a2bf381006b4c3b570470b5102c26af5b25f9a4430cc2f9534ae"
+        },
+        "fulfillment.delivered-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.delivered-mono-light.svg",
+          "sha256": "2a3c80286188ff7c7e5a1e38f67f19ff5237f7645052a9d17b4d01baa72df549"
+        },
+        "fulfillment.received-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.received-color.svg",
+          "sha256": "30cf3f85818be200d4ea2f1aa6be4904147329e1e8e06790fe66c8729f4dd5f5"
+        },
+        "fulfillment.received-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.received-mono.svg",
+          "sha256": "2bca780f7668a2bf381006b4c3b570470b5102c26af5b25f9a4430cc2f9534ae"
+        },
+        "fulfillment.received-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.received-mono-light.svg",
+          "sha256": "dd31aef98a034b409815477ef4043e56ec2aff2c45e48e96f126638fd00be629"
+        },
+        "fulfillment.completed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.completed-color.svg",
+          "sha256": "245882276471c7964d945e9ee16cdb19ab496d5d6359877a0289af69499c2e56"
+        },
+        "fulfillment.completed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.completed-mono.svg",
+          "sha256": "e06d366d02050739c7cfbda36719aa208bf778ddaff37612f686223ba07161d9"
+        },
+        "fulfillment.completed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/fulfillment.completed-mono-light.svg",
+          "sha256": "a6af5b6f0afb6a0a0893735e612aef1e69a736d4168c27b5627a58b27e9e68b7"
+        },
+        "warehouse.in-stock-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/warehouse.in-stock-color.svg",
+          "sha256": "84ab051d75388210d45aec6dd760db801ae541afa242fa8612636053fae10a56"
+        },
+        "warehouse.in-stock-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/warehouse.in-stock-mono.svg",
+          "sha256": "1a9e5f33423c1ec9a8be286cc3340ccd38df8759ca196139963b56c21da9790b"
+        },
+        "warehouse.in-stock-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/warehouse.in-stock-mono-light.svg",
+          "sha256": "5f3c9e9d9f78d0cb6fda5eaeae46522c0325e13ecd891ea5dff24a822e768441"
+        },
+        "warehouse.counting-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/warehouse.counting-color.svg",
+          "sha256": "84ab051d75388210d45aec6dd760db801ae541afa242fa8612636053fae10a56"
+        },
+        "warehouse.counting-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/warehouse.counting-mono.svg",
+          "sha256": "1a9e5f33423c1ec9a8be286cc3340ccd38df8759ca196139963b56c21da9790b"
+        },
+        "warehouse.counting-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/warehouse.counting-mono-light.svg",
+          "sha256": "5f3c9e9d9f78d0cb6fda5eaeae46522c0325e13ecd891ea5dff24a822e768441"
+        },
+        "warehouse.posted-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/warehouse.posted-color.svg",
+          "sha256": "072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111"
+        },
+        "warehouse.posted-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/warehouse.posted-mono.svg",
+          "sha256": "0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac"
+        },
+        "warehouse.posted-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/warehouse.posted-mono-light.svg",
+          "sha256": "a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9"
+        },
+        "receivable.unverified-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.unverified-color.svg",
+          "sha256": "1912f7a7b62b20e72a3ea21d1954c2ccdab358fb901c2df5474e695fd9ea9882"
+        },
+        "receivable.unverified-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.unverified-mono.svg",
+          "sha256": "a51f75fa1f00af108469c6670fcc582fc6e90723809c2439a0afff4cc4261737"
+        },
+        "receivable.unverified-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.unverified-mono-light.svg",
+          "sha256": "8aea49005e2f6ab6024182557f2058838d48cb8621bc26d2fb66b0ed22b16301"
+        },
+        "receivable.partial-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.partial-color.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2"
+        },
+        "receivable.partial-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.partial-mono.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed"
+        },
+        "receivable.partial-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.partial-mono-light.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb"
+        },
+        "receivable.received-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.received-color.svg",
+          "sha256": "81cc18f444ed1b530fb1b704ee8279d2fdc9d8b37221a4da901f7d47a11cffb2"
+        },
+        "receivable.received-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.received-mono.svg",
+          "sha256": "a51f75fa1f00af108469c6670fcc582fc6e90723809c2439a0afff4cc4261737"
+        },
+        "receivable.received-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.received-mono-light.svg",
+          "sha256": "c0ce9b94ddddc8225781f60d1501b2a71d18f386a61a7ab662de0422332b03b7"
+        },
+        "receivable.verified-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.verified-color.svg",
+          "sha256": "072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111"
+        },
+        "receivable.verified-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.verified-mono.svg",
+          "sha256": "0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac"
+        },
+        "receivable.verified-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/receivable.verified-mono-light.svg",
+          "sha256": "a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9"
+        },
+        "payable.pending-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.pending-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "payable.pending-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.pending-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "payable.pending-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.pending-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "payable.processing-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.processing-color.svg",
+          "sha256": "e163bca41d329ea2cdf327630eaaabe072e2001d9cf57e05b760c3cb06b4300e"
+        },
+        "payable.processing-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.processing-mono.svg",
+          "sha256": "c4d106329b7b8ba8821df35076b419aad6f764fb86a1d89213987b44990d1295"
+        },
+        "payable.processing-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.processing-mono-light.svg",
+          "sha256": "98bcf0e57e2dfeca254a2c17e32a91cd8ac817810e2d8af716a0b60af978f9ca"
+        },
+        "payable.reported-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.reported-color.svg",
+          "sha256": "a60646605c372b1058702c73befd1c3248acf57c4f54ff37649843fcda6b6e24"
+        },
+        "payable.reported-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.reported-mono.svg",
+          "sha256": "c4d106329b7b8ba8821df35076b419aad6f764fb86a1d89213987b44990d1295"
+        },
+        "payable.reported-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.reported-mono-light.svg",
+          "sha256": "b75a2edb3183ab971907625bae4fe675faba7749fae292c56098b32c61aeee7d"
+        },
+        "payable.paid-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.paid-color.svg",
+          "sha256": "cc12b22ad2fa2b14af338e4a2095a0d989e570b8d45fb0bd57e1d7f4c7cae0f5"
+        },
+        "payable.paid-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.paid-mono.svg",
+          "sha256": "c4d106329b7b8ba8821df35076b419aad6f764fb86a1d89213987b44990d1295"
+        },
+        "payable.paid-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.paid-mono-light.svg",
+          "sha256": "86db2b76429f8c3861aa427d60d42b310d87fd142209953694e64c6461f81838"
+        },
+        "payable.partial-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.partial-color.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2"
+        },
+        "payable.partial-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.partial-mono.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed"
+        },
+        "payable.partial-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.partial-mono-light.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb"
+        },
+        "payable.failed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.failed-color.svg",
+          "sha256": "bdd5e19b510989bcd8ebf0ff9486bab7600f115d4ef7644c0ac16bfe816e8ff7"
+        },
+        "payable.failed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.failed-mono.svg",
+          "sha256": "14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0"
+        },
+        "payable.failed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.failed-mono-light.svg",
+          "sha256": "bfe67e491eedf2bb74b524d628187a6e2e86393e4bc35732b8936cf987f24365"
+        },
+        "payable.refund-pending-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.refund-pending-color.svg",
+          "sha256": "676f7c5706945321c92eddcabc9fc7b1f26f3496062e91a70b1fdf839669958f"
+        },
+        "payable.refund-pending-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.refund-pending-mono.svg",
+          "sha256": "3bd48f20fdb80db67434132a0c1a5c1f806a0f278fc0d69d5f3327e78f983959"
+        },
+        "payable.refund-pending-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.refund-pending-mono-light.svg",
+          "sha256": "46e8225a828b67eafae11fc0838dcfa73a70214c6bf5567a5440214f84569a15"
+        },
+        "payable.refunding-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.refunding-color.svg",
+          "sha256": "44e2e5d0a796784d6f1cac7f11261d0d859bb657f79b49020b878378f2ab94e4"
+        },
+        "payable.refunding-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.refunding-mono.svg",
+          "sha256": "3bd48f20fdb80db67434132a0c1a5c1f806a0f278fc0d69d5f3327e78f983959"
+        },
+        "payable.refunding-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.refunding-mono-light.svg",
+          "sha256": "ef784bbf479a1018cef6c48762ede025f8c146f21aa0a7682bad64129cacb146"
+        },
+        "payable.refunded-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.refunded-color.svg",
+          "sha256": "e32087a8f9e91fc08c6b6998898661d22e981e6788b34f4e510a375b7de87474"
+        },
+        "payable.refunded-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.refunded-mono.svg",
+          "sha256": "3bd48f20fdb80db67434132a0c1a5c1f806a0f278fc0d69d5f3327e78f983959"
+        },
+        "payable.refunded-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/payable.refunded-mono-light.svg",
+          "sha256": "8a8a0c8fd6a1d5345f5ad890ff0a3f12e34b970498bc7565717ebeab9ab5c4f9"
+        },
+        "reconciliation.pending-entry-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.pending-entry-color.svg",
+          "sha256": "9165513ba54224a57e5d28d5261ba1e9155560c6f989be2bc5553dfa54c884ef"
+        },
+        "reconciliation.pending-entry-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.pending-entry-mono.svg",
+          "sha256": "467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c"
+        },
+        "reconciliation.pending-entry-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.pending-entry-mono-light.svg",
+          "sha256": "21531405ea5ffded0317726202403ae0dbd018b2c3ce25bb768a191669d0cfa5"
+        },
+        "reconciliation.pending-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.pending-color.svg",
+          "sha256": "2425e262bc066950473f09ef5542502fda1882fb302c731c87b6f0af5aec63f6"
+        },
+        "reconciliation.pending-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.pending-mono.svg",
+          "sha256": "2a7ead059bbe54ce8118277c93f488d3ff2c1c1360897c3b53e2ff0949eb1c2c"
+        },
+        "reconciliation.pending-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.pending-mono-light.svg",
+          "sha256": "d5feecee7350533681fc56b35ab3f590cf6e3e011c8f8c53fdf9ab0eb1cbeedc"
+        },
+        "reconciliation.processing-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.processing-color.svg",
+          "sha256": "ff019d9e76d511aae2494104a09e3fb3c59a91aa2f1ab4c7f23d60ec7cca2905"
+        },
+        "reconciliation.processing-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.processing-mono.svg",
+          "sha256": "2a7ead059bbe54ce8118277c93f488d3ff2c1c1360897c3b53e2ff0949eb1c2c"
+        },
+        "reconciliation.processing-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.processing-mono-light.svg",
+          "sha256": "4b518a65b547edceac936d5eece006ae1bbce56fb468047fe82d8f5b8d3ee6f7"
+        },
+        "reconciliation.discrepancy-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.discrepancy-color.svg",
+          "sha256": "bedca86a6ec5619da30da66800804a2b6d67e52810be4d93e91c9da734d3ee1f"
+        },
+        "reconciliation.discrepancy-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.discrepancy-mono.svg",
+          "sha256": "cbca34c899952a890a4e33157a70d3e620d4eef0ced2308305af332116c7c605"
+        },
+        "reconciliation.discrepancy-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.discrepancy-mono-light.svg",
+          "sha256": "48985b7c53efe21a232269479693d58a19f6dae035ec10ebfd8f5cf3d678224a"
+        },
+        "reconciliation.disputed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.disputed-color.svg",
+          "sha256": "bedca86a6ec5619da30da66800804a2b6d67e52810be4d93e91c9da734d3ee1f"
+        },
+        "reconciliation.disputed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.disputed-mono.svg",
+          "sha256": "cbca34c899952a890a4e33157a70d3e620d4eef0ced2308305af332116c7c605"
+        },
+        "reconciliation.disputed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.disputed-mono-light.svg",
+          "sha256": "48985b7c53efe21a232269479693d58a19f6dae035ec10ebfd8f5cf3d678224a"
+        },
+        "reconciliation.reconciled-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.reconciled-color.svg",
+          "sha256": "3a23d5bf2deb03f7b2c1ce093913ab73b70fb0ba1b16a23db37c59d15dbb94d7"
+        },
+        "reconciliation.reconciled-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.reconciled-mono.svg",
+          "sha256": "2a7ead059bbe54ce8118277c93f488d3ff2c1c1360897c3b53e2ff0949eb1c2c"
+        },
+        "reconciliation.reconciled-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/reconciliation.reconciled-mono-light.svg",
+          "sha256": "0d5a871672543b5379a397823e995d15b762bb974b9f180f105c2bbb745a3297"
+        },
+        "sync.pending-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.pending-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "sync.pending-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.pending-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "sync.pending-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.pending-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "sync.queued-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.queued-color.svg",
+          "sha256": "0709b56e4c79cf0f8911f068743ad2d69e50813701b69e3f0de0f371965ed54a"
+        },
+        "sync.queued-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.queued-mono.svg",
+          "sha256": "fa5b6879724b7eb79d8bc4dc56d091646f4e2a465d193b499b3ad537039e27ca"
+        },
+        "sync.queued-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.queued-mono-light.svg",
+          "sha256": "f2cf6559a6c1df0a14c6cfdc197960c06ded625fbb3b33c4345126a849d54fb7"
+        },
+        "sync.processing-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.processing-color.svg",
+          "sha256": "5c7cce52297317d28365eed25e2ae186271aef3a2a20ecb2d3d90c2b07635d99"
+        },
+        "sync.processing-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.processing-mono.svg",
+          "sha256": "a1ac7143c74dab5d75524e9a01662fb9d4b7cbe51c610b9669f79a33ba793f15"
+        },
+        "sync.processing-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.processing-mono-light.svg",
+          "sha256": "f8afd7b70025e8de3cfd5d8e6116096fa423a25f0fbd4e5a1301f6bca534b547"
+        },
+        "sync.success-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.success-color.svg",
+          "sha256": "2cbbf8b9db8cd08b5dcb5c369eb5ad49cc72b185da7cd93aed1fbd7c6fabeea5"
+        },
+        "sync.success-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.success-mono.svg",
+          "sha256": "a1ac7143c74dab5d75524e9a01662fb9d4b7cbe51c610b9669f79a33ba793f15"
+        },
+        "sync.success-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.success-mono-light.svg",
+          "sha256": "8bb892ae53be7392ff3befc5786c0441bd694844a0bca6878afd2c313963e2c0"
+        },
+        "sync.failed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.failed-color.svg",
+          "sha256": "bdd5e19b510989bcd8ebf0ff9486bab7600f115d4ef7644c0ac16bfe816e8ff7"
+        },
+        "sync.failed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.failed-mono.svg",
+          "sha256": "14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0"
+        },
+        "sync.failed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.failed-mono-light.svg",
+          "sha256": "bfe67e491eedf2bb74b524d628187a6e2e86393e4bc35732b8936cf987f24365"
+        },
+        "sync.timeout-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.timeout-color.svg",
+          "sha256": "b08ab6e281f62b8253048210f883757af189bb5ab3706c5c820125fc214ca162"
+        },
+        "sync.timeout-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.timeout-mono.svg",
+          "sha256": "788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17"
+        },
+        "sync.timeout-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.timeout-mono-light.svg",
+          "sha256": "8e8a677dfedf81037e65599d4fce729e2a74eb014a9eeffacb9f9fba1d86fa51"
+        },
+        "sync.retrying-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.retrying-color.svg",
+          "sha256": "7c8be146fde40387edca1f46532bd0ac1b4319db32586d373547d5aebaee023e"
+        },
+        "sync.retrying-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.retrying-mono.svg",
+          "sha256": "d2b37b0f72dd92050d5be2ac0811f51b5a55e078dc61ed561e6de9bd34aa8497"
+        },
+        "sync.retrying-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.retrying-mono-light.svg",
+          "sha256": "977d38c6d96b5264c41ce1a06060dbf0eba11c26bc5c447707540b5bfd725927"
+        },
+        "sync.conflict-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.conflict-color.svg",
+          "sha256": "bedca86a6ec5619da30da66800804a2b6d67e52810be4d93e91c9da734d3ee1f"
+        },
+        "sync.conflict-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.conflict-mono.svg",
+          "sha256": "cbca34c899952a890a4e33157a70d3e620d4eef0ced2308305af332116c7c605"
+        },
+        "sync.conflict-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.conflict-mono-light.svg",
+          "sha256": "48985b7c53efe21a232269479693d58a19f6dae035ec10ebfd8f5cf3d678224a"
+        },
+        "sync.offline-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.offline-color.svg",
+          "sha256": "33f1f0799ea86aff3e291accfe529fbc91e77ee6e8eba37cb72e1c70d9634ee7"
+        },
+        "sync.offline-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.offline-mono.svg",
+          "sha256": "555c4984c859a482a818ee132fd8b86e0d7e1e0197fd7b7009deab9501101f04"
+        },
+        "sync.offline-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.offline-mono-light.svg",
+          "sha256": "79cdf275d1e0aa08456005a8b111642c458af359bf68dc5dedac31bb91dfb068"
+        },
+        "sync.unmapped-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.unmapped-color.svg",
+          "sha256": "ad5f9d232d88e1635174484de4aedeb8cfbc3d9d1dda313211d3d5ad8a5f1ea2"
+        },
+        "sync.unmapped-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.unmapped-mono.svg",
+          "sha256": "4e27054c468f9453509f8723f8a0ec0920581eeae4be44012f7bb4690736860c"
+        },
+        "sync.unmapped-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.unmapped-mono-light.svg",
+          "sha256": "460e71565dbba6568daae7af5d0dd760ad92d775e2c34d824e590f9058f997ce"
+        },
+        "sync.pending-confirmation-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.pending-confirmation-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "sync.pending-confirmation-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.pending-confirmation-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "sync.pending-confirmation-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.pending-confirmation-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "sync.confirmed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.confirmed-color.svg",
+          "sha256": "b1144827007c4667d639c85f4f0738fcb49293e9b0359274396d78fc1c197eaa"
+        },
+        "sync.confirmed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.confirmed-mono.svg",
+          "sha256": "577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63"
+        },
+        "sync.confirmed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.confirmed-mono-light.svg",
+          "sha256": "dc28f91ad36b00afd8980116847b6a78315af0c1be1d055b02519d386018155e"
+        },
+        "sync.received-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.received-color.svg",
+          "sha256": "30cf3f85818be200d4ea2f1aa6be4904147329e1e8e06790fe66c8729f4dd5f5"
+        },
+        "sync.received-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.received-mono.svg",
+          "sha256": "2bca780f7668a2bf381006b4c3b570470b5102c26af5b25f9a4430cc2f9534ae"
+        },
+        "sync.received-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.received-mono-light.svg",
+          "sha256": "dd31aef98a034b409815477ef4043e56ec2aff2c45e48e96f126638fd00be629"
+        },
+        "sync.projected-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.projected-color.svg",
+          "sha256": "072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111"
+        },
+        "sync.projected-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.projected-mono.svg",
+          "sha256": "0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac"
+        },
+        "sync.projected-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/sync.projected-mono-light.svg",
+          "sha256": "a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9"
+        },
+        "data.source-empty-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.source-empty-color.svg",
+          "sha256": "799e5d2a456682e3d3055a59971072536e1e8f59b8dd2141e1f2769a20141fdb"
+        },
+        "data.source-empty-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.source-empty-mono.svg",
+          "sha256": "467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c"
+        },
+        "data.source-empty-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.source-empty-mono-light.svg",
+          "sha256": "b9840bc1db20daf41e77fbc14e3351b16f64de0f026727af310071a9709c1b97"
+        },
+        "data.unmapped-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.unmapped-color.svg",
+          "sha256": "ad5f9d232d88e1635174484de4aedeb8cfbc3d9d1dda313211d3d5ad8a5f1ea2"
+        },
+        "data.unmapped-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.unmapped-mono.svg",
+          "sha256": "4e27054c468f9453509f8723f8a0ec0920581eeae4be44012f7bb4690736860c"
+        },
+        "data.unmapped-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.unmapped-mono-light.svg",
+          "sha256": "460e71565dbba6568daae7af5d0dd760ad92d775e2c34d824e590f9058f997ce"
+        },
+        "data.no-permission-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.no-permission-color.svg",
+          "sha256": "fc33fb0a6bd4d6493063177398e81a7f632eaba9fd8986202edb037c3ca9f092"
+        },
+        "data.no-permission-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.no-permission-mono.svg",
+          "sha256": "3d26dcccda09580709348bbe2ac09f3875726dcdc1df1d381576d7dcdced755b"
+        },
+        "data.no-permission-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.no-permission-mono-light.svg",
+          "sha256": "fb328eb0321f7d557007af0ee7f7d4ac0a00a48a0a3b257ae35e7889657ea664"
+        },
+        "data.pending-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.pending-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "data.pending-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.pending-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "data.pending-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.pending-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "data.verified-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.verified-color.svg",
+          "sha256": "072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111"
+        },
+        "data.verified-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.verified-mono.svg",
+          "sha256": "0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac"
+        },
+        "data.verified-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.verified-mono-light.svg",
+          "sha256": "a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9"
+        },
+        "data.historical-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.historical-color.svg",
+          "sha256": "13ceda83cda85ebbcd024c55fd843c431543abca603c9f103c3f53bb7b9b89f9"
+        },
+        "data.historical-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.historical-mono.svg",
+          "sha256": "53b3dc6f665a6bd152b768ce2ab547eb380f3857162e2dcf7872e1fcb519122b"
+        },
+        "data.historical-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.historical-mono-light.svg",
+          "sha256": "e031e712bedc20888d1f625ed471424a68afadfcd9d38d171da8506fbb1b643d"
+        },
+        "data.partial-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.partial-color.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2"
+        },
+        "data.partial-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.partial-mono.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed"
+        },
+        "data.partial-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.partial-mono-light.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb"
+        },
+        "data.stale-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.stale-color.svg",
+          "sha256": "748a1318a453c10f66b16312f46f776bcba11d03e765864474dc5a95a3f7d958"
+        },
+        "data.stale-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.stale-mono.svg",
+          "sha256": "788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17"
+        },
+        "data.stale-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.stale-mono-light.svg",
+          "sha256": "ed89c9e6ad2f1a3c92b098d6af3e3b4430af8dcd73caa13fe879c772438898ce"
+        },
+        "data.unknown-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.unknown-color.svg",
+          "sha256": "6284ed99f81747e69d5dfb39550a2e47a7d985dc9c0b69e3356978176449dc4e"
+        },
+        "data.unknown-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.unknown-mono.svg",
+          "sha256": "1eb48ee387e4390d71a0debe7ba9001e0d8d815cb85b7c72f689b8e215fc306e"
+        },
+        "data.unknown-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/data.unknown-mono-light.svg",
+          "sha256": "6217e2b407301dbe4fa136f112c58ed690182ebaede8cd4184bf7eadb18b8d32"
+        },
+        "risk.due-soon-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.due-soon-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "risk.due-soon-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.due-soon-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "risk.due-soon-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.due-soon-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "risk.overdue-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.overdue-color.svg",
+          "sha256": "b08ab6e281f62b8253048210f883757af189bb5ab3706c5c820125fc214ca162"
+        },
+        "risk.overdue-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.overdue-mono.svg",
+          "sha256": "788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17"
+        },
+        "risk.overdue-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.overdue-mono-light.svg",
+          "sha256": "8e8a677dfedf81037e65599d4fce729e2a74eb014a9eeffacb9f9fba1d86fa51"
+        },
+        "risk.delayed-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.delayed-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "risk.delayed-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.delayed-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "risk.delayed-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.delayed-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "risk.at-risk-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.at-risk-color.svg",
+          "sha256": "44ea7a082475a9f2a73350ffdf5789b0e05dea53e93992ac923c5da90373d57a"
+        },
+        "risk.at-risk-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.at-risk-mono.svg",
+          "sha256": "14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0"
+        },
+        "risk.at-risk-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.at-risk-mono-light.svg",
+          "sha256": "52668af6f67bafa1e02cd3c44e97d68abd98610c786185c33fa269328506fa5c"
+        },
+        "risk.blocked-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.blocked-color.svg",
+          "sha256": "32bf48afea52e910b68e98aaf7ae628fc0c5ceccffb4e2a64fdf6721fedac6ab"
+        },
+        "risk.blocked-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.blocked-mono.svg",
+          "sha256": "968a4bc1263eaf5472c6c6de8de3e916be6775f9ba5b78ee7e0db65ca6ae9518"
+        },
+        "risk.blocked-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/risk.blocked-mono-light.svg",
+          "sha256": "14fbec12407fd74690b9b874daf10c1cdb3e3bd5716aafb475375e199bcd9679"
+        },
+        "asset.repairing-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/asset.repairing-color.svg",
+          "sha256": "82a669993038d828d32588b0b94045d9a5af672b24ef8a0c5f029598bdc0198a"
+        },
+        "asset.repairing-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/asset.repairing-mono.svg",
+          "sha256": "c4593a57938844878052e4756cf3126f3acd5f7d2c31554f3175cc228e55ecc1"
+        },
+        "asset.repairing-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/asset.repairing-mono-light.svg",
+          "sha256": "5151cb30e84c664ecaca8ecce0cfd8aa78d2cbb8434b8521502ed70a060b6dfd"
+        },
+        "asset.scrapped-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/asset.scrapped-color.svg",
+          "sha256": "5b64bf40c1721f503696deb9854f7e6596aa8b0336410c8eedd567a3b1901071"
+        },
+        "asset.scrapped-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/asset.scrapped-mono.svg",
+          "sha256": "9c76a0b033518e67d628344ee497df980655a96c5510e881e44d183f4906e328"
+        },
+        "asset.scrapped-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/asset.scrapped-mono-light.svg",
+          "sha256": "8bb07373e92eec66dbf6003740f56c0aec343e138b1257fe0eec5bec0ebbaaf6"
+        },
+        "asset.frozen-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/asset.frozen-color.svg",
+          "sha256": "55cd21769b7c7ca70cc11d1d2da55c7786d66cddecab60fcfe28317f60b4269d"
+        },
+        "asset.frozen-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/asset.frozen-mono.svg",
+          "sha256": "3d26dcccda09580709348bbe2ac09f3875726dcdc1df1d381576d7dcdced755b"
+        },
+        "asset.frozen-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/asset.frozen-mono-light.svg",
+          "sha256": "5a4dabfe0cd5c0efdcd5c60b2a863ef5c8d1a8819664343fa00484f3db3d10c5"
+        },
+        "hiring.recruiting-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.recruiting-color.svg",
+          "sha256": "9a2bcbbe88c7527493a77adc4e67d74b59807c8c2e4bc4f84be09209337c1a76"
+        },
+        "hiring.recruiting-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.recruiting-mono.svg",
+          "sha256": "5b887dcb80e7b04c2bdaa40c209f6df872c8eecedbaebd2641cdeb6b37395901"
+        },
+        "hiring.recruiting-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.recruiting-mono-light.svg",
+          "sha256": "99617834436e130cce1f36e4f9c2099610ed95ed44cd1e007c778a2fe1757a19"
+        },
+        "hiring.first-interview-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.first-interview-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "hiring.first-interview-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.first-interview-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "hiring.first-interview-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.first-interview-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "hiring.second-interview-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.second-interview-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "hiring.second-interview-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.second-interview-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "hiring.second-interview-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.second-interview-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "hiring.pending-evaluation-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.pending-evaluation-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "hiring.pending-evaluation-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.pending-evaluation-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "hiring.pending-evaluation-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.pending-evaluation-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "hiring.no-show-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.no-show-color.svg",
+          "sha256": "5b64bf40c1721f503696deb9854f7e6596aa8b0336410c8eedd567a3b1901071"
+        },
+        "hiring.no-show-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.no-show-mono.svg",
+          "sha256": "9c76a0b033518e67d628344ee497df980655a96c5510e881e44d183f4906e328"
+        },
+        "hiring.no-show-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/hiring.no-show-mono-light.svg",
+          "sha256": "8bb07373e92eec66dbf6003740f56c0aec343e138b1257fe0eec5bec0ebbaaf6"
+        },
+        "contract.pending-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.pending-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "contract.pending-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.pending-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "contract.pending-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.pending-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "contract.active-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.active-color.svg",
+          "sha256": "5569cf398eee7fe1005d8cd47239e14f29eac0c9355f93cb68e3fa43aaf0d8fb"
+        },
+        "contract.active-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.active-mono.svg",
+          "sha256": "89ce721a9821a47f0282bfc757b37f7ef18c88cf3e46e53bb685ec9bddf56d39"
+        },
+        "contract.active-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.active-mono-light.svg",
+          "sha256": "26b21494708b0f8a9e2f4f1074b3454dc0b620028d8521cad506cfb7f952ce59"
+        },
+        "contract.grace-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.grace-color.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe"
+        },
+        "contract.grace-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.grace-mono.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82"
+        },
+        "contract.grace-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.grace-mono-light.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7"
+        },
+        "contract.expired-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.expired-color.svg",
+          "sha256": "79112386bcd45b6cabff492fb5d4317e31bbdd56e03f4cb265978663d55feeef"
+        },
+        "contract.expired-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.expired-mono.svg",
+          "sha256": "788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17"
+        },
+        "contract.expired-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/contract.expired-mono-light.svg",
+          "sha256": "1d2fbca0cf4b1f5fec31dcb4d971d71407ea9d1ea61763cb8fd6c93d78a57768"
+        },
+        "project.researching-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/project.researching-color.svg",
+          "sha256": "cd2301a2e73fb518fa266decf42dad11985f2c7a0d2ea437aaf04dfcb60b79c3"
+        },
+        "project.researching-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/project.researching-mono.svg",
+          "sha256": "43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88"
+        },
+        "project.researching-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/project.researching-mono-light.svg",
+          "sha256": "628b23ece9d3a7dc26b4ccce756b2b0bd3bdf64d707ffdd241e04571f41a6228"
+        },
+        "project.negotiating-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/project.negotiating-color.svg",
+          "sha256": "cd2301a2e73fb518fa266decf42dad11985f2c7a0d2ea437aaf04dfcb60b79c3"
+        },
+        "project.negotiating-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/project.negotiating-mono.svg",
+          "sha256": "43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88"
+        },
+        "project.negotiating-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/project.negotiating-mono-light.svg",
+          "sha256": "628b23ece9d3a7dc26b4ccce756b2b0bd3bdf64d707ffdd241e04571f41a6228"
+        },
+        "project.converted-color.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/project.converted-color.svg",
+          "sha256": "372313b4e597a5c5cce16bc1f79e269feb3be03167ef61fec83e513eecd20c80"
+        },
+        "project.converted-mono.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/project.converted-mono.svg",
+          "sha256": "43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88"
+        },
+        "project.converted-mono-light.svg": {
+          "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-status/project.converted-mono-light.svg",
+          "sha256": "c8a35b221c714922ab5128db3679c5b09e69bb8fa3deb9a69a6996962c45e73e"
+        }
+      }
+    },
     "dataSource": {
       "reference": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/DATA_SOURCE_BADGES.md",
@@ -52,7 +1448,7 @@
       },
       "contract": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/navigation-contract.json",
-        "sha256": "6e8d5515b92a76df162c36080ea5e9f1c9c7d1e312807220f64fd30c0fd48eed"
+        "sha256": "4b8237c87e632abe4f48b12819b6a4e2a463d6e99b7ceacf668519b7d94d7737"
       },
       "evidenceExample": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/navigation-evidence.example.json",
@@ -92,7 +1488,7 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/icon-library.json",
-        "sha256": "bfec6850a8e671752c3248ae66bbc9829561dac23feeb7be7dff6b0e8de79e96"
+        "sha256": "0b852bdaa219ebc5d6573a714e271869ed46a9ab1469ac1e5f61299c623edcb3"
       },
       "adapters": {
         "client.ts": {
@@ -182,7 +1578,7 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/interaction-contract.json",
-        "sha256": "ca08a94793775824a203e38694553bfb9363b7928a5c0711d9baeb42a3dc5c20"
+        "sha256": "1c6fe165767f61a8ae83130a22ef1e10a9a9048944041091f8c7456541ecbe9c"
       }
     },
     "sidebarConsistency": {
@@ -210,7 +1606,7 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/product-identity-collection.json",
-        "sha256": "2abff9e82aefe8cf2247542dd4102773b1c83a0e2dd0bb10b88ccdcf28abe573"
+        "sha256": "394021ddd4ba7075f4fb1c8a6d577da89bb88e777bf10fa6ca0d4df7bc8ac297"
       },
       "carrier": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/icons/product-identities/quiet-glass/carrier.png",
@@ -822,11 +2218,11 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/fresh-snack-brands.json",
-        "sha256": "36c6f7cd39162b61e854e805905af87631938f332baad2dad6b977623fe2beb3"
+        "sha256": "926fefa13da9598f620acdc22b41579a24bad35cc4127763eca21a70ebd47b57"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/fresh-snack-brands.ts",
-        "sha256": "a8ec6cd4ddc69101160e4ab9f6b585d672015a2185abd5ef8965617a1135ec7c"
+        "sha256": "766fab4d66e55d5b944e3ce56a2053f5aee344e30599585a2914ce496eefb428"
       }
     },
     "designSystem": {
@@ -864,24 +2260,24 @@
     "uiQualityRules": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/ui-quality-rules.json",
-        "sha256": "f60f9d915ca38cad1502a254b0f8af8be3770ecfb6184a71a7db0ca2daed5074"
+        "sha256": "e0237c0d75b1c96f8ca8d09802451dbc46e7cea3da173e7d55d63723a167220f"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/ui-quality-rules.ts",
-        "sha256": "dfc74617d8a9e789cc99f0da1d65cdef7ec925e7fffdfb012cf4a15248d7c85d"
+        "sha256": "342b2fd9591ccbf8cd20572dcf2365f4bf683895357e76d242420f4dd1a6e731"
       }
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/tokens.json",
-      "sha256": "8bb56d085eac4a8d700bcfcd995dec75e79da128c783df5591cfa73e586082ca"
+      "sha256": "f9dc04de3c436340c6f66b2655d06d85c82d75ece48b67fc83870167614fb959"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/CHANGELOG.md",
-      "sha256": "f40f4c6959133543e0c31acaee93cfb9c4a8692c137c5aad7d550326e181e5c6"
+      "sha256": "c3b8a4b5bc11869c4ce37236011f8a2c221c5843dc6be6319f67dfec3b513e27"
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/SKILL.md",
-      "sha256": "f277d0cbead82b0471202cf92416832f7f9d7893c8260fb56feaa20bf6292de2"
+      "sha256": "8af10ce4fc2a8a545602196d21da92ae128e35089e39b6cf507d8798e823186f"
     },
     "typographyResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/TYPOGRAPHY_RESEARCH_2026.md",
@@ -894,7 +2290,7 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/font-standard.json",
-        "sha256": "0d7f22fa6ff14ce9c4a23b8f54e66509c0e42726215450c09bb1cf195f778320"
+        "sha256": "01437575eea0741e782b9cb47f2469a2d08cb2e33c6fc5deeda43597a81923bd"
       },
       "cssExample": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/misans-font-face.example.css",
@@ -928,11 +2324,11 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/product-logo-family.json",
-        "sha256": "578f2dbdc02ced99d320619f3dd2e9475d2bb4f862ab4d5aba0e7d015bbc6a7c"
+        "sha256": "1fc2927ba2b5462cd89a7c46abfe0cb36faae80fbec0adb30e83273e51470f15"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/product-logo-family.ts",
-        "sha256": "61b83300c0af0e7a345e432a925666d3a132d9cfbdf49334fac5263d4d09553d"
+        "sha256": "05e5a79548df2b30dcd34714a26d6380be589f4025f1a4c7ac318b6fadd30adf"
       },
       "assets": {
         "r01.symbols.xiaoputao": {
@@ -1604,11 +3000,11 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/system-identity-family.json",
-        "sha256": "f5a422565b23903d31d4e0e7c2f3ced4bfe04fcd4be8c1764b586f8db0c45406"
+        "sha256": "42e99864ce5a4e83ddb00a17926c483d38b31f1519f77a805c3e793c810797b3"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/system-identity-family.ts",
-        "sha256": "081d69a5aa0968f5abe2403bc00dcef31cee4ac3ceffe658af642a3fb179055c"
+        "sha256": "18d3813f1a9dc057c3d258d3057d5f882cbf5121b505a299316d9facecb1e2ca"
       },
       "assets": {
         "xiaoputao.app": {
@@ -1924,11 +3320,11 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/skill-logo-family.json",
-        "sha256": "ecd28f4c2f13d4447f96551a2144f65ab4aab3e4cc7438b0cc154c987cf8b0f2"
+        "sha256": "9628d94a6c71e9078b58f65e3c81de7f6601d3ec82f249856e1c515cf32debf7"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/skill-logo-family.ts",
-        "sha256": "91f877fd05f6b07026ce96fea70d88427159c29bbfde8f07dd91b1735403926c"
+        "sha256": "99fa9ed4a4e1e1acf4685547525352c4b79f4a1b0d3ba5dd9305d36887cf408e"
       },
       "assets": {
         "prd.app": {
@@ -2008,11 +3404,11 @@
     "templatePatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/template-patterns.json",
-        "sha256": "b822c5d40c45cc6ca4778856991e978718c0e1a70b3fc24381412abb09b4a882"
+        "sha256": "4699f9f20f76c470715698c786dcbd42715ab95119ae0bf341c557f740281a4e"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/template-patterns.ts",
-        "sha256": "866ae668a224fb673cb750db033d33874541bee9a404e339469fd57b0f5b930a"
+        "sha256": "228a03890282e40abb6a74bcc2a94783def358b7cda266dbac9da5a53489dacc"
       }
     },
     "motionSystem": {
@@ -2026,11 +3422,11 @@
     "motionPatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/motion-patterns.json",
-        "sha256": "56dd107076f874c525854715c129d831860c3b59a9698be3764be41ae4279c01"
+        "sha256": "782bae10565579ef72b487df9a4304622e6116a31b1737583d59632b7b2e71c3"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/motion-patterns.ts",
-        "sha256": "20b782a21ad5437ea9b7a9de71932d4989d18e4e3f385faead67fc3c8f6b46e3"
+        "sha256": "e9f96293da4943971ec86e0e79cdda772e1f95641e17f69c9e4f6cff7cefd25c"
       }
     },
     "icons": {
@@ -2090,7 +3486,7 @@
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/icons/common-icons.ts",
-        "sha256": "466a2a164766ebb3b97562186fa04138126f072d650d8a64cc845fe07e77fb98"
+        "sha256": "2dfa1251a3d49008142cef5a525477fd6950c63a456f0170bc56aa2d75d31428"
       }
     },
     "externalBrands": {
@@ -2104,7 +3500,7 @@
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/external-brands/external-brands.ts",
-        "sha256": "c2112e5e14f50b3da902ac5be17bd1ffb1e316d08f8a1acee637ae9a92d4b7ef"
+        "sha256": "3d52fb5fbf077231c4691a4f0688e4984fba5951640c21a1cb49bdf881cd60a3"
       },
       "assetManifest": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/external-brands/external-brand-assets.json",
@@ -2112,7 +3508,7 @@
       },
       "assetTypescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/external-brands/external-brand-assets.ts",
-        "sha256": "2034174b4a0b9679b67921370207e2d30a8bc4294228b426174cbf7fa2723483"
+        "sha256": "bfa0e86a2e77ff4ac97c7939c15a1bc4094fc69fa3d4c572d476352e44c0ddb1"
       },
       "sourceOverrides": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/external-brands/official-brand-sources.json",
@@ -2121,7 +3517,7 @@
     },
     "package": {
       "url": "https://smalltypeui.qiaokiai.com/downloads/leego-design-ui.zip",
-      "sha256": "8ec2f07c39cfbbf08c50f9ec6282ae853c8387b747491579c33eca09579c5ec5"
+      "sha256": "6468e3833b5eac5b16926d0e1301ee85f152994a65659a6f7d39cd4e6ec47cdb"
     }
   },
   "compatibility": {
