@@ -11,79 +11,1717 @@
     "trademarkNotice": "第三方商标归各权利人所有；本登记不暗示合作、认证或背书。"
   },
   "categories": [
-    { "id": "enterprise-service", "label": "企业服务" },
-    { "id": "social-content", "label": "社交与内容" },
-    { "id": "commerce-local", "label": "电商与本地生活" },
-    { "id": "payment", "label": "支付渠道" },
-    { "id": "maps-logistics", "label": "地图与物流" },
-    { "id": "bank", "label": "银行" }
+    {
+      "id": "enterprise-service",
+      "label": "企业服务"
+    },
+    {
+      "id": "social-content",
+      "label": "社交与内容"
+    },
+    {
+      "id": "commerce-local",
+      "label": "电商与本地生活"
+    },
+    {
+      "id": "payment",
+      "label": "支付渠道"
+    },
+    {
+      "id": "maps-logistics",
+      "label": "地图与物流"
+    },
+    {
+      "id": "bank",
+      "label": "银行"
+    }
   ],
   "brands": [
-    { "id": "feishu", "label": "飞书", "englishLabel": "Feishu", "aliases": ["飞书办公", "飞书协作", "Lark"], "category": "enterprise-service", "owner": "北京飞书科技有限公司", "officialUrl": "https://www.feishu.cn/", "assetSourceUrl": "https://www.feishu.cn/", "status": "pending-authorization", "variants": ["symbol"], "display": { "light": true, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "social" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "官网来源与项目预览批准已记录；品牌方使用许可仍需按实际合作关系确认。" }, "lastVerifiedAt": "2026-08-24" },
-    { "id": "qmai", "label": "企迈", "englishLabel": "Qmai", "aliases": ["企迈科技", "企迈数店", "企迈鸿图"], "category": "enterprise-service", "owner": "企迈科技有限公司", "officialUrl": "https://www.qmai.com/", "assetSourceUrl": "https://www.qmai.com/", "status": "pending-authorization", "variants": ["symbol", "wordmark"], "display": { "light": true, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "channel" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "官网来源与项目预览批准已记录；品牌方使用许可仍需按实际合作关系确认。" }, "lastVerifiedAt": "2026-08-24" },
-
-    { "id": "wechat", "label": "微信", "englishLabel": "WeChat", "aliases": ["微信客户端"], "category": "social-content", "owner": "腾讯", "officialUrl": "https://weixin.qq.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "social" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "wecom", "label": "企业微信", "englishLabel": "WeCom", "aliases": ["企业微信客户端"], "category": "social-content", "owner": "腾讯", "officialUrl": "https://work.weixin.qq.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "social" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "qq", "label": "QQ", "englishLabel": "QQ", "aliases": ["腾讯QQ"], "category": "social-content", "owner": "腾讯", "officialUrl": "https://im.qq.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "social" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "tencent", "label": "腾讯", "englishLabel": "Tencent", "aliases": ["腾讯集团"], "category": "social-content", "owner": "腾讯", "officialUrl": "https://www.tencent.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "channel" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "weibo", "label": "微博", "englishLabel": "Weibo", "aliases": ["新浪微博"], "category": "social-content", "owner": "微博", "officialUrl": "https://weibo.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "social" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "douyin", "label": "抖音", "englishLabel": "Douyin", "aliases": ["抖音短视频"], "category": "social-content", "owner": "字节跳动", "officialUrl": "https://www.douyin.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "short-video" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "kuaishou", "label": "快手", "englishLabel": "Kuaishou", "aliases": ["快手短视频"], "category": "social-content", "owner": "快手", "officialUrl": "https://www.kuaishou.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "short-video" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "xiaohongshu", "label": "小红书", "englishLabel": "Xiaohongshu", "aliases": ["REDnote"], "category": "social-content", "owner": "行吟信息科技", "officialUrl": "https://www.xiaohongshu.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "content" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "bilibili", "label": "哔哩哔哩", "englishLabel": "bilibili", "aliases": ["B站"], "category": "social-content", "owner": "哔哩哔哩", "officialUrl": "https://www.bilibili.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "content" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "zhihu", "label": "知乎", "englishLabel": "Zhihu", "aliases": ["知乎社区"], "category": "social-content", "owner": "知乎", "officialUrl": "https://www.zhihu.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "content" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-
-    { "id": "meituan", "label": "美团", "englishLabel": "Meituan", "aliases": ["美团平台"], "category": "commerce-local", "owner": "美团", "officialUrl": "https://www.meituan.com/", "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog", "status": "partner-only", "variants": ["symbol", "wordmark"], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "marketplace" }, "rights": { "publicPreview": false, "productUse": "partner-approval", "redistribution": false, "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "dianping", "label": "大众点评", "englishLabel": "Dianping", "aliases": ["点评"], "category": "commerce-local", "owner": "美团", "officialUrl": "https://www.dianping.com/", "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog", "status": "partner-only", "variants": ["symbol", "wordmark"], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "review" }, "rights": { "publicPreview": false, "productUse": "partner-approval", "redistribution": false, "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "meituan-waimai", "label": "美团外卖", "englishLabel": "Meituan Waimai", "aliases": ["美团外送"], "category": "commerce-local", "owner": "美团", "officialUrl": "https://waimai.meituan.com/", "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog", "status": "partner-only", "variants": ["symbol", "wordmark"], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "delivery" }, "rights": { "publicPreview": false, "productUse": "partner-approval", "redistribution": false, "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "meituan-instashopping", "label": "美团闪购", "englishLabel": "Meituan Instashopping", "aliases": ["美团即时零售"], "category": "commerce-local", "owner": "美团", "officialUrl": "https://www.meituan.com/", "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog", "status": "partner-only", "variants": ["symbol", "wordmark"], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "instant-retail" }, "rights": { "publicPreview": false, "productUse": "partner-approval", "redistribution": false, "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "taobao", "label": "淘宝", "englishLabel": "Taobao", "aliases": ["淘宝网"], "category": "commerce-local", "owner": "阿里巴巴集团", "officialUrl": "https://www.taobao.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "marketplace" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "tmall", "label": "天猫", "englishLabel": "Tmall", "aliases": ["天猫商城"], "category": "commerce-local", "owner": "阿里巴巴集团", "officialUrl": "https://www.tmall.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "marketplace" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "taobao-flash", "label": "淘宝闪购", "englishLabel": "Taobao Flash", "aliases": ["淘宝即时零售"], "category": "commerce-local", "owner": "阿里巴巴集团", "officialUrl": "https://www.taobao.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "instant-retail" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "jd", "label": "京东", "englishLabel": "JD.com", "aliases": ["京东商城"], "category": "commerce-local", "owner": "京东集团", "officialUrl": "https://www.jd.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "marketplace" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "jd-instant", "label": "京东秒送", "englishLabel": "JD NOW", "aliases": ["京东即时零售"], "category": "commerce-local", "owner": "京东集团", "officialUrl": "https://www.jd.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "instant-retail" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "pinduoduo", "label": "拼多多", "englishLabel": "Pinduoduo", "aliases": ["拼多多平台"], "category": "commerce-local", "owner": "拼多多", "officialUrl": "https://www.pinduoduo.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "marketplace" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "eleme", "label": "饿了么", "englishLabel": "Ele.me", "aliases": ["饿了么外卖"], "category": "commerce-local", "owner": "阿里巴巴集团", "officialUrl": "https://www.ele.me/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "delivery" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "hema", "label": "盒马", "englishLabel": "Freshippo", "aliases": ["盒马鲜生"], "category": "commerce-local", "owner": "阿里巴巴集团", "officialUrl": "https://www.freshhema.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "instant-retail" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "vipshop", "label": "唯品会", "englishLabel": "Vipshop", "aliases": ["唯品会商城"], "category": "commerce-local", "owner": "唯品会", "officialUrl": "https://www.vip.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "marketplace" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-
-    { "id": "alipay", "label": "支付宝", "englishLabel": "Alipay", "aliases": ["支付宝支付"], "category": "payment", "owner": "蚂蚁集团", "officialUrl": "https://www.alipay.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "payment" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "wechat-pay", "label": "微信支付", "englishLabel": "WeChat Pay", "aliases": ["微信付款"], "category": "payment", "owner": "腾讯", "officialUrl": "https://pay.weixin.qq.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "payment" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "unionpay", "label": "中国银联", "englishLabel": "China UnionPay", "aliases": ["银联"], "category": "payment", "owner": "中国银联", "officialUrl": "https://www.unionpay.com/", "assetSourceUrl": "https://open.unionpay.com/upload/download/%E7%BA%BF%E4%B8%8A%E5%95%86%E6%88%B7%E6%94%B6%E9%93%B6%E5%8F%B0%E5%93%81%E7%89%8C%E9%9C%B2%E5%87%BA%E8%A7%84%E8%8C%831.1.pdf", "status": "partner-only", "variants": ["symbol", "wordmark"], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank-card" }, "rights": { "publicPreview": false, "productUse": "partner-approval", "redistribution": false, "note": "支付界面露出需遵循官方比例与合作要求；当前使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "cloud-quickpass", "label": "云闪付", "englishLabel": "Cloud QuickPass", "aliases": ["银联云闪付"], "category": "payment", "owner": "中国银联", "officialUrl": "https://www.95516.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "wallet" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "ecny", "label": "数字人民币", "englishLabel": "e-CNY", "aliases": ["数币"], "category": "payment", "owner": "中国人民银行数字货币研究所", "officialUrl": "https://pilot.app.ecny.pbcdci.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "wallet" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "jd-pay", "label": "京东支付", "englishLabel": "JD Pay", "aliases": ["京东付款"], "category": "payment", "owner": "京东科技", "officialUrl": "https://pay.jd.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "payment" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "douyin-pay", "label": "抖音支付", "englishLabel": "Douyin Pay", "aliases": ["抖音付款"], "category": "payment", "owner": "字节跳动", "officialUrl": "https://pay.douyin.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "payment" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-
-    { "id": "amap", "label": "高德地图", "englishLabel": "Amap", "aliases": ["高德"], "category": "maps-logistics", "owner": "阿里巴巴集团", "officialUrl": "https://www.amap.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "location" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "baidu-map", "label": "百度地图", "englishLabel": "Baidu Maps", "aliases": ["百度地图开放平台"], "category": "maps-logistics", "owner": "百度", "officialUrl": "https://map.baidu.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "location" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "tencent-map", "label": "腾讯地图", "englishLabel": "Tencent Maps", "aliases": ["腾讯位置服务"], "category": "maps-logistics", "owner": "腾讯", "officialUrl": "https://map.qq.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "location" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "sf-express", "label": "顺丰", "englishLabel": "SF Express", "aliases": ["顺丰速运"], "category": "maps-logistics", "owner": "顺丰控股", "officialUrl": "https://www.sf-express.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "logistics" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "jd-logistics", "label": "京东物流", "englishLabel": "JD Logistics", "aliases": ["京东快递"], "category": "maps-logistics", "owner": "京东物流", "officialUrl": "https://www.jdl.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "logistics" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "cainiao", "label": "菜鸟", "englishLabel": "Cainiao", "aliases": ["菜鸟物流"], "category": "maps-logistics", "owner": "菜鸟集团", "officialUrl": "https://www.cainiao.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "logistics" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "dada-now", "label": "达达秒送", "englishLabel": "Dada Now", "aliases": ["达达配送"], "category": "maps-logistics", "owner": "达达集团", "officialUrl": "https://www.imdada.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "delivery" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "meituan-delivery", "label": "美团配送", "englishLabel": "Meituan Delivery", "aliases": ["美团履约"], "category": "maps-logistics", "owner": "美团", "officialUrl": "https://www.meituan.com/", "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog", "status": "partner-only", "variants": ["symbol", "wordmark"], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "delivery" }, "rights": { "publicPreview": false, "productUse": "partner-approval", "redistribution": false, "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-
-    { "id": "icbc", "label": "工商银行", "englishLabel": "ICBC", "aliases": ["中国工商银行"], "category": "bank", "owner": "中国工商银行", "officialUrl": "https://www.icbc.com.cn/", "assetSourceUrl": "https://icbc.com.cn/ICBCLtd/%E5%85%B3%E4%BA%8E%E6%88%91%E8%A1%8C/%E9%9B%86%E5%9B%A2%E5%93%81%E7%89%8C/", "status": "partner-only", "variants": ["symbol", "wordmark"], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "partner-approval", "redistribution": false, "note": "官方明确限制未经许可使用或修改标识；当前使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "boc", "label": "中国银行", "englishLabel": "Bank of China", "aliases": ["中行"], "category": "bank", "owner": "中国银行", "officialUrl": "https://www.boc.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "ccb", "label": "建设银行", "englishLabel": "China Construction Bank", "aliases": ["中国建设银行"], "category": "bank", "owner": "中国建设银行", "officialUrl": "https://www.ccb.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "abc", "label": "农业银行", "englishLabel": "Agricultural Bank of China", "aliases": ["中国农业银行"], "category": "bank", "owner": "中国农业银行", "officialUrl": "https://www.abchina.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "bocom", "label": "交通银行", "englishLabel": "Bank of Communications", "aliases": ["交行"], "category": "bank", "owner": "交通银行", "officialUrl": "https://www.bankcomm.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "psbc", "label": "邮储银行", "englishLabel": "Postal Savings Bank of China", "aliases": ["中国邮政储蓄银行"], "category": "bank", "owner": "中国邮政储蓄银行", "officialUrl": "https://www.psbc.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "cmb", "label": "招商银行", "englishLabel": "China Merchants Bank", "aliases": ["招行"], "category": "bank", "owner": "招商银行", "officialUrl": "https://www.cmbchina.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "cib", "label": "兴业银行", "englishLabel": "Industrial Bank", "aliases": ["兴业"], "category": "bank", "owner": "兴业银行", "officialUrl": "https://www.cib.com.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "spdb", "label": "浦发银行", "englishLabel": "SPD Bank", "aliases": ["上海浦东发展银行"], "category": "bank", "owner": "上海浦东发展银行", "officialUrl": "https://www.spdb.com.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "cmbc", "label": "民生银行", "englishLabel": "China Minsheng Bank", "aliases": ["中国民生银行"], "category": "bank", "owner": "中国民生银行", "officialUrl": "https://www.cmbc.com.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "citic", "label": "中信银行", "englishLabel": "China CITIC Bank", "aliases": ["中信"], "category": "bank", "owner": "中信银行", "officialUrl": "https://www.citicbank.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "ceb", "label": "光大银行", "englishLabel": "China Everbright Bank", "aliases": ["中国光大银行"], "category": "bank", "owner": "中国光大银行", "officialUrl": "https://www.cebbank.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "pingan-bank", "label": "平安银行", "englishLabel": "Ping An Bank", "aliases": ["平安银行股份有限公司"], "category": "bank", "owner": "平安银行", "officialUrl": "https://bank.pingan.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "hxb", "label": "华夏银行", "englishLabel": "Hua Xia Bank", "aliases": ["华夏"], "category": "bank", "owner": "华夏银行", "officialUrl": "https://www.hxb.com.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "cgb", "label": "广发银行", "englishLabel": "China Guangfa Bank", "aliases": ["广东发展银行"], "category": "bank", "owner": "广发银行", "officialUrl": "https://www.cgbchina.com.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "czbank", "label": "浙商银行", "englishLabel": "China Zheshang Bank", "aliases": ["浙商"], "category": "bank", "owner": "浙商银行", "officialUrl": "https://www.czbank.com/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "bank-of-beijing", "label": "北京银行", "englishLabel": "Bank of Beijing", "aliases": ["北银"], "category": "bank", "owner": "北京银行", "officialUrl": "https://www.bankofbeijing.com.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "bank-of-shanghai", "label": "上海银行", "englishLabel": "Bank of Shanghai", "aliases": ["上银"], "category": "bank", "owner": "上海银行", "officialUrl": "https://www.bosc.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "bank-of-jiangsu", "label": "江苏银行", "englishLabel": "Bank of Jiangsu", "aliases": ["苏银"], "category": "bank", "owner": "江苏银行", "officialUrl": "https://www.jsbchina.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "bank-of-nanjing", "label": "南京银行", "englishLabel": "Bank of Nanjing", "aliases": ["南银"], "category": "bank", "owner": "南京银行", "officialUrl": "https://www.njcb.com.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" },
-    { "id": "bank-of-ningbo", "label": "宁波银行", "englishLabel": "Bank of Ningbo", "aliases": ["宁银"], "category": "bank", "owner": "宁波银行", "officialUrl": "https://www.nbcb.com.cn/", "status": "pending-authorization", "variants": [], "display": { "light": false, "dark": false, "minimumSymbolSize": 16, "minimumWordmarkWidth": 72, "fallbackIcon": "bank" }, "rights": { "publicPreview": false, "productUse": "unknown", "redistribution": false, "note": "未提供授权品牌包，使用中性回退图标。" }, "lastVerifiedAt": "2026-08-23" }
+    {
+      "id": "feishu",
+      "label": "飞书",
+      "englishLabel": "Feishu",
+      "aliases": [
+        "飞书办公",
+        "飞书协作",
+        "Lark"
+      ],
+      "category": "enterprise-service",
+      "owner": "北京飞书科技有限公司",
+      "officialUrl": "https://www.feishu.cn/",
+      "assetSourceUrl": "https://www.feishu.cn/",
+      "status": "pending-authorization",
+      "variants": [
+        "symbol"
+      ],
+      "display": {
+        "light": true,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "social"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "官网来源与项目预览批准已记录；品牌方使用许可仍需按实际合作关系确认。"
+      },
+      "lastVerifiedAt": "2026-08-24"
+    },
+    {
+      "id": "qmai",
+      "label": "企迈",
+      "englishLabel": "Qmai",
+      "aliases": [
+        "企迈科技",
+        "企迈数店",
+        "企迈鸿图"
+      ],
+      "category": "enterprise-service",
+      "owner": "企迈科技有限公司",
+      "officialUrl": "https://www.qmai.com/",
+      "assetSourceUrl": "https://www.qmai.com/",
+      "status": "pending-authorization",
+      "variants": [
+        "symbol",
+        "wordmark"
+      ],
+      "display": {
+        "light": true,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "channel"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "官网来源与项目预览批准已记录；品牌方使用许可仍需按实际合作关系确认。"
+      },
+      "lastVerifiedAt": "2026-08-24"
+    },
+    {
+      "id": "wechat",
+      "label": "微信",
+      "englishLabel": "WeChat",
+      "aliases": [
+        "微信客户端"
+      ],
+      "category": "social-content",
+      "owner": "腾讯",
+      "officialUrl": "https://weixin.qq.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "social"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "wecom",
+      "label": "企业微信",
+      "englishLabel": "WeCom",
+      "aliases": [
+        "企业微信客户端"
+      ],
+      "category": "social-content",
+      "owner": "腾讯",
+      "officialUrl": "https://work.weixin.qq.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "social"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "qq",
+      "label": "QQ",
+      "englishLabel": "QQ",
+      "aliases": [
+        "腾讯QQ"
+      ],
+      "category": "social-content",
+      "owner": "腾讯",
+      "officialUrl": "https://im.qq.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "social"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "tencent",
+      "label": "腾讯",
+      "englishLabel": "Tencent",
+      "aliases": [
+        "腾讯集团"
+      ],
+      "category": "social-content",
+      "owner": "腾讯",
+      "officialUrl": "https://www.tencent.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "channel"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "weibo",
+      "label": "微博",
+      "englishLabel": "Weibo",
+      "aliases": [
+        "新浪微博"
+      ],
+      "category": "social-content",
+      "owner": "微博",
+      "officialUrl": "https://weibo.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "social"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "douyin",
+      "label": "抖音",
+      "englishLabel": "Douyin",
+      "aliases": [
+        "抖音短视频"
+      ],
+      "category": "social-content",
+      "owner": "字节跳动",
+      "officialUrl": "https://www.douyin.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "short-video"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "kuaishou",
+      "label": "快手",
+      "englishLabel": "Kuaishou",
+      "aliases": [
+        "快手短视频"
+      ],
+      "category": "social-content",
+      "owner": "快手",
+      "officialUrl": "https://www.kuaishou.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "short-video"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "xiaohongshu",
+      "label": "小红书",
+      "englishLabel": "Xiaohongshu",
+      "aliases": [
+        "REDnote"
+      ],
+      "category": "social-content",
+      "owner": "行吟信息科技",
+      "officialUrl": "https://www.xiaohongshu.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "content"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "bilibili",
+      "label": "哔哩哔哩",
+      "englishLabel": "bilibili",
+      "aliases": [
+        "B站"
+      ],
+      "category": "social-content",
+      "owner": "哔哩哔哩",
+      "officialUrl": "https://www.bilibili.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "content"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "zhihu",
+      "label": "知乎",
+      "englishLabel": "Zhihu",
+      "aliases": [
+        "知乎社区"
+      ],
+      "category": "social-content",
+      "owner": "知乎",
+      "officialUrl": "https://www.zhihu.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "content"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "meituan",
+      "label": "美团",
+      "englishLabel": "Meituan",
+      "aliases": [
+        "美团平台"
+      ],
+      "category": "commerce-local",
+      "owner": "美团",
+      "officialUrl": "https://www.meituan.com/",
+      "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog",
+      "status": "partner-only",
+      "variants": [
+        "symbol",
+        "wordmark"
+      ],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "marketplace"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "partner-approval",
+        "redistribution": false,
+        "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "dianping",
+      "label": "大众点评",
+      "englishLabel": "Dianping",
+      "aliases": [
+        "点评"
+      ],
+      "category": "commerce-local",
+      "owner": "美团",
+      "officialUrl": "https://www.dianping.com/",
+      "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog",
+      "status": "partner-only",
+      "variants": [
+        "symbol",
+        "wordmark"
+      ],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "review"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "partner-approval",
+        "redistribution": false,
+        "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "meituan-waimai",
+      "label": "美团外卖",
+      "englishLabel": "Meituan Waimai",
+      "aliases": [
+        "美团外送"
+      ],
+      "category": "commerce-local",
+      "owner": "美团",
+      "officialUrl": "https://waimai.meituan.com/",
+      "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog",
+      "status": "partner-only",
+      "variants": [
+        "symbol",
+        "wordmark"
+      ],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "delivery"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "partner-approval",
+        "redistribution": false,
+        "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "meituan-instashopping",
+      "label": "美团闪购",
+      "englishLabel": "Meituan Instashopping",
+      "aliases": [
+        "美团即时零售"
+      ],
+      "category": "commerce-local",
+      "owner": "美团",
+      "officialUrl": "https://www.meituan.com/",
+      "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog",
+      "status": "partner-only",
+      "variants": [
+        "symbol",
+        "wordmark"
+      ],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "instant-retail"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "partner-approval",
+        "redistribution": false,
+        "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "taobao",
+      "label": "淘宝",
+      "englishLabel": "Taobao",
+      "aliases": [
+        "淘宝网"
+      ],
+      "category": "commerce-local",
+      "owner": "阿里巴巴集团",
+      "officialUrl": "https://www.taobao.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "marketplace"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "tmall",
+      "label": "天猫",
+      "englishLabel": "Tmall",
+      "aliases": [
+        "天猫商城"
+      ],
+      "category": "commerce-local",
+      "owner": "阿里巴巴集团",
+      "officialUrl": "https://www.tmall.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "marketplace"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "taobao-flash",
+      "label": "淘宝闪购",
+      "englishLabel": "Taobao Flash",
+      "aliases": [
+        "淘宝即时零售"
+      ],
+      "category": "commerce-local",
+      "owner": "阿里巴巴集团",
+      "officialUrl": "https://www.taobao.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "instant-retail"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "jd",
+      "label": "京东",
+      "englishLabel": "JD.com",
+      "aliases": [
+        "京东商城"
+      ],
+      "category": "commerce-local",
+      "owner": "京东集团",
+      "officialUrl": "https://www.jd.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "marketplace"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "jd-instant",
+      "label": "京东秒送",
+      "englishLabel": "JD NOW",
+      "aliases": [
+        "京东即时零售"
+      ],
+      "category": "commerce-local",
+      "owner": "京东集团",
+      "officialUrl": "https://www.jd.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "instant-retail"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "pinduoduo",
+      "label": "拼多多",
+      "englishLabel": "Pinduoduo",
+      "aliases": [
+        "拼多多平台"
+      ],
+      "category": "commerce-local",
+      "owner": "拼多多",
+      "officialUrl": "https://www.pinduoduo.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "marketplace"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "eleme",
+      "label": "饿了么",
+      "englishLabel": "Ele.me",
+      "aliases": [
+        "饿了么外卖"
+      ],
+      "category": "commerce-local",
+      "owner": "阿里巴巴集团",
+      "officialUrl": "https://www.ele.me/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "delivery"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "hema",
+      "label": "盒马",
+      "englishLabel": "Freshippo",
+      "aliases": [
+        "盒马鲜生"
+      ],
+      "category": "commerce-local",
+      "owner": "阿里巴巴集团",
+      "officialUrl": "https://www.freshhema.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "instant-retail"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "vipshop",
+      "label": "唯品会",
+      "englishLabel": "Vipshop",
+      "aliases": [
+        "唯品会商城"
+      ],
+      "category": "commerce-local",
+      "owner": "唯品会",
+      "officialUrl": "https://www.vip.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "marketplace"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "alipay",
+      "label": "支付宝",
+      "englishLabel": "Alipay",
+      "aliases": [
+        "支付宝支付"
+      ],
+      "category": "payment",
+      "owner": "蚂蚁集团",
+      "officialUrl": "https://www.alipay.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "payment"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "wechat-pay",
+      "label": "微信支付",
+      "englishLabel": "WeChat Pay",
+      "aliases": [
+        "微信付款"
+      ],
+      "category": "payment",
+      "owner": "腾讯",
+      "officialUrl": "https://pay.weixin.qq.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "payment"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "unionpay",
+      "label": "中国银联",
+      "englishLabel": "China UnionPay",
+      "aliases": [
+        "银联"
+      ],
+      "category": "payment",
+      "owner": "中国银联",
+      "officialUrl": "https://www.unionpay.com/",
+      "assetSourceUrl": "https://open.unionpay.com/upload/download/%E7%BA%BF%E4%B8%8A%E5%95%86%E6%88%B7%E6%94%B6%E9%93%B6%E5%8F%B0%E5%93%81%E7%89%8C%E9%9C%B2%E5%87%BA%E8%A7%84%E8%8C%831.1.pdf",
+      "status": "partner-only",
+      "variants": [
+        "symbol",
+        "wordmark"
+      ],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank-card"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "partner-approval",
+        "redistribution": false,
+        "note": "支付界面露出需遵循官方比例与合作要求；当前使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "cloud-quickpass",
+      "label": "云闪付",
+      "englishLabel": "Cloud QuickPass",
+      "aliases": [
+        "银联云闪付"
+      ],
+      "category": "payment",
+      "owner": "中国银联",
+      "officialUrl": "https://www.95516.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "wallet"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "ecny",
+      "label": "数字人民币",
+      "englishLabel": "e-CNY",
+      "aliases": [
+        "数币"
+      ],
+      "category": "payment",
+      "owner": "中国人民银行数字货币研究所",
+      "officialUrl": "https://pilot.app.ecny.pbcdci.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "wallet"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "jd-pay",
+      "label": "京东支付",
+      "englishLabel": "JD Pay",
+      "aliases": [
+        "京东付款"
+      ],
+      "category": "payment",
+      "owner": "京东科技",
+      "officialUrl": "https://pay.jd.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "payment"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "douyin-pay",
+      "label": "抖音支付",
+      "englishLabel": "Douyin Pay",
+      "aliases": [
+        "抖音付款"
+      ],
+      "category": "payment",
+      "owner": "字节跳动",
+      "officialUrl": "https://pay.douyin.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "payment"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "amap",
+      "label": "高德地图",
+      "englishLabel": "Amap",
+      "aliases": [
+        "高德"
+      ],
+      "category": "maps-logistics",
+      "owner": "阿里巴巴集团",
+      "officialUrl": "https://www.amap.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "location"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "baidu-map",
+      "label": "百度地图",
+      "englishLabel": "Baidu Maps",
+      "aliases": [
+        "百度地图开放平台"
+      ],
+      "category": "maps-logistics",
+      "owner": "百度",
+      "officialUrl": "https://map.baidu.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "location"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "tencent-map",
+      "label": "腾讯地图",
+      "englishLabel": "Tencent Maps",
+      "aliases": [
+        "腾讯位置服务"
+      ],
+      "category": "maps-logistics",
+      "owner": "腾讯",
+      "officialUrl": "https://map.qq.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "location"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "sf-express",
+      "label": "顺丰",
+      "englishLabel": "SF Express",
+      "aliases": [
+        "顺丰速运"
+      ],
+      "category": "maps-logistics",
+      "owner": "顺丰控股",
+      "officialUrl": "https://www.sf-express.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "logistics"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "jd-logistics",
+      "label": "京东物流",
+      "englishLabel": "JD Logistics",
+      "aliases": [
+        "京东快递"
+      ],
+      "category": "maps-logistics",
+      "owner": "京东物流",
+      "officialUrl": "https://www.jdl.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "logistics"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "cainiao",
+      "label": "菜鸟",
+      "englishLabel": "Cainiao",
+      "aliases": [
+        "菜鸟物流"
+      ],
+      "category": "maps-logistics",
+      "owner": "菜鸟集团",
+      "officialUrl": "https://www.cainiao.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "logistics"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "dada-now",
+      "label": "达达秒送",
+      "englishLabel": "Dada Now",
+      "aliases": [
+        "达达配送"
+      ],
+      "category": "maps-logistics",
+      "owner": "达达集团",
+      "officialUrl": "https://www.imdada.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "delivery"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "meituan-delivery",
+      "label": "美团配送",
+      "englishLabel": "Meituan Delivery",
+      "aliases": [
+        "美团履约"
+      ],
+      "category": "maps-logistics",
+      "owner": "美团",
+      "officialUrl": "https://www.meituan.com/",
+      "assetSourceUrl": "https://www.meituan.com/media?0a30c1d9=dog",
+      "status": "partner-only",
+      "variants": [
+        "symbol",
+        "wordmark"
+      ],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "delivery"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "partner-approval",
+        "redistribution": false,
+        "note": "官方提供媒体素材但限制用途；当前使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "icbc",
+      "label": "工商银行",
+      "englishLabel": "ICBC",
+      "aliases": [
+        "中国工商银行"
+      ],
+      "category": "bank",
+      "owner": "中国工商银行",
+      "officialUrl": "https://www.icbc.com.cn/",
+      "assetSourceUrl": "https://icbc.com.cn/ICBCLtd/%E5%85%B3%E4%BA%8E%E6%88%91%E8%A1%8C/%E9%9B%86%E5%9B%A2%E5%93%81%E7%89%8C/",
+      "status": "partner-only",
+      "variants": [
+        "symbol",
+        "wordmark"
+      ],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "partner-approval",
+        "redistribution": false,
+        "note": "官方明确限制未经许可使用或修改标识；当前使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "boc",
+      "label": "中国银行",
+      "englishLabel": "Bank of China",
+      "aliases": [
+        "中行"
+      ],
+      "category": "bank",
+      "owner": "中国银行",
+      "officialUrl": "https://www.boc.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "ccb",
+      "label": "建设银行",
+      "englishLabel": "China Construction Bank",
+      "aliases": [
+        "中国建设银行"
+      ],
+      "category": "bank",
+      "owner": "中国建设银行",
+      "officialUrl": "https://www.ccb.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "abc",
+      "label": "农业银行",
+      "englishLabel": "Agricultural Bank of China",
+      "aliases": [
+        "中国农业银行"
+      ],
+      "category": "bank",
+      "owner": "中国农业银行",
+      "officialUrl": "https://www.abchina.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "bocom",
+      "label": "交通银行",
+      "englishLabel": "Bank of Communications",
+      "aliases": [
+        "交行"
+      ],
+      "category": "bank",
+      "owner": "交通银行",
+      "officialUrl": "https://www.bankcomm.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "psbc",
+      "label": "邮储银行",
+      "englishLabel": "Postal Savings Bank of China",
+      "aliases": [
+        "中国邮政储蓄银行"
+      ],
+      "category": "bank",
+      "owner": "中国邮政储蓄银行",
+      "officialUrl": "https://www.psbc.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "cmb",
+      "label": "招商银行",
+      "englishLabel": "China Merchants Bank",
+      "aliases": [
+        "招行"
+      ],
+      "category": "bank",
+      "owner": "招商银行",
+      "officialUrl": "https://www.cmbchina.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "cib",
+      "label": "兴业银行",
+      "englishLabel": "Industrial Bank",
+      "aliases": [
+        "兴业"
+      ],
+      "category": "bank",
+      "owner": "兴业银行",
+      "officialUrl": "https://www.cib.com.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "spdb",
+      "label": "浦发银行",
+      "englishLabel": "SPD Bank",
+      "aliases": [
+        "上海浦东发展银行"
+      ],
+      "category": "bank",
+      "owner": "上海浦东发展银行",
+      "officialUrl": "https://www.spdb.com.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "cmbc",
+      "label": "民生银行",
+      "englishLabel": "China Minsheng Bank",
+      "aliases": [
+        "中国民生银行"
+      ],
+      "category": "bank",
+      "owner": "中国民生银行",
+      "officialUrl": "https://www.cmbc.com.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "citic",
+      "label": "中信银行",
+      "englishLabel": "China CITIC Bank",
+      "aliases": [
+        "中信"
+      ],
+      "category": "bank",
+      "owner": "中信银行",
+      "officialUrl": "https://www.citicbank.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "ceb",
+      "label": "光大银行",
+      "englishLabel": "China Everbright Bank",
+      "aliases": [
+        "中国光大银行"
+      ],
+      "category": "bank",
+      "owner": "中国光大银行",
+      "officialUrl": "https://www.cebbank.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "pingan-bank",
+      "label": "平安银行",
+      "englishLabel": "Ping An Bank",
+      "aliases": [
+        "平安银行股份有限公司"
+      ],
+      "category": "bank",
+      "owner": "平安银行",
+      "officialUrl": "https://bank.pingan.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "hxb",
+      "label": "华夏银行",
+      "englishLabel": "Hua Xia Bank",
+      "aliases": [
+        "华夏"
+      ],
+      "category": "bank",
+      "owner": "华夏银行",
+      "officialUrl": "https://www.hxb.com.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "cgb",
+      "label": "广发银行",
+      "englishLabel": "China Guangfa Bank",
+      "aliases": [
+        "广东发展银行"
+      ],
+      "category": "bank",
+      "owner": "广发银行",
+      "officialUrl": "https://www.cgbchina.com.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "czbank",
+      "label": "浙商银行",
+      "englishLabel": "China Zheshang Bank",
+      "aliases": [
+        "浙商"
+      ],
+      "category": "bank",
+      "owner": "浙商银行",
+      "officialUrl": "https://www.czbank.com/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "bank-of-beijing",
+      "label": "北京银行",
+      "englishLabel": "Bank of Beijing",
+      "aliases": [
+        "北银"
+      ],
+      "category": "bank",
+      "owner": "北京银行",
+      "officialUrl": "https://www.bankofbeijing.com.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "bank-of-shanghai",
+      "label": "上海银行",
+      "englishLabel": "Bank of Shanghai",
+      "aliases": [
+        "上银"
+      ],
+      "category": "bank",
+      "owner": "上海银行",
+      "officialUrl": "https://www.bosc.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "bank-of-jiangsu",
+      "label": "江苏银行",
+      "englishLabel": "Bank of Jiangsu",
+      "aliases": [
+        "苏银"
+      ],
+      "category": "bank",
+      "owner": "江苏银行",
+      "officialUrl": "https://www.jsbchina.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "bank-of-nanjing",
+      "label": "南京银行",
+      "englishLabel": "Bank of Nanjing",
+      "aliases": [
+        "南银"
+      ],
+      "category": "bank",
+      "owner": "南京银行",
+      "officialUrl": "https://www.njcb.com.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    },
+    {
+      "id": "bank-of-ningbo",
+      "label": "宁波银行",
+      "englishLabel": "Bank of Ningbo",
+      "aliases": [
+        "宁银"
+      ],
+      "category": "bank",
+      "owner": "宁波银行",
+      "officialUrl": "https://www.nbcb.com.cn/",
+      "status": "pending-authorization",
+      "variants": [],
+      "display": {
+        "light": false,
+        "dark": false,
+        "minimumSymbolSize": 16,
+        "minimumWordmarkWidth": 72,
+        "fallbackIcon": "bank"
+      },
+      "rights": {
+        "publicPreview": false,
+        "productUse": "unknown",
+        "redistribution": false,
+        "note": "未提供授权品牌包，使用中性回退图标。"
+      },
+      "lastVerifiedAt": "2026-08-23"
+    }
   ]
 }

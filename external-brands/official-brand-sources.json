@@ -4,41 +4,85 @@
   "policy": "Only HTTPS assets declared by an official website or official brand-material page may be listed here.",
   "overrides": {
     "feishu": {
-      "pages": ["https://www.feishu.cn/"],
-      "assets": ["https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:100:100.image"],
-      "minimumDimensions": { "width": 96, "height": 96 }
+      "pages": [
+        "https://www.feishu.cn/"
+      ],
+      "assets": [
+        "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:100:100.image"
+      ],
+      "minimumDimensions": {
+        "width": 96,
+        "height": 96
+      }
     },
     "qmai": {
-      "pages": ["https://www.qmai.com/"],
-      "assets": ["https://www.qmai.com/favicon.ico"]
+      "pages": [
+        "https://www.qmai.com/"
+      ],
+      "assets": [
+        "https://www.qmai.com/favicon.ico"
+      ]
     },
     "dianping": {
-      "pages": ["https://m.dianping.com/newsem/pages/main.html"],
-      "assets": ["https://www.dpfile.com/app/com.sankuai.iwannaeat.newsem/client/media/logo.fdb9ce38.png"],
-      "minimumDimensions": { "width": 64, "height": 64 },
-      "mustDifferFrom": ["meituan"]
+      "pages": [
+        "https://m.dianping.com/newsem/pages/main.html"
+      ],
+      "assets": [
+        "https://www.dpfile.com/app/com.sankuai.iwannaeat.newsem/client/media/logo.fdb9ce38.png"
+      ],
+      "minimumDimensions": {
+        "width": 64,
+        "height": 64
+      },
+      "mustDifferFrom": [
+        "meituan"
+      ]
     },
     "douyin": {
-      "pages": ["https://m.douyin.com/app_download"],
+      "pages": [
+        "https://m.douyin.com/app_download"
+      ],
       "preferredImageAlt": "抖音logo",
-      "minimumDimensions": { "width": 128, "height": 128 }
+      "minimumDimensions": {
+        "width": 128,
+        "height": 128
+      }
     },
     "xiaohongshu": {
-      "pages": ["https://oia.xiaohongshu.com/oia"],
-      "assets": ["https://picasso-static.xiaohongshu.com/fe-platform/209095b1bd0330f15e7cdf22e54ff8377971b917.png"],
-      "minimumDimensions": { "width": 128, "height": 128 }
+      "pages": [
+        "https://oia.xiaohongshu.com/oia"
+      ],
+      "assets": [
+        "https://picasso-static.xiaohongshu.com/fe-platform/209095b1bd0330f15e7cdf22e54ff8377971b917.png"
+      ],
+      "minimumDimensions": {
+        "width": 128,
+        "height": 128
+      }
     },
     "alipay": {
-      "pages": ["https://render.alipay.com/p/c/18hmvaq6e08w"],
-      "assets": ["https://t.alipayobjects.com/images/rmsweb/T1mQxhXbRXXXXXXXXX.png"]
+      "pages": [
+        "https://render.alipay.com/p/c/18hmvaq6e08w"
+      ],
+      "assets": [
+        "https://t.alipayobjects.com/images/rmsweb/T1mQxhXbRXXXXXXXXX.png"
+      ]
     },
     "unionpay": {
-      "pages": ["https://open.unionpay.com/tjweb/open/index"],
-      "assets": ["https://open.unionpay.com/tjweb/resources/images/new/nav/logo_on.png?v=20260729193612"]
+      "pages": [
+        "https://open.unionpay.com/tjweb/open/index"
+      ],
+      "assets": [
+        "https://open.unionpay.com/tjweb/resources/images/new/nav/logo_on.png?v=20260729193612"
+      ]
     },
     "cloud-quickpass": {
-      "pages": ["https://cn.unionpay.com/upowhtml/cn/templates/quickPass/quickPass.html"],
-      "assets": ["https://cn.unionpay.com/upowhtml/cn/templates/material/a5817a4b821640e5a850c5b9da5687c7/1667786236652.png"]
+      "pages": [
+        "https://cn.unionpay.com/upowhtml/cn/templates/quickPass/quickPass.html"
+      ],
+      "assets": [
+        "https://cn.unionpay.com/upowhtml/cn/templates/material/a5817a4b821640e5a850c5b9da5687c7/1667786236652.png"
+      ]
     },
     "jd-pay": {
       "reuseBrandAsset": "jd",
@@ -49,45 +93,83 @@
       "scope": "parent-brand"
     },
     "tmall": {
-      "assets": ["https://img.alicdn.com/tfs/TB1XlF3RpXXXXc6XXXXXXXXXXXX-16-16.png"]
+      "assets": [
+        "https://img.alicdn.com/tfs/TB1XlF3RpXXXXc6XXXXXXXXXXXX-16-16.png"
+      ]
     },
     "taobao-flash": {
-      "pages": ["https://www.ele.me/"],
-      "assets": ["https://img.alicdn.com/imgextra/i1/O1CN019s188k1t2biV9Wpa6_!!6000000005844-2-tps-96-96.png"]
+      "pages": [
+        "https://www.ele.me/"
+      ],
+      "assets": [
+        "https://img.alicdn.com/imgextra/i1/O1CN019s188k1t2biV9Wpa6_!!6000000005844-2-tps-96-96.png"
+      ]
     },
     "pinduoduo": {
-      "assets": ["https://www.pinduoduo.com/favicon.png"]
+      "assets": [
+        "https://www.pinduoduo.com/favicon.png"
+      ]
     },
     "cib": {
-      "pages": ["https://www.cib.com.cn/cn/CibHeader-2023.js"],
-      "assets": ["https://www.cib.com.cn/cn/customer/homepage/QRcode/logo01.png"]
+      "pages": [
+        "https://www.cib.com.cn/cn/CibHeader-2023.js"
+      ],
+      "assets": [
+        "https://www.cib.com.cn/cn/customer/homepage/QRcode/logo01.png"
+      ]
     },
     "pingan-bank": {
-      "assets": ["https://resources.pingan.com/app_inc/bank/v2023/images/PClogo_bank.svg"]
+      "assets": [
+        "https://resources.pingan.com/app_inc/bank/v2023/images/PClogo_bank.svg"
+      ]
     },
     "ccb": {
-      "pages": ["https://group2.ccb.com/chn/ccbtoday/indexv3.shtml"],
-      "assets": ["https://group2.ccb.com/chn/imageDir/siteIcon.ico"]
+      "pages": [
+        "https://group2.ccb.com/chn/ccbtoday/indexv3.shtml"
+      ],
+      "assets": [
+        "https://group2.ccb.com/chn/imageDir/siteIcon.ico"
+      ]
     },
     "bocom": {
-      "pages": ["https://www.bankcomm.com/BankCommSite/index.shtml"],
-      "assets": ["https://www.bankcomm.com/BankCommSite/shtml/jyjr/cn/images/logo_img_1004.png"]
+      "pages": [
+        "https://www.bankcomm.com/BankCommSite/index.shtml"
+      ],
+      "assets": [
+        "https://www.bankcomm.com/BankCommSite/shtml/jyjr/cn/images/logo_img_1004.png"
+      ]
     },
     "spdb": {
-      "pages": ["https://download.spdb.com.cn/wap/index.html"],
-      "assets": ["https://download.spdb.com.cn/wap/zh_CN/imgs/common/banklogo.gif"]
+      "pages": [
+        "https://download.spdb.com.cn/wap/index.html"
+      ],
+      "assets": [
+        "https://download.spdb.com.cn/wap/zh_CN/imgs/common/banklogo.gif"
+      ]
     },
     "ceb": {
-      "pages": ["https://www.cebbank.com/site/dzyx/index.html"],
-      "assets": ["https://www.cebbank.com/static/cebbank/images/pic/bank_logo.jpg"]
+      "pages": [
+        "https://www.cebbank.com/site/dzyx/index.html"
+      ],
+      "assets": [
+        "https://www.cebbank.com/static/cebbank/images/pic/bank_logo.jpg"
+      ]
     },
     "hxb": {
-      "pages": ["https://wap.hxb.com.cn/jrhx/gywm/"],
-      "assets": ["https://wap.hxb.com.cn/statics/hxb.ico"]
+      "pages": [
+        "https://wap.hxb.com.cn/jrhx/gywm/"
+      ],
+      "assets": [
+        "https://wap.hxb.com.cn/statics/hxb.ico"
+      ]
     },
     "bank-of-beijing": {
-      "pages": ["https://m.bankofbeijing.com.cn/"],
-      "assets": ["https://m.bankofbeijing.com.cn/favicon.ico"]
+      "pages": [
+        "https://m.bankofbeijing.com.cn/"
+      ],
+      "assets": [
+        "https://m.bankofbeijing.com.cn/favicon.ico"
+      ]
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "standard": "leego-design-ui",
-  "version": "1.2.0",
-  "count": 90,
+  "version": "2.0.0",
+  "count": 135,
   "viewBox": "0 0 24 24",
   "strokeWidth": 1.75,
   "categories": [
@@ -13,92 +13,164 @@
         {
           "name": "home",
           "label": "首页",
-          "path": "M3.5 10.5 12 3.75l8.5 6.75v9a.75.75 0 0 1-.75.75h-5.5V14h-4.5v6.25h-5.5a.75.75 0 0 1-.75-.75z"
+          "path": "M3.5 10.5 10.8 4.3Q12 3.3 13.2 4.3L20.5 10.5M5.5 9V18Q5.5 20.5 8 20.5H16Q18.5 20.5 18.5 18V9M10 20V14.5Q10 13.5 11 13.5H13Q14 13.5 14 14.5V20",
+          "solid": "<path d=\"M3 10.5 10.7 3.8Q12 2.8 13.3 3.8L21 10.5Q21.6 11.2 20.6 11.5H19V18.5Q19 21 16.5 21H7.5Q5 21 5 18.5V11.5H3.4Q2.4 11.2 3 10.5ZM11 13H13Q14 13 14 14V20Q14 21 13 21H11Q10 21 10 20V14Q10 13 11 13Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "dashboard",
           "label": "概览",
-          "path": "M4 4.75h6.25v6.25H4zM13.75 4.75H20v3.75h-6.25zM13.75 12H20v7.25h-6.25zM4 14.5h6.25v4.75H4z"
+          "path": "M5.75 3.5H8.25Q10.5 3.5 10.5 5.75V8.25Q10.5 10.5 8.25 10.5H5.75Q3.5 10.5 3.5 8.25V5.75Q3.5 3.5 5.75 3.5ZM15.2 3.5H18.8Q20.5 3.5 20.5 5.2V6.3Q20.5 8 18.8 8H15.2Q13.5 8 13.5 6.3V5.2Q13.5 3.5 15.2 3.5ZM5.75 13.5H8.25Q10.5 13.5 10.5 15.75V18.25Q10.5 20.5 8.25 20.5H5.75Q3.5 20.5 3.5 18.25V15.75Q3.5 13.5 5.75 13.5ZM15.75 11H18.25Q20.5 11 20.5 13.25V18.25Q20.5 20.5 18.25 20.5H15.75Q13.5 20.5 13.5 18.25V13.25Q13.5 11 15.75 11Z",
+          "solid": "<path d=\"M5.75 3.5H8.25Q10.5 3.5 10.5 5.75V8.25Q10.5 10.5 8.25 10.5H5.75Q3.5 10.5 3.5 8.25V5.75Q3.5 3.5 5.75 3.5ZM15.2 3.5H18.8Q20.5 3.5 20.5 5.2V6.3Q20.5 8 18.8 8H15.2Q13.5 8 13.5 6.3V5.2Q13.5 3.5 15.2 3.5ZM5.75 13.5H8.25Q10.5 13.5 10.5 15.75V18.25Q10.5 20.5 8.25 20.5H5.75Q3.5 20.5 3.5 18.25V15.75Q3.5 13.5 5.75 13.5ZM15.75 11H18.25Q20.5 11 20.5 13.25V18.25Q20.5 20.5 18.25 20.5H15.75Q13.5 20.5 13.5 18.25V13.25Q13.5 11 15.75 11Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "grid",
           "label": "应用",
-          "path": "M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"
+          "path": "M5.5 3.5H8Q10 3.5 10 5.5V8Q10 10 8 10H5.5Q3.5 10 3.5 8V5.5Q3.5 3.5 5.5 3.5ZM16 3.5H18.5Q20.5 3.5 20.5 5.5V8Q20.5 10 18.5 10H16Q14 10 14 8V5.5Q14 3.5 16 3.5ZM5.5 14H8Q10 14 10 16V18.5Q10 20.5 8 20.5H5.5Q3.5 20.5 3.5 18.5V16Q3.5 14 5.5 14ZM16 14H18.5Q20.5 14 20.5 16V18.5Q20.5 20.5 18.5 20.5H16Q14 20.5 14 18.5V16Q14 14 16 14Z",
+          "solid": "<path d=\"M5.5 3.5H8Q10 3.5 10 5.5V8Q10 10 8 10H5.5Q3.5 10 3.5 8V5.5Q3.5 3.5 5.5 3.5ZM16 3.5H18.5Q20.5 3.5 20.5 5.5V8Q20.5 10 18.5 10H16Q14 10 14 8V5.5Q14 3.5 16 3.5ZM5.5 14H8Q10 14 10 16V18.5Q10 20.5 8 20.5H5.5Q3.5 20.5 3.5 18.5V16Q3.5 14 5.5 14ZM16 14H18.5Q20.5 14 20.5 16V18.5Q20.5 20.5 18.5 20.5H16Q14 20.5 14 18.5V16Q14 14 16 14Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "menu",
           "label": "菜单",
-          "path": "M4 7h16M4 12h16M4 17h16"
+          "path": "M4.5 6.5H19.5M4.5 12H19.5M4.5 17.5H15.5",
+          "solid": "<path d=\"M4.5 6.5H19.5M4.5 12H19.5M4.5 17.5H15.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "search",
           "label": "搜索",
-          "path": "M10.75 18a7.25 7.25 0 1 1 0-14.5 7.25 7.25 0 0 1 0 14.5ZM16 16l4.5 4.5"
+          "path": "M4 10.5a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0ZM15.3 15.3 20.5 20.5",
+          "solid": "<path d=\"M3.0999999999999996 10.5a7.4 7.4 0 1 0 14.8 0a7.4 7.4 0 1 0 -14.8 0ZM5.8 10.5a4.7 4.7 0 1 0 9.4 0a4.7 4.7 0 1 0 -9.4 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M16 16 20.5 20.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "filter",
           "label": "筛选",
-          "path": "M3.5 5h17l-6.75 7.5v5.25l-3.5 1.75v-7z"
+          "path": "M5 4.5H19A1.2 1.2 0 0 1 19.9 6.5L14.5 12.4V17.5A1.3 1.3 0 0 1 13.8 18.7L11.1 20.1A.8.8 0 0 1 10 19.4V12.4L4.1 6.5A1.2 1.2 0 0 1 5 4.5Z",
+          "solid": "<path d=\"M5 4.5H19A1.2 1.2 0 0 1 19.9 6.5L14.5 12.4V17.5A1.3 1.3 0 0 1 13.8 18.7L11.1 20.1A.8.8 0 0 1 10 19.4V12.4L4.1 6.5A1.2 1.2 0 0 1 5 4.5Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "back",
           "label": "返回",
-          "path": "m10 5-7 7 7 7M3.5 12H21"
+          "path": "M10 5.5 3.5 12 10 18.5M4 12H20",
+          "solid": "<path d=\"M10 5.5 3.5 12 10 18.5M4 12H20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "forward",
           "label": "前进",
-          "path": "m14 5 7 7-7 7M20.5 12H3"
+          "path": "M14 5.5 20.5 12 14 18.5M20 12H4",
+          "solid": "<path d=\"M14 5.5 20.5 12 14 18.5M20 12H4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "chevron-down",
           "label": "展开",
-          "path": "m5 8.5 7 7 7-7"
+          "path": "M6 9 11 14Q12 15 13 14L18 9",
+          "solid": "<path d=\"M6 9 11 14Q12 15 13 14L18 9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "expand",
           "label": "全屏",
-          "path": "M9 4H4v5M15 4h5v5M9 20H4v-5M15 20h5v-5"
+          "path": "M9 4H6Q4 4 4 6V9M15 4H18Q20 4 20 6V9M4 15V18Q4 20 6 20H9M20 15V18Q20 20 18 20H15",
+          "solid": "<path d=\"M9 4H6Q4 4 4 6V9M15 4H18Q20 4 20 6V9M4 15V18Q4 20 6 20H9M20 15V18Q20 20 18 20H15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "collapse",
           "label": "收起",
-          "path": "M4 9h5V4M20 9h-5V4M4 15h5v5M20 15h-5v5"
+          "path": "M4 9H7Q9 9 9 7V4M20 9H17Q15 9 15 7V4M4 15H7Q9 15 9 17V20M20 15H17Q15 15 15 17V20",
+          "solid": "<path d=\"M4 9H7Q9 9 9 7V4M20 9H17Q15 9 15 7V4M4 15H7Q9 15 9 17V20M20 15H17Q15 15 15 17V20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "close",
           "label": "关闭",
-          "path": "M5 5l14 14M19 5 5 19"
+          "path": "M6 6 18 18M18 6 6 18",
+          "solid": "<path d=\"M6 6 18 18M18 6 6 18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "sidebar-panel",
           "label": "侧栏面板",
-          "path": "M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1ZM9 4v16"
+          "path": "M6 4H18Q20.5 4 20.5 6.5V17.5Q20.5 20 18 20H6Q3.5 20 3.5 17.5V6.5Q3.5 4 6 4ZM9 4V20",
+          "solid": "<path d=\"M6 3.5H18Q21 3.5 21 6.5V17.5Q21 20.5 18 20.5H6Q3 20.5 3 17.5V6.5Q3 3.5 6 3.5ZM11.5 5.5H17.5Q19 5.5 19 7V17Q19 18.5 17.5 18.5H11.5Q10 18.5 10 17V7Q10 5.5 11.5 5.5Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "history",
           "label": "历史记录",
-          "path": "M4 11a8 8 0 1 1 2 6M4 4v7h7M12 7v5l3 2"
+          "path": "M4 10A8 8 0 1 1 5.5 17M4 4.5V10H9.5M12 7V12L15 14",
+          "solid": "<path d=\"M4 10A8 8 0 1 1 5.5 17M4 4.5V10H9.5M12 7V12L15 14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "project-folder",
           "label": "项目",
-          "path": "M3 6h7l2 3h9v11H3ZM3 9V4h7l2 2h7v3"
+          "path": "M5.5 5H9.5Q10.5 5 11.2 5.8L12.5 7H18.5Q21 7 21 9.5V17.5Q21 20 18.5 20H5.5Q3 20 3 17.5V7.5Q3 5 5.5 5ZM8 12H16M8 16H13",
+          "solid": "<path d=\"M5.5 5H9.5Q10.5 5 11.2 5.8L12.5 7H18.5Q21 7 21 9.5V17.5Q21 20 18.5 20H5.5Q3 20 3 17.5V7.5Q3 5 5.5 5ZM7.75 11H16.25Q17 11 17 11.75V11.75Q17 12.5 16.25 12.5H7.75Q7 12.5 7 11.75V11.75Q7 11 7.75 11ZM7.75 15H12.25Q13 15 13 15.75V15.75Q13 16.5 12.25 16.5H7.75Q7 16.5 7 15.75V15.75Q7 15 7.75 15Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "archive",
           "label": "归档",
-          "path": "M3 4h18v5H3ZM5 9v11h14V9M9 13h6"
+          "path": "M4.5 4H19.5Q21 4 21 5.5V7.5Q21 9 19.5 9H4.5Q3 9 3 7.5V5.5Q3 4 4.5 4ZM7 9H17Q19 9 19 11V18Q19 20 17 20H7Q5 20 5 18V11Q5 9 7 9ZM9 13H15",
+          "solid": "<path d=\"M4.5 4H19.5Q21 4 21 5.5V6.5Q21 8 19.5 8H4.5Q3 8 3 6.5V5.5Q3 4 4.5 4Z\" fill=\"currentColor\"/><path d=\"M7 9.5H17Q19 9.5 19 11.5V18.5Q19 20.5 17 20.5H7Q5 20.5 5 18.5V11.5Q5 9.5 7 9.5ZM9.9 12H14.1Q15 12 15 12.9V12.9Q15 13.8 14.1 13.8H9.9Q9 13.8 9 12.9V12.9Q9 12 9.9 12Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "logout",
           "label": "退出登录",
-          "path": "M13 8V4H4v16h9v-4M10 12h11m-4-4 4 4-4 4"
+          "path": "M13 7V5.5Q13 3.5 11 3.5H6Q4 3.5 4 5.5V18.5Q4 20.5 6 20.5H11Q13 20.5 13 18.5V17M10 12H21M17 8 21 12 17 16",
+          "solid": "<path d=\"M13 7V5.5Q13 3.5 11 3.5H6Q4 3.5 4 5.5V18.5Q4 20.5 6 20.5H11Q13 20.5 13 18.5V17M10 12H21M17 8 21 12 17 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "check",
           "label": "已选择",
-          "path": "m5 12 4 4 10-10"
+          "path": "M5 12 9.5 16.5 19 7",
+          "solid": "<path d=\"M5 12 9.5 16.5 19 7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "login",
+          "label": "登录",
+          "path": "M11 7V5.5Q11 3.5 13 3.5H18Q20 3.5 20 5.5V18.5Q20 20.5 18 20.5H13Q11 20.5 11 18.5V17M3 12H15M11 8 15 12 11 16",
+          "solid": "<path d=\"M11 7V5.5Q11 3.5 13 3.5H18Q20 3.5 20 5.5V18.5Q20 20.5 18 20.5H13Q11 20.5 11 18.5V17M3 12H15M11 8 15 12 11 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "external-link",
+          "label": "打开外链",
+          "path": "M13 4H20V11M20 4 10 14M9 5H6Q4 5 4 7V18Q4 20 6 20H17Q19 20 19 18V15",
+          "solid": "<path d=\"M13 4H20V11M20 4 10 14M9 5H6Q4 5 4 7V18Q4 20 6 20H17Q19 20 19 18V15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "chevron-left",
+          "label": "向左层级箭头",
+          "path": "M15 6 10 11Q9 12 10 13L15 18",
+          "solid": "<path d=\"M15 6 10 11Q9 12 10 13L15 18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "chevron-right",
+          "label": "向右层级箭头",
+          "path": "M9 6 14 11Q15 12 14 13L9 18",
+          "solid": "<path d=\"M9 6 14 11Q15 12 14 13L9 18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "chevron-up",
+          "label": "向上层级箭头",
+          "path": "M6 15 11 10Q12 9 13 10L18 15",
+          "solid": "<path d=\"M6 15 11 10Q12 9 13 10L18 15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "arrow-up",
+          "label": "向上箭头",
+          "path": "M6 10 12 4 18 10M12 4.5V20",
+          "solid": "<path d=\"M6 10 12 4 18 10M12 4.5V20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "arrow-down",
+          "label": "向下箭头",
+          "path": "M6 14 12 20 18 14M12 19.5V4",
+          "solid": "<path d=\"M6 14 12 20 18 14M12 19.5V4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "bookmark",
+          "label": "收藏书签",
+          "path": "M7 4H17Q19 4 19 6V20L12 16 5 20V6Q5 4 7 4Z",
+          "solid": "<path d=\"M7 4H17Q19 4 19 6V20L12 16 5 20V6Q5 4 7 4Z\" fill=\"currentColor\"/>"
+        },
+        {
+          "name": "locate",
+          "label": "定位当前位置",
+          "path": "M5.5 12a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0ZM10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0ZM12 2.5V5.5M12 18.5V21.5M2.5 12H5.5M18.5 12H21.5",
+          "solid": "<path d=\"M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0ZM7.3 12a4.7 4.7 0 1 0 9.4 0a4.7 4.7 0 1 0 -9.4 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M9.5 12a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0Z\" fill=\"currentColor\"/><path d=\"M12 2.5V5.5M12 18.5V21.5M2.5 12H5.5M18.5 12H21.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         }
       ]
     },
@@ -110,82 +182,170 @@
         {
           "name": "add",
           "label": "新建",
-          "path": "M12 4v16M4 12h16"
+          "path": "M12 4.5V19.5M4.5 12H19.5",
+          "solid": "<path d=\"M12 4.5V19.5M4.5 12H19.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "edit",
           "label": "编辑",
-          "path": "M4.25 19.75 5 15.5 15.75 4.75a1.75 1.75 0 0 1 2.5 0l1 1a1.75 1.75 0 0 1 0 2.5L8.5 19zM14.5 6l3.5 3.5M4.25 19.75 8.5 19"
+          "path": "M5 15 15.5 4.5Q17 3 18.5 4.5L19.5 5.5Q21 7 19.5 8.5L9 19 4 20ZM14 6 18 10",
+          "solid": "<path d=\"M5 15 14 6 18 10 9 19 4 20ZM15.2 4.8 16 4Q17 3 18.5 4.5L19.5 5.5Q21 7 20 8L19.2 8.8Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "delete",
           "label": "删除",
-          "path": "M4.5 7h15M9 3.75h6l.75 3.25M6.5 7l.75 13.25h9.5L17.5 7M10 10.5v6M14 10.5v6"
+          "path": "M4.5 7H19.5M9 7V5Q9 3.5 10.5 3.5H13.5Q15 3.5 15 5V7M6.5 7 7.3 18Q7.5 20 9.5 20H14.5Q16.5 20 16.7 18L17.5 7M10 11V16M14 11V16",
+          "solid": "<path d=\"M6.5 8.5H17.5L16.7 18Q16.5 20 14.5 20H9.5Q7.5 20 7.3 18ZM10 11H10.000000000000002Q10.700000000000001 11 10.700000000000001 11.7V15.3Q10.700000000000001 16 10.000000000000002 16H10Q9.3 16 9.3 15.3V11.7Q9.3 11 10 11ZM14 11H14.000000000000002Q14.700000000000001 11 14.700000000000001 11.7V15.3Q14.700000000000001 16 14.000000000000002 16H14Q13.3 16 13.3 15.3V11.7Q13.3 11 14 11Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M4.5 6H19.5M9 6V4H15V6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "copy",
           "label": "复制",
-          "path": "M8.25 8.25h11.5v11.5H8.25zM15.75 8.25v-4H4.25v11.5h4"
+          "path": "M10.5 8H17.5Q20 8 20 10.5V17.5Q20 20 17.5 20H10.5Q8 20 8 17.5V10.5Q8 8 10.5 8ZM15 5.5V5Q15 3 13 3H5Q3 3 3 5V13Q3 15 5 15H5.5",
+          "solid": "<path d=\"M10.5 8H17.5Q20 8 20 10.5V17.5Q20 20 17.5 20H10.5Q8 20 8 17.5V10.5Q8 8 10.5 8Z\" fill=\"currentColor\"/><path d=\"M15 5.5V5Q15 3 13 3H5Q3 3 3 5V13Q3 15 5 15H5.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "save",
           "label": "保存",
-          "path": "M4 4h13l3 3v13H4zM8 4v6h8V4M8 20v-6h8v6"
+          "path": "M6.5 4H16L20 8V17.5Q20 20 17.5 20H6.5Q4 20 4 17.5V6.5Q4 4 6.5 4ZM8 4V10H16V4M8 20V14H16V20",
+          "solid": "<path d=\"M6.5 4H16L20 8V17.5Q20 20 17.5 20H6.5Q4 20 4 17.5V6.5Q4 4 6.5 4ZM9 4H14Q15 4 15 5V9Q15 10 14 10H9Q8 10 8 9V5Q8 4 9 4ZM9 14H15Q16 14 16 15V19Q16 20 15 20H9Q8 20 8 19V15Q8 14 9 14Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "download",
           "label": "下载",
-          "path": "M12 3.5v11M7.5 10.5 12 15l4.5-4.5M4 20h16"
+          "path": "M12 3.5V14.5M7.5 10 12 14.5 16.5 10M4 15V18Q4 20 6 20H18Q20 20 20 18V15",
+          "solid": "<path d=\"M12 3.5V14.5M7.5 10 12 14.5 16.5 10M4 15V18Q4 20 6 20H18Q20 20 20 18V15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "upload",
           "label": "上传",
-          "path": "M12 15V4M7.5 8.5 12 4l4.5 4.5M4 20h16"
+          "path": "M12 14.5V3.5M7.5 8 12 3.5 16.5 8M4 15V18Q4 20 6 20H18Q20 20 20 18V15",
+          "solid": "<path d=\"M12 14.5V3.5M7.5 8 12 3.5 16.5 8M4 15V18Q4 20 6 20H18Q20 20 20 18V15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "refresh",
           "label": "刷新",
-          "path": "M20 6v5h-5M4 18v-5h5M18.5 10a7 7 0 0 0-12-3L4 11M5.5 14a7 7 0 0 0 12 3L20 13"
+          "path": "M19.5 5V10H14.5M4.5 19V14H9.5M19 10A7.5 7.5 0 0 0 5.5 7M5 14A7.5 7.5 0 0 0 18.5 17",
+          "solid": "<path d=\"M19.5 5V10H14.5M4.5 19V14H9.5M19 10A7.5 7.5 0 0 0 5.5 7M5 14A7.5 7.5 0 0 0 18.5 17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "share",
           "label": "分享",
-          "path": "M18 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM6 14.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM18 21a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM8.2 10.8l7.6-4.1M8.2 13.2l7.6 4.1"
+          "path": "M15.5 5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0ZM3.5 12a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0ZM15.5 19a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0ZM8.2 10.7 15.8 6.3M8.2 13.3 15.8 17.7",
+          "solid": "<path d=\"M15 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0ZM3 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0ZM15 19a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z\" fill=\"currentColor\"/><path d=\"M8 11 16 6M8 13 16 18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "export",
           "label": "导出",
-          "path": "M13 4h7v7M20 4l-9 9M10 6H4v14h14v-6"
+          "path": "M13 4H20V11M20 4 10 14M9 5H6Q4 5 4 7V18Q4 20 6 20H17Q19 20 19 18V15",
+          "solid": "<path d=\"M13 4H20V11M20 4 10 14M9 5H6Q4 5 4 7V18Q4 20 6 20H17Q19 20 19 18V15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "import",
           "label": "导入",
-          "path": "M11 20H4V6h14v7M20 20v-7M16.5 16.5 20 13l3.5 3.5"
+          "path": "M20 4 10 14M10 7V14H17M15 4H6Q4 4 4 6V18Q4 20 6 20H18Q20 20 20 18V13",
+          "solid": "<path d=\"M20 4 10 14M10 7V14H17M15 4H6Q4 4 4 6V18Q4 20 6 20H18Q20 20 20 18V13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "print",
           "label": "打印",
-          "path": "M7 8V3.75h10V8M7 17H4.5A1.5 1.5 0 0 1 3 15.5v-5A1.5 1.5 0 0 1 4.5 9h15a1.5 1.5 0 0 1 1.5 1.5v5a1.5 1.5 0 0 1-1.5 1.5H17M7 14h10v6.25H7zM17.5 12h.01"
+          "path": "M5.5 8H18.5Q21 8 21 10.5V14.5Q21 17 18.5 17H5.5Q3 17 3 14.5V10.5Q3 8 5.5 8ZM8 14H16Q17 14 17 15V20Q17 21 16 21H8Q7 21 7 20V15Q7 14 8 14ZM7 8V3.5H17V8M17 11.5H17.1",
+          "solid": "<path d=\"M5.5 8H18.5Q21 8 21 10.5V14.5Q21 17 18.5 17H5.5Q3 17 3 14.5V10.5Q3 8 5.5 8ZM7.5 13H16.5Q17.5 13 17.5 14V16Q17.5 17 16.5 17H7.5Q6.5 17 6.5 16V14Q6.5 13 7.5 13ZM16.5 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M8 3.5H16Q17 3.5 17 4.5V5.5Q17 6.5 16 6.5H8Q7 6.5 7 5.5V4.5Q7 3.5 8 3.5ZM9 15H15Q16 15 16 16V20Q16 21 15 21H9Q8 21 8 20V16Q8 15 9 15Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "more",
           "label": "更多",
-          "path": "M5 12h.01M12 12h.01M19 12h.01"
+          "path": "M4.35 12a0.65 0.65 0 1 0 1.3 0a0.65 0.65 0 1 0 -1.3 0ZM11.35 12a0.65 0.65 0 1 0 1.3 0a0.65 0.65 0 1 0 -1.3 0ZM18.35 12a0.65 0.65 0 1 0 1.3 0a0.65 0.65 0 1 0 -1.3 0Z",
+          "solid": "<path d=\"M3.3 12a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0ZM10.3 12a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0ZM17.3 12a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "settings",
           "label": "设置",
-          "path": "M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM19 13.5l1.5 1.2-2 3.45-1.8-.7a8 8 0 0 1-2.2 1.3l-.3 1.9h-4.4l-.3-1.9a8 8 0 0 1-2.2-1.3l-1.8.7-2-3.45L5 13.5a8 8 0 0 1 0-3L3.5 9.3l2-3.45 1.8.7a8 8 0 0 1 2.2-1.3l.3-1.9h4.4l.3 1.9a8 8 0 0 1 2.2 1.3l1.8-.7 2 3.45L19 10.5a8 8 0 0 1 0 3Z"
+          "path": "M10 3.5H14L14.8 6Q16 6.4 16.8 7.2L19.3 6.7 21 9.8 19.2 11.5V13L21 14.5 19.3 17.6 16.8 17.1Q16 18 14.8 18.4L14 20.5H10L9.2 18.4Q8 18 7.2 17.1L4.7 17.6 3 14.5 4.8 13V11.5L3 9.8 4.7 6.7 7.2 7.2Q8 6.4 9.2 6ZM8.8 12a3.2 3.2 0 1 0 6.4 0a3.2 3.2 0 1 0 -6.4 0Z",
+          "solid": "<path d=\"M10 3.5H14L14.8 6Q16 6.4 16.8 7.2L19.3 6.7 21 9.8 19.2 11.5V13L21 14.5 19.3 17.6 16.8 17.1Q16 18 14.8 18.4L14 20.5H10L9.2 18.4Q8 18 7.2 17.1L4.7 17.6 3 14.5 4.8 13V11.5L3 9.8 4.7 6.7 7.2 7.2Q8 6.4 9.2 6ZM8.7 12a3.3 3.3 0 1 0 6.6 0a3.3 3.3 0 1 0 -6.6 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "sort",
           "label": "排序",
-          "path": "M8 4v16M4.5 7.5 8 4l3.5 3.5M16 20V4M12.5 16.5 16 20l3.5-3.5"
+          "path": "M8 4V20M4.5 7.5 8 4 11.5 7.5M16 20V4M12.5 16.5 16 20 19.5 16.5",
+          "solid": "<path d=\"M8 4V20M4.5 7.5 8 4 11.5 7.5M16 20V4M12.5 16.5 16 20 19.5 16.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "drag",
           "label": "拖动",
-          "path": "M9 5h.01M15 5h.01M9 12h.01M15 12h.01M9 19h.01M15 19h.01"
+          "path": "M8.4 5a0.6 0.6 0 1 0 1.2 0a0.6 0.6 0 1 0 -1.2 0ZM14.4 5a0.6 0.6 0 1 0 1.2 0a0.6 0.6 0 1 0 -1.2 0ZM8.4 12a0.6 0.6 0 1 0 1.2 0a0.6 0.6 0 1 0 -1.2 0ZM14.4 12a0.6 0.6 0 1 0 1.2 0a0.6 0.6 0 1 0 -1.2 0ZM8.4 19a0.6 0.6 0 1 0 1.2 0a0.6 0.6 0 1 0 -1.2 0ZM14.4 19a0.6 0.6 0 1 0 1.2 0a0.6 0.6 0 1 0 -1.2 0Z",
+          "solid": "<path d=\"M7.5 5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM13.5 5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM7.5 12a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM13.5 12a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM7.5 19a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM13.5 19a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0Z\" fill=\"currentColor\"/>"
+        },
+        {
+          "name": "remove",
+          "label": "移除行",
+          "path": "M5 12H19",
+          "solid": "<path d=\"M5 12H19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "undo",
+          "label": "撤销",
+          "path": "M4 5V11H10M4 11Q8 5 14 7Q21 9 19 15Q17 20 11 19",
+          "solid": "<path d=\"M4 5V11H10M4 11Q8 5 14 7Q21 9 19 15Q17 20 11 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "send",
+          "label": "发送",
+          "path": "M4 4 20.5 11Q22 12 20.5 13L4 20Q2.5 20.5 3 19L5.5 12 3 5Q2.5 3.5 4 4ZM5.5 12H14",
+          "solid": "<path d=\"M4 4 20.5 11Q22 12 20.5 13L4 20Q2.5 20.5 3 19L5.5 12 3 5Q2.5 3.5 4 4ZM5.5 11.1H14V12.9H5.5Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
+        },
+        {
+          "name": "microphone",
+          "label": "语音输入",
+          "path": "M12 3H12Q15 3 15 6V12Q15 15 12 15H12Q9 15 9 12V6Q9 3 12 3ZM6 10V12A6 6 0 0 0 18 12V10M12 18V21M9 21H15",
+          "solid": "<path d=\"M12 3H12Q15 3 15 6V12Q15 15 12 15H12Q9 15 9 12V6Q9 3 12 3Z\" fill=\"currentColor\"/><path d=\"M6 10V12A6 6 0 0 0 18 12V10M12 18V21M9 21H15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "camera",
+          "label": "拍照",
+          "path": "M5 7H7L9 4.5H15L17 7H19Q21 7 21 9V18Q21 20 19 20H5Q3 20 3 18V9Q3 7 5 7ZM8.5 13a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+          "solid": "<path d=\"M5 7H7L9 4.5H15L17 7H19Q21 7 21 9V18Q21 20 19 20H5Q3 20 3 18V9Q3 7 5 7ZM8 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z\" fill=\"currentColor\"/>"
+        },
+        {
+          "name": "image",
+          "label": "图片",
+          "path": "M6 4.5H18Q20.5 4.5 20.5 7V17Q20.5 19.5 18 19.5H6Q3.5 19.5 3.5 17V7Q3.5 4.5 6 4.5ZM6.8 9a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0ZM4 17 9 12 13 16 16 13 20 17",
+          "solid": "<path d=\"M6 4.5H18Q20.5 4.5 20.5 7V17Q20.5 19.5 18 19.5H6Q3.5 19.5 3.5 17V7Q3.5 4.5 6 4.5ZM6.5 9a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM5 17 9 12.5 13 16.5 16 13.5 19 17V18H5Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
+        },
+        {
+          "name": "scan",
+          "label": "扫一扫",
+          "path": "M9 4H6Q4 4 4 6V9M15 4H18Q20 4 20 6V9M4 15V18Q4 20 6 20H9M20 15V18Q20 20 18 20H15M3 12H21",
+          "solid": "<path d=\"M9 4H6Q4 4 4 6V9M15 4H18Q20 4 20 6V9M4 15V18Q4 20 6 20H9M20 15V18Q20 20 18 20H15M3 12H21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "unlink",
+          "label": "解除关联",
+          "path": "M9 14 7 16A3.5 3.5 0 1 1 2.8 10.5L6 7.3M15 10 17 8A3.5 3.5 0 1 1 21.2 13.5L18 16.7M3 3 21 21M14 3V5M19 5H21M3 19H5M10 19V21",
+          "solid": "<path d=\"M9 14 7 16A3.5 3.5 0 1 1 2.8 10.5L6 7.3M15 10 17 8A3.5 3.5 0 1 1 21.2 13.5L18 16.7M3 3 21 21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "split",
+          "label": "拆分",
+          "path": "M12 20V14Q12 11 9 9L5 5M5 10V5H10M12 14Q12 11 15 9L19 5M14 5H19V10",
+          "solid": "<path d=\"M12 20V14Q12 11 9 9L5 5M5 10V5H10M12 14Q12 11 15 9L19 5M14 5H19V10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "sliders",
+          "label": "参数调整",
+          "path": "M4 6H8M12 6H20M4 12H14M18 12H20M4 18H6M10 18H20M8 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0ZM14 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0ZM6 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+          "solid": "<path d=\"M4 6H20M4 12H20M4 18H20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M7.2 6a2.8 2.8 0 1 0 5.6 0a2.8 2.8 0 1 0 -5.6 0ZM13.2 12a2.8 2.8 0 1 0 5.6 0a2.8 2.8 0 1 0 -5.6 0ZM5.2 18a2.8 2.8 0 1 0 5.6 0a2.8 2.8 0 1 0 -5.6 0Z\" fill=\"currentColor\"/>"
+        },
+        {
+          "name": "generate",
+          "label": "生成",
+          "path": "M12 3Q13.5 10.5 21 12Q13.5 13.5 12 21Q10.5 13.5 3 12Q10.5 10.5 12 3ZM19 3V7M17 5H21",
+          "solid": "<path d=\"M12 3Q13.5 10.5 21 12Q13.5 13.5 12 21Q10.5 13.5 3 12Q10.5 10.5 12 3Z\" fill=\"currentColor\"/><path d=\"M19 3V7M17 5H21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "play",
+          "label": "播放",
+          "path": "M7 5Q7 3.5 8.5 4.5L19.5 11Q21 12 19.5 13L8.5 19.5Q7 20.5 7 19Z",
+          "solid": "<path d=\"M7 5Q7 3.5 8.5 4.5L19.5 11Q21 12 19.5 13L8.5 19.5Q7 20.5 7 19Z\" fill=\"currentColor\"/>"
         }
       ]
     },
@@ -197,62 +357,86 @@
         {
           "name": "info",
           "label": "信息",
-          "path": "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM12 10.5v6M12 7.5h.01"
+          "path": "M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM12 11V16M12 7.5H12.01",
+          "solid": "<path d=\"M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM12 10.3H12Q12.9 10.3 12.9 11.200000000000001V15.4Q12.9 16.3 12 16.3H12Q11.1 16.3 11.1 15.4V11.200000000000001Q11.1 10.3 12 10.3ZM11 7.6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "success",
           "label": "成功",
-          "path": "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM7.5 12l3 3 6-6"
+          "path": "M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM8 12 10.8 14.8 16.5 9.1",
+          "solid": "<path d=\"M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM7.2 11.8 8.4 10.6 10.8 13 16 7.8 17.2 9 10.8 15.4Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "warning",
           "label": "关注",
-          "path": "M10.7 4.2 2.8 18a1.4 1.4 0 0 0 1.2 2h16a1.4 1.4 0 0 0 1.2-2L13.3 4.2a1.5 1.5 0 0 0-2.6 0ZM12 9v4.5M12 17h.01"
+          "path": "M10.5 4.5Q12 2 13.5 4.5L21 17.5Q22.5 20 19.5 20H4.5Q1.5 20 3 17.5ZM12 9V13M12 17H12.01",
+          "solid": "<path d=\"M10.5 4.5Q12 2 13.5 4.5L21 17.5Q22.5 20 19.5 20H4.5Q1.5 20 3 17.5ZM12 8.5H12Q12.9 8.5 12.9 9.4V12.6Q12.9 13.5 12 13.5H12Q11.1 13.5 11.1 12.6V9.4Q11.1 8.5 12 8.5ZM11 16.8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "danger",
           "label": "危险",
-          "path": "M8.5 3.5h7L20.5 8.5v7l-5 5h-7l-5-5v-7zM12 7.5v6M12 17h.01"
+          "path": "M9 3.5H15Q16 3.5 16.7 4.2L19.8 7.3Q20.5 8 20.5 9V15Q20.5 16 19.8 16.7L16.7 19.8Q16 20.5 15 20.5H9Q8 20.5 7.3 19.8L4.2 16.7Q3.5 16 3.5 15V9Q3.5 8 4.2 7.3L7.3 4.2Q8 3.5 9 3.5ZM12 7.5V13M12 17H12.01",
+          "solid": "<path d=\"M9 3.5H15Q16 3.5 16.7 4.2L19.8 7.3Q20.5 8 20.5 9V15Q20.5 16 19.8 16.7L16.7 19.8Q16 20.5 15 20.5H9Q8 20.5 7.3 19.8L4.2 16.7Q3.5 16 3.5 15V9Q3.5 8 4.2 7.3L7.3 4.2Q8 3.5 9 3.5ZM12 7H12Q12.9 7 12.9 7.9V12.1Q12.9 13 12 13H12Q11.1 13 11.1 12.1V7.9Q11.1 7 12 7ZM11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "help",
           "label": "帮助",
-          "path": "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM9.5 9a2.5 2.5 0 1 1 3.4 2.35c-.9.4-.9 1.05-.9 2.15M12 17h.01"
+          "path": "M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM9.5 9A2.5 2.5 0 1 1 13 11.3Q12 11.8 12 13.5M12 17H12.01",
+          "solid": "<path d=\"M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM8.6 9A3.4 3.4 0 1 1 13.3 12.1Q12.8 12.4 12.8 13.8H11.2Q11.2 11.3 12.7 10.6A1.7 1.7 0 1 0 10.3 9ZM11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "pending",
           "label": "待处理",
-          "path": "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM12 7v5l3.5 2"
+          "path": "M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM12 7V12L15.5 14",
+          "solid": "<path d=\"M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM11.1 7H12.9V11.5L16 13.3 15.1 14.8 11.1 12.5Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "loading",
           "label": "处理中",
-          "path": "M12 3a9 9 0 0 1 9 9M12 21a9 9 0 0 1-9-9"
+          "path": "M12 3.5A8.5 8.5 0 0 1 20.5 12M12 20.5A8.5 8.5 0 0 1 3.5 12",
+          "solid": "<path d=\"M12 3.5A8.5 8.5 0 0 1 20.5 12M12 20.5A8.5 8.5 0 0 1 3.5 12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "lock",
           "label": "锁定",
-          "path": "M6 10h12v10H6zM8.5 10V7.5a3.5 3.5 0 0 1 7 0V10M12 14v2.5"
+          "path": "M8 10H16Q18.5 10 18.5 12.5V17.5Q18.5 20 16 20H8Q5.5 20 5.5 17.5V12.5Q5.5 10 8 10ZM8.5 10V7A3.5 3.5 0 0 1 15.5 7V10M12 14V16",
+          "solid": "<path d=\"M8 10H16Q18.5 10 18.5 12.5V17.5Q18.5 20 16 20H8Q5.5 20 5.5 17.5V12.5Q5.5 10 8 10ZM12 13.2H11.999999999999998Q12.799999999999999 13.2 12.799999999999999 14V16Q12.799999999999999 16.8 11.999999999999998 16.8H12Q11.2 16.8 11.2 16V14Q11.2 13.2 12 13.2Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M8.5 10V7A3.5 3.5 0 0 1 15.5 7V10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "unlock",
           "label": "解锁",
-          "path": "M6 10h12v10H6zM8.5 10V7.5a3.5 3.5 0 0 1 6.7-1.4M12 14v2.5"
+          "path": "M8 10H16Q18.5 10 18.5 12.5V17.5Q18.5 20 16 20H8Q5.5 20 5.5 17.5V12.5Q5.5 10 8 10ZM8.5 10V7A3.5 3.5 0 0 1 15.2 5.6M12 14V16",
+          "solid": "<path d=\"M8 10H16Q18.5 10 18.5 12.5V17.5Q18.5 20 16 20H8Q5.5 20 5.5 17.5V12.5Q5.5 10 8 10ZM12 13.2H11.999999999999998Q12.799999999999999 13.2 12.799999999999999 14V16Q12.799999999999999 16.8 11.999999999999998 16.8H12Q11.2 16.8 11.2 16V14Q11.2 13.2 12 13.2Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M8.5 10V7A3.5 3.5 0 0 1 15.2 5.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "visible",
           "label": "可见",
-          "path": "M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6ZM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+          "path": "M3 12Q6.5 6 12 6Q17.5 6 21 12Q17.5 18 12 18Q6.5 18 3 12ZM9.3 12a2.7 2.7 0 1 0 5.4 0a2.7 2.7 0 1 0 -5.4 0Z",
+          "solid": "<path d=\"M3 12Q6.5 6 12 6Q17.5 6 21 12Q17.5 18 12 18Q6.5 18 3 12ZM8.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M10.3 12a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "hidden",
           "label": "隐藏",
-          "path": "M3 3l18 18M10.2 6.2A9.3 9.3 0 0 1 12 6c6 0 9.5 6 9.5 6a15 15 0 0 1-3.1 3.7M13.8 17.8A9.3 9.3 0 0 1 12 18c-6 0-9.5-6-9.5-6a15 15 0 0 1 3.1-3.7M9.9 9.9a3 3 0 0 0 4.2 4.2"
+          "path": "M3 3 21 21M9.5 6.4Q16 4 21 12L18.7 15M14.5 17.6Q8 20 3 12L5.3 9M9.9 9.9A3 3 0 0 0 14.1 14.1",
+          "solid": "<path d=\"M3.5 3.5 20.5 20.5M9.5 6.4Q16 4 21 12L18.7 15M14.5 17.6Q8 20 3 12L5.3 9M9.9 9.9A3 3 0 0 0 14.1 14.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "disabled",
           "label": "禁用",
-          "path": "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM5.65 5.65l12.7 12.7"
+          "path": "M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM6 6 18 18",
+          "solid": "<path d=\"M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM5.8 12a6.2 6.2 0 1 0 12.4 0a6.2 6.2 0 1 0 -12.4 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M7 7 17 17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "shield-check",
+          "label": "安全校验",
+          "path": "M12 3.5Q15 5.5 19 6V11C19 15.5 16 18.8 12 20.5C8 18.8 5 15.5 5 11V6Q9 5.5 12 3.5ZM8 12 10.8 14.8 16.5 9.1",
+          "solid": "<path d=\"M12 3.5Q15 5.5 19 6V11C19 15.5 16 18.8 12 20.5C8 18.8 5 15.5 5 11V6Q9 5.5 12 3.5ZM7.8 11.8 9 10.6 11 12.6 15 8.6 16.2 9.8 11 15Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
+        },
+        {
+          "name": "shield-alert",
+          "label": "安全风险",
+          "path": "M12 3.5Q15 5.5 19 6V11C19 15.5 16 18.8 12 20.5C8 18.8 5 15.5 5 11V6Q9 5.5 12 3.5ZM12 8V12.5M12 16H12.01",
+          "solid": "<path d=\"M12 3.5Q15 5.5 19 6V11C19 15.5 16 18.8 12 20.5C8 18.8 5 15.5 5 11V6Q9 5.5 12 3.5ZM12 7.5H12Q12.9 7.5 12.9 8.4V12.1Q12.9 13 12 13H12Q11.1 13 11.1 12.1V8.4Q11.1 7.5 12 7.5ZM11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         }
       ]
     },
@@ -264,72 +448,116 @@
         {
           "name": "chart-line",
           "label": "趋势图",
-          "path": "M4 4v16h16M6.5 16l4-4 3 2 5-7"
+          "path": "M4 4.5V17.5Q4 20 6.5 20H20M7 15.5 10.5 11 14 13.5 19.5 6.5",
+          "solid": "<path d=\"M4 4.5V17.5Q4 20 6.5 20H20M7 15.5 10.5 11 14 13.5 19.5 6.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "chart-bar",
           "label": "柱状图",
-          "path": "M4 4v16h16M7 17v-5h3v5M12 17V7h3v10M17 17v-8h3"
+          "path": "M5.2 12H6.3Q7.5 12 7.5 13.2V18.8Q7.5 20 6.3 20H5.2Q4 20 4 18.8V13.2Q4 12 5.2 12ZM11.45 4H12.55Q13.75 4 13.75 5.2V18.8Q13.75 20 12.55 20H11.45Q10.25 20 10.25 18.8V5.2Q10.25 4 11.45 4ZM17.7 8H18.8Q20 8 20 9.2V18.8Q20 20 18.8 20H17.7Q16.5 20 16.5 18.8V9.2Q16.5 8 17.7 8Z",
+          "solid": "<path d=\"M5.2 12H6.3Q7.5 12 7.5 13.2V18.8Q7.5 20 6.3 20H5.2Q4 20 4 18.8V13.2Q4 12 5.2 12ZM11.45 4H12.55Q13.75 4 13.75 5.2V18.8Q13.75 20 12.55 20H11.45Q10.25 20 10.25 18.8V5.2Q10.25 4 11.45 4ZM17.7 8H18.8Q20 8 20 9.2V18.8Q20 20 18.8 20H17.7Q16.5 20 16.5 18.8V9.2Q16.5 8 17.7 8Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "chart-pie",
           "label": "构成图",
-          "path": "M11 3.5a8.5 8.5 0 1 0 8.5 8.5H11zM14 3.5A6.5 6.5 0 0 1 20.5 10H14z"
+          "path": "M10 3.8A8.5 8.5 0 1 0 20.2 14H11Q10 14 10 13ZM14 3.5V10H20.5A6.5 6.5 0 0 0 14 3.5Z",
+          "solid": "<path d=\"M10 3.8A8.5 8.5 0 1 0 20.2 14H11Q10 14 10 13ZM14 3.5V10H20.5A6.5 6.5 0 0 0 14 3.5Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "table",
           "label": "数据表",
-          "path": "M3.5 5h17v14h-17zM3.5 10h17M3.5 14.5h17M9 5v14M15 5v14"
+          "path": "M6 4.5H18Q20.5 4.5 20.5 7V17Q20.5 19.5 18 19.5H6Q3.5 19.5 3.5 17V7Q3.5 4.5 6 4.5ZM3.5 10H20.5M9 10V19.5M3.5 14.5H20.5",
+          "solid": "<path d=\"M6 4.5H18Q20.5 4.5 20.5 7V17Q20.5 19.5 18 19.5H6Q3.5 19.5 3.5 17V7Q3.5 4.5 6 4.5ZM6.5 6.5H17.5Q18.5 6.5 18.5 7.5V7.5Q18.5 8.5 17.5 8.5H6.5Q5.5 8.5 5.5 7.5V7.5Q5.5 6.5 6.5 6.5ZM6 11H7Q7.5 11 7.5 11.5V12.5Q7.5 13 7 13H6Q5.5 13 5.5 12.5V11.5Q5.5 11 6 11ZM10.5 11H18Q18.5 11 18.5 11.5V12.5Q18.5 13 18 13H10.5Q10 13 10 12.5V11.5Q10 11 10.5 11ZM6 15H7Q7.5 15 7.5 15.5V17Q7.5 17.5 7 17.5H6Q5.5 17.5 5.5 17V15.5Q5.5 15 6 15ZM10.5 15H18Q18.5 15 18.5 15.5V17Q18.5 17.5 18 17.5H10.5Q10 17.5 10 17V15.5Q10 15 10.5 15Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "trend-up",
           "label": "上升",
-          "path": "M4 17 10 11l4 4 6-8M14 7h6v6"
+          "path": "M4.5 17 10 11.5 14 15 20 7M14 7H20V13",
+          "solid": "<path d=\"M4.5 17 10 11.5 14 15 20 7M14 7H20V13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "trend-down",
           "label": "下降",
-          "path": "m4 7 6 6 4-4 6 8M14 17h6v-6"
+          "path": "M4.5 7 10 12.5 14 9 20 17M14 17H20V11",
+          "solid": "<path d=\"M4.5 7 10 12.5 14 9 20 17M14 17H20V11\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "report",
           "label": "报表",
-          "path": "M6 3.5h9l3 3v14H6zM14.5 3.5V7H18M9 17v-4M12 17V9M15 17v-6"
+          "path": "M7.5 3.5H16.5Q19 3.5 19 6V18Q19 20.5 16.5 20.5H7.5Q5 20.5 5 18V6Q5 3.5 7.5 3.5ZM9 16V12M12 16V8M15 16V10",
+          "solid": "<path d=\"M7.5 3.5H16.5Q19 3.5 19 6V18Q19 20.5 16.5 20.5H7.5Q5 20.5 5 18V6Q5 3.5 7.5 3.5ZM9 12H8.999999999999998Q9.799999999999999 12 9.799999999999999 12.8V16.2Q9.799999999999999 17 8.999999999999998 17H9Q8.2 17 8.2 16.2V12.8Q8.2 12 9 12ZM12 7.5H11.999999999999998Q12.799999999999999 7.5 12.799999999999999 8.3V16.2Q12.799999999999999 17 11.999999999999998 17H12Q11.2 17 11.2 16.2V8.3Q11.2 7.5 12 7.5ZM15 10H14.999999999999998Q15.799999999999999 10 15.799999999999999 10.8V16.2Q15.799999999999999 17 14.999999999999998 17H15Q14.2 17 14.2 16.2V10.8Q14.2 10 15 10Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "database",
           "label": "数据库",
-          "path": "M4 6c0-1.4 3.6-2.5 8-2.5s8 1.1 8 2.5-3.6 2.5-8 2.5S4 7.4 4 6ZM4 6v6c0 1.4 3.6 2.5 8 2.5s8-1.1 8-2.5V6M4 12v6c0 1.4 3.6 2.5 8 2.5s8-1.1 8-2.5v-6"
+          "path": "M4.5 6C4.5 2.7 19.5 2.7 19.5 6V18C19.5 21.3 4.5 21.3 4.5 18ZM4.5 6C4.5 9.3 19.5 9.3 19.5 6M4.5 12C4.5 15.3 19.5 15.3 19.5 12",
+          "solid": "<path d=\"M4.5 6C4.5 2.7 19.5 2.7 19.5 6V18C19.5 21.3 4.5 21.3 4.5 18ZM6 6Q12 9 18 6V7.5Q12 10.5 6 7.5ZM6 12Q12 15 18 12V13.5Q12 16.5 6 13.5Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "sync",
           "label": "同步",
-          "path": "M20 7v5h-5M4 17v-5h5M18.5 10A7 7 0 0 0 6 7L4 12M5.5 14A7 7 0 0 0 18 17l2-5"
+          "path": "M4 8H19M15 4 19 8 15 12M20 16H5M9 12 5 16 9 20",
+          "solid": "<path d=\"M4 8H19M15 4 19 8 15 12M20 16H5M9 12 5 16 9 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "compare",
           "label": "对比",
-          "path": "M8 4v16M4.5 7.5 8 4l3.5 3.5M16 20V4M12.5 16.5 16 20l3.5-3.5"
+          "path": "M12 3.5V20.5M8 7H4V17H8M16 5H20V19H16",
+          "solid": "<path d=\"M12 3.5V20.5M8 7H4V17H8M16 5H20V19H16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "calendar",
           "label": "日期",
-          "path": "M4 6.5h16v13H4zM4 10h16M8 3.5v6M16 3.5v6M8 14h.01M12 14h.01M16 14h.01M8 17h.01M12 17h.01"
+          "path": "M6.5 5.5H17.5Q20 5.5 20 8V18Q20 20.5 17.5 20.5H6.5Q4 20.5 4 18V8Q4 5.5 6.5 5.5ZM4 10H20M8 3.5V7.5M16 3.5V7.5M8 14H8.01M12 14H12.01M16 14H16.01M8 17H8.01M12 17H12.01",
+          "solid": "<path d=\"M6.5 5.5H17.5Q20 5.5 20 8V18Q20 20.5 17.5 20.5H6.5Q4 20.5 4 18V8Q4 5.5 6.5 5.5ZM6.5 9.5H17.5Q18 9.5 18 10V10.5Q18 11 17.5 11H6.5Q6 11 6 10.5V10Q6 9.5 6.5 9.5ZM7 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0ZM11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0ZM15 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0ZM7 17.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0ZM11 17.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M8 3.5V7M16 3.5V7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "clock",
           "label": "时间",
-          "path": "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM12 7v5l3.5 2"
+          "path": "M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM12 7V12L15.5 14",
+          "solid": "<path d=\"M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM11.1 7H12.9V11.5L16 13.3 15.1 14.8 11.1 12.5Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "target",
           "label": "目标",
-          "path": "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10ZM12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"
+          "path": "M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0ZM10.5 12a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0Z",
+          "solid": "<path d=\"M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0ZM5.5 12a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M7.5 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0ZM9.5 12a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "funnel",
           "label": "漏斗",
-          "path": "M4 4.5h16l-6 7v5.5l-4 2.5v-8z"
+          "path": "M4 4.5H20M6 9.5H18M8.5 14.5H15.5M11 19.5H13",
+          "solid": "<path d=\"M5 3.5H19Q20.5 3.5 20.5 5V5Q20.5 6.5 19 6.5H5Q3.5 6.5 3.5 5V5Q3.5 3.5 5 3.5ZM7.5 8.5H16.5Q18 8.5 18 10V10Q18 11.5 16.5 11.5H7.5Q6 11.5 6 10V10Q6 8.5 7.5 8.5ZM10 13.5H14Q15.5 13.5 15.5 15V15Q15.5 16.5 14 16.5H10Q8.5 16.5 8.5 15V15Q8.5 13.5 10 13.5ZM11.5 18.5H12.5Q13.5 18.5 13.5 19.5V19.5Q13.5 20.5 12.5 20.5H11.5Q10.5 20.5 10.5 19.5V19.5Q10.5 18.5 11.5 18.5Z\" fill=\"currentColor\"/>"
+        },
+        {
+          "name": "barcode",
+          "label": "条形码",
+          "path": "M4 5V19M7.5 5V19M11 5V19M14 5V19M18 5V19M21 5V19",
+          "solid": "<path d=\"M4 5H4.5Q5 5 5 5.5V18.5Q5 19 4.5 19H4Q3.5 19 3.5 18.5V5.5Q3.5 5 4 5ZM7.5 5H9Q9.5 5 9.5 5.5V18.5Q9.5 19 9 19H7.5Q7 19 7 18.5V5.5Q7 5 7.5 5ZM11.5 5H11.5Q12 5 12 5.5V18.5Q12 19 11.5 19H11.5Q11 19 11 18.5V5.5Q11 5 11.5 5ZM14.5 5H15.5Q16 5 16 5.5V18.5Q16 19 15.5 19H14.5Q14 19 14 18.5V5.5Q14 5 14.5 5ZM18.5 5H18.5Q19 5 19 5.5V18.5Q19 19 18.5 19H18.5Q18 19 18 18.5V5.5Q18 5 18.5 5ZM21 5H21Q21.5 5 21.5 5.5V18.5Q21.5 19 21 19H21Q20.5 19 20.5 18.5V5.5Q20.5 5 21 5Z\" fill=\"currentColor\"/>"
+        },
+        {
+          "name": "scale",
+          "label": "称重计量",
+          "path": "M7 4H17Q20 4 20 7V17Q20 20 17 20H7Q4 20 4 17V7Q4 4 7 4ZM8 9Q12 6 16 9M12 8V12",
+          "solid": "<path d=\"M7 4H17Q20 4 20 7V17Q20 20 17 20H7Q4 20 4 17V7Q4 4 7 4ZM7 8Q12 4.5 17 8V12H7Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M12 8V11\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "network",
+          "label": "关系网络",
+          "path": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0ZM3.3 5a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0ZM17.3 5a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0ZM3.3 19a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0ZM17.3 19a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0ZM6.5 6.5 10 10M14 10 17.5 6.5M6.5 17.5 10 14M14 14 17.5 17.5",
+          "solid": "<path d=\"M8.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0ZM2.8 5a2.2 2.2 0 1 0 4.4 0a2.2 2.2 0 1 0 -4.4 0ZM16.8 5a2.2 2.2 0 1 0 4.4 0a2.2 2.2 0 1 0 -4.4 0ZM2.8 19a2.2 2.2 0 1 0 4.4 0a2.2 2.2 0 1 0 -4.4 0ZM16.8 19a2.2 2.2 0 1 0 4.4 0a2.2 2.2 0 1 0 -4.4 0Z\" fill=\"currentColor\"/><path d=\"M6 6 10 10M14 10 18 6M6 18 10 14M14 14 18 18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "spreadsheet",
+          "label": "电子表格文件",
+          "path": "M7.5 3.5H16.5Q19 3.5 19 6V18Q19 20.5 16.5 20.5H7.5Q5 20.5 5 18V6Q5 3.5 7.5 3.5ZM5 9H19M10 9V20.5M5 14.5H19",
+          "solid": "<path d=\"M7.5 3.5H16.5Q19 3.5 19 6V18Q19 20.5 16.5 20.5H7.5Q5 20.5 5 18V6Q5 3.5 7.5 3.5ZM8 5.5H16Q17 5.5 17 6.5V6.5Q17 7.5 16 7.5H8Q7 7.5 7 6.5V6.5Q7 5.5 8 5.5ZM7.5 10.5H8Q8.5 10.5 8.5 11V12.5Q8.5 13 8 13H7.5Q7 13 7 12.5V11Q7 10.5 7.5 10.5ZM12 10.5H16.5Q17 10.5 17 11V12.5Q17 13 16.5 13H12Q11.5 13 11.5 12.5V11Q11.5 10.5 12 10.5ZM7.5 16H8Q8.5 16 8.5 16.5V18Q8.5 18.5 8 18.5H7.5Q7 18.5 7 18V16.5Q7 16 7.5 16ZM12 16H16.5Q17 16 17 16.5V18Q17 18.5 16.5 18.5H12Q11.5 18.5 11.5 18V16.5Q11.5 16 12 16Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
+        },
+        {
+          "name": "layers",
+          "label": "分层批次",
+          "path": "M3.5 8 11 4Q12 3.5 13 4L20.5 8 13 12Q12 12.5 11 12ZM3.5 12 11 16Q12 16.5 13 16L20.5 12M3.5 16 11 20Q12 20.5 13 20L20.5 16",
+          "solid": "<path d=\"M3.5 8 11 4Q12 3.5 13 4L20.5 8 13 12Q12 12.5 11 12Z\" fill=\"currentColor\"/><path d=\"M3.5 12 11 16Q12 16.5 13 16L20.5 12M3.5 16 11 20Q12 20.5 13 20L20.5 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         }
       ]
     },
@@ -341,72 +569,146 @@
         {
           "name": "user",
           "label": "用户",
-          "path": "M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM4.5 20a7.5 7.5 0 0 1 15 0"
+          "path": "M8.3 7.5a3.7 3.7 0 1 0 7.4 0a3.7 3.7 0 1 0 -7.4 0ZM4.5 20V19Q5 14 12 14Q19 14 19.5 19V20",
+          "solid": "<path d=\"M8 7.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0ZM4.5 20V19Q5 14 12 14Q19 14 19.5 19V20Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "users",
           "label": "用户组",
-          "path": "M9.5 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM3 19a6.5 6.5 0 0 1 13 0M16 5a3 3 0 0 1 0 6M17.5 13.5A5.5 5.5 0 0 1 21 19"
+          "path": "M5.7 7.5a3.3 3.3 0 1 0 6.6 0a3.3 3.3 0 1 0 -6.6 0ZM3 20V18Q3 13.5 9 13.5Q15 13.5 15 18V20M16 4.8A3.3 3.3 0 0 1 16 11.2M18 14Q21 15 21 18V20",
+          "solid": "<path d=\"M5.3 7.5a3.7 3.7 0 1 0 7.4 0a3.7 3.7 0 1 0 -7.4 0ZM3 20V18Q3 13.5 9 13.5Q15 13.5 15 18V20Z\" fill=\"currentColor\"/><path d=\"M16 4.8A3.3 3.3 0 0 1 16 11.2M18 14Q21 15 21 18V20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "role",
           "label": "角色",
-          "path": "M12 3.5 19 6v5c0 4.6-2.8 7.6-7 9.5-4.2-1.9-7-4.9-7-9.5V6zM9 12l2 2 4-4"
+          "path": "M12 3.5Q15 5.5 19 6V11C19 15.5 16 18.8 12 20.5C8 18.8 5 15.5 5 11V6Q9 5.5 12 3.5ZM8 12 10.8 14.8 16.5 9.1",
+          "solid": "<path d=\"M12 3.5Q15 5.5 19 6V11C19 15.5 16 18.8 12 20.5C8 18.8 5 15.5 5 11V6Q9 5.5 12 3.5ZM7.8 11.8 9 10.6 11 12.6 15 8.6 16.2 9.8 11 15Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "department",
           "label": "组织",
-          "path": "M8 3.5h8v5H8zM4 15.5h6v5H4zM14 15.5h6v5h-6zM12 8.5v4M7 12.5h10M7 12.5v3M17 12.5v3"
+          "path": "M9.5 3.5H14.5Q16 3.5 16 5V7Q16 8.5 14.5 8.5H9.5Q8 8.5 8 7V5Q8 3.5 9.5 3.5ZM5 15.5H8Q9.5 15.5 9.5 17V19Q9.5 20.5 8 20.5H5Q3.5 20.5 3.5 19V17Q3.5 15.5 5 15.5ZM16 15.5H19Q20.5 15.5 20.5 17V19Q20.5 20.5 19 20.5H16Q14.5 20.5 14.5 19V17Q14.5 15.5 16 15.5ZM12 8.5V12M6.5 15.5V12H17.5V15.5",
+          "solid": "<path d=\"M9.5 3.5H14.5Q16 3.5 16 5V7Q16 8.5 14.5 8.5H9.5Q8 8.5 8 7V5Q8 3.5 9.5 3.5ZM5 15.5H8Q9.5 15.5 9.5 17V19Q9.5 20.5 8 20.5H5Q3.5 20.5 3.5 19V17Q3.5 15.5 5 15.5ZM16 15.5H19Q20.5 15.5 20.5 17V19Q20.5 20.5 19 20.5H16Q14.5 20.5 14.5 19V17Q14.5 15.5 16 15.5Z\" fill=\"currentColor\"/><path d=\"M12 8.5V12M6.5 15.5V12H17.5V15.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "store",
           "label": "站点",
-          "path": "M4 9.5 5.5 4h13L20 9.5M4 9.5a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0V20H4zM9 20v-6h6v6"
+          "path": "M4 9.5 5.5 4.5H18.5L20 9.5Q18 13 16 9.5Q14 13 12 9.5Q10 13 8 9.5Q6 13 4 9.5ZM5 12V18.5Q5 20 6.5 20H17.5Q19 20 19 18.5V12M9.5 20V15H14.5V20",
+          "solid": "<path d=\"M4 9.5 5.5 4.5H18.5L20 9.5Q18 13 16 9.5Q14 13 12 9.5Q10 13 8 9.5Q6 13 4 9.5Z\" fill=\"currentColor\"/><path d=\"M6.5 12.5H17.5Q19 12.5 19 14V19Q19 20.5 17.5 20.5H6.5Q5 20.5 5 19V14Q5 12.5 6.5 12.5ZM10.5 15H13.5Q14.5 15 14.5 16V19.5Q14.5 20.5 13.5 20.5H10.5Q9.5 20.5 9.5 19.5V16Q9.5 15 10.5 15Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "location",
           "label": "位置",
-          "path": "M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11ZM12 12.5a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5Z"
+          "path": "M12 20.5S19 14.5 19 10A7 7 0 0 0 5 10C5 14.5 12 20.5 12 20.5ZM9.5 10a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0Z",
+          "solid": "<path d=\"M12 20.5S19 14.5 19 10A7 7 0 0 0 5 10C5 14.5 12 20.5 12 20.5ZM9.4 10a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "task",
           "label": "任务",
-          "path": "M8 4H5v16h14V4h-3M8 3h8v4H8zM8 12l2 2 4-4M8 17h6"
+          "path": "M7.5 5H16.5Q19 5 19 7.5V17.5Q19 20 16.5 20H7.5Q5 20 5 17.5V7.5Q5 5 7.5 5ZM9.5 3H14.5Q16 3 16 4.5V5.5Q16 7 14.5 7H9.5Q8 7 8 5.5V4.5Q8 3 9.5 3ZM8.5 12 10.5 14 15 9.5M8.5 17H14.5",
+          "solid": "<path d=\"M7.5 5H16.5Q19 5 19 7.5V17.5Q19 20 16.5 20H7.5Q5 20 5 17.5V7.5Q5 5 7.5 5ZM7.8 11.8 9 10.6 10.5 12.1 14.4 8.2 15.6 9.4 10.5 14.5ZM8.75 16H14.25Q15 16 15 16.75V16.75Q15 17.5 14.25 17.5H8.75Q8 17.5 8 16.75V16.75Q8 16 8.75 16Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M9.5 2.5H14.5Q16 2.5 16 4V4Q16 5.5 14.5 5.5H9.5Q8 5.5 8 4V4Q8 2.5 9.5 2.5Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "bell",
           "label": "通知",
-          "path": "M5 17h14l-1.5-2.5V10a5.5 5.5 0 0 0-11 0v4.5zM10 20h4"
+          "path": "M5 17H19L17.5 14.5V10A5.5 5.5 0 0 0 6.5 10V14.5ZM10 20H14",
+          "solid": "<path d=\"M5 17H19L17.5 14.5V10A5.5 5.5 0 0 0 6.5 10V14.5Z\" fill=\"currentColor\"/><path d=\"M10.5 20H13.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "message",
           "label": "消息",
-          "path": "M4 4.5h16v12H9l-5 4zM8 9h8M8 12h5"
+          "path": "M6.5 4.5H17.5Q20 4.5 20 7V14Q20 16.5 17.5 16.5H9L5.3 19.5Q4 20.5 4 19V7Q4 4.5 6.5 4.5ZM8 9H16M8 12.5H13",
+          "solid": "<path d=\"M6.5 4.5H17.5Q20 4.5 20 7V14Q20 16.5 17.5 16.5H9L5.3 19.5Q4 20.5 4 19V7Q4 4.5 6.5 4.5ZM8.25 8H15.75Q16.5 8 16.5 8.75V8.75Q16.5 9.5 15.75 9.5H8.25Q7.5 9.5 7.5 8.75V8.75Q7.5 8 8.25 8ZM8.25 12H12.75Q13.5 12 13.5 12.75V12.75Q13.5 13.5 12.75 13.5H8.25Q7.5 13.5 7.5 12.75V12.75Q7.5 12 8.25 12Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "phone",
           "label": "电话",
-          "path": "M7.25 3.5 10 7.75 7.8 9.8a16 16 0 0 0 6.4 6.4l2.05-2.2 4.25 2.75-.7 3.5c-8.3.8-16.85-7.75-16.05-16.05z"
+          "path": "M7 3.5Q8 3.2 8.6 4.2L10.2 7.3Q10.6 8.1 9.9 8.8L8.4 10.3Q10.5 13.7 13.7 15.6L15.2 14.1Q15.9 13.4 16.7 13.8L19.8 15.4Q20.8 16 20.5 17L20 19Q19.7 20.5 18 20.5C10.5 20.5 3.5 13.5 3.5 6Q3.5 4.3 5 4Z",
+          "solid": "<path d=\"M7 3.5Q8 3.2 8.6 4.2L10.2 7.3Q10.6 8.1 9.9 8.8L8.4 10.3Q10.5 13.7 13.7 15.6L15.2 14.1Q15.9 13.4 16.7 13.8L19.8 15.4Q20.8 16 20.5 17L20 19Q19.7 20.5 18 20.5C10.5 20.5 3.5 13.5 3.5 6Q3.5 4.3 5 4Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "file",
           "label": "文件",
-          "path": "M6 3.5h9l3 3v14H6zM14.5 3.5V7H18M9 11h6M9 15h6"
+          "path": "M7.5 3.5H16.5Q19 3.5 19 6V18Q19 20.5 16.5 20.5H7.5Q5 20.5 5 18V6Q5 3.5 7.5 3.5ZM9 9H15M9 13H15M9 17H12",
+          "solid": "<path d=\"M7.5 3.5H16.5Q19 3.5 19 6V18Q19 20.5 16.5 20.5H7.5Q5 20.5 5 18V6Q5 3.5 7.5 3.5ZM9.25 8H14.75Q15.5 8 15.5 8.75V8.75Q15.5 9.5 14.75 9.5H9.25Q8.5 9.5 8.5 8.75V8.75Q8.5 8 9.25 8ZM9.25 12H14.75Q15.5 12 15.5 12.75V12.75Q15.5 13.5 14.75 13.5H9.25Q8.5 13.5 8.5 12.75V12.75Q8.5 12 9.25 12ZM9.25 16H11.75Q12.5 16 12.5 16.75V16.75Q12.5 17.5 11.75 17.5H9.25Q8.5 17.5 8.5 16.75V16.75Q8.5 16 9.25 16Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "folder",
           "label": "文件夹",
-          "path": "M3.5 6.5h7l2-2h8v15h-17zM3.5 9h17"
+          "path": "M5.5 5H9.5Q10.5 5 11.2 5.8L12.5 7H18.5Q21 7 21 9.5V17.5Q21 20 18.5 20H5.5Q3 20 3 17.5V7.5Q3 5 5.5 5ZM3 10H21",
+          "solid": "<path d=\"M5.5 5H9.5Q10.5 5 11.2 5.8L12.5 7H18.5Q21 7 21 9.5V17.5Q21 20 18.5 20H5.5Q3 20 3 17.5V7.5Q3 5 5.5 5ZM5.75 9H18.25Q19 9 19 9.75V9.75Q19 10.5 18.25 10.5H5.75Q5 10.5 5 9.75V9.75Q5 9 5.75 9Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "attachment",
           "label": "附件",
-          "path": "m8.5 12.5 6.25-6.25a3 3 0 1 1 4.25 4.25l-8.5 8.5a4.5 4.5 0 0 1-6.35-6.35l8.25-8.25M7 15.5l8.25-8.25"
+          "path": "M8.5 12.5 14.5 6.5A3 3 0 0 1 18.7 10.7L10.5 18.9A4.5 4.5 0 0 1 4.1 12.5L12.5 4.1M7.5 15.5 15 8",
+          "solid": "<path d=\"M8.5 12.5 14.5 6.5A3 3 0 0 1 18.7 10.7L10.5 18.9A4.5 4.5 0 0 1 4.1 12.5L12.5 4.1M7.5 15.5 15 8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "link",
           "label": "链接",
-          "path": "M9.5 14.5 8 16a3.5 3.5 0 1 1-5-5l3-3a3.5 3.5 0 0 1 5 0M14.5 9.5 16 8a3.5 3.5 0 1 1 5 5l-3 3a3.5 3.5 0 0 1-5 0M8.5 15.5l7-7"
+          "path": "M9.5 14.5 8 16A3.5 3.5 0 1 1 3 11L6 8A3.5 3.5 0 0 1 11 8M14.5 9.5 16 8A3.5 3.5 0 1 1 21 13L18 16A3.5 3.5 0 0 1 13 16M8.5 15.5 15.5 8.5",
+          "solid": "<path d=\"M9.5 14.5 8 16A3.5 3.5 0 1 1 3 11L6 8A3.5 3.5 0 0 1 11 8M14.5 9.5 16 8A3.5 3.5 0 1 1 21 13L18 16A3.5 3.5 0 0 1 13 16M8.5 15.5 15.5 8.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "inbox",
+          "label": "收件箱",
+          "path": "M6 5H18L21 14V18Q21 20 19 20H5Q3 20 3 18V14ZM3 14H8L10 17H14L16 14H21",
+          "solid": "<path d=\"M6 5H18L21 14V18Q21 20 19 20H5Q3 20 3 18V14ZM6.8 7H17.2L19.2 12.5H15L13 15.5H11L9 12.5H4.8Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
+        },
+        {
+          "name": "package",
+          "label": "商品物料",
+          "path": "M11.1 3.8 4.8 6.7Q3.6 7.2 3.6 8.5V15.5Q3.6 16.8 4.8 17.3L11.1 20.2Q12 20.6 12.9 20.2L19.2 17.3Q20.4 16.8 20.4 15.5V8.5Q20.4 7.2 19.2 6.7L12.9 3.8Q12 3.4 11.1 3.8ZM4.1 7.5 11.1 10.7Q12 11.1 12.9 10.7L19.9 7.5M12 11V20.3M8 5.2 16 8.9V12.4",
+          "solid": "<path d=\"M11.1 3.8 4.8 6.7Q3.6 7.2 3.6 8.5V15.5Q3.6 16.8 4.8 17.3L11.1 20.2Q12 20.6 12.9 20.2L19.2 17.3Q20.4 16.8 20.4 15.5V8.5Q20.4 7.2 19.2 6.7L12.9 3.8Q12 3.4 11.1 3.8ZM5.2 7.4 12 10.5 18.8 7.4 19.5 8.9 12.8 12V18.9H11.2V12L4.5 8.9Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
+        },
+        {
+          "name": "catalog",
+          "label": "商品目录",
+          "path": "M6.5 4H17.5Q20 4 20 6.5V17.5Q20 20 17.5 20H6.5Q4 20 4 17.5V6.5Q4 4 6.5 4ZM9 4V20M12.5 8H16.5M12.5 12H16.5M12.5 16H15",
+          "solid": "<path d=\"M6.5 4H17.5Q20 4 20 6.5V17.5Q20 20 17.5 20H6.5Q4 20 4 17.5V6.5Q4 4 6.5 4ZM8.2 4H9.4Q9.6 4 9.6 4.2V19.8Q9.6 20 9.4 20H8.2Q8 20 8 19.8V4.2Q8 4 8.2 4ZM12.75 7H16.25Q17 7 17 7.75V7.75Q17 8.5 16.25 8.5H12.75Q12 8.5 12 7.75V7.75Q12 7 12.75 7ZM12.75 11H16.25Q17 11 17 11.75V11.75Q17 12.5 16.25 12.5H12.75Q12 12.5 12 11.75V11.75Q12 11 12.75 11ZM12.75 15H14.25Q15 15 15 15.75V15.75Q15 16.5 14.25 16.5H12.75Q12 16.5 12 15.75V15.75Q12 15 12.75 15Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
+        },
+        {
+          "name": "warehouse",
+          "label": "仓库",
+          "path": "M3.5 9 11 4.2Q12 3.5 13 4.2L20.5 9V18Q20.5 20.5 18 20.5H6Q3.5 20.5 3.5 18ZM8.5 10H15.5Q17 10 17 11.5V19Q17 20.5 15.5 20.5H8.5Q7 20.5 7 19V11.5Q7 10 8.5 10ZM7 14H17M7 17H17",
+          "solid": "<path d=\"M3.5 9 11 4.2Q12 3.5 13 4.2L20.5 9V18Q20.5 20.5 18 20.5H6Q3.5 20.5 3.5 18ZM8.5 10H15.5Q17 10 17 11.5V19Q17 20.5 15.5 20.5H8.5Q7 20.5 7 19V11.5Q7 10 8.5 10Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M8 14H16M8 17H16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "factory",
+          "label": "生产工厂",
+          "path": "M4 20V10L9 7V11L14 8V13H20V20ZM16 13V4H19L20 13M7 16H8M11 16H12M16 16H17",
+          "solid": "<path d=\"M4 20V10L9 7V11L14 8V13H20V20ZM7 15.5H8Q8.5 15.5 8.5 16V16.7Q8.5 17.2 8 17.2H7Q6.5 17.2 6.5 16.7V16Q6.5 15.5 7 15.5ZM11 15.5H12Q12.5 15.5 12.5 16V16.7Q12.5 17.2 12 17.2H11Q10.5 17.2 10.5 16.7V16Q10.5 15.5 11 15.5ZM16 15.5H17Q17.5 15.5 17.5 16V16.7Q17.5 17.2 17 17.2H16Q15.5 17.2 15.5 16.7V16Q15.5 15.5 16 15.5Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M16 11.5V4H19L20 11.5Z\" fill=\"currentColor\"/>"
+        },
+        {
+          "name": "audit",
+          "label": "审核",
+          "path": "M10 20H6.5A2.5 2.5 0 0 1 4 17.5V6.5A2.5 2.5 0 0 1 6.5 4H14.5A2.5 2.5 0 0 1 17 6.5V10M7.5 8H13.5M7.5 11.5H10.5M12.5 16a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0ZM18.5 18.5 21 21",
+          "solid": "<path d=\"M6.5 4A2.5 2.5 0 0 0 4 6.5V17.5A2.5 2.5 0 0 0 6.5 20H10.5A6 6 0 0 1 17 10.1V6.5A2.5 2.5 0 0 0 14.5 4ZM8.3 7.2H12.7Q13.5 7.2 13.5 8V8Q13.5 8.8 12.7 8.8H8.3Q7.5 8.8 7.5 8V8Q7.5 7.2 8.3 7.2ZM8.3 10.7H9.7Q10.5 10.7 10.5 11.5V11.499999999999998Q10.5 12.299999999999999 9.7 12.299999999999999H8.3Q7.5 12.299999999999999 7.5 11.499999999999998V11.5Q7.5 10.7 8.3 10.7Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M11.8 16a4.2 4.2 0 1 0 8.4 0a4.2 4.2 0 1 0 -8.4 0ZM13.6 16a2.4 2.4 0 1 0 4.8 0a2.4 2.4 0 1 0 -4.8 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M19 19 21 21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "tag",
+          "label": "标签",
+          "path": "M4 5Q4 4 5 4H11L20 13Q21 14 20 15L15 20Q14 21 13 20L4 11ZM7 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+          "solid": "<path d=\"M4 5Q4 4 5 4H11L20 13Q21 14 20 15L15 20Q14 21 13 20L4 11ZM6.4 8a1.6 1.6 0 1 0 3.2 0a1.6 1.6 0 1 0 -3.2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
+        },
+        {
+          "name": "key",
+          "label": "密钥凭证",
+          "path": "M4 8a4 4 0 1 0 8 0a4 4 0 1 0 -8 0ZM11 11 20 20M16 16 19 13M18 18 21 15",
+          "solid": "<path d=\"M3.2 8a4.8 4.8 0 1 0 9.6 0a4.8 4.8 0 1 0 -9.6 0ZM6 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M11 11 20 20M16 16 19 13M18 18 21 15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "flag",
+          "label": "里程碑",
+          "path": "M5 21V4Q8 2 12 4Q16 6 20 4V13Q16 15 12 13Q8 11 5 13",
+          "solid": "<path d=\"M5 4Q8 2 12 4Q16 6 20 4V13Q16 15 12 13Q8 11 5 13Z\" fill=\"currentColor\"/><path d=\"M5 4V21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "briefcase",
+          "label": "工作岗位",
+          "path": "M6 7H18Q20.5 7 20.5 9.5V17.5Q20.5 20 18 20H6Q3.5 20 3.5 17.5V9.5Q3.5 7 6 7ZM8.5 7V5Q8.5 3.5 10 3.5H14Q15.5 3.5 15.5 5V7M3.5 12Q12 17 20.5 12M12 12V15",
+          "solid": "<path d=\"M6 7H18Q20.5 7 20.5 9.5V17.5Q20.5 20 18 20H6Q3.5 20 3.5 17.5V9.5Q3.5 7 6 7ZM5 12Q12 16 19 12V13.7Q12 17.7 5 13.7Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M8.5 7V5Q8.5 3.5 10 3.5H14Q15.5 3.5 15.5 5V7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         }
       ]
     },
@@ -418,84 +720,151 @@
         {
           "name": "channel",
           "label": "渠道",
-          "path": "M4 5h6v6H4zM14 5h6v6h-6zM4 15h6v4H4zM14 15h6v4h-6M10 8h4M7 11v4M17 11v4"
+          "path": "M4.7 4H7.3Q9 4 9 5.7V8.3Q9 10 7.3 10H4.7Q3 10 3 8.3V5.7Q3 4 4.7 4ZM16.7 4H19.3Q21 4 21 5.7V8.3Q21 10 19.3 10H16.7Q15 10 15 8.3V5.7Q15 4 16.7 4ZM4.7 15H7.3Q9 15 9 16.7V18.3Q9 20 7.3 20H4.7Q3 20 3 18.3V16.7Q3 15 4.7 15ZM16.7 15H19.3Q21 15 21 16.7V18.3Q21 20 19.3 20H16.7Q15 20 15 18.3V16.7Q15 15 16.7 15ZM9 7H15M6 10V15M18 10V15",
+          "solid": "<path d=\"M4.7 4H7.3Q9 4 9 5.7V8.3Q9 10 7.3 10H4.7Q3 10 3 8.3V5.7Q3 4 4.7 4ZM16.7 4H19.3Q21 4 21 5.7V8.3Q21 10 19.3 10H16.7Q15 10 15 8.3V5.7Q15 4 16.7 4ZM4.7 15H7.3Q9 15 9 16.7V18.3Q9 20 7.3 20H4.7Q3 20 3 18.3V16.7Q3 15 4.7 15ZM16.7 15H19.3Q21 15 21 16.7V18.3Q21 20 19.3 20H16.7Q15 20 15 18.3V16.7Q15 15 16.7 15Z\" fill=\"currentColor\"/><path d=\"M9 7H15M6 10V15M18 10V15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "social",
           "label": "社交",
-          "path": "M4 5.5h11v9H9l-5 4zM9 10h.01M12 10h.01M15 8.5h5v8h-3l-3 2v-4"
+          "path": "M5 4.5H13Q15 4.5 15 6.5V12Q15 14 13 14H8L4 17V6.5Q4 4.5 5 4.5ZM17.5 8H19Q21 8 21 10V16Q21 18 19 18H17V20L13.5 17M8 9H11",
+          "solid": "<path d=\"M5 4.5H13Q15 4.5 15 6.5V12Q15 14 13 14H8L4 17V6.5Q4 4.5 5 4.5ZM7.1 9a0.9 0.9 0 1 0 1.8 0a0.9 0.9 0 1 0 -1.8 0ZM10.6 9a0.9 0.9 0 1 0 1.8 0a0.9 0.9 0 1 0 -1.8 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M17.5 8H19Q21 8 21 10V16Q21 18 19 18H17V20L13.5 17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "content",
           "label": "内容",
-          "path": "M5 3.5h14v17H5zM8 7h8M8 11h8M8 15h5"
+          "path": "M7.5 3.5H16.5Q19 3.5 19 6V18Q19 20.5 16.5 20.5H7.5Q5 20.5 5 18V6Q5 3.5 7.5 3.5ZM9 8H15M9 12H15M9 16H13",
+          "solid": "<path d=\"M7.5 3.5H16.5Q19 3.5 19 6V18Q19 20.5 16.5 20.5H7.5Q5 20.5 5 18V6Q5 3.5 7.5 3.5ZM9.25 7H14.75Q15.5 7 15.5 7.75V7.75Q15.5 8.5 14.75 8.5H9.25Q8.5 8.5 8.5 7.75V7.75Q8.5 7 9.25 7ZM9.25 11H14.75Q15.5 11 15.5 11.75V11.75Q15.5 12.5 14.75 12.5H9.25Q8.5 12.5 8.5 11.75V11.75Q8.5 11 9.25 11ZM9.25 15H12.75Q13.5 15 13.5 15.75V15.75Q13.5 16.5 12.75 16.5H9.25Q8.5 16.5 8.5 15.75V15.75Q8.5 15 9.25 15Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "short-video",
           "label": "短视频",
-          "path": "M4 5h12v14H4zM16 9l4-2v10l-4-2zM9 9l4 3-4 3z"
+          "path": "M6 5H13.5Q16 5 16 7.5V16.5Q16 19 13.5 19H6Q3.5 19 3.5 16.5V7.5Q3.5 5 6 5ZM16 10 20.5 7.5V16.5L16 14M8 9 12 12 8 15Z",
+          "solid": "<path d=\"M6 5H13.5Q16 5 16 7.5V16.5Q16 19 13.5 19H6Q3.5 19 3.5 16.5V7.5Q3.5 5 6 5ZM8 8.5 12.5 12 8 15.5Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M17.5 10 21 8V16L17.5 14Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "live",
           "label": "直播",
-          "path": "M8 8.5a5 5 0 0 0 0 7M5 5.5a9 9 0 0 0 0 13M16 8.5a5 5 0 0 1 0 7M19 5.5a9 9 0 0 1 0 13M12 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"
+          "path": "M8 8A5.5 5.5 0 0 0 8 16M4.5 5A9.5 9.5 0 0 0 4.5 19M16 8A5.5 5.5 0 0 1 16 16M19.5 5A9.5 9.5 0 0 1 19.5 19M10.4 12a1.6 1.6 0 1 0 3.2 0a1.6 1.6 0 1 0 -3.2 0Z",
+          "solid": "<path d=\"M8 8A5.5 5.5 0 0 0 8 16M4.5 5A9.5 9.5 0 0 0 4.5 19M16 8A5.5 5.5 0 0 1 16 16M19.5 5A9.5 9.5 0 0 1 19.5 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M9.8 12a2.2 2.2 0 1 0 4.4 0a2.2 2.2 0 1 0 -4.4 0Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "marketplace",
           "label": "电商平台",
-          "path": "M4 9.5 5.5 4h13L20 9.5M4 9.5a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0V20H4zM9 20v-6h6v6"
+          "path": "M4 9.5 5.5 4.5H18.5L20 9.5Q18 13 16 9.5Q14 13 12 9.5Q10 13 8 9.5Q6 13 4 9.5ZM5 12V18.5Q5 20 6.5 20H17.5Q19 20 19 18.5V12M9.5 20V15H14.5V20",
+          "solid": "<path d=\"M4 9.5 5.5 4.5H18.5L20 9.5Q18 13 16 9.5Q14 13 12 9.5Q10 13 8 9.5Q6 13 4 9.5Z\" fill=\"currentColor\"/><path d=\"M6.5 12.5H17.5Q19 12.5 19 14V19Q19 20.5 17.5 20.5H6.5Q5 20.5 5 19V14Q5 12.5 6.5 12.5ZM10.5 15H13.5Q14.5 15 14.5 16V19.5Q14.5 20.5 13.5 20.5H10.5Q9.5 20.5 9.5 19.5V16Q9.5 15 10.5 15Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "instant-retail",
           "label": "即时零售",
-          "path": "M6 7h13l-1.5 7H8L6 4H3M9 18.5h.01M16.5 18.5h.01M13 7l-2 4h3l-2 3"
+          "path": "M3 4H5L7.5 14Q7.8 15 9 15H17Q18 15 18.3 14L20 7H6M13 7 10.5 11H14L12 14M8 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0ZM16 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+          "solid": "<path d=\"M6 7H20L18.3 14Q18 15 17 15H9Q7.8 15 7.5 14ZM12 7.5 10 11.5H13L11.5 14.5 16 10H13Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M3 4H5L6 7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M7.3 19a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0ZM15.3 19a1.7 1.7 0 1 0 3.4 0a1.7 1.7 0 1 0 -3.4 0Z\" fill=\"currentColor\"/>"
         },
         {
           "name": "review",
           "label": "评价",
-          "path": "M4 4.5h16v12H9l-5 4zM12 7.5l1.2 2.4 2.7.4-2 1.9.5 2.7-2.4-1.3-2.4 1.3.5-2.7-2-1.9 2.7-.4z"
+          "path": "M6.5 4.5H17.5Q20 4.5 20 7V14Q20 16.5 17.5 16.5H9L5.3 19.5Q4 20.5 4 19V7Q4 4.5 6.5 4.5ZM12 7.5 13.5 10.4 16.7 10.9 14.3 13.1 14.9 16.3 12 14.8 9.1 16.3 9.7 13.1 7.3 10.9 10.5 10.4Z",
+          "solid": "<path d=\"M6.5 4.5H17.5Q20 4.5 20 7V14Q20 16.5 17.5 16.5H9L5.3 19.5Q4 20.5 4 19V7Q4 4.5 6.5 4.5ZM12 7.5 13.5 10.4 16.7 10.9 14.3 13.1 14.9 16.3 12 14.8 9.1 16.3 9.7 13.1 7.3 10.9 10.5 10.4Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "payment",
           "label": "支付",
-          "path": "M3.5 6h17v12h-17zM3.5 10h17M7 15h3M16.5 14.5h.01"
+          "path": "M6 4.5H18Q20.5 4.5 20.5 7V17Q20.5 19.5 18 19.5H6Q3.5 19.5 3.5 17V7Q3.5 4.5 6 4.5ZM3.5 10H20.5M7 15H10M16.5 15H17",
+          "solid": "<path d=\"M6 4.5H18Q20.5 4.5 20.5 7V17Q20.5 19.5 18 19.5H6Q3.5 19.5 3.5 17V7Q3.5 4.5 6 4.5ZM3.6 9H20.4Q20.5 9 20.5 9.1V10.9Q20.5 11 20.4 11H3.6Q3.5 11 3.5 10.9V9.1Q3.5 9 3.6 9ZM7.9 14H10.1Q11 14 11 14.9V14.9Q11 15.8 10.1 15.8H7.9Q7 15.8 7 14.9V14.9Q7 14 7.9 14ZM16 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "bank",
           "label": "银行",
-          "path": "M3 9h18L12 3zM5 9v9M9.5 9v9M14.5 9v9M19 9v9M3 21h18"
+          "path": "M4 8.5 11 4Q12 3.5 13 4L20 8.5ZM5 12V18M9.5 12V18M14.5 12V18M19 12V18M3.5 21H20.5",
+          "solid": "<path d=\"M4 8.5 11 4Q12 3.5 13 4L20 8.5Z\" fill=\"currentColor\"/><path d=\"M5 12V18M9.5 12V18M14.5 12V18M19 12V18M3.5 21H20.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "bank-card",
           "label": "银行卡",
-          "path": "M3.5 6h17v12h-17zM3.5 10h17M7 14h5M7 16h3"
+          "path": "M6 4.5H18Q20.5 4.5 20.5 7V17Q20.5 19.5 18 19.5H6Q3.5 19.5 3.5 17V7Q3.5 4.5 6 4.5ZM3.5 10H20.5M7 14H12M7 17H10",
+          "solid": "<path d=\"M6 4.5H18Q20.5 4.5 20.5 7V17Q20.5 19.5 18 19.5H6Q3.5 19.5 3.5 17V7Q3.5 4.5 6 4.5ZM3.6 9H20.4Q20.5 9 20.5 9.1V10.9Q20.5 11 20.4 11H3.6Q3.5 11 3.5 10.9V9.1Q3.5 9 3.6 9ZM7.75 13.5H12.25Q13 13.5 13 14.25V14.25Q13 15 12.25 15H7.75Q7 15 7 14.25V14.25Q7 13.5 7.75 13.5ZM7.75 16.5H9.25Q10 16.5 10 17.25V17.25Q10 18 9.25 18H7.75Q7 18 7 17.25V17.25Q7 16.5 7.75 16.5Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "wallet",
           "label": "钱包",
-          "path": "M4 6.5h14.5A1.5 1.5 0 0 1 20 8v10H4zM4 6.5 7 4h10v2.5M15 11.5h5v4h-5a2 2 0 1 1 0-4Z"
+          "path": "M6.5 7H17.5Q20 7 20 9.5V17.5Q20 20 17.5 20H6.5Q4 20 4 17.5V9.5Q4 7 6.5 7ZM4 8V6Q4 4 6 4H16V7M20 11H15A2.5 2.5 0 0 0 15 16H20M15 13.5H15.01",
+          "solid": "<path d=\"M6.5 7H17.5Q20 7 20 9.5V17.5Q20 20 17.5 20H6.5Q4 20 4 17.5V9.5Q4 7 6.5 7ZM15 11H18Q20 11 20 13V14Q20 16 18 16H15Q13 16 13 14V13Q13 11 15 11ZM14.7 13.5a0.8 0.8 0 1 0 1.6 0a0.8 0.8 0 1 0 -1.6 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M4 8V6Q4 4 6 4H16V7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         },
         {
           "name": "delivery",
           "label": "配送",
-          "path": "M3 6h11v10H3zM14 9h4l3 3v4h-7zM7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+          "path": "M3 6H12Q14 6 14 8V16H3ZM14 9H17Q18 9 18.6 10L21 13V16H14M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0ZM16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+          "solid": "<path d=\"M4.5 6H12.5Q14 6 14 7.5V14.5Q14 16 12.5 16H4.5Q3 16 3 14.5V7.5Q3 6 4.5 6ZM15.5 9H17Q18 9 18.6 10L21 13V16H15.5Z\" fill=\"currentColor\"/><path d=\"M4.5 18a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0ZM6 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M15.5 18a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0ZM17 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "logistics",
           "label": "物流",
-          "path": "M4 7 12 3l8 4-8 4zM4 7v10l8 4 8-4V7M12 11v10M8 5l8 4"
+          "path": "M11.1 3.8 4.8 6.7Q3.6 7.2 3.6 8.5V15.5Q3.6 16.8 4.8 17.3L11.1 20.2Q12 20.6 12.9 20.2L19.2 17.3Q20.4 16.8 20.4 15.5V8.5Q20.4 7.2 19.2 6.7L12.9 3.8Q12 3.4 11.1 3.8ZM4.1 7.5 11.1 10.7Q12 11.1 12.9 10.7L19.9 7.5M12 11V20.3M8 5.2 16 8.9V12.4",
+          "solid": "<path d=\"M11.1 3.8 4.8 6.7Q3.6 7.2 3.6 8.5V15.5Q3.6 16.8 4.8 17.3L11.1 20.2Q12 20.6 12.9 20.2L19.2 17.3Q20.4 16.8 20.4 15.5V8.5Q20.4 7.2 19.2 6.7L12.9 3.8Q12 3.4 11.1 3.8ZM5.2 7.4 12 10.5 18.8 7.4 19.5 8.9 12.8 12V18.9H11.2V12L4.5 8.9Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "mini-program",
           "label": "小程序",
-          "path": "M8.5 6.5 5 10l3.5 3.5M15.5 6.5 19 10l-3.5 3.5M10 18h4M9 3h6M12 3v15"
+          "path": "M7 3.5H17Q20 3.5 20 6.5V17.5Q20 20.5 17 20.5H7Q4 20.5 4 17.5V6.5Q4 3.5 7 3.5ZM9 8 6.5 10.5 9 13M15 8 17.5 10.5 15 13M10 17H14",
+          "solid": "<path d=\"M7 3.5H17Q20 3.5 20 6.5V17.5Q20 20.5 17 20.5H7Q4 20.5 4 17.5V6.5Q4 3.5 7 3.5ZM9 6.8 10 8 7.5 10.5 10 13 9 14.2 5.3 10.5ZM15 6.8 18.7 10.5 15 14.2 14 13 16.5 10.5 14 8ZM10.8 16H13.2Q14 16 14 16.8V16.8Q14 17.6 13.2 17.6H10.8Q10 17.6 10 16.8V16.8Q10 16 10.8 16Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/>"
         },
         {
           "name": "qr-code",
           "label": "二维码",
-          "path": "M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 14h2v4h-2zM14 18h4v2h-4zM7 7h.01M17 7h.01M7 17h.01"
+          "path": "M4.5 3.5H8.5Q9.5 3.5 9.5 4.5V8.5Q9.5 9.5 8.5 9.5H4.5Q3.5 9.5 3.5 8.5V4.5Q3.5 3.5 4.5 3.5ZM15.5 3.5H19.5Q20.5 3.5 20.5 4.5V8.5Q20.5 9.5 19.5 9.5H15.5Q14.5 9.5 14.5 8.5V4.5Q14.5 3.5 15.5 3.5ZM4.5 14.5H8.5Q9.5 14.5 9.5 15.5V19.5Q9.5 20.5 8.5 20.5H4.5Q3.5 20.5 3.5 19.5V15.5Q3.5 14.5 4.5 14.5ZM14.5 14.5H17V17H20.5V20.5H14.5V18M20.5 14.5V15",
+          "solid": "<path d=\"M4.5 3.5H8.5Q9.5 3.5 9.5 4.5V8.5Q9.5 9.5 8.5 9.5H4.5Q3.5 9.5 3.5 8.5V4.5Q3.5 3.5 4.5 3.5ZM5.6 5.3H7.3999999999999995Q7.699999999999999 5.3 7.699999999999999 5.6V7.3999999999999995Q7.699999999999999 7.699999999999999 7.3999999999999995 7.699999999999999H5.6Q5.3 7.699999999999999 5.3 7.3999999999999995V5.6Q5.3 5.3 5.6 5.3Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M15.5 3.5H19.5Q20.5 3.5 20.5 4.5V8.5Q20.5 9.5 19.5 9.5H15.5Q14.5 9.5 14.5 8.5V4.5Q14.5 3.5 15.5 3.5ZM16.6 5.3H18.4Q18.7 5.3 18.7 5.6V7.3999999999999995Q18.7 7.699999999999999 18.4 7.699999999999999H16.6Q16.3 7.699999999999999 16.3 7.3999999999999995V5.6Q16.3 5.3 16.6 5.3Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M4.5 14.5H8.5Q9.5 14.5 9.5 15.5V19.5Q9.5 20.5 8.5 20.5H4.5Q3.5 20.5 3.5 19.5V15.5Q3.5 14.5 4.5 14.5ZM5.6 16.3H7.3999999999999995Q7.699999999999999 16.3 7.699999999999999 16.6V18.4Q7.699999999999999 18.7 7.3999999999999995 18.7H5.6Q5.3 18.7 5.3 18.4V16.6Q5.3 16.3 5.6 16.3Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M14.5 14H16.5Q17 14 17 14.5V16.5Q17 17 16.5 17H14.5Q14 17 14 16.5V14.5Q14 14 14.5 14ZM18.5 14H20.5Q21 14 21 14.5V16.5Q21 17 20.5 17H18.5Q18 17 18 16.5V14.5Q18 14 18.5 14ZM16.5 18H20.5Q21 18 21 18.5V20.5Q21 21 20.5 21H16.5Q16 21 16 20.5V18.5Q16 18 16.5 18Z\" fill=\"currentColor\"/>"
+        },
+        {
+          "name": "route",
+          "label": "路线追踪",
+          "path": "M4 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0ZM16 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0ZM8 5H16A4 4 0 0 1 16 13H8A3 3 0 0 0 8 19H16",
+          "solid": "<path d=\"M3.4 5a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0ZM15.4 19a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z\" fill=\"currentColor\"/><path d=\"M8 5H16A4 4 0 0 1 16 13H8A3 3 0 0 0 8 19H16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "integration",
+          "label": "集成接口",
+          "path": "M8.5 3.5V7.5M15.5 3.5V7.5M8 7.5H16A1.5 1.5 0 0 1 17.5 9V11A5.5 5.5 0 0 1 6.5 11V9A1.5 1.5 0 0 1 8 7.5ZM12 16.5V20.5",
+          "solid": "<path d=\"M8 7H16Q18 7 18 9V11A6 6 0 0 1 6 11V9Q6 7 8 7Z\" fill=\"currentColor\"/><path d=\"M8.5 3.5V7.5M15.5 3.5V7.5M12 16.5V20.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "cloud",
+          "label": "云端",
+          "path": "M7 19H17A4.5 4.5 0 0 0 17.5 10A6 6 0 0 0 6 9A5 5 0 0 0 7 19Z",
+          "solid": "<path d=\"M7 19H17A4.5 4.5 0 0 0 17.5 10A6 6 0 0 0 6 9A5 5 0 0 0 7 19Z\" fill=\"currentColor\"/>"
+        },
+        {
+          "name": "robot",
+          "label": "AI助手",
+          "path": "M8 7H16Q20 7 20 11V16Q20 20 16 20H8Q4 20 4 16V11Q4 7 8 7ZM12 7V3.5M10 16H14M2 12V15M22 12V15M7.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0ZM14.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+          "solid": "<path d=\"M8 7H16Q20 7 20 11V16Q20 20 16 20H8Q4 20 4 16V11Q4 7 8 7ZM7 12a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM14 12a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM10.25 16H13.75Q14.5 16 14.5 16.75V16.75Q14.5 17.5 13.75 17.5H10.25Q9.5 17.5 9.5 16.75V16.75Q9.5 16 10.25 16Z\" fill=\"currentColor\" fill-rule=\"evenodd\"/><path d=\"M12 7V3.5M2 12V15M22 12V15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "nfc",
+          "label": "NFC读取",
+          "path": "M6 5V19M10 8V16M14 5A10 10 0 0 1 14 19M18 3A13 13 0 0 1 18 21",
+          "solid": "<path d=\"M6 5V19M10 8V16M14 5A10 10 0 0 1 14 19M18 3A13 13 0 0 1 18 21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "package-in",
+          "label": "入库",
+          "path": "M6 8H4.5Q3 8 3 9.5V18Q3 20 5 20H19Q21 20 21 18V9.5Q21 8 19.5 8H18M3 14H8L10 17H14L16 14H21M12 3V11M8.5 7.5 12 11 15.5 7.5",
+          "solid": "<path d=\"M3 14H8L10 17H14L16 14H21V18Q21 20 19 20H5Q3 20 3 18Z\" fill=\"currentColor\"/><path d=\"M6 8H4.5Q3 8 3 9.5V12M18 8H19.5Q21 8 21 9.5V12M12 3V11M8.5 7.5 12 11 15.5 7.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "name": "package-out",
+          "label": "出库",
+          "path": "M6 8H4.5Q3 8 3 9.5V18Q3 20 5 20H19Q21 20 21 18V9.5Q21 8 19.5 8H18M3 14H8L10 17H14L16 14H21M12 11V3M8.5 6.5 12 3 15.5 6.5",
+          "solid": "<path d=\"M3 14H8L10 17H14L16 14H21V18Q21 20 19 20H5Q3 20 3 18Z\" fill=\"currentColor\"/><path d=\"M6 8H4.5Q3 8 3 9.5V12M18 8H19.5Q21 8 21 9.5V12M12 11V3M8.5 6.5 12 3 15.5 6.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
         }
       ]
     }
-  ]
+  ],
+  "family": "B1-rounded-outline / B3-solid",
+  "variants": [
+    "outline",
+    "solid"
+  ],
+  "compatibility": {
+    "mono": "outline",
+    "stableIds": "preserved"
+  }
 }
