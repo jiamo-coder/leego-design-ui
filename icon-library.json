@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.25.8",
+  "version": "2.26.1",
   "base": "/skills/leego-design-ui/site/icon-api/v1",
   "updatePolicy": "snapshot-on-session-start",
   "categories": [
@@ -103,6 +103,11 @@
       "id": "owned-brands",
       "label": "自有品牌字标",
       "group": "身份与品牌"
+    },
+    {
+      "id": "data-source",
+      "label": "数据来源角标",
+      "group": "通用界面图标"
     }
   ],
   "entries": [
@@ -5201,6 +5206,66 @@
       },
       "layout": "wordmark",
       "sourceNote": "完整中英组合保留原件；button 为原中文字形响应式紧凑版，仅省去英文行，不替代品牌主标。"
+    },
+    {
+      "id": "data.spc",
+      "label": "SPC · 本单位生产并维护",
+      "category": "data-source",
+      "aliases": [
+        "SPC",
+        "源数据生产方：本单位生产并维护。",
+        "来源",
+        "provenance"
+      ],
+      "source": "Leego · 数据来源角标 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "micro",
+      "variants": {
+        "micro": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3260b2c3a66461c3d44a92192983aa8aaef96d4916dab3287661d7cc911cb46e.svg",
+          "sha256": "3260b2c3a66461c3d44a92192983aa8aaef96d4916dab3287661d7cc911cb46e",
+          "format": "svg",
+          "bytes": 294
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/34610a487af8e830e04b42693a34235bea5eebfbfa3cced4c6e1c465159a76f6.svg",
+          "sha256": "34610a487af8e830e04b42693a34235bea5eebfbfa3cced4c6e1c465159a76f6",
+          "format": "svg",
+          "bytes": 294
+        }
+      },
+      "maskable": true,
+      "sourceNote": "默认10px；普通12px/16px。来源不是编辑权限；配合完整图例。"
+    },
+    {
+      "id": "data.ref",
+      "label": "REF · 上游或外部引用",
+      "category": "data-source",
+      "aliases": [
+        "REF",
+        "引用数据：来自上游或外部，本页面不生产。",
+        "来源",
+        "provenance"
+      ],
+      "source": "Leego · 数据来源角标 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "micro",
+      "variants": {
+        "micro": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6fc52225c6440c0810040b6b0f08196399a1d9c2ab77bec473ef2f2cd9ab9379.svg",
+          "sha256": "6fc52225c6440c0810040b6b0f08196399a1d9c2ab77bec473ef2f2cd9ab9379",
+          "format": "svg",
+          "bytes": 290
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/73da2dc40b3ae0d48f91d1476aa9164ed07804e7e402be1194a5ef610181ecad.svg",
+          "sha256": "73da2dc40b3ae0d48f91d1476aa9164ed07804e7e402be1194a5ef610181ecad",
+          "format": "svg",
+          "bytes": 290
+        }
+      },
+      "maskable": true,
+      "sourceNote": "默认10px；普通12px/16px。来源不是编辑权限；配合完整图例。"
     }
   ]
 }

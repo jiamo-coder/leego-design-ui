@@ -1,6 +1,6 @@
 {
   "id": "navigation-contract-1",
-  "version": "2.26.0",
+  "version": "2.26.1",
   "tokenSource": "tokens.json#web.navigation",
   "routeInventorySource": "application-router",
   "owners": ["shellId", "stateOwner", "navigationOwner"],
