@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.26.3",
+  "version": "2.26.5",
   "base": "/skills/leego-design-ui/site/icon-api/v1",
   "updatePolicy": "snapshot-on-session-start",
   "categories": [
@@ -5209,9 +5209,10 @@
     },
     {
       "id": "data.spc",
-      "label": "SPC · 本单位生产并维护",
+      "label": "SRC · 本单位生产并维护",
       "category": "data-source",
       "aliases": [
+        "SRC",
         "SPC",
         "源数据生产方：本单位生产并维护。",
         "来源",
@@ -5222,20 +5223,20 @@
       "defaultVariant": "micro",
       "variants": {
         "micro": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/303d592f8f1b188b08e0c34f59ded6261d910299c28c758ba7732622a08e29c3.svg",
-          "sha256": "303d592f8f1b188b08e0c34f59ded6261d910299c28c758ba7732622a08e29c3",
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/df47ea1c310442c5dffbc6b422ad2f4f66e06fd530cc578f05178ebbaaab911d.svg",
+          "sha256": "df47ea1c310442c5dffbc6b422ad2f4f66e06fd530cc578f05178ebbaaab911d",
           "format": "svg",
-          "bytes": 299
+          "bytes": 313
         },
         "mono-light": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d95eef274f47120c3578f0e637bf7089f509a72c3cd8c7e90487c42f0f8fb14d.svg",
-          "sha256": "d95eef274f47120c3578f0e637bf7089f509a72c3cd8c7e90487c42f0f8fb14d",
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1dff3fc3604f3d00026c0137aa7ed7fcb067f8a3ff8bf79944db2f5e396ce421.svg",
+          "sha256": "1dff3fc3604f3d00026c0137aa7ed7fcb067f8a3ff8bf79944db2f5e396ce421",
           "format": "svg",
-          "bytes": 302
+          "bytes": 316
         }
       },
       "maskable": false,
-      "sourceNote": "默认10px；SPC紫色源点，REF蓝色左下箭头，同款实心圆角。来源不是编辑权限；配合完整图例。"
+      "sourceNote": "默认10px；SRC紫色源点，REF蓝色左下箭头，同款实心圆角。来源不是编辑权限；配合完整图例。"
     },
     {
       "id": "data.ref",
@@ -5265,7 +5266,7 @@
         }
       },
       "maskable": false,
-      "sourceNote": "默认10px；SPC紫色源点，REF蓝色左下箭头，同款实心圆角。来源不是编辑权限；配合完整图例。"
+      "sourceNote": "默认10px；SRC紫色源点，REF蓝色左下箭头，同款实心圆角。来源不是编辑权限；配合完整图例。"
     }
   ]
 }
