@@ -1,0 +1,152 @@
+{
+  "module": "leego-dashboard",
+  "version": "1.0.0",
+  "status": "website-bundled",
+  "framework": "React",
+  "casebook": {
+    "version": "1.1.0",
+    "source": "cases.tsx",
+    "styles": "cases.css",
+    "standard": "../../references/dashboard-casebook.md",
+    "ids": ["geo", "bubble", "flow", "branch", "health", "radial", "density"],
+    "demoOnly": true,
+    "adapterComponents": ["GeoGlobe", "BubbleFocus", "DivergingBars", "BranchTree", "RadialDots", "HexHeatmap"]
+  },
+  "components": [
+    {
+      "name": "HealthRing",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "HealthBar",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "HealthSurface",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "RiskScale",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "IssueSummary",
+      "source": "components.tsx",
+      "motion": null
+    },
+    {
+      "name": "MetricValue",
+      "source": "components.tsx",
+      "motion": null
+    },
+    {
+      "name": "TrendLine",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "RankBars",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "DotMatrix",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "OrbitGraph",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "FlowBridge",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "ComparisonBars",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "SegmentedShare",
+      "source": "components.tsx",
+      "motion": {
+        "trigger": "data-or-selection",
+        "durationMs": 160,
+        "reduced": "instant"
+      }
+    },
+    {
+      "name": "FreshnessStamp",
+      "source": "components.tsx",
+      "motion": null
+    },
+    {
+      "name": "DataState",
+      "source": "components.tsx",
+      "motion": null
+    },
+    {
+      "name": "ScopeSwitch",
+      "source": "components.tsx",
+      "motion": null
+    }
+  ],
+  "references": {
+    "standard": "../../references/dashboard-components.md",
+    "colors": "health.mjs",
+    "styles": "dashboard.css"
+  },
+  "notImplemented": [
+    "geographic-map",
+    "three-dimensional-globe",
+    "automatic-sankey-layout",
+    "general-bubble-layout"
+  ]
+}

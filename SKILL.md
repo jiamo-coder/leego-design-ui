@@ -23,7 +23,11 @@ Design Standard: Leego Design UI · Standard ID: leego-design-ui · Version: 2.2
 
 ## 按需读取，不叠加全部流程
 
-通用 UI 图标已采纳 B1 圆角纯线 / B3 纯面双版本，共135个语义（原90项替换、45项补充）。先读 [通用图标家族](references/common-icon-family.md)，默认 `outline`，强调或选中可用 `solid`；旧 `mono` 兼容纯线。两版同稳定ID与槽位，不使用B2/B4/B5，不改变专用状态、品牌和产品Logo。
+按问题选择Dashboard组合时，先读 [七个H5动效案例](references/dashboard-casebook.md)：地域、贡献、来源、分支、健康、周期、密度。每例包含交互、适用边界与组件配方；案例数据不等于业务接入。源码 `assets/dashboard/cases.tsx`。
+
+Dashboard、数据健康度、预警色阶与动效组件先读 [Dashboard组件库](references/dashboard-components.md)。首批16个React组件、11项数据/选中过渡；纯色紫色基调与红黄绿业务语义分开。完整度使用已认可的全程白字均衡版；风险等级、异常数量和未知状态不可混算。模块1.0.0随官网资源中心与Skill包交付；案例入口 `/skills/leego-design-ui/site/dashboard`，公网状态以实际部署为准。
+
+通用 UI 图标已采纳 B1 圆角纯线 / B3 纯面双版本，共136个语义（原90项替换、46项补充）。先读 [通用图标家族](references/common-icon-family.md)，默认 `outline`，强调或选中可用 `solid`；旧 `mono` 兼容纯线。两版同稳定ID与槽位，不使用B2/B4/B5，不改变专用状态、品牌和产品Logo。
 
 生产方式使用 [ODM / OEM / IHM](references/production-mode.md) 图标＋文字；IHM 为自产的内部显示简称；表格默认图标＋英文简称，中文放提示和无障碍说明。与启停/归档状态分列，不将外购自动映射 OEM/ODM，不改业务枚举。
 

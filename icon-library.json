@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.28.0",
+  "version": "2.28.1",
   "base": "/skills/leego-design-ui/site/icon-api/v1",
   "updatePolicy": "snapshot-on-session-start",
   "categories": [
@@ -8482,6 +8482,38 @@
           "sha256": "4bd10bd488eecbcf7e7c940802b8a1c3e24ecad63f263691be5e5564d79ec4b8",
           "format": "svg",
           "bytes": 439
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.workbench",
+      "label": "工作台",
+      "category": "ui-navigation",
+      "aliases": [
+        "workbench"
+      ],
+      "source": "Leego B1 / B3 · 圆角纯线 / 纯面",
+      "rights": "project-reuse",
+      "defaultVariant": "outline",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c997fc1d0db6939b10f26787f498a9a9d96b825aedfb3f03c150646ae1413f55.svg",
+          "sha256": "c997fc1d0db6939b10f26787f498a9a9d96b825aedfb3f03c150646ae1413f55",
+          "format": "svg",
+          "bytes": 503
+        },
+        "outline": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c997fc1d0db6939b10f26787f498a9a9d96b825aedfb3f03c150646ae1413f55.svg",
+          "sha256": "c997fc1d0db6939b10f26787f498a9a9d96b825aedfb3f03c150646ae1413f55",
+          "format": "svg",
+          "bytes": 503
+        },
+        "solid": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/46dce5de153b221c03e460687d05fb9e47b7bd3bd1a56c56fc34ae201d17407c.svg",
+          "sha256": "46dce5de153b221c03e460687d05fb9e47b7bd3bd1a56c56fc34ae201d17407c",
+          "format": "svg",
+          "bytes": 422
         }
       },
       "maskable": true
