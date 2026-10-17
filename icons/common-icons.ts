@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.26.1
+// Version: 2.26.3
 export const commonIconViewBox = '0 0 24 24' as const;
 export const commonIconStrokeWidth = 1.75 as const;
 export const commonIcons = {

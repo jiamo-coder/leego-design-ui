@@ -1,10 +1,10 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.26.1
+// Version: 2.26.3
 export const skillLogoFamily = {
   "standard": "leego-design-ui",
-  "version": "2.26.1",
+  "version": "2.26.3",
   "family": "Leego Skill Family",
   "revision": "v006",
   "status": "approved",

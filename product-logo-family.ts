@@ -1,12 +1,12 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.26.1
+// Version: 2.26.3
 export type ProductLogoRouteId = 'r01' | 'r02' | 'r03';
 export type ProductLogoAssetKind = 'symbols' | 'app-icons' | 'lockups' | 'mono-dark' | 'mono-light';
 export const productLogoFamily = {
   "standard": "leego-design-ui",
-  "version": "2.26.1",
+  "version": "2.26.3",
   "sourcePackage": {
     "name": "小字辈系统 Logo 家族",
     "version": "v003",

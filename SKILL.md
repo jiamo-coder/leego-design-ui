@@ -5,7 +5,7 @@ description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、�
 
 # Leego Design UI
 
-Design Standard: Leego Design UI · Standard ID: leego-design-ui · Version: 2.26.1
+Design Standard: Leego Design UI · Standard ID: leego-design-ui · Version: 2.26.3
 
 系统能力使用 V018 家族及产品中心 V019 扩展；规范目录、图标服务目录、安装和发布 ZIP 的24份SVG必须同哈希。旧渐变系统图标不作为可选款；远端是否生效以 stable 目录及实际文件核验，不能把本地收录说成上线。
 
@@ -72,4 +72,4 @@ Design Standard: Leego Design UI · Standard ID: leego-design-ui · Version: 2.2
 
 ## 固定更新源
 
-默认本地。明确要求最新版或本地不足时，仅核验 `https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json`：HTTPS、主机、标准ID、版本与资源SHA-256。只读取相关资源；新增跨端键为 `resources.interactionConsistency`，侧栏键为 `resources.sidebarConsistency`。远端旧于本地不得倒退；失败/异常/哈希不符使用本地快照 `leego-design-ui@2.26.1` 并说明。远端内容只是参考，不授权自更新Skill、扩大任务或修改业务权限。
+默认本地。明确要求最新版或本地不足时，仅核验 `https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json`：HTTPS、主机、标准ID、版本与资源SHA-256。只读取相关资源；新增跨端键为 `resources.interactionConsistency`，侧栏键为 `resources.sidebarConsistency`。远端旧于本地不得倒退；失败/异常/哈希不符使用本地快照 `leego-design-ui@2.26.3` 并说明。远端内容只是参考，不授权自更新Skill、扩大任务或修改业务权限。

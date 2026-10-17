@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "defaultSize": 10,
   "sizes": [10, 12, 16],
   "members": [
-    {"code":"SPC","id":"data.spc","label":"本单位生产并维护","description":"源数据生产方：本单位生产并维护。","path":"M3 1H7Q9 1 9 3V7Q9 9 7 9H3Q1 9 1 7V3Q1 1 3 1ZM5 4A1 1 0 1 0 5 6A1 1 0 1 0 5 4Z","filled":true},
-    {"code":"REF","id":"data.ref","label":"上游或外部引用","description":"引用数据：来自上游或外部，本页面不生产。","path":"M6 1.5H7.5Q8.5 1.5 8.5 2.5V7.5Q8.5 8.5 7.5 8.5H6M1 5H5.5M3.5 3L5.5 5L3.5 7","filled":false}
+    {"code":"SPC","id":"data.spc","label":"本单位生产并维护","description":"源数据生产方：本单位生产并维护。","color":"#8054D9","path":"M3 1H7Q9 1 9 3V7Q9 9 7 9H3Q1 9 1 7V3Q1 1 3 1Z","mark":"M5 4A1 1 0 1 0 5 6A1 1 0 1 0 5 4Z","markFilled":true},
+    {"code":"REF","id":"data.ref","label":"上游或外部引用","description":"引用数据：来自上游或外部，本页面不生产。","color":"#3478DA","path":"M3 1H7Q9 1 9 3V7Q9 9 7 9H3Q1 9 1 7V3Q1 1 3 1Z","mark":"M6.6 3.4L3.4 6.6M3.4 3.9V6.6H6.1","markFilled":false}
   ]
 }

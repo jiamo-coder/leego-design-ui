@@ -8,7 +8,7 @@ export function SourceBadge({source, size=10, interactive=false}:{source:'SPC'|'
   const member=catalog.members.find(m=>m.code===source)!;
   const id=useId();
   const [open,setOpen]=useState(false);
-  const glyph=<svg width={size} height={size} viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d={member.path} fill={member.filled?'currentColor':'none'} fillRule="evenodd" stroke={member.filled?'none':'currentColor'} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>;
+  const glyph=<svg width={size} height={size} viewBox="0 0 10 10" aria-hidden="true" focusable="false"><path d={member.path} fill={member.color}/><path d={member.mark} fill={member.markFilled?'#fff':'none'} stroke={member.markFilled?'none':'#fff'} strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round"/></svg>;
   if(!interactive)return <span className="leego-source-mark" role="img" aria-label={`${source}：${member.description}`} title={`${source}：${member.description}`}>{glyph}</span>;
   return <span className="leego-source-control" onKeyDown={e=>{if(e.key==='Escape'){setOpen(false);e.stopPropagation();}}}>
     <button type="button" className="leego-source-trigger" aria-label={`数据来源：${member.label}`} aria-expanded={open} aria-controls={id} onClick={()=>setOpen(v=>!v)} onBlur={()=>setOpen(false)}>{glyph}</button>

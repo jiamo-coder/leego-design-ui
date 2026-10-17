@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.26.1",
+  "version": "2.26.3",
   "base": "/skills/leego-design-ui/site/icon-api/v1",
   "updatePolicy": "snapshot-on-session-start",
   "categories": [
@@ -5217,25 +5217,25 @@
         "来源",
         "provenance"
       ],
-      "source": "Leego · 数据来源角标 1.0",
+      "source": "Leego · 数据来源角标 1.1",
       "rights": "project-reuse",
       "defaultVariant": "micro",
       "variants": {
         "micro": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3260b2c3a66461c3d44a92192983aa8aaef96d4916dab3287661d7cc911cb46e.svg",
-          "sha256": "3260b2c3a66461c3d44a92192983aa8aaef96d4916dab3287661d7cc911cb46e",
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/303d592f8f1b188b08e0c34f59ded6261d910299c28c758ba7732622a08e29c3.svg",
+          "sha256": "303d592f8f1b188b08e0c34f59ded6261d910299c28c758ba7732622a08e29c3",
           "format": "svg",
-          "bytes": 294
+          "bytes": 299
         },
         "mono-light": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/34610a487af8e830e04b42693a34235bea5eebfbfa3cced4c6e1c465159a76f6.svg",
-          "sha256": "34610a487af8e830e04b42693a34235bea5eebfbfa3cced4c6e1c465159a76f6",
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d95eef274f47120c3578f0e637bf7089f509a72c3cd8c7e90487c42f0f8fb14d.svg",
+          "sha256": "d95eef274f47120c3578f0e637bf7089f509a72c3cd8c7e90487c42f0f8fb14d",
           "format": "svg",
-          "bytes": 294
+          "bytes": 302
         }
       },
-      "maskable": true,
-      "sourceNote": "默认10px；普通12px/16px。来源不是编辑权限；配合完整图例。"
+      "maskable": false,
+      "sourceNote": "默认10px；SPC紫色源点，REF蓝色左下箭头，同款实心圆角。来源不是编辑权限；配合完整图例。"
     },
     {
       "id": "data.ref",
@@ -5247,25 +5247,25 @@
         "来源",
         "provenance"
       ],
-      "source": "Leego · 数据来源角标 1.0",
+      "source": "Leego · 数据来源角标 1.1",
       "rights": "project-reuse",
       "defaultVariant": "micro",
       "variants": {
         "micro": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6fc52225c6440c0810040b6b0f08196399a1d9c2ab77bec473ef2f2cd9ab9379.svg",
-          "sha256": "6fc52225c6440c0810040b6b0f08196399a1d9c2ab77bec473ef2f2cd9ab9379",
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a643b81dc059c59a4348e09a085fecb6e4c13aec90f36401f895f79b3101b38d.svg",
+          "sha256": "a643b81dc059c59a4348e09a085fecb6e4c13aec90f36401f895f79b3101b38d",
           "format": "svg",
-          "bytes": 290
+          "bytes": 298
         },
         "mono-light": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/73da2dc40b3ae0d48f91d1476aa9164ed07804e7e402be1194a5ef610181ecad.svg",
-          "sha256": "73da2dc40b3ae0d48f91d1476aa9164ed07804e7e402be1194a5ef610181ecad",
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/49b82ab93a5b05f3b936dd26fdad30ca6ee62b8e204b9aaa1f254f305719e78b.svg",
+          "sha256": "49b82ab93a5b05f3b936dd26fdad30ca6ee62b8e204b9aaa1f254f305719e78b",
           "format": "svg",
-          "bytes": 290
+          "bytes": 301
         }
       },
-      "maskable": true,
-      "sourceNote": "默认10px；普通12px/16px。来源不是编辑权限；配合完整图例。"
+      "maskable": false,
+      "sourceNote": "默认10px；SPC紫色源点，REF蓝色左下箭头，同款实心圆角。来源不是编辑权限；配合完整图例。"
     }
   ]
 }
