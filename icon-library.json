@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.28.1",
+  "version": "2.28.2",
   "base": "/skills/leego-design-ui/site/icon-api/v1",
   "updatePolicy": "snapshot-on-session-start",
   "categories": [
@@ -7655,38 +7655,6 @@
       "maskable": true
     },
     {
-      "id": "ui.dashboard",
-      "label": "概览",
-      "category": "ui-navigation",
-      "aliases": [
-        "dashboard"
-      ],
-      "source": "Leego B1 / B3 · 圆角纯线 / 纯面",
-      "rights": "project-reuse",
-      "defaultVariant": "outline",
-      "variants": {
-        "mono": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/256b3ae1c0e4877514d18d4e45d3082afe1a96805fa9828013cb4ac290c29be5.svg",
-          "sha256": "256b3ae1c0e4877514d18d4e45d3082afe1a96805fa9828013cb4ac290c29be5",
-          "format": "svg",
-          "bytes": 601
-        },
-        "outline": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/256b3ae1c0e4877514d18d4e45d3082afe1a96805fa9828013cb4ac290c29be5.svg",
-          "sha256": "256b3ae1c0e4877514d18d4e45d3082afe1a96805fa9828013cb4ac290c29be5",
-          "format": "svg",
-          "bytes": 601
-        },
-        "solid": {
-          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8753019f1caaf3a733384662b1d0f9c5245004873371a24526c5c663e2c65570.svg",
-          "sha256": "8753019f1caaf3a733384662b1d0f9c5245004873371a24526c5c663e2c65570",
-          "format": "svg",
-          "bytes": 520
-        }
-      },
-      "maskable": true
-    },
-    {
       "id": "ui.grid",
       "label": "应用",
       "category": "ui-navigation",
@@ -11970,6 +11938,38 @@
           "sha256": "3d6f48041eaf5d7fefe142b233f7a973de2b6860779b85cfbec501b71e20ec46",
           "format": "svg",
           "bytes": 337
+        }
+      },
+      "maskable": true
+    },
+    {
+      "id": "ui.dashboard",
+      "label": "概览",
+      "category": "ui-navigation",
+      "aliases": [
+        "dashboard"
+      ],
+      "source": "Leego B1 / B3 · 圆角纯线 / 纯面",
+      "rights": "project-reuse",
+      "defaultVariant": "outline",
+      "variants": {
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3077fc19c3a533974cb413d4621ccc65cfd397d3b8db3a1dde3ca6bf4a1aac34.svg",
+          "sha256": "3077fc19c3a533974cb413d4621ccc65cfd397d3b8db3a1dde3ca6bf4a1aac34",
+          "format": "svg",
+          "bytes": 296
+        },
+        "outline": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3077fc19c3a533974cb413d4621ccc65cfd397d3b8db3a1dde3ca6bf4a1aac34.svg",
+          "sha256": "3077fc19c3a533974cb413d4621ccc65cfd397d3b8db3a1dde3ca6bf4a1aac34",
+          "format": "svg",
+          "bytes": 296
+        },
+        "solid": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f324b32ab7b5458c7e38ce0613ef781867395dfc9bdea006b22436c7118d70b4.svg",
+          "sha256": "f324b32ab7b5458c7e38ce0613ef781867395dfc9bdea006b22436c7118d70b4",
+          "format": "svg",
+          "bytes": 444
         }
       },
       "maskable": true
