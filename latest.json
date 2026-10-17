@@ -1488,7 +1488,7 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/icon-library.json",
-        "sha256": "ad384816f0858214e440792f202aaa6c24a5400ac60cb3a1fc5abaf10cd0205f"
+        "sha256": "efe820cf61ed2ab016d61f352f38b2c2e8c741c5fde5b179c97a5089106cec75"
       },
       "adapters": {
         "client.ts": {
@@ -3478,25 +3478,25 @@
     "commonIcons": {
       "json": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/icons/common-icons.json",
-        "sha256": "9c8ad57d0a177b7bcf6040c1651c3d3cb309b120c959c3c4a672f9b4d3d84eb9"
+        "sha256": "e7d76899cfa97b2c914969664a4e4b28f56eba1af9ec5dcc425bebd65ca4bdf4"
       },
       "svg": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/icons/common-icons.svg",
-        "sha256": "1c4cc96b766a93f95d3711a37596fd448cc799ffb7b7d886a23417f7b7e670a2"
+        "sha256": "0f59d4243161f14abf44c7de587f3f5d4e16a3e317ccb035be08382d50ca0eab"
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/icons/common-icons.ts",
-        "sha256": "c57908046e88446e1b609881de5473c248f4cb01bb35ac1102ee8b8d0c6c59b8"
+        "sha256": "da9bdfc039b5c032714987203c899de68ad69ef382e142ad0398af78cf69c905"
       }
     },
     "commonIconFamily": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/COMMON_ICON_FAMILY.md",
-      "sha256": "eb1f769cae896f630a942d8c3be417a7d45dd16f4bdbf972f8a46db006045f67"
+      "sha256": "a5bfb499a3dd9bf177e687ec7cf831fb7254649828712aea063a73cb4ac69045"
     },
     "dashboard": {
       "casebook": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/DASHBOARD_CASEBOOK.md",
-        "sha256": "7810e1dcee8b4371b10621a9e754d66df273bfda4e900ca3f4d3fde50a045ea7"
+        "sha256": "49b3b319d74e2a6d7226cc5d0f4d44ab291ec6bb64cf4e759bbebd0c8047aaca"
       },
       "standard": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/DASHBOARD_COMPONENTS.md",
@@ -3557,7 +3557,7 @@
     },
     "package": {
       "url": "https://smalltypeui.qiaokiai.com/downloads/leego-design-ui.zip",
-      "sha256": "d0790d3776bffb10206c7bc1b04db2b1126d3eb10ceb19c1e1929d0f0485dd36"
+      "sha256": "2c370d491bfe40c5f94894506ed5716987deb973504a5361c4a1ac3602582fe9"
     }
   },
   "compatibility": {
