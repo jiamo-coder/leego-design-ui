@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.26.5",
+  "version": "2.27.0",
   "base": "/skills/leego-design-ui/site/icon-api/v1",
   "updatePolicy": "snapshot-on-session-start",
   "categories": [
@@ -107,6 +107,16 @@
     {
       "id": "data-source",
       "label": "数据来源角标",
+      "group": "通用界面图标"
+    },
+    {
+      "id": "table-status",
+      "label": "表格状态",
+      "group": "通用界面图标"
+    },
+    {
+      "id": "production-mode",
+      "label": "生产方式",
       "group": "通用界面图标"
     }
   ],
@@ -5267,6 +5277,4150 @@
       },
       "maskable": false,
       "sourceNote": "默认10px；SRC紫色源点，REF蓝色左下箭头，同款实心圆角。来源不是编辑权限；配合完整图例。"
+    },
+    {
+      "id": "status.draft",
+      "label": "草稿",
+      "category": "table-status",
+      "aliases": [
+        "draft",
+        "lifecycle",
+        "主档与发布",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f2421ab19083f7d03e414ce73beef269bf772d9c89cb9c679ab6ac737e200948.svg",
+          "sha256": "f2421ab19083f7d03e414ce73beef269bf772d9c89cb9c679ab6ac737e200948",
+          "format": "svg",
+          "bytes": 367
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d3ea46704ab6b0766f23722a9c2239bc5edc02a21138ed2c65d8e69731a048a2.svg",
+          "sha256": "d3ea46704ab6b0766f23722a9c2239bc5edc02a21138ed2c65d8e69731a048a2",
+          "format": "svg",
+          "bytes": 367
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7c048eb31c54aee27b5b5fbcf48fe0acd900d353c705d9b7462102a863cab62a.svg",
+          "sha256": "7c048eb31c54aee27b5b5fbcf48fe0acd900d353c705d9b7462102a863cab62a",
+          "format": "svg",
+          "bytes": 367
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.enabled",
+      "label": "启用",
+      "category": "table-status",
+      "aliases": [
+        "enabled",
+        "lifecycle",
+        "主档与发布",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2d607bf5a6add5a91821a3badb9f44d6bba3fa0aff61f8b413f33986fdac35bb.svg",
+          "sha256": "2d607bf5a6add5a91821a3badb9f44d6bba3fa0aff61f8b413f33986fdac35bb",
+          "format": "svg",
+          "bytes": 334
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f48c87346976fb33dd5f93e775ceb74a5a71d246b6a991809ebc68be678239e1.svg",
+          "sha256": "f48c87346976fb33dd5f93e775ceb74a5a71d246b6a991809ebc68be678239e1",
+          "format": "svg",
+          "bytes": 334
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0560c1def5771c32cfcc3a3c5b455f4cfd4a44ca835f7feff5258a06975edd62.svg",
+          "sha256": "0560c1def5771c32cfcc3a3c5b455f4cfd4a44ca835f7feff5258a06975edd62",
+          "format": "svg",
+          "bytes": 337
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.disabled",
+      "label": "停用",
+      "category": "table-status",
+      "aliases": [
+        "disabled",
+        "lifecycle",
+        "主档与发布",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/27d231c2383646f82d83a6162b59037bda4943d31ac3400039b304a3ff7e606f.svg",
+          "sha256": "27d231c2383646f82d83a6162b59037bda4943d31ac3400039b304a3ff7e606f",
+          "format": "svg",
+          "bytes": 338
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/539dda6b7280466962c5655b5c9c8c5a3d528525ca73849efbdfdbeef0939ede.svg",
+          "sha256": "539dda6b7280466962c5655b5c9c8c5a3d528525ca73849efbdfdbeef0939ede",
+          "format": "svg",
+          "bytes": 338
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5b21936b9d441bcd768ed9c9eeb752d2c22951515439ab97fc302f8a13d62f92.svg",
+          "sha256": "5b21936b9d441bcd768ed9c9eeb752d2c22951515439ab97fc302f8a13d62f92",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.archived",
+      "label": "已归档",
+      "category": "table-status",
+      "aliases": [
+        "archived",
+        "lifecycle",
+        "主档与发布",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c089b1b2476d63f86ed4ed71a4c129bab4d2ff0f4f06509ee20cbc81a8f96b68.svg",
+          "sha256": "c089b1b2476d63f86ed4ed71a4c129bab4d2ff0f4f06509ee20cbc81a8f96b68",
+          "format": "svg",
+          "bytes": 357
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1e6b0be6a4e7598f96228a228f48607eb45be77f81e53e36cc7c063fbbea3d59.svg",
+          "sha256": "1e6b0be6a4e7598f96228a228f48607eb45be77f81e53e36cc7c063fbbea3d59",
+          "format": "svg",
+          "bytes": 357
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a3acf566fc95aa70dd2718f1d6bf134899955da99aef6a2e08687051fc5330a4.svg",
+          "sha256": "a3acf566fc95aa70dd2718f1d6bf134899955da99aef6a2e08687051fc5330a4",
+          "format": "svg",
+          "bytes": 357
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.lifecycle.unpublished",
+      "label": "待发布",
+      "category": "table-status",
+      "aliases": [
+        "lifecycle.unpublished",
+        "lifecycle",
+        "主档与发布",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.lifecycle.publishing",
+      "label": "发布中",
+      "category": "table-status",
+      "aliases": [
+        "lifecycle.publishing",
+        "lifecycle",
+        "主档与发布",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bf76ef9f844df3269c13c7448e8632d6508b5b434bc0fe9e0a709fc996fb5d82.svg",
+          "sha256": "bf76ef9f844df3269c13c7448e8632d6508b5b434bc0fe9e0a709fc996fb5d82",
+          "format": "svg",
+          "bytes": 322
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2f3e5a6d5044e74054baf8ef4842fa1f1066df1536f1d6ae9b4c340403c23d92.svg",
+          "sha256": "2f3e5a6d5044e74054baf8ef4842fa1f1066df1536f1d6ae9b4c340403c23d92",
+          "format": "svg",
+          "bytes": 322
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c799698b34dbbf1fbfe566292ba562037c36798af419eaf2c89f77901becab10.svg",
+          "sha256": "c799698b34dbbf1fbfe566292ba562037c36798af419eaf2c89f77901becab10",
+          "format": "svg",
+          "bytes": 322
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.lifecycle.effective",
+      "label": "已生效",
+      "category": "table-status",
+      "aliases": [
+        "lifecycle.effective",
+        "lifecycle",
+        "主档与发布",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b1144827007c4667d639c85f4f0738fcb49293e9b0359274396d78fc1c197eaa.svg",
+          "sha256": "b1144827007c4667d639c85f4f0738fcb49293e9b0359274396d78fc1c197eaa",
+          "format": "svg",
+          "bytes": 316
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63.svg",
+          "sha256": "577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63",
+          "format": "svg",
+          "bytes": 316
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/dc28f91ad36b00afd8980116847b6a78315af0c1be1d055b02519d386018155e.svg",
+          "sha256": "dc28f91ad36b00afd8980116847b6a78315af0c1be1d055b02519d386018155e",
+          "format": "svg",
+          "bytes": 316
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.lifecycle.superseded",
+      "label": "已取代",
+      "category": "table-status",
+      "aliases": [
+        "lifecycle.superseded",
+        "lifecycle",
+        "主档与发布",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/031b398647d481d8722b09f66fae1eddbaaf99fd830b8d356d18bc277b275c3c.svg",
+          "sha256": "031b398647d481d8722b09f66fae1eddbaaf99fd830b8d356d18bc277b275c3c",
+          "format": "svg",
+          "bytes": 323
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/847d127f8d5e577e21ee3ea5fab55841ccd245e246d3631bff2e896a1e6f7cfa.svg",
+          "sha256": "847d127f8d5e577e21ee3ea5fab55841ccd245e246d3631bff2e896a1e6f7cfa",
+          "format": "svg",
+          "bytes": 323
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cb05f24d681f0fd7ee62805eadc3f40318f68ab3cad6b83c9a49e84fd8109488.svg",
+          "sha256": "cb05f24d681f0fd7ee62805eadc3f40318f68ab3cad6b83c9a49e84fd8109488",
+          "format": "svg",
+          "bytes": 323
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.approval.unsubmitted",
+      "label": "未提交",
+      "category": "table-status",
+      "aliases": [
+        "approval.unsubmitted",
+        "approval",
+        "审批",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/799e5d2a456682e3d3055a59971072536e1e8f59b8dd2141e1f2769a20141fdb.svg",
+          "sha256": "799e5d2a456682e3d3055a59971072536e1e8f59b8dd2141e1f2769a20141fdb",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c.svg",
+          "sha256": "467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b9840bc1db20daf41e77fbc14e3351b16f64de0f026727af310071a9709c1b97.svg",
+          "sha256": "b9840bc1db20daf41e77fbc14e3351b16f64de0f026727af310071a9709c1b97",
+          "format": "svg",
+          "bytes": 314
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.approval.pending",
+      "label": "待审核",
+      "category": "table-status",
+      "aliases": [
+        "approval.pending",
+        "approval",
+        "审批",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.approval.reviewing",
+      "label": "审批中",
+      "category": "table-status",
+      "aliases": [
+        "approval.reviewing",
+        "approval",
+        "审批",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/21a43ca88d54a724222550c36640d6a5480f4d95d060c2125ce610d8fe6bc845.svg",
+          "sha256": "21a43ca88d54a724222550c36640d6a5480f4d95d060c2125ce610d8fe6bc845",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/af13e08d8ef192280d39ea2512efeef3df8caa43fcf3e2f990e03483aa606445.svg",
+          "sha256": "af13e08d8ef192280d39ea2512efeef3df8caa43fcf3e2f990e03483aa606445",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6ee5093e35b53e33e99057732712c4a21a206caa17e2088a2ea5c8bfc394c0a6.svg",
+          "sha256": "6ee5093e35b53e33e99057732712c4a21a206caa17e2088a2ea5c8bfc394c0a6",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.approval.approved",
+      "label": "已通过",
+      "category": "table-status",
+      "aliases": [
+        "approval.approved",
+        "approval",
+        "审批",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8dccde68c33d78f07b5f22d3a02a150531f9823c4b344183aba17fb162cbf69b.svg",
+          "sha256": "8dccde68c33d78f07b5f22d3a02a150531f9823c4b344183aba17fb162cbf69b",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/af13e08d8ef192280d39ea2512efeef3df8caa43fcf3e2f990e03483aa606445.svg",
+          "sha256": "af13e08d8ef192280d39ea2512efeef3df8caa43fcf3e2f990e03483aa606445",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/edf75c931a2d5c9ae4877a69598758c900d89c2f0b4c0c52b91529ed32d192a9.svg",
+          "sha256": "edf75c931a2d5c9ae4877a69598758c900d89c2f0b4c0c52b91529ed32d192a9",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.approval.rejected",
+      "label": "已驳回",
+      "category": "table-status",
+      "aliases": [
+        "approval.rejected",
+        "approval",
+        "审批",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3abca1125a246c0b06682711bff02d28e0fd99835c0bb4b2d5e4bc4703eb111c.svg",
+          "sha256": "3abca1125a246c0b06682711bff02d28e0fd99835c0bb4b2d5e4bc4703eb111c",
+          "format": "svg",
+          "bytes": 351
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5f5d3babf56b49cb3f9c1fa3521bd7ffdfed820f5d77c5f0965bb0ad08317d61.svg",
+          "sha256": "5f5d3babf56b49cb3f9c1fa3521bd7ffdfed820f5d77c5f0965bb0ad08317d61",
+          "format": "svg",
+          "bytes": 351
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f062c1d60aaa3da622e51b3c45ccc48e8e99368f95cfcb88b6db9cc78ff32d1a.svg",
+          "sha256": "f062c1d60aaa3da622e51b3c45ccc48e8e99368f95cfcb88b6db9cc78ff32d1a",
+          "format": "svg",
+          "bytes": 351
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.approval.returned",
+      "label": "已退回",
+      "category": "table-status",
+      "aliases": [
+        "approval.returned",
+        "approval",
+        "审批",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7c8be146fde40387edca1f46532bd0ac1b4319db32586d373547d5aebaee023e.svg",
+          "sha256": "7c8be146fde40387edca1f46532bd0ac1b4319db32586d373547d5aebaee023e",
+          "format": "svg",
+          "bytes": 330
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d2b37b0f72dd92050d5be2ac0811f51b5a55e078dc61ed561e6de9bd34aa8497.svg",
+          "sha256": "d2b37b0f72dd92050d5be2ac0811f51b5a55e078dc61ed561e6de9bd34aa8497",
+          "format": "svg",
+          "bytes": 330
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/977d38c6d96b5264c41ce1a06060dbf0eba11c26bc5c447707540b5bfd725927.svg",
+          "sha256": "977d38c6d96b5264c41ce1a06060dbf0eba11c26bc5c447707540b5bfd725927",
+          "format": "svg",
+          "bytes": 330
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.confirmation.pending",
+      "label": "待确认",
+      "category": "table-status",
+      "aliases": [
+        "confirmation.pending",
+        "confirmation",
+        "确认与验收",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.confirmation.confirmed",
+      "label": "已确认",
+      "category": "table-status",
+      "aliases": [
+        "confirmation.confirmed",
+        "confirmation",
+        "确认与验收",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b1144827007c4667d639c85f4f0738fcb49293e9b0359274396d78fc1c197eaa.svg",
+          "sha256": "b1144827007c4667d639c85f4f0738fcb49293e9b0359274396d78fc1c197eaa",
+          "format": "svg",
+          "bytes": 316
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63.svg",
+          "sha256": "577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63",
+          "format": "svg",
+          "bytes": 316
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/dc28f91ad36b00afd8980116847b6a78315af0c1be1d055b02519d386018155e.svg",
+          "sha256": "dc28f91ad36b00afd8980116847b6a78315af0c1be1d055b02519d386018155e",
+          "format": "svg",
+          "bytes": 316
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.confirmation.acceptance-pending",
+      "label": "待验收",
+      "category": "table-status",
+      "aliases": [
+        "confirmation.acceptance-pending",
+        "confirmation",
+        "确认与验收",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.confirmation.accepted",
+      "label": "已验收",
+      "category": "table-status",
+      "aliases": [
+        "confirmation.accepted",
+        "confirmation",
+        "确认与验收",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/245882276471c7964d945e9ee16cdb19ab496d5d6359877a0289af69499c2e56.svg",
+          "sha256": "245882276471c7964d945e9ee16cdb19ab496d5d6359877a0289af69499c2e56",
+          "format": "svg",
+          "bytes": 343
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e06d366d02050739c7cfbda36719aa208bf778ddaff37612f686223ba07161d9.svg",
+          "sha256": "e06d366d02050739c7cfbda36719aa208bf778ddaff37612f686223ba07161d9",
+          "format": "svg",
+          "bytes": 343
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a6af5b6f0afb6a0a0893735e612aef1e69a736d4168c27b5627a58b27e9e68b7.svg",
+          "sha256": "a6af5b6f0afb6a0a0893735e612aef1e69a736d4168c27b5627a58b27e9e68b7",
+          "format": "svg",
+          "bytes": 343
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.confirmation.acceptance-rejected",
+      "label": "验收不通过",
+      "category": "table-status",
+      "aliases": [
+        "confirmation.acceptance-rejected",
+        "confirmation",
+        "确认与验收",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3abca1125a246c0b06682711bff02d28e0fd99835c0bb4b2d5e4bc4703eb111c.svg",
+          "sha256": "3abca1125a246c0b06682711bff02d28e0fd99835c0bb4b2d5e4bc4703eb111c",
+          "format": "svg",
+          "bytes": 351
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5f5d3babf56b49cb3f9c1fa3521bd7ffdfed820f5d77c5f0965bb0ad08317d61.svg",
+          "sha256": "5f5d3babf56b49cb3f9c1fa3521bd7ffdfed820f5d77c5f0965bb0ad08317d61",
+          "format": "svg",
+          "bytes": 351
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f062c1d60aaa3da622e51b3c45ccc48e8e99368f95cfcb88b6db9cc78ff32d1a.svg",
+          "sha256": "f062c1d60aaa3da622e51b3c45ccc48e8e99368f95cfcb88b6db9cc78ff32d1a",
+          "format": "svg",
+          "bytes": 351
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.not-started",
+      "label": "未开始",
+      "category": "table-status",
+      "aliases": [
+        "task.not-started",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/799e5d2a456682e3d3055a59971072536e1e8f59b8dd2141e1f2769a20141fdb.svg",
+          "sha256": "799e5d2a456682e3d3055a59971072536e1e8f59b8dd2141e1f2769a20141fdb",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c.svg",
+          "sha256": "467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b9840bc1db20daf41e77fbc14e3351b16f64de0f026727af310071a9709c1b97.svg",
+          "sha256": "b9840bc1db20daf41e77fbc14e3351b16f64de0f026727af310071a9709c1b97",
+          "format": "svg",
+          "bytes": 314
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.pending-receipt",
+      "label": "待接收",
+      "category": "table-status",
+      "aliases": [
+        "task.pending-receipt",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.queued",
+      "label": "排队中",
+      "category": "table-status",
+      "aliases": [
+        "task.queued",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0709b56e4c79cf0f8911f068743ad2d69e50813701b69e3f0de0f371965ed54a.svg",
+          "sha256": "0709b56e4c79cf0f8911f068743ad2d69e50813701b69e3f0de0f371965ed54a",
+          "format": "svg",
+          "bytes": 331
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/fa5b6879724b7eb79d8bc4dc56d091646f4e2a465d193b499b3ad537039e27ca.svg",
+          "sha256": "fa5b6879724b7eb79d8bc4dc56d091646f4e2a465d193b499b3ad537039e27ca",
+          "format": "svg",
+          "bytes": 331
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f2cf6559a6c1df0a14c6cfdc197960c06ded625fbb3b33c4345126a849d54fb7.svg",
+          "sha256": "f2cf6559a6c1df0a14c6cfdc197960c06ded625fbb3b33c4345126a849d54fb7",
+          "format": "svg",
+          "bytes": 331
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.planning",
+      "label": "规划中",
+      "category": "table-status",
+      "aliases": [
+        "task.planning",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cd2301a2e73fb518fa266decf42dad11985f2c7a0d2ea437aaf04dfcb60b79c3.svg",
+          "sha256": "cd2301a2e73fb518fa266decf42dad11985f2c7a0d2ea437aaf04dfcb60b79c3",
+          "format": "svg",
+          "bytes": 448
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88.svg",
+          "sha256": "43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88",
+          "format": "svg",
+          "bytes": 448
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/628b23ece9d3a7dc26b4ccce756b2b0bd3bdf64d707ffdd241e04571f41a6228.svg",
+          "sha256": "628b23ece9d3a7dc26b4ccce756b2b0bd3bdf64d707ffdd241e04571f41a6228",
+          "format": "svg",
+          "bytes": 448
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.running",
+      "label": "运行中",
+      "category": "table-status",
+      "aliases": [
+        "task.running",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5569cf398eee7fe1005d8cd47239e14f29eac0c9355f93cb68e3fa43aaf0d8fb.svg",
+          "sha256": "5569cf398eee7fe1005d8cd47239e14f29eac0c9355f93cb68e3fa43aaf0d8fb",
+          "format": "svg",
+          "bytes": 306
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/89ce721a9821a47f0282bfc757b37f7ef18c88cf3e46e53bb685ec9bddf56d39.svg",
+          "sha256": "89ce721a9821a47f0282bfc757b37f7ef18c88cf3e46e53bb685ec9bddf56d39",
+          "format": "svg",
+          "bytes": 306
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/26b21494708b0f8a9e2f4f1074b3454dc0b620028d8521cad506cfb7f952ce59.svg",
+          "sha256": "26b21494708b0f8a9e2f4f1074b3454dc0b620028d8521cad506cfb7f952ce59",
+          "format": "svg",
+          "bytes": 306
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.in-progress",
+      "label": "进行中",
+      "category": "table-status",
+      "aliases": [
+        "task.in-progress",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5569cf398eee7fe1005d8cd47239e14f29eac0c9355f93cb68e3fa43aaf0d8fb.svg",
+          "sha256": "5569cf398eee7fe1005d8cd47239e14f29eac0c9355f93cb68e3fa43aaf0d8fb",
+          "format": "svg",
+          "bytes": 306
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/89ce721a9821a47f0282bfc757b37f7ef18c88cf3e46e53bb685ec9bddf56d39.svg",
+          "sha256": "89ce721a9821a47f0282bfc757b37f7ef18c88cf3e46e53bb685ec9bddf56d39",
+          "format": "svg",
+          "bytes": 306
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/26b21494708b0f8a9e2f4f1074b3454dc0b620028d8521cad506cfb7f952ce59.svg",
+          "sha256": "26b21494708b0f8a9e2f4f1074b3454dc0b620028d8521cad506cfb7f952ce59",
+          "format": "svg",
+          "bytes": 306
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.paused",
+      "label": "已暂停",
+      "category": "table-status",
+      "aliases": [
+        "task.paused",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ea48465e8b4e49b891aeeaa06453c90a4f49e88a0ed4fba522b8f8fcefb10dfb.svg",
+          "sha256": "ea48465e8b4e49b891aeeaa06453c90a4f49e88a0ed4fba522b8f8fcefb10dfb",
+          "format": "svg",
+          "bytes": 299
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/870f802d168b2523712191820cf5d37cc5e7bcead137aa2f6cadf5dcac70f5c0.svg",
+          "sha256": "870f802d168b2523712191820cf5d37cc5e7bcead137aa2f6cadf5dcac70f5c0",
+          "format": "svg",
+          "bytes": 299
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c4023cbff26370b47d812834f991f7d552e910f8fdc9d7fc377e8df2746d3bed.svg",
+          "sha256": "c4023cbff26370b47d812834f991f7d552e910f8fdc9d7fc377e8df2746d3bed",
+          "format": "svg",
+          "bytes": 299
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.blocked",
+      "label": "已阻塞",
+      "category": "table-status",
+      "aliases": [
+        "task.blocked",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/32bf48afea52e910b68e98aaf7ae628fc0c5ceccffb4e2a64fdf6721fedac6ab.svg",
+          "sha256": "32bf48afea52e910b68e98aaf7ae628fc0c5ceccffb4e2a64fdf6721fedac6ab",
+          "format": "svg",
+          "bytes": 344
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/968a4bc1263eaf5472c6c6de8de3e916be6775f9ba5b78ee7e0db65ca6ae9518.svg",
+          "sha256": "968a4bc1263eaf5472c6c6de8de3e916be6775f9ba5b78ee7e0db65ca6ae9518",
+          "format": "svg",
+          "bytes": 344
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/14fbec12407fd74690b9b874daf10c1cdb3e3bd5716aafb475375e199bcd9679.svg",
+          "sha256": "14fbec12407fd74690b9b874daf10c1cdb3e3bd5716aafb475375e199bcd9679",
+          "format": "svg",
+          "bytes": 344
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.completed",
+      "label": "已完成",
+      "category": "table-status",
+      "aliases": [
+        "task.completed",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b78f6280eb28ce193305d2f8e17d891eac7485e36e28fc035d1057b0447d04fb.svg",
+          "sha256": "b78f6280eb28ce193305d2f8e17d891eac7485e36e28fc035d1057b0447d04fb",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a8f43faf82bf6150941c0bd7629e870e6fbaa31d8ba23e4d7f9274bcfd392252.svg",
+          "sha256": "a8f43faf82bf6150941c0bd7629e870e6fbaa31d8ba23e4d7f9274bcfd392252",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9299a3118690cbd1f87096eedaf8935b71eaf9c1531cf101e64d146b01a0d0f6.svg",
+          "sha256": "9299a3118690cbd1f87096eedaf8935b71eaf9c1531cf101e64d146b01a0d0f6",
+          "format": "svg",
+          "bytes": 314
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.cancelled",
+      "label": "已取消",
+      "category": "table-status",
+      "aliases": [
+        "task.cancelled",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5b64bf40c1721f503696deb9854f7e6596aa8b0336410c8eedd567a3b1901071.svg",
+          "sha256": "5b64bf40c1721f503696deb9854f7e6596aa8b0336410c8eedd567a3b1901071",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9c76a0b033518e67d628344ee497df980655a96c5510e881e44d183f4906e328.svg",
+          "sha256": "9c76a0b033518e67d628344ee497df980655a96c5510e881e44d183f4906e328",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8bb07373e92eec66dbf6003740f56c0aec343e138b1257fe0eec5bec0ebbaaf6.svg",
+          "sha256": "8bb07373e92eec66dbf6003740f56c0aec343e138b1257fe0eec5bec0ebbaaf6",
+          "format": "svg",
+          "bytes": 325
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.task.failed",
+      "label": "执行失败",
+      "category": "table-status",
+      "aliases": [
+        "task.failed",
+        "task",
+        "任务与执行",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bdd5e19b510989bcd8ebf0ff9486bab7600f115d4ef7644c0ac16bfe816e8ff7.svg",
+          "sha256": "bdd5e19b510989bcd8ebf0ff9486bab7600f115d4ef7644c0ac16bfe816e8ff7",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0.svg",
+          "sha256": "14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bfe67e491eedf2bb74b524d628187a6e2e86393e4bc35732b8936cf987f24365.svg",
+          "sha256": "bfe67e491eedf2bb74b524d628187a6e2e86393e4bc35732b8936cf987f24365",
+          "format": "svg",
+          "bytes": 335
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.product.preparing",
+      "label": "筹备中",
+      "category": "table-status",
+      "aliases": [
+        "product.preparing",
+        "product",
+        "商品销售",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ecfff51e6b61e84fe9fa59e9af58a901d8f5a5b12cf9b78de55dcc2b7efb3bf3.svg",
+          "sha256": "ecfff51e6b61e84fe9fa59e9af58a901d8f5a5b12cf9b78de55dcc2b7efb3bf3",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7ca77c40b49770d2adf194732b5eaa1b274ab03138f5863be157ca07d40c2efc.svg",
+          "sha256": "7ca77c40b49770d2adf194732b5eaa1b274ab03138f5863be157ca07d40c2efc",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/84b406725f2cd8f7f48ae7a9251f76b26fb492034cb607aa1f1d1df4e679e009.svg",
+          "sha256": "84b406725f2cd8f7f48ae7a9251f76b26fb492034cb607aa1f1d1df4e679e009",
+          "format": "svg",
+          "bytes": 337
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.product.pending-listing",
+      "label": "待上线",
+      "category": "table-status",
+      "aliases": [
+        "product.pending-listing",
+        "product",
+        "商品销售",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.product.partially-listed",
+      "label": "部分上线",
+      "category": "table-status",
+      "aliases": [
+        "product.partially-listed",
+        "product",
+        "商品销售",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.product.on-sale",
+      "label": "在售",
+      "category": "table-status",
+      "aliases": [
+        "product.on-sale",
+        "product",
+        "商品销售",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/dfc17f3268e64dc63fb02325fe702e62b8a2455d41e3ef597a0f49f1e8d13b56.svg",
+          "sha256": "dfc17f3268e64dc63fb02325fe702e62b8a2455d41e3ef597a0f49f1e8d13b56",
+          "format": "svg",
+          "bytes": 321
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2283cab2edcf4c8594773a4bee1899cd8d4101728cf60173ba230cc6b647724f.svg",
+          "sha256": "2283cab2edcf4c8594773a4bee1899cd8d4101728cf60173ba230cc6b647724f",
+          "format": "svg",
+          "bytes": 321
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a76937736c5839e6e5e2f7ea88858edd4972349f2d67d3361b442a107de9fb0f.svg",
+          "sha256": "a76937736c5839e6e5e2f7ea88858edd4972349f2d67d3361b442a107de9fb0f",
+          "format": "svg",
+          "bytes": 321
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.product.off-shelf",
+      "label": "已下架",
+      "category": "table-status",
+      "aliases": [
+        "product.off-shelf",
+        "product",
+        "商品销售",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2ac6c06f7eb56c3fd4191784afd2303a69b5c0bbb2199a01e04542ac33832592.svg",
+          "sha256": "2ac6c06f7eb56c3fd4191784afd2303a69b5c0bbb2199a01e04542ac33832592",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7c0bedc18efc5b07856090199a2d22138540ee9c2b40b8e6e35f45e52dde8ec2.svg",
+          "sha256": "7c0bedc18efc5b07856090199a2d22138540ee9c2b40b8e6e35f45e52dde8ec2",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b11394d06084ce1804418a72b16f464dd71af771d859889cbae154f40e9089f7.svg",
+          "sha256": "b11394d06084ce1804418a72b16f464dd71af771d859889cbae154f40e9089f7",
+          "format": "svg",
+          "bytes": 335
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.fulfillment.accepted",
+      "label": "已接单",
+      "category": "table-status",
+      "aliases": [
+        "fulfillment.accepted",
+        "fulfillment",
+        "订单与履约",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a752aa3624491eb03a08a82c6e95eefdeb0b6333357ba14f0a1b1faf823e704e.svg",
+          "sha256": "a752aa3624491eb03a08a82c6e95eefdeb0b6333357ba14f0a1b1faf823e704e",
+          "format": "svg",
+          "bytes": 316
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63.svg",
+          "sha256": "577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63",
+          "format": "svg",
+          "bytes": 316
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/81e5c43c3df30ed6ce2ce314760686faafade65dcb0543c4391fc49f1541c6d4.svg",
+          "sha256": "81e5c43c3df30ed6ce2ce314760686faafade65dcb0543c4391fc49f1541c6d4",
+          "format": "svg",
+          "bytes": 316
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.fulfillment.unscheduled",
+      "label": "未排产",
+      "category": "table-status",
+      "aliases": [
+        "fulfillment.unscheduled",
+        "fulfillment",
+        "订单与履约",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.fulfillment.manufacturing",
+      "label": "已开工",
+      "category": "table-status",
+      "aliases": [
+        "fulfillment.manufacturing",
+        "fulfillment",
+        "订单与履约",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/dd99839c758b6ee3ab21e413636dc46567541de10aff4a153365acbadbcc6382.svg",
+          "sha256": "dd99839c758b6ee3ab21e413636dc46567541de10aff4a153365acbadbcc6382",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7c362be3299d9a577d61231f6d5b62ec45e57f993769771a3f76a160e39a39be.svg",
+          "sha256": "7c362be3299d9a577d61231f6d5b62ec45e57f993769771a3f76a160e39a39be",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6d2407c8c2bd37786eac52c4fc072aa51797a24d9916f1e845b46caf902e3c89.svg",
+          "sha256": "6d2407c8c2bd37786eac52c4fc072aa51797a24d9916f1e845b46caf902e3c89",
+          "format": "svg",
+          "bytes": 337
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.fulfillment.partially-shipped",
+      "label": "部分发货",
+      "category": "table-status",
+      "aliases": [
+        "fulfillment.partially-shipped",
+        "fulfillment",
+        "订单与履约",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.fulfillment.shipped",
+      "label": "已发货",
+      "category": "table-status",
+      "aliases": [
+        "fulfillment.shipped",
+        "fulfillment",
+        "订单与履约",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cd06906c1dbd8d2f4e3a1109ceda3ffa3d25f8215029aa86fbb03c827a5d7fc2.svg",
+          "sha256": "cd06906c1dbd8d2f4e3a1109ceda3ffa3d25f8215029aa86fbb03c827a5d7fc2",
+          "format": "svg",
+          "bytes": 424
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/61706213bce436c2b4035d620a5427010a49af922b5a8e53368dea66dda1726e.svg",
+          "sha256": "61706213bce436c2b4035d620a5427010a49af922b5a8e53368dea66dda1726e",
+          "format": "svg",
+          "bytes": 424
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1ab825feed8741637aa14f45ff6428df49178bc03e205fe63f7a546bb1c582e0.svg",
+          "sha256": "1ab825feed8741637aa14f45ff6428df49178bc03e205fe63f7a546bb1c582e0",
+          "format": "svg",
+          "bytes": 424
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.fulfillment.in-transit",
+      "label": "运输中",
+      "category": "table-status",
+      "aliases": [
+        "fulfillment.in-transit",
+        "fulfillment",
+        "订单与履约",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cd06906c1dbd8d2f4e3a1109ceda3ffa3d25f8215029aa86fbb03c827a5d7fc2.svg",
+          "sha256": "cd06906c1dbd8d2f4e3a1109ceda3ffa3d25f8215029aa86fbb03c827a5d7fc2",
+          "format": "svg",
+          "bytes": 424
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/61706213bce436c2b4035d620a5427010a49af922b5a8e53368dea66dda1726e.svg",
+          "sha256": "61706213bce436c2b4035d620a5427010a49af922b5a8e53368dea66dda1726e",
+          "format": "svg",
+          "bytes": 424
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1ab825feed8741637aa14f45ff6428df49178bc03e205fe63f7a546bb1c582e0.svg",
+          "sha256": "1ab825feed8741637aa14f45ff6428df49178bc03e205fe63f7a546bb1c582e0",
+          "format": "svg",
+          "bytes": 424
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.fulfillment.delivered",
+      "label": "已送达待确认",
+      "category": "table-status",
+      "aliases": [
+        "fulfillment.delivered",
+        "fulfillment",
+        "订单与履约",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/428e23aa511cd091cebb1a0abd5632a73e59de2966e9cf43413737cc85dbfad3.svg",
+          "sha256": "428e23aa511cd091cebb1a0abd5632a73e59de2966e9cf43413737cc85dbfad3",
+          "format": "svg",
+          "bytes": 320
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2bca780f7668a2bf381006b4c3b570470b5102c26af5b25f9a4430cc2f9534ae.svg",
+          "sha256": "2bca780f7668a2bf381006b4c3b570470b5102c26af5b25f9a4430cc2f9534ae",
+          "format": "svg",
+          "bytes": 320
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2a3c80286188ff7c7e5a1e38f67f19ff5237f7645052a9d17b4d01baa72df549.svg",
+          "sha256": "2a3c80286188ff7c7e5a1e38f67f19ff5237f7645052a9d17b4d01baa72df549",
+          "format": "svg",
+          "bytes": 320
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.fulfillment.received",
+      "label": "已收货",
+      "category": "table-status",
+      "aliases": [
+        "fulfillment.received",
+        "fulfillment",
+        "订单与履约",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/30cf3f85818be200d4ea2f1aa6be4904147329e1e8e06790fe66c8729f4dd5f5.svg",
+          "sha256": "30cf3f85818be200d4ea2f1aa6be4904147329e1e8e06790fe66c8729f4dd5f5",
+          "format": "svg",
+          "bytes": 320
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2bca780f7668a2bf381006b4c3b570470b5102c26af5b25f9a4430cc2f9534ae.svg",
+          "sha256": "2bca780f7668a2bf381006b4c3b570470b5102c26af5b25f9a4430cc2f9534ae",
+          "format": "svg",
+          "bytes": 320
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/dd31aef98a034b409815477ef4043e56ec2aff2c45e48e96f126638fd00be629.svg",
+          "sha256": "dd31aef98a034b409815477ef4043e56ec2aff2c45e48e96f126638fd00be629",
+          "format": "svg",
+          "bytes": 320
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.fulfillment.completed",
+      "label": "履约完成",
+      "category": "table-status",
+      "aliases": [
+        "fulfillment.completed",
+        "fulfillment",
+        "订单与履约",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/245882276471c7964d945e9ee16cdb19ab496d5d6359877a0289af69499c2e56.svg",
+          "sha256": "245882276471c7964d945e9ee16cdb19ab496d5d6359877a0289af69499c2e56",
+          "format": "svg",
+          "bytes": 343
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e06d366d02050739c7cfbda36719aa208bf778ddaff37612f686223ba07161d9.svg",
+          "sha256": "e06d366d02050739c7cfbda36719aa208bf778ddaff37612f686223ba07161d9",
+          "format": "svg",
+          "bytes": 343
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a6af5b6f0afb6a0a0893735e612aef1e69a736d4168c27b5627a58b27e9e68b7.svg",
+          "sha256": "a6af5b6f0afb6a0a0893735e612aef1e69a736d4168c27b5627a58b27e9e68b7",
+          "format": "svg",
+          "bytes": 343
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.warehouse.in-stock",
+      "label": "在库",
+      "category": "table-status",
+      "aliases": [
+        "warehouse.in-stock",
+        "warehouse",
+        "仓储与库存",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/84ab051d75388210d45aec6dd760db801ae541afa242fa8612636053fae10a56.svg",
+          "sha256": "84ab051d75388210d45aec6dd760db801ae541afa242fa8612636053fae10a56",
+          "format": "svg",
+          "bytes": 321
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1a9e5f33423c1ec9a8be286cc3340ccd38df8759ca196139963b56c21da9790b.svg",
+          "sha256": "1a9e5f33423c1ec9a8be286cc3340ccd38df8759ca196139963b56c21da9790b",
+          "format": "svg",
+          "bytes": 321
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5f3c9e9d9f78d0cb6fda5eaeae46522c0325e13ecd891ea5dff24a822e768441.svg",
+          "sha256": "5f3c9e9d9f78d0cb6fda5eaeae46522c0325e13ecd891ea5dff24a822e768441",
+          "format": "svg",
+          "bytes": 321
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.warehouse.counting",
+      "label": "盘点中",
+      "category": "table-status",
+      "aliases": [
+        "warehouse.counting",
+        "warehouse",
+        "仓储与库存",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/84ab051d75388210d45aec6dd760db801ae541afa242fa8612636053fae10a56.svg",
+          "sha256": "84ab051d75388210d45aec6dd760db801ae541afa242fa8612636053fae10a56",
+          "format": "svg",
+          "bytes": 321
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1a9e5f33423c1ec9a8be286cc3340ccd38df8759ca196139963b56c21da9790b.svg",
+          "sha256": "1a9e5f33423c1ec9a8be286cc3340ccd38df8759ca196139963b56c21da9790b",
+          "format": "svg",
+          "bytes": 321
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5f3c9e9d9f78d0cb6fda5eaeae46522c0325e13ecd891ea5dff24a822e768441.svg",
+          "sha256": "5f3c9e9d9f78d0cb6fda5eaeae46522c0325e13ecd891ea5dff24a822e768441",
+          "format": "svg",
+          "bytes": 321
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.warehouse.posted",
+      "label": "已过账",
+      "category": "table-status",
+      "aliases": [
+        "warehouse.posted",
+        "warehouse",
+        "仓储与库存",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111.svg",
+          "sha256": "072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac.svg",
+          "sha256": "0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9.svg",
+          "sha256": "a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9",
+          "format": "svg",
+          "bytes": 337
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.receivable.unverified",
+      "label": "尚未核实到账",
+      "category": "table-status",
+      "aliases": [
+        "receivable.unverified",
+        "receivable",
+        "收款与到账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1912f7a7b62b20e72a3ea21d1954c2ccdab358fb901c2df5474e695fd9ea9882.svg",
+          "sha256": "1912f7a7b62b20e72a3ea21d1954c2ccdab358fb901c2df5474e695fd9ea9882",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a51f75fa1f00af108469c6670fcc582fc6e90723809c2439a0afff4cc4261737.svg",
+          "sha256": "a51f75fa1f00af108469c6670fcc582fc6e90723809c2439a0afff4cc4261737",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8aea49005e2f6ab6024182557f2058838d48cb8621bc26d2fb66b0ed22b16301.svg",
+          "sha256": "8aea49005e2f6ab6024182557f2058838d48cb8621bc26d2fb66b0ed22b16301",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.receivable.partial",
+      "label": "部分到账",
+      "category": "table-status",
+      "aliases": [
+        "receivable.partial",
+        "receivable",
+        "收款与到账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.receivable.received",
+      "label": "已足额到账",
+      "category": "table-status",
+      "aliases": [
+        "receivable.received",
+        "receivable",
+        "收款与到账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/81cc18f444ed1b530fb1b704ee8279d2fdc9d8b37221a4da901f7d47a11cffb2.svg",
+          "sha256": "81cc18f444ed1b530fb1b704ee8279d2fdc9d8b37221a4da901f7d47a11cffb2",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a51f75fa1f00af108469c6670fcc582fc6e90723809c2439a0afff4cc4261737.svg",
+          "sha256": "a51f75fa1f00af108469c6670fcc582fc6e90723809c2439a0afff4cc4261737",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c0ce9b94ddddc8225781f60d1501b2a71d18f386a61a7ab662de0422332b03b7.svg",
+          "sha256": "c0ce9b94ddddc8225781f60d1501b2a71d18f386a61a7ab662de0422332b03b7",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.receivable.verified",
+      "label": "到账已核验",
+      "category": "table-status",
+      "aliases": [
+        "receivable.verified",
+        "receivable",
+        "收款与到账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111.svg",
+          "sha256": "072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac.svg",
+          "sha256": "0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9.svg",
+          "sha256": "a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9",
+          "format": "svg",
+          "bytes": 337
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.payable.pending",
+      "label": "待支付",
+      "category": "table-status",
+      "aliases": [
+        "payable.pending",
+        "payable",
+        "付款与退款",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.payable.processing",
+      "label": "支付处理中",
+      "category": "table-status",
+      "aliases": [
+        "payable.processing",
+        "payable",
+        "付款与退款",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e163bca41d329ea2cdf327630eaaabe072e2001d9cf57e05b760c3cb06b4300e.svg",
+          "sha256": "e163bca41d329ea2cdf327630eaaabe072e2001d9cf57e05b760c3cb06b4300e",
+          "format": "svg",
+          "bytes": 318
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c4d106329b7b8ba8821df35076b419aad6f764fb86a1d89213987b44990d1295.svg",
+          "sha256": "c4d106329b7b8ba8821df35076b419aad6f764fb86a1d89213987b44990d1295",
+          "format": "svg",
+          "bytes": 318
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/98bcf0e57e2dfeca254a2c17e32a91cd8ac817810e2d8af716a0b60af978f9ca.svg",
+          "sha256": "98bcf0e57e2dfeca254a2c17e32a91cd8ac817810e2d8af716a0b60af978f9ca",
+          "format": "svg",
+          "bytes": 318
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.payable.reported",
+      "label": "已支付待核验",
+      "category": "table-status",
+      "aliases": [
+        "payable.reported",
+        "payable",
+        "付款与退款",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a60646605c372b1058702c73befd1c3248acf57c4f54ff37649843fcda6b6e24.svg",
+          "sha256": "a60646605c372b1058702c73befd1c3248acf57c4f54ff37649843fcda6b6e24",
+          "format": "svg",
+          "bytes": 318
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c4d106329b7b8ba8821df35076b419aad6f764fb86a1d89213987b44990d1295.svg",
+          "sha256": "c4d106329b7b8ba8821df35076b419aad6f764fb86a1d89213987b44990d1295",
+          "format": "svg",
+          "bytes": 318
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b75a2edb3183ab971907625bae4fe675faba7749fae292c56098b32c61aeee7d.svg",
+          "sha256": "b75a2edb3183ab971907625bae4fe675faba7749fae292c56098b32c61aeee7d",
+          "format": "svg",
+          "bytes": 318
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.payable.paid",
+      "label": "付款已核验",
+      "category": "table-status",
+      "aliases": [
+        "payable.paid",
+        "payable",
+        "付款与退款",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cc12b22ad2fa2b14af338e4a2095a0d989e570b8d45fb0bd57e1d7f4c7cae0f5.svg",
+          "sha256": "cc12b22ad2fa2b14af338e4a2095a0d989e570b8d45fb0bd57e1d7f4c7cae0f5",
+          "format": "svg",
+          "bytes": 318
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c4d106329b7b8ba8821df35076b419aad6f764fb86a1d89213987b44990d1295.svg",
+          "sha256": "c4d106329b7b8ba8821df35076b419aad6f764fb86a1d89213987b44990d1295",
+          "format": "svg",
+          "bytes": 318
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/86db2b76429f8c3861aa427d60d42b310d87fd142209953694e64c6461f81838.svg",
+          "sha256": "86db2b76429f8c3861aa427d60d42b310d87fd142209953694e64c6461f81838",
+          "format": "svg",
+          "bytes": 318
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.payable.partial",
+      "label": "部分付款",
+      "category": "table-status",
+      "aliases": [
+        "payable.partial",
+        "payable",
+        "付款与退款",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.payable.failed",
+      "label": "支付失败",
+      "category": "table-status",
+      "aliases": [
+        "payable.failed",
+        "payable",
+        "付款与退款",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bdd5e19b510989bcd8ebf0ff9486bab7600f115d4ef7644c0ac16bfe816e8ff7.svg",
+          "sha256": "bdd5e19b510989bcd8ebf0ff9486bab7600f115d4ef7644c0ac16bfe816e8ff7",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0.svg",
+          "sha256": "14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bfe67e491eedf2bb74b524d628187a6e2e86393e4bc35732b8936cf987f24365.svg",
+          "sha256": "bfe67e491eedf2bb74b524d628187a6e2e86393e4bc35732b8936cf987f24365",
+          "format": "svg",
+          "bytes": 335
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.payable.refund-pending",
+      "label": "待退款",
+      "category": "table-status",
+      "aliases": [
+        "payable.refund-pending",
+        "payable",
+        "付款与退款",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/676f7c5706945321c92eddcabc9fc7b1f26f3496062e91a70b1fdf839669958f.svg",
+          "sha256": "676f7c5706945321c92eddcabc9fc7b1f26f3496062e91a70b1fdf839669958f",
+          "format": "svg",
+          "bytes": 322
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3bd48f20fdb80db67434132a0c1a5c1f806a0f278fc0d69d5f3327e78f983959.svg",
+          "sha256": "3bd48f20fdb80db67434132a0c1a5c1f806a0f278fc0d69d5f3327e78f983959",
+          "format": "svg",
+          "bytes": 322
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/46e8225a828b67eafae11fc0838dcfa73a70214c6bf5567a5440214f84569a15.svg",
+          "sha256": "46e8225a828b67eafae11fc0838dcfa73a70214c6bf5567a5440214f84569a15",
+          "format": "svg",
+          "bytes": 322
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.payable.refunding",
+      "label": "退款中",
+      "category": "table-status",
+      "aliases": [
+        "payable.refunding",
+        "payable",
+        "付款与退款",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/44e2e5d0a796784d6f1cac7f11261d0d859bb657f79b49020b878378f2ab94e4.svg",
+          "sha256": "44e2e5d0a796784d6f1cac7f11261d0d859bb657f79b49020b878378f2ab94e4",
+          "format": "svg",
+          "bytes": 322
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3bd48f20fdb80db67434132a0c1a5c1f806a0f278fc0d69d5f3327e78f983959.svg",
+          "sha256": "3bd48f20fdb80db67434132a0c1a5c1f806a0f278fc0d69d5f3327e78f983959",
+          "format": "svg",
+          "bytes": 322
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ef784bbf479a1018cef6c48762ede025f8c146f21aa0a7682bad64129cacb146.svg",
+          "sha256": "ef784bbf479a1018cef6c48762ede025f8c146f21aa0a7682bad64129cacb146",
+          "format": "svg",
+          "bytes": 322
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.payable.refunded",
+      "label": "退款已核验",
+      "category": "table-status",
+      "aliases": [
+        "payable.refunded",
+        "payable",
+        "付款与退款",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e32087a8f9e91fc08c6b6998898661d22e981e6788b34f4e510a375b7de87474.svg",
+          "sha256": "e32087a8f9e91fc08c6b6998898661d22e981e6788b34f4e510a375b7de87474",
+          "format": "svg",
+          "bytes": 322
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3bd48f20fdb80db67434132a0c1a5c1f806a0f278fc0d69d5f3327e78f983959.svg",
+          "sha256": "3bd48f20fdb80db67434132a0c1a5c1f806a0f278fc0d69d5f3327e78f983959",
+          "format": "svg",
+          "bytes": 322
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8a8a0c8fd6a1d5345f5ad890ff0a3f12e34b970498bc7565717ebeab9ab5c4f9.svg",
+          "sha256": "8a8a0c8fd6a1d5345f5ad890ff0a3f12e34b970498bc7565717ebeab9ab5c4f9",
+          "format": "svg",
+          "bytes": 322
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.reconciliation.pending-entry",
+      "label": "待建账",
+      "category": "table-status",
+      "aliases": [
+        "reconciliation.pending-entry",
+        "reconciliation",
+        "记账与对账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9165513ba54224a57e5d28d5261ba1e9155560c6f989be2bc5553dfa54c884ef.svg",
+          "sha256": "9165513ba54224a57e5d28d5261ba1e9155560c6f989be2bc5553dfa54c884ef",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c.svg",
+          "sha256": "467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/21531405ea5ffded0317726202403ae0dbd018b2c3ce25bb768a191669d0cfa5.svg",
+          "sha256": "21531405ea5ffded0317726202403ae0dbd018b2c3ce25bb768a191669d0cfa5",
+          "format": "svg",
+          "bytes": 314
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.reconciliation.pending",
+      "label": "待对账",
+      "category": "table-status",
+      "aliases": [
+        "reconciliation.pending",
+        "reconciliation",
+        "记账与对账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2425e262bc066950473f09ef5542502fda1882fb302c731c87b6f0af5aec63f6.svg",
+          "sha256": "2425e262bc066950473f09ef5542502fda1882fb302c731c87b6f0af5aec63f6",
+          "format": "svg",
+          "bytes": 345
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2a7ead059bbe54ce8118277c93f488d3ff2c1c1360897c3b53e2ff0949eb1c2c.svg",
+          "sha256": "2a7ead059bbe54ce8118277c93f488d3ff2c1c1360897c3b53e2ff0949eb1c2c",
+          "format": "svg",
+          "bytes": 345
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d5feecee7350533681fc56b35ab3f590cf6e3e011c8f8c53fdf9ab0eb1cbeedc.svg",
+          "sha256": "d5feecee7350533681fc56b35ab3f590cf6e3e011c8f8c53fdf9ab0eb1cbeedc",
+          "format": "svg",
+          "bytes": 345
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.reconciliation.processing",
+      "label": "对账中",
+      "category": "table-status",
+      "aliases": [
+        "reconciliation.processing",
+        "reconciliation",
+        "记账与对账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ff019d9e76d511aae2494104a09e3fb3c59a91aa2f1ab4c7f23d60ec7cca2905.svg",
+          "sha256": "ff019d9e76d511aae2494104a09e3fb3c59a91aa2f1ab4c7f23d60ec7cca2905",
+          "format": "svg",
+          "bytes": 345
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2a7ead059bbe54ce8118277c93f488d3ff2c1c1360897c3b53e2ff0949eb1c2c.svg",
+          "sha256": "2a7ead059bbe54ce8118277c93f488d3ff2c1c1360897c3b53e2ff0949eb1c2c",
+          "format": "svg",
+          "bytes": 345
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4b518a65b547edceac936d5eece006ae1bbce56fb468047fe82d8f5b8d3ee6f7.svg",
+          "sha256": "4b518a65b547edceac936d5eece006ae1bbce56fb468047fe82d8f5b8d3ee6f7",
+          "format": "svg",
+          "bytes": 345
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.reconciliation.discrepancy",
+      "label": "存在差额",
+      "category": "table-status",
+      "aliases": [
+        "reconciliation.discrepancy",
+        "reconciliation",
+        "记账与对账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bedca86a6ec5619da30da66800804a2b6d67e52810be4d93e91c9da734d3ee1f.svg",
+          "sha256": "bedca86a6ec5619da30da66800804a2b6d67e52810be4d93e91c9da734d3ee1f",
+          "format": "svg",
+          "bytes": 336
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cbca34c899952a890a4e33157a70d3e620d4eef0ced2308305af332116c7c605.svg",
+          "sha256": "cbca34c899952a890a4e33157a70d3e620d4eef0ced2308305af332116c7c605",
+          "format": "svg",
+          "bytes": 336
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/48985b7c53efe21a232269479693d58a19f6dae035ec10ebfd8f5cf3d678224a.svg",
+          "sha256": "48985b7c53efe21a232269479693d58a19f6dae035ec10ebfd8f5cf3d678224a",
+          "format": "svg",
+          "bytes": 336
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.reconciliation.disputed",
+      "label": "存在争议",
+      "category": "table-status",
+      "aliases": [
+        "reconciliation.disputed",
+        "reconciliation",
+        "记账与对账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bedca86a6ec5619da30da66800804a2b6d67e52810be4d93e91c9da734d3ee1f.svg",
+          "sha256": "bedca86a6ec5619da30da66800804a2b6d67e52810be4d93e91c9da734d3ee1f",
+          "format": "svg",
+          "bytes": 336
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cbca34c899952a890a4e33157a70d3e620d4eef0ced2308305af332116c7c605.svg",
+          "sha256": "cbca34c899952a890a4e33157a70d3e620d4eef0ced2308305af332116c7c605",
+          "format": "svg",
+          "bytes": 336
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/48985b7c53efe21a232269479693d58a19f6dae035ec10ebfd8f5cf3d678224a.svg",
+          "sha256": "48985b7c53efe21a232269479693d58a19f6dae035ec10ebfd8f5cf3d678224a",
+          "format": "svg",
+          "bytes": 336
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.reconciliation.reconciled",
+      "label": "已对账",
+      "category": "table-status",
+      "aliases": [
+        "reconciliation.reconciled",
+        "reconciliation",
+        "记账与对账",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3a23d5bf2deb03f7b2c1ce093913ab73b70fb0ba1b16a23db37c59d15dbb94d7.svg",
+          "sha256": "3a23d5bf2deb03f7b2c1ce093913ab73b70fb0ba1b16a23db37c59d15dbb94d7",
+          "format": "svg",
+          "bytes": 345
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2a7ead059bbe54ce8118277c93f488d3ff2c1c1360897c3b53e2ff0949eb1c2c.svg",
+          "sha256": "2a7ead059bbe54ce8118277c93f488d3ff2c1c1360897c3b53e2ff0949eb1c2c",
+          "format": "svg",
+          "bytes": 345
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0d5a871672543b5379a397823e995d15b762bb974b9f180f105c2bbb745a3297.svg",
+          "sha256": "0d5a871672543b5379a397823e995d15b762bb974b9f180f105c2bbb745a3297",
+          "format": "svg",
+          "bytes": 345
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.pending",
+      "label": "待处理",
+      "category": "table-status",
+      "aliases": [
+        "sync.pending",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.queued",
+      "label": "已入队",
+      "category": "table-status",
+      "aliases": [
+        "sync.queued",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0709b56e4c79cf0f8911f068743ad2d69e50813701b69e3f0de0f371965ed54a.svg",
+          "sha256": "0709b56e4c79cf0f8911f068743ad2d69e50813701b69e3f0de0f371965ed54a",
+          "format": "svg",
+          "bytes": 331
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/fa5b6879724b7eb79d8bc4dc56d091646f4e2a465d193b499b3ad537039e27ca.svg",
+          "sha256": "fa5b6879724b7eb79d8bc4dc56d091646f4e2a465d193b499b3ad537039e27ca",
+          "format": "svg",
+          "bytes": 331
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f2cf6559a6c1df0a14c6cfdc197960c06ded625fbb3b33c4345126a849d54fb7.svg",
+          "sha256": "f2cf6559a6c1df0a14c6cfdc197960c06ded625fbb3b33c4345126a849d54fb7",
+          "format": "svg",
+          "bytes": 331
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.processing",
+      "label": "处理中",
+      "category": "table-status",
+      "aliases": [
+        "sync.processing",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5c7cce52297317d28365eed25e2ae186271aef3a2a20ecb2d3d90c2b07635d99.svg",
+          "sha256": "5c7cce52297317d28365eed25e2ae186271aef3a2a20ecb2d3d90c2b07635d99",
+          "format": "svg",
+          "bytes": 350
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a1ac7143c74dab5d75524e9a01662fb9d4b7cbe51c610b9669f79a33ba793f15.svg",
+          "sha256": "a1ac7143c74dab5d75524e9a01662fb9d4b7cbe51c610b9669f79a33ba793f15",
+          "format": "svg",
+          "bytes": 350
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f8afd7b70025e8de3cfd5d8e6116096fa423a25f0fbd4e5a1301f6bca534b547.svg",
+          "sha256": "f8afd7b70025e8de3cfd5d8e6116096fa423a25f0fbd4e5a1301f6bca534b547",
+          "format": "svg",
+          "bytes": 350
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.success",
+      "label": "本次执行成功",
+      "category": "table-status",
+      "aliases": [
+        "sync.success",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2cbbf8b9db8cd08b5dcb5c369eb5ad49cc72b185da7cd93aed1fbd7c6fabeea5.svg",
+          "sha256": "2cbbf8b9db8cd08b5dcb5c369eb5ad49cc72b185da7cd93aed1fbd7c6fabeea5",
+          "format": "svg",
+          "bytes": 350
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a1ac7143c74dab5d75524e9a01662fb9d4b7cbe51c610b9669f79a33ba793f15.svg",
+          "sha256": "a1ac7143c74dab5d75524e9a01662fb9d4b7cbe51c610b9669f79a33ba793f15",
+          "format": "svg",
+          "bytes": 350
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8bb892ae53be7392ff3befc5786c0441bd694844a0bca6878afd2c313963e2c0.svg",
+          "sha256": "8bb892ae53be7392ff3befc5786c0441bd694844a0bca6878afd2c313963e2c0",
+          "format": "svg",
+          "bytes": 350
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.failed",
+      "label": "同步失败",
+      "category": "table-status",
+      "aliases": [
+        "sync.failed",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bdd5e19b510989bcd8ebf0ff9486bab7600f115d4ef7644c0ac16bfe816e8ff7.svg",
+          "sha256": "bdd5e19b510989bcd8ebf0ff9486bab7600f115d4ef7644c0ac16bfe816e8ff7",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0.svg",
+          "sha256": "14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bfe67e491eedf2bb74b524d628187a6e2e86393e4bc35732b8936cf987f24365.svg",
+          "sha256": "bfe67e491eedf2bb74b524d628187a6e2e86393e4bc35732b8936cf987f24365",
+          "format": "svg",
+          "bytes": 335
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.timeout",
+      "label": "已超时",
+      "category": "table-status",
+      "aliases": [
+        "sync.timeout",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b08ab6e281f62b8253048210f883757af189bb5ab3706c5c820125fc214ca162.svg",
+          "sha256": "b08ab6e281f62b8253048210f883757af189bb5ab3706c5c820125fc214ca162",
+          "format": "svg",
+          "bytes": 348
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17.svg",
+          "sha256": "788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17",
+          "format": "svg",
+          "bytes": 348
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8e8a677dfedf81037e65599d4fce729e2a74eb014a9eeffacb9f9fba1d86fa51.svg",
+          "sha256": "8e8a677dfedf81037e65599d4fce729e2a74eb014a9eeffacb9f9fba1d86fa51",
+          "format": "svg",
+          "bytes": 348
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.retrying",
+      "label": "等待重试",
+      "category": "table-status",
+      "aliases": [
+        "sync.retrying",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/7c8be146fde40387edca1f46532bd0ac1b4319db32586d373547d5aebaee023e.svg",
+          "sha256": "7c8be146fde40387edca1f46532bd0ac1b4319db32586d373547d5aebaee023e",
+          "format": "svg",
+          "bytes": 330
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d2b37b0f72dd92050d5be2ac0811f51b5a55e078dc61ed561e6de9bd34aa8497.svg",
+          "sha256": "d2b37b0f72dd92050d5be2ac0811f51b5a55e078dc61ed561e6de9bd34aa8497",
+          "format": "svg",
+          "bytes": 330
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/977d38c6d96b5264c41ce1a06060dbf0eba11c26bc5c447707540b5bfd725927.svg",
+          "sha256": "977d38c6d96b5264c41ce1a06060dbf0eba11c26bc5c447707540b5bfd725927",
+          "format": "svg",
+          "bytes": 330
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.conflict",
+      "label": "同步冲突",
+      "category": "table-status",
+      "aliases": [
+        "sync.conflict",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bedca86a6ec5619da30da66800804a2b6d67e52810be4d93e91c9da734d3ee1f.svg",
+          "sha256": "bedca86a6ec5619da30da66800804a2b6d67e52810be4d93e91c9da734d3ee1f",
+          "format": "svg",
+          "bytes": 336
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cbca34c899952a890a4e33157a70d3e620d4eef0ced2308305af332116c7c605.svg",
+          "sha256": "cbca34c899952a890a4e33157a70d3e620d4eef0ced2308305af332116c7c605",
+          "format": "svg",
+          "bytes": 336
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/48985b7c53efe21a232269479693d58a19f6dae035ec10ebfd8f5cf3d678224a.svg",
+          "sha256": "48985b7c53efe21a232269479693d58a19f6dae035ec10ebfd8f5cf3d678224a",
+          "format": "svg",
+          "bytes": 336
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.offline",
+      "label": "未连接",
+      "category": "table-status",
+      "aliases": [
+        "sync.offline",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/33f1f0799ea86aff3e291accfe529fbc91e77ee6e8eba37cb72e1c70d9634ee7.svg",
+          "sha256": "33f1f0799ea86aff3e291accfe529fbc91e77ee6e8eba37cb72e1c70d9634ee7",
+          "format": "svg",
+          "bytes": 339
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/555c4984c859a482a818ee132fd8b86e0d7e1e0197fd7b7009deab9501101f04.svg",
+          "sha256": "555c4984c859a482a818ee132fd8b86e0d7e1e0197fd7b7009deab9501101f04",
+          "format": "svg",
+          "bytes": 339
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/79cdf275d1e0aa08456005a8b111642c458af359bf68dc5dedac31bb91dfb068.svg",
+          "sha256": "79cdf275d1e0aa08456005a8b111642c458af359bf68dc5dedac31bb91dfb068",
+          "format": "svg",
+          "bytes": 339
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.unmapped",
+      "label": "未映射",
+      "category": "table-status",
+      "aliases": [
+        "sync.unmapped",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ad5f9d232d88e1635174484de4aedeb8cfbc3d9d1dda313211d3d5ad8a5f1ea2.svg",
+          "sha256": "ad5f9d232d88e1635174484de4aedeb8cfbc3d9d1dda313211d3d5ad8a5f1ea2",
+          "format": "svg",
+          "bytes": 326
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4e27054c468f9453509f8723f8a0ec0920581eeae4be44012f7bb4690736860c.svg",
+          "sha256": "4e27054c468f9453509f8723f8a0ec0920581eeae4be44012f7bb4690736860c",
+          "format": "svg",
+          "bytes": 326
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/460e71565dbba6568daae7af5d0dd760ad92d775e2c34d824e590f9058f997ce.svg",
+          "sha256": "460e71565dbba6568daae7af5d0dd760ad92d775e2c34d824e590f9058f997ce",
+          "format": "svg",
+          "bytes": 326
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.pending-confirmation",
+      "label": "待确认",
+      "category": "table-status",
+      "aliases": [
+        "sync.pending-confirmation",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.confirmed",
+      "label": "已确认",
+      "category": "table-status",
+      "aliases": [
+        "sync.confirmed",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b1144827007c4667d639c85f4f0738fcb49293e9b0359274396d78fc1c197eaa.svg",
+          "sha256": "b1144827007c4667d639c85f4f0738fcb49293e9b0359274396d78fc1c197eaa",
+          "format": "svg",
+          "bytes": 316
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63.svg",
+          "sha256": "577a73ebe283ab7a6bb2c632d95546c47acc12cbb4e2565ca5ec4d5dac800d63",
+          "format": "svg",
+          "bytes": 316
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/dc28f91ad36b00afd8980116847b6a78315af0c1be1d055b02519d386018155e.svg",
+          "sha256": "dc28f91ad36b00afd8980116847b6a78315af0c1be1d055b02519d386018155e",
+          "format": "svg",
+          "bytes": 316
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.received",
+      "label": "对端已持久接收",
+      "category": "table-status",
+      "aliases": [
+        "sync.received",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/30cf3f85818be200d4ea2f1aa6be4904147329e1e8e06790fe66c8729f4dd5f5.svg",
+          "sha256": "30cf3f85818be200d4ea2f1aa6be4904147329e1e8e06790fe66c8729f4dd5f5",
+          "format": "svg",
+          "bytes": 320
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2bca780f7668a2bf381006b4c3b570470b5102c26af5b25f9a4430cc2f9534ae.svg",
+          "sha256": "2bca780f7668a2bf381006b4c3b570470b5102c26af5b25f9a4430cc2f9534ae",
+          "format": "svg",
+          "bytes": 320
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/dd31aef98a034b409815477ef4043e56ec2aff2c45e48e96f126638fd00be629.svg",
+          "sha256": "dd31aef98a034b409815477ef4043e56ec2aff2c45e48e96f126638fd00be629",
+          "format": "svg",
+          "bytes": 320
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.sync.projected",
+      "label": "对端投影已更新",
+      "category": "table-status",
+      "aliases": [
+        "sync.projected",
+        "sync",
+        "集成与同步",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111.svg",
+          "sha256": "072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac.svg",
+          "sha256": "0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9.svg",
+          "sha256": "a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9",
+          "format": "svg",
+          "bytes": 337
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.data.source-empty",
+      "label": "来源为空",
+      "category": "table-status",
+      "aliases": [
+        "data.source-empty",
+        "data",
+        "数据质量与证据",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/799e5d2a456682e3d3055a59971072536e1e8f59b8dd2141e1f2769a20141fdb.svg",
+          "sha256": "799e5d2a456682e3d3055a59971072536e1e8f59b8dd2141e1f2769a20141fdb",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c.svg",
+          "sha256": "467cbf79cacde93cadc21e3ad14ba7b015bbd17cf82b9fb529427659a5dbcb7c",
+          "format": "svg",
+          "bytes": 314
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b9840bc1db20daf41e77fbc14e3351b16f64de0f026727af310071a9709c1b97.svg",
+          "sha256": "b9840bc1db20daf41e77fbc14e3351b16f64de0f026727af310071a9709c1b97",
+          "format": "svg",
+          "bytes": 314
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.data.unmapped",
+      "label": "接口未映射",
+      "category": "table-status",
+      "aliases": [
+        "data.unmapped",
+        "data",
+        "数据质量与证据",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ad5f9d232d88e1635174484de4aedeb8cfbc3d9d1dda313211d3d5ad8a5f1ea2.svg",
+          "sha256": "ad5f9d232d88e1635174484de4aedeb8cfbc3d9d1dda313211d3d5ad8a5f1ea2",
+          "format": "svg",
+          "bytes": 326
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/4e27054c468f9453509f8723f8a0ec0920581eeae4be44012f7bb4690736860c.svg",
+          "sha256": "4e27054c468f9453509f8723f8a0ec0920581eeae4be44012f7bb4690736860c",
+          "format": "svg",
+          "bytes": 326
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/460e71565dbba6568daae7af5d0dd760ad92d775e2c34d824e590f9058f997ce.svg",
+          "sha256": "460e71565dbba6568daae7af5d0dd760ad92d775e2c34d824e590f9058f997ce",
+          "format": "svg",
+          "bytes": 326
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.data.no-permission",
+      "label": "无权限",
+      "category": "table-status",
+      "aliases": [
+        "data.no-permission",
+        "data",
+        "数据质量与证据",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/fc33fb0a6bd4d6493063177398e81a7f632eaba9fd8986202edb037c3ca9f092.svg",
+          "sha256": "fc33fb0a6bd4d6493063177398e81a7f632eaba9fd8986202edb037c3ca9f092",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3d26dcccda09580709348bbe2ac09f3875726dcdc1df1d381576d7dcdced755b.svg",
+          "sha256": "3d26dcccda09580709348bbe2ac09f3875726dcdc1df1d381576d7dcdced755b",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/fb328eb0321f7d557007af0ee7f7d4ac0a00a48a0a3b257ae35e7889657ea664.svg",
+          "sha256": "fb328eb0321f7d557007af0ee7f7d4ac0a00a48a0a3b257ae35e7889657ea664",
+          "format": "svg",
+          "bytes": 325
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.data.pending",
+      "label": "待核验",
+      "category": "table-status",
+      "aliases": [
+        "data.pending",
+        "data",
+        "数据质量与证据",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.data.verified",
+      "label": "证据已核验",
+      "category": "table-status",
+      "aliases": [
+        "data.verified",
+        "data",
+        "数据质量与证据",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111.svg",
+          "sha256": "072864dacd5412f3957d9e5c7d0054f8bcac0d062aca02b2ef282d34ec1df111",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac.svg",
+          "sha256": "0925440b851edf4030b976e0f43306618d3fe7034376a93f5b3605ce60feccac",
+          "format": "svg",
+          "bytes": 337
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9.svg",
+          "sha256": "a0bf5946e79e93b5f2935c80d224efaa97d9a6d1059c3449684180e68431eea9",
+          "format": "svg",
+          "bytes": 337
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.data.historical",
+      "label": "历史记录",
+      "category": "table-status",
+      "aliases": [
+        "data.historical",
+        "data",
+        "数据质量与证据",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/13ceda83cda85ebbcd024c55fd843c431543abca603c9f103c3f53bb7b9b89f9.svg",
+          "sha256": "13ceda83cda85ebbcd024c55fd843c431543abca603c9f103c3f53bb7b9b89f9",
+          "format": "svg",
+          "bytes": 321
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/53b3dc6f665a6bd152b768ce2ab547eb380f3857162e2dcf7872e1fcb519122b.svg",
+          "sha256": "53b3dc6f665a6bd152b768ce2ab547eb380f3857162e2dcf7872e1fcb519122b",
+          "format": "svg",
+          "bytes": 321
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/e031e712bedc20888d1f625ed471424a68afadfcd9d38d171da8506fbb1b643d.svg",
+          "sha256": "e031e712bedc20888d1f625ed471424a68afadfcd9d38d171da8506fbb1b643d",
+          "format": "svg",
+          "bytes": 321
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.data.partial",
+      "label": "数据不完整",
+      "category": "table-status",
+      "aliases": [
+        "data.partial",
+        "data",
+        "数据质量与证据",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2.svg",
+          "sha256": "f03dbd5d2cc24cdf59862c240079139a8effc09dd8bda1e75e492f3f1d7ec3e2",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed.svg",
+          "sha256": "d1de6a8624c92114640b0759f1302ecd4f25ebd081971a3fe8f799007d7100ed",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb.svg",
+          "sha256": "ccf6388b02f63a902017c082d271a2b54d21df180905fc4b68631759002bdcdb",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.data.stale",
+      "label": "数据陈旧",
+      "category": "table-status",
+      "aliases": [
+        "data.stale",
+        "data",
+        "数据质量与证据",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/748a1318a453c10f66b16312f46f776bcba11d03e765864474dc5a95a3f7d958.svg",
+          "sha256": "748a1318a453c10f66b16312f46f776bcba11d03e765864474dc5a95a3f7d958",
+          "format": "svg",
+          "bytes": 348
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17.svg",
+          "sha256": "788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17",
+          "format": "svg",
+          "bytes": 348
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/ed89c9e6ad2f1a3c92b098d6af3e3b4430af8dcd73caa13fe879c772438898ce.svg",
+          "sha256": "ed89c9e6ad2f1a3c92b098d6af3e3b4430af8dcd73caa13fe879c772438898ce",
+          "format": "svg",
+          "bytes": 348
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.data.unknown",
+      "label": "状态未知",
+      "category": "table-status",
+      "aliases": [
+        "data.unknown",
+        "data",
+        "数据质量与证据",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6284ed99f81747e69d5dfb39550a2e47a7d985dc9c0b69e3356978176449dc4e.svg",
+          "sha256": "6284ed99f81747e69d5dfb39550a2e47a7d985dc9c0b69e3356978176449dc4e",
+          "format": "svg",
+          "bytes": 363
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1eb48ee387e4390d71a0debe7ba9001e0d8d815cb85b7c72f689b8e215fc306e.svg",
+          "sha256": "1eb48ee387e4390d71a0debe7ba9001e0d8d815cb85b7c72f689b8e215fc306e",
+          "format": "svg",
+          "bytes": 363
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/6217e2b407301dbe4fa136f112c58ed690182ebaede8cd4184bf7eadb18b8d32.svg",
+          "sha256": "6217e2b407301dbe4fa136f112c58ed690182ebaede8cd4184bf7eadb18b8d32",
+          "format": "svg",
+          "bytes": 363
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.risk.due-soon",
+      "label": "即将到期",
+      "category": "table-status",
+      "aliases": [
+        "risk.due-soon",
+        "risk",
+        "时效与风险",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.risk.overdue",
+      "label": "已逾期",
+      "category": "table-status",
+      "aliases": [
+        "risk.overdue",
+        "risk",
+        "时效与风险",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/b08ab6e281f62b8253048210f883757af189bb5ab3706c5c820125fc214ca162.svg",
+          "sha256": "b08ab6e281f62b8253048210f883757af189bb5ab3706c5c820125fc214ca162",
+          "format": "svg",
+          "bytes": 348
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17.svg",
+          "sha256": "788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17",
+          "format": "svg",
+          "bytes": 348
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8e8a677dfedf81037e65599d4fce729e2a74eb014a9eeffacb9f9fba1d86fa51.svg",
+          "sha256": "8e8a677dfedf81037e65599d4fce729e2a74eb014a9eeffacb9f9fba1d86fa51",
+          "format": "svg",
+          "bytes": 348
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.risk.delayed",
+      "label": "已延期",
+      "category": "table-status",
+      "aliases": [
+        "risk.delayed",
+        "risk",
+        "时效与风险",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.risk.at-risk",
+      "label": "存在风险",
+      "category": "table-status",
+      "aliases": [
+        "risk.at-risk",
+        "risk",
+        "时效与风险",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/44ea7a082475a9f2a73350ffdf5789b0e05dea53e93992ac923c5da90373d57a.svg",
+          "sha256": "44ea7a082475a9f2a73350ffdf5789b0e05dea53e93992ac923c5da90373d57a",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0.svg",
+          "sha256": "14fd8d7eb483ac8c4afc73cb0febca8f4fd2dd8b96dd1d4d25f553db9c3f79b0",
+          "format": "svg",
+          "bytes": 335
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/52668af6f67bafa1e02cd3c44e97d68abd98610c786185c33fa269328506fa5c.svg",
+          "sha256": "52668af6f67bafa1e02cd3c44e97d68abd98610c786185c33fa269328506fa5c",
+          "format": "svg",
+          "bytes": 335
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.risk.blocked",
+      "label": "风险阻断",
+      "category": "table-status",
+      "aliases": [
+        "risk.blocked",
+        "risk",
+        "时效与风险",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/32bf48afea52e910b68e98aaf7ae628fc0c5ceccffb4e2a64fdf6721fedac6ab.svg",
+          "sha256": "32bf48afea52e910b68e98aaf7ae628fc0c5ceccffb4e2a64fdf6721fedac6ab",
+          "format": "svg",
+          "bytes": 344
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/968a4bc1263eaf5472c6c6de8de3e916be6775f9ba5b78ee7e0db65ca6ae9518.svg",
+          "sha256": "968a4bc1263eaf5472c6c6de8de3e916be6775f9ba5b78ee7e0db65ca6ae9518",
+          "format": "svg",
+          "bytes": 344
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/14fbec12407fd74690b9b874daf10c1cdb3e3bd5716aafb475375e199bcd9679.svg",
+          "sha256": "14fbec12407fd74690b9b874daf10c1cdb3e3bd5716aafb475375e199bcd9679",
+          "format": "svg",
+          "bytes": 344
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.asset.repairing",
+      "label": "维修中",
+      "category": "table-status",
+      "aliases": [
+        "asset.repairing",
+        "asset",
+        "资产与维修",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/82a669993038d828d32588b0b94045d9a5af672b24ef8a0c5f029598bdc0198a.svg",
+          "sha256": "82a669993038d828d32588b0b94045d9a5af672b24ef8a0c5f029598bdc0198a",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c4593a57938844878052e4756cf3126f3acd5f7d2c31554f3175cc228e55ecc1.svg",
+          "sha256": "c4593a57938844878052e4756cf3126f3acd5f7d2c31554f3175cc228e55ecc1",
+          "format": "svg",
+          "bytes": 341
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5151cb30e84c664ecaca8ecce0cfd8aa78d2cbb8434b8521502ed70a060b6dfd.svg",
+          "sha256": "5151cb30e84c664ecaca8ecce0cfd8aa78d2cbb8434b8521502ed70a060b6dfd",
+          "format": "svg",
+          "bytes": 341
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.asset.scrapped",
+      "label": "已报废",
+      "category": "table-status",
+      "aliases": [
+        "asset.scrapped",
+        "asset",
+        "资产与维修",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5b64bf40c1721f503696deb9854f7e6596aa8b0336410c8eedd567a3b1901071.svg",
+          "sha256": "5b64bf40c1721f503696deb9854f7e6596aa8b0336410c8eedd567a3b1901071",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9c76a0b033518e67d628344ee497df980655a96c5510e881e44d183f4906e328.svg",
+          "sha256": "9c76a0b033518e67d628344ee497df980655a96c5510e881e44d183f4906e328",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8bb07373e92eec66dbf6003740f56c0aec343e138b1257fe0eec5bec0ebbaaf6.svg",
+          "sha256": "8bb07373e92eec66dbf6003740f56c0aec343e138b1257fe0eec5bec0ebbaaf6",
+          "format": "svg",
+          "bytes": 325
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.asset.frozen",
+      "label": "已冻结",
+      "category": "table-status",
+      "aliases": [
+        "asset.frozen",
+        "asset",
+        "资产与维修",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/55cd21769b7c7ca70cc11d1d2da55c7786d66cddecab60fcfe28317f60b4269d.svg",
+          "sha256": "55cd21769b7c7ca70cc11d1d2da55c7786d66cddecab60fcfe28317f60b4269d",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3d26dcccda09580709348bbe2ac09f3875726dcdc1df1d381576d7dcdced755b.svg",
+          "sha256": "3d26dcccda09580709348bbe2ac09f3875726dcdc1df1d381576d7dcdced755b",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5a4dabfe0cd5c0efdcd5c60b2a863ef5c8d1a8819664343fa00484f3db3d10c5.svg",
+          "sha256": "5a4dabfe0cd5c0efdcd5c60b2a863ef5c8d1a8819664343fa00484f3db3d10c5",
+          "format": "svg",
+          "bytes": 325
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.hiring.recruiting",
+      "label": "招聘中",
+      "category": "table-status",
+      "aliases": [
+        "hiring.recruiting",
+        "hiring",
+        "招聘与面试",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9a2bcbbe88c7527493a77adc4e67d74b59807c8c2e4bc4f84be09209337c1a76.svg",
+          "sha256": "9a2bcbbe88c7527493a77adc4e67d74b59807c8c2e4bc4f84be09209337c1a76",
+          "format": "svg",
+          "bytes": 366
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5b887dcb80e7b04c2bdaa40c209f6df872c8eecedbaebd2641cdeb6b37395901.svg",
+          "sha256": "5b887dcb80e7b04c2bdaa40c209f6df872c8eecedbaebd2641cdeb6b37395901",
+          "format": "svg",
+          "bytes": 366
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/99617834436e130cce1f36e4f9c2099610ed95ed44cd1e007c778a2fe1757a19.svg",
+          "sha256": "99617834436e130cce1f36e4f9c2099610ed95ed44cd1e007c778a2fe1757a19",
+          "format": "svg",
+          "bytes": 366
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.hiring.first-interview",
+      "label": "待初试",
+      "category": "table-status",
+      "aliases": [
+        "hiring.first-interview",
+        "hiring",
+        "招聘与面试",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.hiring.second-interview",
+      "label": "待复试",
+      "category": "table-status",
+      "aliases": [
+        "hiring.second-interview",
+        "hiring",
+        "招聘与面试",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.hiring.pending-evaluation",
+      "label": "已完成待评价",
+      "category": "table-status",
+      "aliases": [
+        "hiring.pending-evaluation",
+        "hiring",
+        "招聘与面试",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.hiring.no-show",
+      "label": "未到场",
+      "category": "table-status",
+      "aliases": [
+        "hiring.no-show",
+        "hiring",
+        "招聘与面试",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5b64bf40c1721f503696deb9854f7e6596aa8b0336410c8eedd567a3b1901071.svg",
+          "sha256": "5b64bf40c1721f503696deb9854f7e6596aa8b0336410c8eedd567a3b1901071",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/9c76a0b033518e67d628344ee497df980655a96c5510e881e44d183f4906e328.svg",
+          "sha256": "9c76a0b033518e67d628344ee497df980655a96c5510e881e44d183f4906e328",
+          "format": "svg",
+          "bytes": 325
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/8bb07373e92eec66dbf6003740f56c0aec343e138b1257fe0eec5bec0ebbaaf6.svg",
+          "sha256": "8bb07373e92eec66dbf6003740f56c0aec343e138b1257fe0eec5bec0ebbaaf6",
+          "format": "svg",
+          "bytes": 325
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.contract.pending",
+      "label": "待生效",
+      "category": "table-status",
+      "aliases": [
+        "contract.pending",
+        "contract",
+        "合同与权益",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.contract.active",
+      "label": "履行中",
+      "category": "table-status",
+      "aliases": [
+        "contract.active",
+        "contract",
+        "合同与权益",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5569cf398eee7fe1005d8cd47239e14f29eac0c9355f93cb68e3fa43aaf0d8fb.svg",
+          "sha256": "5569cf398eee7fe1005d8cd47239e14f29eac0c9355f93cb68e3fa43aaf0d8fb",
+          "format": "svg",
+          "bytes": 306
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/89ce721a9821a47f0282bfc757b37f7ef18c88cf3e46e53bb685ec9bddf56d39.svg",
+          "sha256": "89ce721a9821a47f0282bfc757b37f7ef18c88cf3e46e53bb685ec9bddf56d39",
+          "format": "svg",
+          "bytes": 306
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/26b21494708b0f8a9e2f4f1074b3454dc0b620028d8521cad506cfb7f952ce59.svg",
+          "sha256": "26b21494708b0f8a9e2f4f1074b3454dc0b620028d8521cad506cfb7f952ce59",
+          "format": "svg",
+          "bytes": 306
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.contract.grace",
+      "label": "宽限期中",
+      "category": "table-status",
+      "aliases": [
+        "contract.grace",
+        "contract",
+        "合同与权益",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe.svg",
+          "sha256": "032e4fcbba049c15af9b9c96f16a32628d490e878abd536ca8ad1f5c1f2867fe",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82.svg",
+          "sha256": "3fa5d6963bb285a2c721a8c615c82eaa6be1b937a27e3be489fafd42cf50be82",
+          "format": "svg",
+          "bytes": 332
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7.svg",
+          "sha256": "1985a663f348bb05764bac00d3b899dca67bef45fa0f73186770651a644bf8c7",
+          "format": "svg",
+          "bytes": 332
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.contract.expired",
+      "label": "已到期",
+      "category": "table-status",
+      "aliases": [
+        "contract.expired",
+        "contract",
+        "合同与权益",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/79112386bcd45b6cabff492fb5d4317e31bbdd56e03f4cb265978663d55feeef.svg",
+          "sha256": "79112386bcd45b6cabff492fb5d4317e31bbdd56e03f4cb265978663d55feeef",
+          "format": "svg",
+          "bytes": 348
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17.svg",
+          "sha256": "788ed24af3eb15a7f88d21c9c49073466e756e1b7c0a3198caad05b77df5eb17",
+          "format": "svg",
+          "bytes": 348
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/1d2fbca0cf4b1f5fec31dcb4d971d71407ea9d1ea61763cb8fd6c93d78a57768.svg",
+          "sha256": "1d2fbca0cf4b1f5fec31dcb4d971d71407ea9d1ea61763cb8fd6c93d78a57768",
+          "format": "svg",
+          "bytes": 348
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.project.researching",
+      "label": "调研中",
+      "category": "table-status",
+      "aliases": [
+        "project.researching",
+        "project",
+        "调研与项目",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cd2301a2e73fb518fa266decf42dad11985f2c7a0d2ea437aaf04dfcb60b79c3.svg",
+          "sha256": "cd2301a2e73fb518fa266decf42dad11985f2c7a0d2ea437aaf04dfcb60b79c3",
+          "format": "svg",
+          "bytes": 448
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88.svg",
+          "sha256": "43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88",
+          "format": "svg",
+          "bytes": 448
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/628b23ece9d3a7dc26b4ccce756b2b0bd3bdf64d707ffdd241e04571f41a6228.svg",
+          "sha256": "628b23ece9d3a7dc26b4ccce756b2b0bd3bdf64d707ffdd241e04571f41a6228",
+          "format": "svg",
+          "bytes": 448
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.project.negotiating",
+      "label": "商务谈判",
+      "category": "table-status",
+      "aliases": [
+        "project.negotiating",
+        "project",
+        "调研与项目",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/cd2301a2e73fb518fa266decf42dad11985f2c7a0d2ea437aaf04dfcb60b79c3.svg",
+          "sha256": "cd2301a2e73fb518fa266decf42dad11985f2c7a0d2ea437aaf04dfcb60b79c3",
+          "format": "svg",
+          "bytes": 448
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88.svg",
+          "sha256": "43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88",
+          "format": "svg",
+          "bytes": 448
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/628b23ece9d3a7dc26b4ccce756b2b0bd3bdf64d707ffdd241e04571f41a6228.svg",
+          "sha256": "628b23ece9d3a7dc26b4ccce756b2b0bd3bdf64d707ffdd241e04571f41a6228",
+          "format": "svg",
+          "bytes": 448
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "status.project.converted",
+      "label": "已转项目",
+      "category": "table-status",
+      "aliases": [
+        "project.converted",
+        "project",
+        "调研与项目",
+        "状态",
+        "status"
+      ],
+      "source": "表格状态 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/372313b4e597a5c5cce16bc1f79e269feb3be03167ef61fec83e513eecd20c80.svg",
+          "sha256": "372313b4e597a5c5cce16bc1f79e269feb3be03167ef61fec83e513eecd20c80",
+          "format": "svg",
+          "bytes": 448
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88.svg",
+          "sha256": "43d6029248711341e5298a1d498af31f2db019ec1bd19fcb8c76e80c5aa7fc88",
+          "format": "svg",
+          "bytes": 448
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/c8a35b221c714922ab5128db3679c5b09e69bb8fa3deb9a69a6996962c45e73e.svg",
+          "sha256": "c8a35b221c714922ab5128db3679c5b09e69bb8fa3deb9a69a6996962c45e73e",
+          "format": "svg",
+          "bytes": 448
+        }
+      },
+      "maskable": false,
+      "sourceNote": "图标与文字共同呈现；不表示权限，停用不等于禁用控件。"
+    },
+    {
+      "id": "production.odm",
+      "label": "ODM · 委托设计生产",
+      "category": "production-mode",
+      "aliases": [
+        "odm",
+        "Original Design Manufacturing",
+        "委托设计生产",
+        "生产",
+        "产品方式"
+      ],
+      "source": "生产方式 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/31fab9e09d133a4f811ba98b38e75cf950ea52eeed2432b2ded38725e576b919.svg",
+          "sha256": "31fab9e09d133a4f811ba98b38e75cf950ea52eeed2432b2ded38725e576b919",
+          "format": "svg",
+          "bytes": 229
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/bd576d0d1a669203cc484c46405618d0a6e59209a121dd1dbda29190c4c4e35c.svg",
+          "sha256": "bd576d0d1a669203cc484c46405618d0a6e59209a121dd1dbda29190c4c4e35c",
+          "format": "svg",
+          "bytes": 229
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/0e2fc1cd6a2ae23ea0a40de51b4fb4eaef8693d7c1704c3368d059b46b28c504.svg",
+          "sha256": "0e2fc1cd6a2ae23ea0a40de51b4fb4eaef8693d7c1704c3368d059b46b28c504",
+          "format": "svg",
+          "bytes": 229
+        }
+      },
+      "maskable": false,
+      "sourceNote": "由受托方提供设计与生产；具体责任以合同为准。 独立分类，不替代主档状态。"
+    },
+    {
+      "id": "production.oem",
+      "label": "OEM · 委托加工",
+      "category": "production-mode",
+      "aliases": [
+        "oem",
+        "Original Equipment Manufacturing",
+        "委托加工",
+        "生产",
+        "产品方式"
+      ],
+      "source": "生产方式 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/019d2458ee901cc0f406ac5b6b6fc89714482322d6efaf0a4be057c0c9ca4e99.svg",
+          "sha256": "019d2458ee901cc0f406ac5b6b6fc89714482322d6efaf0a4be057c0c9ca4e99",
+          "format": "svg",
+          "bytes": 258
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/104b1304d5db508ab1c5d55cab47a7bddffa8e2b75a70147489b275029329381.svg",
+          "sha256": "104b1304d5db508ab1c5d55cab47a7bddffa8e2b75a70147489b275029329381",
+          "format": "svg",
+          "bytes": 258
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/daa617383cd3f8f619e08d6525cb1232290472e95719ec0c5ac965f2129cafdb.svg",
+          "sha256": "daa617383cd3f8f619e08d6525cb1232290472e95719ec0c5ac965f2129cafdb",
+          "format": "svg",
+          "bytes": 258
+        }
+      },
+      "maskable": false,
+      "sourceNote": "按委托方的设计或规格加工；具体责任以合同为准。 独立分类，不替代主档状态。"
+    },
+    {
+      "id": "production.ihm",
+      "label": "IHM · 自产",
+      "category": "production-mode",
+      "aliases": [
+        "ihm",
+        "In-House Manufacturing",
+        "自产",
+        "生产",
+        "产品方式"
+      ],
+      "source": "生产方式 · 1.0",
+      "rights": "project-reuse",
+      "defaultVariant": "color",
+      "variants": {
+        "color": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/2c43a2556c97db7e5f979d80c389afdf5bb863df5f25c4732611dfd4eb786d0d.svg",
+          "sha256": "2c43a2556c97db7e5f979d80c389afdf5bb863df5f25c4732611dfd4eb786d0d",
+          "format": "svg",
+          "bytes": 269
+        },
+        "mono": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5f00c1d970fda92017fb6dd1c606c187f4cb12d908d9aad0f8938d31041a4013.svg",
+          "sha256": "5f00c1d970fda92017fb6dd1c606c187f4cb12d908d9aad0f8938d31041a4013",
+          "format": "svg",
+          "bytes": 269
+        },
+        "mono-light": {
+          "url": "/skills/leego-design-ui/site/icon-api/v1/assets/5db6bc6eec2288e9af14801f6327ec155e5403eaa21b3f5f92ba110874c6ae3a.svg",
+          "sha256": "5db6bc6eec2288e9af14801f6327ec155e5403eaa21b3f5f92ba110874c6ae3a",
+          "format": "svg",
+          "bytes": 269
+        }
+      },
+      "maskable": false,
+      "sourceNote": "本企业自行生产；IHM 为 Leego 内部显示简称，不是行业统一编码。 独立分类，不替代主档状态。"
     }
   ]
 }

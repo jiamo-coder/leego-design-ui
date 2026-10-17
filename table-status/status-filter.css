@@ -1,0 +1,14 @@
+.leego-status-filter{position:relative;display:inline-block;color:inherit;font:inherit}
+.leego-status-filter .leego-status-filter-trigger{display:flex;align-items:center;justify-content:space-between;gap:20px;min-width:148px;min-height:40px;padding:8px 12px;border:1px solid #d8dce5;border-radius:8px;background:#fff;color:#354052;font:inherit}
+.leego-status-filter-trigger:focus-visible{outline:2px solid #7654c5;outline-offset:2px}
+.leego-status-filter-panel{position:absolute;top:calc(100% + 6px);right:0;z-index:5;width:180px;padding:5px;background:#fff;color:#354052;border-radius:10px;box-shadow:0 8px 28px #18223524}
+.leego-status-filter-option{display:flex;align-items:center;gap:9px;min-height:38px;padding:7px 9px;border-radius:6px;cursor:pointer;font-size:14px;line-height:22px}
+.leego-status-filter-option:has(input:checked){background:#f0eafa}
+.leego-status-filter-option:hover{background:#f5f3f9}
+.leego-status-filter-option:focus-within{outline:2px solid #7654c5;outline-offset:-2px}
+.leego-status-filter-option input{margin:0;width:14px;height:14px;accent-color:#7654c5;flex:0 0 14px}
+[data-leego-status-theme=dark] .leego-status-filter-trigger{background:#252733;border-color:#565968;color:#eef0f5}
+[data-leego-status-theme=dark] .leego-status-filter-panel{background:#252733;color:#eef0f5}
+[data-leego-status-theme=dark] .leego-status-filter-option:has(input:checked){background:#41344f}
+[data-leego-status-theme=dark] .leego-status-filter-option:hover{background:#343541}
+@media(pointer:coarse){.leego-status-filter .leego-status-filter-trigger,.leego-status-filter-option{min-height:44px}}

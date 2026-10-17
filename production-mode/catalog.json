@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "grid": 16,
+  "iconSize": 14,
+  "members": [
+    {"key":"odm","id":"production.odm","code":"ODM","label":"委托设计生产","english":"Original Design Manufacturing","color":"#62509D","darkColor":"#C4B5ED","background":"#F2EFF8","darkBackground":"#30283F","path":"M8 2 14 8 8 14 2 8ZM5 8H11M8 5V11","description":"由受托方提供设计与生产；具体责任以合同为准。"},
+    {"key":"oem","id":"production.oem","code":"OEM","label":"委托加工","english":"Original Equipment Manufacturing","color":"#2B62A4","darkColor":"#9CC8FA","background":"#EDF3FA","darkBackground":"#203247","path":"M3 2.5H13M5 2.5V6H11V2.5M2.5 13.5H13.5M4 13.5V10H12V13.5M8 6V8","description":"按委托方的设计或规格加工；具体责任以合同为准。"},
+    {"key":"ihm","id":"production.ihm","code":"IHM","label":"自产","english":"In-House Manufacturing","color":"#45695F","darkColor":"#A6D5C5","background":"#EDF4F1","darkBackground":"#263B34","path":"M2.5 13.5V7.5L6.5 5V8L10 6V13.5ZM10 9H13.5V2.5H11V9M5.5 10.5V11M8 10.5V11","description":"本企业自行生产；IHM 为 Leego 内部显示简称，不是行业统一编码。"}
+  ]
+}

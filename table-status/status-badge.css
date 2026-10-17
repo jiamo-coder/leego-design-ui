@@ -1,0 +1,8 @@
+.leego-status{display:inline-flex;align-items:center;gap:5px;vertical-align:middle;white-space:nowrap;color:var(--status-color,#667085);font-family:inherit;font-size:12px;font-weight:400;line-height:20px;min-height:20px}
+.leego-status svg{display:block;width:14px;height:14px;flex:0 0 14px}
+.leego-status[data-size=regular]{font-size:14px;line-height:22px;min-height:22px;gap:6px}
+.leego-status[data-size=regular] svg{width:16px;height:16px;flex-basis:16px}
+.leego-status[data-tone=soft]{padding:1px 7px;border-radius:5px;background:var(--status-bg,#f1f3f6)}
+[data-leego-status-theme=dark] .leego-status{color:var(--status-dark-color,#bac4d5);--status-ink:#17212b}
+[data-leego-status-theme=dark] .leego-status[data-tone=soft]{background:var(--status-dark-bg,#2b3340)}
+@media(forced-colors:active){.leego-status{color:CanvasText;background:Canvas;--status-ink:Canvas}.leego-status[data-tone=soft]{background:Canvas;outline:1px solid CanvasText}}
