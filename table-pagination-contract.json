@@ -1,0 +1,9 @@
+{
+  "id": "table-pagination-contract-1",
+  "version": "2.29.0",
+  "pagination": {"mode": "server", "defaultPageSize": 20, "pageSizeOptions": [15, 20, 50, 100], "maxPageSize": 100, "allowAll": false, "resetPageOn": ["pageSize", "q", "filters", "sort"], "responseFields": ["items", "page", "pageSize", "total"], "preferenceBeforeInitialRequest": true, "latestResponseOnly": true},
+  "layout": {"contextBaselineHeight": 64, "combinedListToolbarMinHeight": 60, "routeOnlySubnavHeight": 48, "touchTargetMinWidth": 44, "touchTargetMinHeight": 44, "narrowScreen": "wrap-or-disclose-without-removing-actions"},
+  "checks": ["server-query-limit", "single-initial-request", "preference-before-fetch", "query-reset", "last-and-out-of-range-page", "filtered-authorized-total", "stale-response-protection", "error-empty-permission-separation", "url-restore", "tenant-isolation", "keyboard-and-touch", "mobile-middle-page", "toolbar-scope"],
+  "evidenceStatuses": ["pass", "fail", "unverified", "not-applicable"],
+  "limitations": "Declarative contract, not an executable audit or proof of business-system adoption."
+}
