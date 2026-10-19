@@ -2,11 +2,11 @@
   "standard": {
     "name": "Leego Design UI",
     "id": "leego-design-ui",
-    "version": "2.28.0",
-    "updated": "2026-10-17"
+    "version": "2.29.0",
+    "updated": "2026-10-19"
   },
   "channel": "stable",
-  "generatedAt": "2026-10-17T00:00:00+08:00",
+  "generatedAt": "2026-10-19T00:00:00+08:00",
   "trustedOrigin": "https://raw.githubusercontent.com",
   "resources": {
     "productionMode": {
@@ -1444,11 +1444,11 @@
     "webNavigation": {
       "reference": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/WEB_NAVIGATION_2026.md",
-        "sha256": "e88940f9bb955ee96fb9ee4e3fac6bc0fd182d67d411e84651e900adc4dc0fc4"
+        "sha256": "e8e3c9a82e3d682967608fdae60edc67871649c803cc2e1fd11ce29ffb7a4b06"
       },
       "contract": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/navigation-contract.json",
-        "sha256": "c85223c54f6a30c221846f8b9bba3604277b61aa92f46636f01463574fecef23"
+        "sha256": "6503e00885e72b3734904191a94dd36aff5b197cf7c29273b058181348795ec0"
       },
       "evidenceExample": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/navigation-evidence.example.json",
@@ -1469,6 +1469,16 @@
       "gate": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/check-navigation.mjs",
         "sha256": "63e4eeff6607a91ce6820854e28224856306bdb23ce72bbecd75e746f3f7c86a"
+      }
+    },
+    "tablePagination": {
+      "reference": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/TABLE_PAGINATION_2026.md",
+        "sha256": "e2cf74771921dc9100f96d762b73426515f9d60ea7f663a951af156b41e72699"
+      },
+      "contract": {
+        "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/table-pagination-contract.json",
+        "sha256": "b0d4bdefb57709b71189776d5e5a58e5e824b10a39a4d08cb21b5395008e9d5e"
       }
     },
     "ownedBrandWordmarks": {
@@ -1578,7 +1588,7 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/interaction-contract.json",
-        "sha256": "f458d27f2fa541417aad7af85791147ddfae88849fe237f2b1cdd69834de9d41"
+        "sha256": "6e8c8a4b9be4ba9c8a48ac396e3d191b7cc62af3cd1b380d2655327c01096259"
       }
     },
     "sidebarConsistency": {
@@ -1606,7 +1616,7 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/product-identity-collection.json",
-        "sha256": "73357a104ac427a085e0ba4d00afd3c88c88670d446e2ae3224b3f76cfcb1396"
+        "sha256": "a9e44df39260afea6581b5fe94f4db66555aa2f8e0567bd13e8ff581560dc1f5"
       },
       "carrier": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/icons/product-identities/quiet-glass/carrier.png",
@@ -2218,11 +2228,11 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/fresh-snack-brands.json",
-        "sha256": "e679be5d9fd91cd3c8d0a586468f4f73cf153ce365a08c21fa884876093a5707"
+        "sha256": "e22819dc8005a9a7c47cc30e80d995c38303e6812f84a98485aa42a5b797bd18"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/fresh-snack-brands.ts",
-        "sha256": "d53892d2ffcbb2c17633b94074fba2992355075c0e4d4d2bf13acf2ac65dfad5"
+        "sha256": "963baad82dbd904d450860c236bee9d4b21f6ddbb0a8c1f206a1e7bc0bc91fa1"
       }
     },
     "designSystem": {
@@ -2260,16 +2270,16 @@
     "uiQualityRules": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/ui-quality-rules.json",
-        "sha256": "a182061e2008fcab03a915a73eaad27c6b1f25bc5a327d3e949f1d73090a2c77"
+        "sha256": "f4e4b29ded898837ba4cc04c5305b1dfa2a525732486e03177334d7c93e250d4"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/ui-quality-rules.ts",
-        "sha256": "ab52ee3d5fe14ad9d22c114a69d629d1565dc7435e72ddb5521544029bb1052a"
+        "sha256": "d0e32a1592d7177ef9339edd0d26c984e2b48ebdf0fb982d75fdf1a347d1c49c"
       }
     },
     "tokens": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/tokens.json",
-      "sha256": "7f8fc198d2604ed85a0c41605074f48a503978a6fe549727b48e0debf3113798"
+      "sha256": "1a44eb9455865a257a87a55612d295389dee5416c4fdf92226ff72713addf774"
     },
     "changelog": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/CHANGELOG.md",
@@ -2277,7 +2287,7 @@
     },
     "skillSnapshot": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/SKILL.md",
-      "sha256": "4d627051708f3d5f754226019de017c0c32a5346bb7eb1b2fa8b5ae9caaebc32"
+      "sha256": "1f3b799230c1f00eba9f0771af8b23d3769fb4165dc4d73b1b4fe233f883418a"
     },
     "typographyResearch": {
       "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/TYPOGRAPHY_RESEARCH_2026.md",
@@ -2290,7 +2300,7 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/font-standard.json",
-        "sha256": "298107b043b254f512a92fbaf5904b22580868d3193492d81f04718ce42957c3"
+        "sha256": "4d78d923e1739f092c50c3201a4a3eea01b0355321995c1907b70068eda7223e"
       },
       "cssExample": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/misans-font-face.example.css",
@@ -2324,11 +2334,11 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/product-logo-family.json",
-        "sha256": "7e34acd57d6418fb34ae8e64958f1dc3961837907ada2926f29d13cfdf6c5799"
+        "sha256": "f0525584a40b02deed770d0996a026569b92f5a859096a392bffd6114c6ee731"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/product-logo-family.ts",
-        "sha256": "3df1abe2ab8a4ca66eb0b393b0bd7a38ebfe2fc6fa681ba3807504f67c5d2883"
+        "sha256": "2524bd18c9695df125d009d77b7a89911731d651a90001c1ba376199336db216"
       },
       "assets": {
         "r01.symbols.xiaoputao": {
@@ -3000,11 +3010,11 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/system-identity-family.json",
-        "sha256": "3c096f803d91334e3be924f19ff9c7b99ae0d117709f42dda64c6b0623fe44f4"
+        "sha256": "f041ee2f58f4763e8110f517e53a6ae977c622ca8355bec1bc8ffe9efbfd504f"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/system-identity-family.ts",
-        "sha256": "0eae7d7b51935b4382d1a7f034b6952ec7a3083fa5cfcb66829431c68069c22a"
+        "sha256": "ce5d211971be699846b20fd71575e093afabd0da80711035720f55757849d91a"
       },
       "assets": {
         "xiaoputao.app": {
@@ -3320,11 +3330,11 @@
       },
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/skill-logo-family.json",
-        "sha256": "a13eca851b1871aa14bcea82e113a7af4ed2f739e9b8fc7a23d58346d6eae2ec"
+        "sha256": "b6bf433ed41f0bdd08e397dc833d9d84b165f983891189f026a548b20400cc19"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/skill-logo-family.ts",
-        "sha256": "807ea4e4b61c91022c8989be74140e48c37fbcb2b73e7429937f2243e09f3718"
+        "sha256": "e4ffc56aa6b35ea1bdf409942def0fa4feb09c3798bdc04f4c24cc8a1e852f3c"
       },
       "assets": {
         "prd.app": {
@@ -3404,11 +3414,11 @@
     "templatePatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/template-patterns.json",
-        "sha256": "8f995fba24e631961e6883656b08d23c45b19ac576801e461ca65e88259ba8b7"
+        "sha256": "2065d3ac60dd37d6a7b9242336061aff01b729ce5d3659ce7d5f756bee509f51"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/template-patterns.ts",
-        "sha256": "c92c6568f4c43dd749a076b513a117a481fb9b7fa972141b5843f4f96dacaec4"
+        "sha256": "0db5d65bd68212c8f0ebf5e2927d92226b73e69df943e51a2f6dcf7408f4d8e6"
       }
     },
     "motionSystem": {
@@ -3422,11 +3432,11 @@
     "motionPatterns": {
       "registry": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/motion-patterns.json",
-        "sha256": "5058773066c4090799fd21ed8d43dfc0354c953df64aa5c791db1990223aeeaf"
+        "sha256": "b105958a4f499e412f91ce9371c186b5f4b303a64710f2819f511a38d21a164a"
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/motion-patterns.ts",
-        "sha256": "2b55365c5a4f33e47f28885f0fcfa536138a79a0d590ab4a6b704cbcc8ed1bcf"
+        "sha256": "9430557c42234b9683ef3d4d4d1148234bbbd1f420e382fae81f6b5f4f54cf53"
       }
     },
     "icons": {
@@ -3486,7 +3496,7 @@
       },
       "ts": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/icons/common-icons.ts",
-        "sha256": "da9bdfc039b5c032714987203c899de68ad69ef382e142ad0398af78cf69c905"
+        "sha256": "4184d50f7f7321a8ec9be5a85575c7f8ec6c687143a6d1dd8d6569f4d2c2412b"
       }
     },
     "commonIconFamily": {
@@ -3540,7 +3550,7 @@
       },
       "typescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/external-brands/external-brands.ts",
-        "sha256": "1c0c5eb9088be8fd9cd9ce926b60dd0d6dc5cc2bb0c0005a8f60c44c8975185d"
+        "sha256": "dc8ae49465de811891caec3d2a0eddb156fa42c83bed16479d25651f5d20a6b8"
       },
       "assetManifest": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/external-brands/external-brand-assets.json",
@@ -3548,7 +3558,7 @@
       },
       "assetTypescript": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/external-brands/external-brand-assets.ts",
-        "sha256": "ca3e07bb90436b3a4ca90dab2140a3543232e1b86539bf692a1a07c7a1d30fa7"
+        "sha256": "7075f7b50d576c4d0f1a3c29c0d77c319420487bc61d84e2ac8f634c37774cd1"
       },
       "sourceOverrides": {
         "url": "https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/external-brands/official-brand-sources.json",
@@ -3557,7 +3567,7 @@
     },
     "package": {
       "url": "https://smalltypeui.qiaokiai.com/downloads/leego-design-ui.zip",
-      "sha256": "2c370d491bfe40c5f94894506ed5716987deb973504a5361c4a1ac3602582fe9"
+      "sha256": "adfcedc9303e8d40aae40d2e4cbede65d3e4eddda9e7dba83f9990d1e335d505"
     }
   },
   "compatibility": {
