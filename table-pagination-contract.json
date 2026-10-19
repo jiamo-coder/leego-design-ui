@@ -1,9 +1,20 @@
 {
   "id": "table-pagination-contract-1",
-  "version": "2.29.0",
+  "version": "2.29.1",
   "pagination": {"mode": "server", "defaultPageSize": 20, "pageSizeOptions": [15, 20, 50, 100], "maxPageSize": 100, "allowAll": false, "resetPageOn": ["pageSize", "q", "filters", "sort"], "responseFields": ["items", "page", "pageSize", "total"], "preferenceBeforeInitialRequest": true, "latestResponseOnly": true},
   "layout": {"contextBaselineHeight": 64, "combinedListToolbarMinHeight": 60, "routeOnlySubnavHeight": 48, "touchTargetMinWidth": 44, "touchTargetMinHeight": 44, "narrowScreen": "wrap-or-disclose-without-removing-actions"},
   "checks": ["server-query-limit", "single-initial-request", "preference-before-fetch", "query-reset", "last-and-out-of-range-page", "filtered-authorized-total", "stale-response-protection", "error-empty-permission-separation", "url-restore", "tenant-isolation", "keyboard-and-touch", "mobile-middle-page", "toolbar-scope"],
+  "dataSource": {
+    "reference": "references/data-source-badges.md",
+    "catalog": "assets/data-source/catalog.json",
+    "members": [{"code":"SRC","iconId":"data.spc","variant":"micro"},{"code":"REF","iconId":"data.ref","variant":"micro"}],
+    "denseSize": 10,
+    "fieldGap": 4,
+    "placement": "field-right; column-header when uniformly sourced; context only when entire list uniformly sourced",
+    "unknown": "来源待确认，不猜测SRC",
+    "inferPermissions": false,
+    "checks": ["source-evidence-mapping", "stable-icon-id", "shared-legend", "accessible-description", "unknown-not-src"]
+  },
   "evidenceStatuses": ["pass", "fail", "unverified", "not-applicable"],
   "limitations": "Declarative contract, not an executable audit or proof of business-system adoption."
 }
