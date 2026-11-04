@@ -1,7 +1,40 @@
 /** Read-only DOM checks. Caller supplies an already open, authorized Playwright page. */
+
+const CHANNEL = (value) => {
+  const match = String(value).match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
+  return match ? { r: Number(match[1]), g: Number(match[2]), b: Number(match[3]) } : null;
+};
+
+/** Near-black navigation chrome in a light appearance is P0 drift. */
+export function classifySidebarSurface({ backgroundColor, appearance = 'system', prefersDark = false }) {
+  const rgb = CHANNEL(backgroundColor);
+  const sum = rgb ? rgb.r + rgb.g + rgb.b : 999;
+  const nearBlack = Boolean(rgb && rgb.r <= 32 && rgb.g <= 36 && rgb.b <= 48 && sum < 90);
+  const light = Boolean(rgb && Math.abs(rgb.r - 247) <= 2 && Math.abs(rgb.g - 248) <= 2 && Math.abs(rgb.b - 250) <= 2);
+  const mode = String(appearance || 'system').toLowerCase();
+  const darkAuthorized = mode === 'midnight' || mode === 'oled' || (mode === 'system' && prefersDark);
+  if (!rgb) return { status: '失败', method: 'browser', evidence: { severity: 'P0', reason: 'Sidebar background could not be read', backgroundColor } };
+  if (!darkAuthorized && nearBlack) {
+    return { status: '失败', method: 'browser', evidence: { severity: 'P0', reason: 'P0 drift: black left nav in light appearance', backgroundColor, appearance: mode, prefersDark } };
+  }
+  if (mode === 'light' && !light) {
+    return { status: '失败', method: 'browser', evidence: { severity: 'P0', reason: 'Light appearance must use the light chrome token', backgroundColor } };
+  }
+  if (!darkAuthorized && !light) {
+    return { status: '失败', method: 'browser', evidence: { severity: 'P1', reason: 'Light-first chrome is #F7F8FA unless dark is authorized', backgroundColor, appearance: mode } };
+  }
+  if (darkAuthorized && mode === 'oled' && sum > 12) {
+    return { status: '失败', method: 'browser', evidence: { severity: 'P1', reason: 'OLED appearance expects a black chrome', backgroundColor } };
+  }
+  if (darkAuthorized && mode === 'midnight' && !nearBlack) {
+    return { status: '失败', method: 'browser', evidence: { severity: 'P1', reason: 'Midnight appearance expects dark chrome', backgroundColor } };
+  }
+  return { status: '通过', method: 'browser', evidence: { backgroundColor, appearance: mode, prefersDark, darkAuthorized } };
+}
+
 export async function auditSidebar(page, selectors = {}) {
   const s = { sidebar:'[data-leego-sidebar]', row:'[data-leego-row]', slot:'[data-leego-slot]', label:'[data-leego-label]', selection:'[data-leego-selection]', account:'[data-leego-account]', notification:'[data-leego-notification]', toggle:'[data-leego-toggle]', ...selectors };
-  const checks = await page.evaluate(s => {
+  const evaluated = await page.evaluate(s => {
     const results = [];
     const add = (id, passed, evidence) => results.push({id,status:passed?'通过':'失败',method:'browser',evidence});
     const rail = document.querySelector(s.sidebar);
@@ -10,7 +43,7 @@ export async function auditSidebar(page, selectors = {}) {
     const near = (a,b) => Math.abs(a-b)<=1;
     const collapsed = near(r.width,68);
     add('sidebar.width', [216,68,248].some(w=>near(w,r.width)), r.width);
-    add('sidebar.surface',css.backgroundColor==='rgb(17, 17, 20)',css.backgroundColor);
+    results.surface = { backgroundColor: css.backgroundColor, appearance: rail.getAttribute('data-leego-appearance') || document.documentElement.getAttribute('data-leego-appearance') || 'system', prefersDark: matchMedia('(prefers-color-scheme: dark)').matches };
     const rows = [...rail.querySelectorAll(s.row)];
     add('navigation.present',rows.length>0,rows.length);
     for (const [index,row] of rows.entries()) {
@@ -33,8 +66,13 @@ export async function auditSidebar(page, selectors = {}) {
     if(account&&notification) add('account.notification-layout',collapsed ? notification.y>=account.bottom-1 : near(account.y+account.height/2,notification.y+notification.height/2)&&account.right<=notification.x+1,{account:account.toJSON(),notification:notification.toJSON()});
     const toggle=rail.querySelector(s.toggle)?.getBoundingClientRect();
     add('toggle.target',Boolean(toggle&&toggle.width>=44&&toggle.height>=44),toggle?.toJSON());
-    return results;
+    return { checks: results, surface: results.surface || null };
   }, s);
+  const checks = Array.isArray(evaluated) ? evaluated : evaluated.checks;
+  if (!Array.isArray(evaluated) && evaluated.surface) {
+    const verdict = classifySidebarSurface(evaluated.surface);
+    checks.push({ id: 'sidebar.surface', status: verdict.status, method: verdict.method, evidence: verdict.evidence });
+  }
   // Actual rendered glyphs, not document.fonts.check or font-family alone.
   let session;
   try {

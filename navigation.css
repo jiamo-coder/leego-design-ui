@@ -15,5 +15,16 @@
 [data-leego-shell] :is(button,a,input):focus-visible{outline:2px solid #7660bb;outline-offset:2px}
 [data-leego-shell] input{caret-color:var(--leego-nav-brand)}
 [data-leego-shell] ::selection{background:#e5dcfa;color:#252631}
+/* Light-first. Dark chrome follows the system, Midnight, or OLED. An explicit light lock stays light. */
+@media(prefers-color-scheme:dark){
+  [data-leego-shell]:not([data-leego-appearance=light]){--leego-nav-ink:#F2F4F7;--leego-nav-muted:#AAB2BF;--leego-nav-line:rgba(255,255,255,.14)}
+  [data-leego-shell]:not([data-leego-appearance=light]) [data-leego-topbar],[data-leego-shell]:not([data-leego-appearance=light]) [data-leego-context-tabs]{background:#10161D;color:#F2F4F7}
+  [data-leego-shell]:not([data-leego-appearance=light]) [data-leego-search]{background:#1A222D;color:#AAB2BF}
+}
+[data-leego-appearance=midnight] [data-leego-shell],[data-leego-shell][data-leego-appearance=midnight]{--leego-nav-ink:#F2F4F7;--leego-nav-muted:#AAB2BF;--leego-nav-line:rgba(255,255,255,.14)}
+[data-leego-appearance=midnight] [data-leego-topbar],[data-leego-appearance=midnight] [data-leego-context-tabs],[data-leego-shell][data-leego-appearance=midnight] [data-leego-topbar],[data-leego-shell][data-leego-appearance=midnight] [data-leego-context-tabs]{background:#10161D;color:#F2F4F7}
+[data-leego-appearance=oled] [data-leego-topbar],[data-leego-appearance=oled] [data-leego-context-tabs],[data-leego-shell][data-leego-appearance=oled] [data-leego-topbar],[data-leego-shell][data-leego-appearance=oled] [data-leego-context-tabs]{background:#000000;color:#F2F4F7}
+[data-leego-appearance=light] [data-leego-shell],[data-leego-shell][data-leego-appearance=light]{--leego-nav-ink:#252631;--leego-nav-muted:#626675;--leego-nav-line:#e3e4eb}
+[data-leego-appearance=light] [data-leego-topbar],[data-leego-appearance=light] [data-leego-context-tabs],[data-leego-shell][data-leego-appearance=light] [data-leego-topbar],[data-leego-shell][data-leego-appearance=light] [data-leego-context-tabs]{background:#fff;color:#252631}
 @media(max-width:1023px){[data-leego-search]{width:44px;height:44px;padding:0;justify-content:center}[data-leego-search] :is(span,kbd){display:none}}
 @media(max-width:760px){[data-leego-topbar]{padding-inline:16px}[data-leego-context-tabs]{padding-inline:16px;flex-wrap:wrap}[data-leego-tab-track]{flex-basis:100%}[data-leego-tab-actions]{margin-block:4px}}

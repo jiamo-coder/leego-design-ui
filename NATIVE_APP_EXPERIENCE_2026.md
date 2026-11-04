@@ -1,6 +1,8 @@
 # 原生 App 体验：从已认可安卓预览提炼
 
-适用于 Android / React Native 的实现与评审；iOS沿同一任务状态使用对应平台行为。先读[跨端契约](interaction-consistency.md)，版本取舍见[认可预览](approved-interactions.md)。这里是原生补充，不用Web像素尺寸推导设备dp/sp，不将H5预览嵌进App冒充实现。
+适用于 Android / React Native 的实现与评审；iOS沿同一任务状态使用对应平台行为。先读[跨端契约](INTERACTION_CONSISTENCY_2026.md)，版本取舍见[认可预览](APPROVED_INTERACTIONS_2026.md)。这里是原生补充，不用Web像素尺寸推导设备dp/sp，不将H5预览嵌进App冒充实现。
+
+Android、iOS 与移动 Web 的导航和页面底色浅色优先，见 [壳层外观](references/shell-appearance.md)。不把黑色左侧抽屉或黑白块面侧栏当浅色默认；深色只跟随系统，或用户选了 Midnight / OLED。小字辈产品壳同样遵守。页面说明和设置时机见 [信息密度](references/information-density.md)：必要帮助用长按，不在对话或表单旁常驻解释段。
 
 ## 1. 导航、侧栏与历史
 

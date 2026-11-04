@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
-const checks = ['geometry','typography','route-continuity','keyboard-focus','motion-reversal','reduced-motion','responsive-zoom','search-scope'];
+const checks = ['geometry','typography','route-continuity','keyboard-focus','motion-reversal','reduced-motion','responsive-zoom','search-scope','appearance'];
 export function checkNavigation(routes, evidence) {
   if (!Array.isArray(routes) || !routes.length || routes.some(x => typeof x !== 'string' || !x.startsWith('/')) || new Set(routes).size !== routes.length) throw new Error('routes must be a non-empty unique array of route patterns from the real router');
   if (!evidence || !Array.isArray(evidence.routes) || evidence.inventorySource !== 'application-router') throw new Error('evidence.inventorySource must be application-router with routes[]');

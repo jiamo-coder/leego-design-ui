@@ -1,10 +1,10 @@
 # Web 与原生 App 的交互一致性
 
-契约：`interaction-contract-1` · Leego Design UI 2.25.0。这是跨产品默认，不是复制 Geetimer 页面。机器参数见 [interaction-contract.json](../assets/interaction-contract.json)；Web 几何仍由 tokens.web.applicationShell 提供，原生 App 不套 Web 的 216/68/248px。
+契约：`interaction-contract-1` · Leego Design UI 2.31.0。这是跨产品默认，不是复制 Geetimer 页面。机器参数见 [interaction-contract.json](interaction-contract.json)；Web 几何仍由 tokens.web.applicationShell 提供，原生 App 不套 Web 的 216/68/248px。外观见 [壳层外观](references/shell-appearance.md)，页面密度见 [信息密度](references/information-density.md)。
 
 ## 先选平台，后复用组件
 
-- Web 侧栏读取 [侧栏契约](sidebar-consistency.md) 与 [Web Shell](web-application-shell.md)，优先使用项目合规组件，否则使用随包 sidebar-runtime。原生 App 读取本文；Pad 专用作业台仍用 Tablet 参考。
+- Web 侧栏读取 [侧栏契约](SIDEBAR_CONSISTENCY_2026.md) 与 [Web Shell](WEB_APPLICATION_SHELL_2026.md)，优先使用项目合规组件，否则使用随包 sidebar-runtime。原生 App 读取本文；Pad 专用作业台仍用 Tablet 参考。外部 Web、移动 Web、Android、iOS、Pad 和产品壳（含小字辈）的导航铬层都浅色优先；浅色下的黑色左侧菜单是 P0。必要帮助用悬停、tooltip 或长按，不在表面常驻解释。
 - 固定的是入口顺序、槽位、状态与任务连续性；品牌颜色按已确认方向继承，不抄产品专属文案、账号数据、Logo 坐标、宠物、积分和充值。
 - 检查实际调用链，不以某个未使用组件或历史验收截图当现状。源码、预览、模拟器、真机和正式发布分别报告。旧记录与当前实现矛盾时记录差异，不拼成混合设计。
 
