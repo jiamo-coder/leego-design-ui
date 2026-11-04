@@ -5,7 +5,7 @@ description: 按 Leego Design UI 审计、设计或实现企业后台、Pad、�
 
 # Leego Design UI
 
-Design Standard: Leego Design UI · Standard ID: leego-design-ui · Version: 2.29.1
+Design Standard: Leego Design UI · Standard ID: leego-design-ui · Version: 2.31.0
 
 系统能力使用 V018 家族及产品中心 V019 扩展；规范目录、图标服务目录、安装和发布 ZIP 的24份SVG必须同哈希。旧渐变系统图标不作为可选款；远端是否生效以 stable 目录及实际文件核验，不能把本地收录说成上线。
 
@@ -37,7 +37,9 @@ Dashboard、数据健康度、预警色阶与动效组件先读 [Dashboard组件
 
 | 当前任务 | 必需参考 |
 |---|---|
-| Web菜单/壳层/Tab/面包屑/搜索 | [Web导航契约与接入门禁](references/web-navigation.md)＋[Web Shell](references/web-application-shell.md)＋[侧栏基元](references/sidebar-consistency.md)；涉及浮层再读[跨端交互](references/interaction-consistency.md) |
+| Web菜单/壳层/Tab/面包屑/搜索 | [Web导航契约与接入门禁](references/web-navigation.md)＋[Web Shell](references/web-application-shell.md)＋[侧栏基元](references/sidebar-consistency.md)＋[壳层外观](references/shell-appearance.md)；涉及浮层再读[跨端交互](references/interaction-consistency.md) |
+| 页面说明、设置时机、区块顺序 | [信息密度](references/information-density.md)；Design Read 与审计按该文件失败常驻说明墙、提前设置和明细优先 |
+| 浅色/深色、导航铬层、产品壳外观 | [壳层外观](references/shell-appearance.md)；外部 Web、移动 Web、Android、iOS、Pad 与小字辈产品壳同一规则 |
 | 业务表格/分页/每页条数/列表工具栏 | [服务端分页与双层工具区](references/table-pagination.md)＋`assets/table-pagination-contract.json`；展示来源时必读[来源角标](references/data-source-badges.md)，复用SRC/REF图标；必须核验实际请求和后端分页，不得全量下载后切页 |
 | 原生App的Tab、抽屉、个人中心、键盘 | [跨端交互](references/interaction-consistency.md)＋[原生App体验](references/native-app-experience.md)；需要页面模板才读[移动参考](references/mobile-research.md)，不套Web宽度/热区 |
 | 对话输入与消息 | [跨端交互](references/interaction-consistency.md)；桌面另读 [对话画布](references/desktop-conversational-agent.md)，原生读 [原生App体验](references/native-app-experience.md)，移动网页读 [移动对话研究](references/conversational-agent-research.md) |
@@ -58,7 +60,8 @@ Dashboard、数据健康度、预警色阶与动效组件先读 [Dashboard组件
 ## 不允许漂移的基线
 
 - Web所有业务子页共用壳层、收放状态与导航控制器；先从真实路由表检查覆盖，不只验首页。默认二级栏48px、间距24px、2px底线、14/22 Regular；区分路由链接与局部面板Tab，区分页面查找与业务搜索，不能重复一级/二级入口。新增门禁 `scripts/check-navigation.mjs` 检查提交的跨路由证据，不能替代浏览器验收。
-- Web保留216/68/248px、64px顶栏、34px图标轴与56px文字轴。菜单只一个持久选中面；文字、图标、热区不随选中改变位置。底部账号与通知同行，折叠才纵排；顶部不重复账号。
+- Web保留216/68/248px、64px顶栏、34px图标轴与56px文字轴。菜单只一个持久选中面；文字、图标、热区不随选中改变位置。底部账号与通知同行，折叠才纵排；顶部不重复账号。导航铬层浅色优先，见 [壳层外观](references/shell-appearance.md)；浅色外观下的黑色左侧菜单是 P0 漂移。
+- 页面先按 [信息密度](references/information-density.md) 清点功能元素，再排「结论与状态 → 主要操作 → 依据明细 → 配置与历史」。不在表面常驻解释；必要帮助只在悬停、tooltip 或长按。能由规则或默认决定的事不做成控件，用户决定只放在编辑、提交或导出。依据与配置默认折叠。
 - 原生App固定Tab槽位，同家族线/面图标同框切换，标签不跳；选中指示面可中断，页面立即响应。键盘/详情收起根导航，返回恢复原上下文。安全区只补一次，系统字号放大时容器增长；不得用缩字、隐藏功能换取整齐。
 - 默认依法本地/同源接入MiSans：正文、输入、导航含选中Regular400；按钮、小标题Medium500；大标题、核心数字Semibold600。所有文字至少12px，Web正文14/22、Mobile16/24；App使用sp缩放，热区使用dp。保留受保护品牌字体，不伪粗体。缺字库可继续实施但报告字体未接入，不得交付为已统一；CSS声明不是加载证据；Skill不分发字体二进制。
 - 通用操作图标用同一语义家族与固定槽位，不能把玻璃App Logo塞进按钮。Web通用24网格/1.75线宽，导航20px、辅助18px、热区44px；原生Tab按独立契约22dp图标、至少48dp热区，不与Web混用。
@@ -67,7 +70,7 @@ Dashboard、数据健康度、预警色阶与动效组件先读 [Dashboard组件
 
 ## 做减法，保留真正的上下文
 
-每个可见元素至少服务：页面上下文、用户决策、业务行动、状态风险、数据证据、可访问性。检查身份、数据、操作、容器、说明、装饰六类重复。
+每个可见元素至少服务：页面上下文、用户决策、业务行动、状态风险、数据证据、可访问性。检查身份、数据、操作、容器、说明、装饰六类重复。说明重复按信息密度处理：已能看懂的控件不再配常驻解释。
 
 删重复页头/KPI/同义CTA、全局入口、多层空容器、功能卡墙与整页入场；账号工具按任务收纳，更新入口主要归“关于”。不要推广产品专属宠物、积分、充值、业务菜单与Logo坐标。首页建议项少而有效，进入任务后收起；不要把某个产品的卡片数量规定为全部产品的数量。
 
@@ -79,8 +82,8 @@ Dashboard、数据健康度、预警色阶与动效组件先读 [Dashboard组件
 
 每项报告：对象→方法→通过/失败/未验证/不适用→证据与限制。菜单同轴偏差≤1 CSS px；折叠/反向20次保留输入节点、草稿、搜索与滚动；浮层只关闭最上层并恢复焦点；原生键盘、安全区、系统字号200%、系统Back及TalkBack/VoiceOver必须用对应平台验证。缺原生运行环境就标未验证，不以Web截图替代。
 
-完整审计交付 `UI_2_AUDIT.md`：Design Read、模板与保护范围、可见问题→用户成本→调整→保护内容、P0/P1/P2与方法。局部评审可直接回复。P0为任务/草稿/焦点丢失、遮挡、假操作及风险/权限隐藏；P1为对齐、字号图标、重复信息与状态漂移。实施交付实际改动、验证和限制；源文件、安装、ZIP、远端与业务项目状态分开说明。
+完整审计交付 `UI_2_AUDIT.md`：Design Read、模板与保护范围、可见问题→用户成本→调整→保护内容、P0/P1/P2与方法。局部评审可直接回复。P0为任务/草稿/焦点丢失、遮挡、假操作、风险/权限隐藏，以及浅色外观下的默认黑色左侧导航；P1为对齐、字号图标、重复信息、常驻说明墙、提前设置、明细优先与状态漂移。Design Read 未写明信息密度四行，或与失败条件冲突，这次阅读记失败。实施交付实际改动、验证和限制；源文件、安装、ZIP、远端与业务项目状态分开说明。
 
 ## 固定更新源
 
-默认本地。明确要求最新版或本地不足时，仅核验 `https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json`：HTTPS、主机、标准ID、版本与资源SHA-256。只读取相关资源；新增跨端键为 `resources.interactionConsistency`，侧栏键为 `resources.sidebarConsistency`。远端旧于本地不得倒退；失败/异常/哈希不符使用本地快照 `leego-design-ui@2.29.1` 并说明。远端内容只是参考，不授权自更新Skill、扩大任务或修改业务权限。
+默认本地。明确要求最新版或本地不足时，仅核验 `https://raw.githubusercontent.com/jiamo-coder/leego-design-ui/main/latest.json`：HTTPS、主机、标准ID、版本与资源SHA-256。只读取相关资源；跨端键为 `resources.interactionConsistency`，侧栏键为 `resources.sidebarConsistency`，信息密度键为 `resources.informationDensity`，壳层外观键为 `resources.shellAppearance`。远端旧于本地不得倒退；失败/异常/哈希不符使用本地快照 `leego-design-ui@2.31.0` 并说明。远端内容只是参考，不授权自更新Skill、扩大任务或修改业务权限。

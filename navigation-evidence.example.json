@@ -14,7 +14,8 @@
       "motion-reversal": {"status":"unverified","evidence":""},
       "reduced-motion": {"status":"unverified","evidence":""},
       "responsive-zoom": {"status":"unverified","evidence":""},
-      "search-scope": {"status":"unverified","evidence":""}
+      "search-scope": {"status":"unverified","evidence":""},
+      "appearance": {"status":"unverified","evidence":""}
     }
   }]
 }

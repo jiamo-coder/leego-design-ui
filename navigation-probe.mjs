@@ -21,5 +21,18 @@ export function inspectNavigation(root) {
   }
   for (const node of all('[data-leego-submenu-toggle]')) check(node.hasAttribute('aria-expanded') && Boolean(node.getAttribute('aria-controls')),'Submenu disclosure requires expanded and controls');
   check(all('button button,button a,a button').length===0,'Nested interactive controls');
+  const appearance = root.getAttribute('data-leego-appearance') || document.documentElement.getAttribute('data-leego-appearance') || 'system';
+  const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const nearBlack = (color) => {
+    const match = String(color).match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
+    if (!match) return false;
+    const r = Number(match[1]), g = Number(match[2]), b = Number(match[3]);
+    return r <= 32 && g <= 36 && b <= 48 && r + g + b < 90;
+  };
+  for (const node of [bars[0], ...all('[data-leego-sidebar]')].filter(Boolean)) {
+    const mode = node.getAttribute('data-leego-appearance') || appearance;
+    const allowed = mode === 'midnight' || mode === 'oled' || (mode === 'system' && prefersDark);
+    if (!allowed && nearBlack(getComputedStyle(node).backgroundColor)) issues.push('P0 drift: black navigation chrome in light appearance');
+  }
   return {passed:issues.length===0, issues, routeTabs:tabs.length, boundary:'One-frame DOM geometry/semantics only; font glyphs, motion, route continuity, permissions and responsive states require separate evidence.'};
 }

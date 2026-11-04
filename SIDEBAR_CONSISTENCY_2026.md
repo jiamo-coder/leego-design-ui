@@ -11,7 +11,7 @@
 ## 新建带侧栏桌面系统的硬约束
 
 - 读取当前Skill版本、此文件、Web Shell和MiSans规范，记录项目实际使用版本与本补丁ID。项目钉住旧版时明确差异，不默默沿用旧示例，也不擅自改动仅要求审阅的项目。
-- 默认侧栏#111114；单一紫色#A18DF7选中面、深色#111114选中文字。仅用户明确批准的品牌覆盖可改变颜色，不能改变行为和几何；检查器的对应例外必须记录批准依据，不能直接删测试。
+- 默认侧栏浅色 `#F7F8FA`、文字 `#172033`、分隔 `#E9EBEF`；单一紫色#A18DF7选中面、深色#111114选中文字。深色铬层只在系统 `prefers-color-scheme: dark` 或显式 Midnight / OLED 时使用，见 [壳层外观](references/shell-appearance.md)。浅色外观下的 `#111114` 黑导航和黑白块面侧栏已退出，审计为 P0。仅用户明确批准的品牌覆盖可改变颜色，不能改变行为和几何，也不能把 light 改回黑底；检查器的对应例外必须记录批准依据，不能直接删测试。
 - 主导航只保留一个持久高亮层，32px高、8px圆角；展开宽度为图标＋文字实际宽度＋右12px并受行宽约束，折叠36px居中。热区不随高亮缩小。
 - 切换260ms，位移最多2px轻回弹；快速反向从当前可见位置继续，不排队、不闪双层、不缩放文字。减少动态效果直接定位。悬停不能抹掉当前选中。
 - 固定216/68/248px；12/8/28/8px内部几何，34px图标轴、56px文字轴；工具按钮44px，导航20px、辅助18px。无图标仍保留槽，禁止把玻璃App图标套到普通操作图标。
@@ -21,7 +21,7 @@
 
 ## 复用而不是重新画一套
 
-优先复用项目已有合规壳层。没有时使用 `assets/sidebar-runtime/sidebar.css` 和 `selection.mjs`，不要从旧截图或旧灰色示例另写选中效果。它是主导航与底部布局基元，**不是完整响应式外壳**；宿主仍必须实现Web Shell规定的移动导航、浮层、真实账号回调及焦点隔离。
+优先复用项目已有合规壳层。没有时使用 `sidebar-runtime.css` 和 `sidebar-selection.mjs`，不要从旧截图、旧灰色示例或历史黑底侧栏另写选中效果。样例默认浅色；`data-leego-appearance` 为 midnight / oled，或系统深色且未锁定 light 时才变深。它是主导航与底部布局基元，**不是完整响应式外壳**；宿主仍必须实现Web Shell规定的移动导航、浮层、真实账号回调及焦点隔离。
 
 结构：`aside[data-leego-sidebar]` → 固定工具/品牌 → `[data-leego-scroll]` → `nav[data-leego-nav]` → 一个 `[data-leego-selection][aria-hidden=true]` 与多条 `button[data-leego-row]`。按钮内依次是 `[data-leego-slot][aria-hidden=true]` 和 `span[data-leego-label]`；当前路由用 `aria-current=page`。尾部独立操作放在按钮外，不嵌套。组标题及无图标条目遵守56px文字轴，真实子级按Web Shell额外缩进12px。
 

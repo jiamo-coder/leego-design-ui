@@ -1,5 +1,5 @@
-/* sidebar-contract-1. Host owns responsive navigation and real actions. */
-[data-leego-sidebar]{box-sizing:border-box;width:216px;background:#111114;color:#c8c5d0;padding:12px;display:flex;flex-direction:column;font:400 14px/22px MiSans,sans-serif;font-synthesis:none}
+/* sidebar-contract-1. Light-first chrome. Host owns responsive navigation and real actions. */
+[data-leego-sidebar]{box-sizing:border-box;width:216px;background:#F7F8FA;color:#172033;border-right:1px solid #E9EBEF;padding:12px;display:flex;flex-direction:column;font:400 14px/22px MiSans,sans-serif;font-synthesis:none}
 [data-leego-sidebar] button{font-family:inherit;cursor:pointer}
 [data-leego-tools]{height:44px;display:flex;flex:none}
 [data-leego-toggle],[data-leego-notification]{border:0;padding:0;background:transparent;color:inherit;min-width:44px;width:44px;height:44px;display:grid;place-items:center;border-radius:8px}
@@ -14,11 +14,11 @@
 [data-leego-slot] img{max-width:24px;max-height:24px;object-fit:contain}
 [data-leego-label]{flex:0 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 [data-leego-row][aria-current=page]{color:#111114;font-weight:400}
-[data-leego-row]:not([aria-current=page]):hover{background:#242329;border-radius:8px}
-[data-leego-sidebar] button:focus-visible{outline:2px solid #dddbe5;outline-offset:-2px}
+[data-leego-row]:not([aria-current=page]):hover{background:#E9EBEF;border-radius:8px}
+[data-leego-sidebar] button:focus-visible{outline:2px solid #4D3B8F;outline-offset:-2px}
 [data-leego-dock]{display:flex;flex:none;align-items:center;flex-wrap:nowrap;margin-top:12px}
 [data-leego-account]{box-sizing:border-box;flex:1;min-width:0;height:56px;display:flex;align-items:center;gap:8px;padding:0 8px;border:0;background:transparent;color:inherit;text-align:left;font:400 14px/22px MiSans,sans-serif}
-[data-leego-avatar]{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#3a304e}
+[data-leego-avatar]{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#EFECF8;color:#4D3B8F}
 [data-leego-account-copy]{min-width:0;display:grid}
 [data-leego-account-copy]>*{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:400}
 [data-leego-account-copy] small{font-size:12px;line-height:18px}
@@ -29,3 +29,16 @@
 [data-leego-collapsed=true] [data-leego-dock]{flex-direction:column}
 [data-leego-collapsed=true] [data-leego-account]{height:44px;min-height:44px;width:44px;flex:none;padding:0;justify-content:center}
 @media(pointer:coarse){[data-leego-row]{height:44px;min-height:44px}}
+/* Dark chrome only from the system scheme or an explicit Midnight/OLED lock. Light wins when requested. */
+@media(prefers-color-scheme:dark){
+  [data-leego-sidebar]:not([data-leego-appearance=light]){background:#10161D;color:#F2F4F7;border-right-color:rgba(255,255,255,.14)}
+  [data-leego-sidebar]:not([data-leego-appearance=light]) [data-leego-row]:not([aria-current=page]):hover{background:#1A222D}
+  [data-leego-sidebar]:not([data-leego-appearance=light]) [data-leego-avatar]{background:#2D2748;color:#F2F4F7}
+  [data-leego-sidebar]:not([data-leego-appearance=light]) button:focus-visible{outline-color:#C9BFFF}
+}
+[data-leego-appearance=midnight] [data-leego-sidebar],[data-leego-sidebar][data-leego-appearance=midnight]{background:#10161D;color:#F2F4F7;border-right-color:rgba(255,255,255,.14)}
+[data-leego-appearance=midnight] [data-leego-sidebar] [data-leego-row]:not([aria-current=page]):hover,[data-leego-sidebar][data-leego-appearance=midnight] [data-leego-row]:not([aria-current=page]):hover{background:#1A222D}
+[data-leego-appearance=oled] [data-leego-sidebar],[data-leego-sidebar][data-leego-appearance=oled]{background:#000000;color:#F2F4F7;border-right-color:rgba(255,255,255,.16)}
+[data-leego-appearance=oled] [data-leego-sidebar] [data-leego-row]:not([aria-current=page]):hover,[data-leego-sidebar][data-leego-appearance=oled] [data-leego-row]:not([aria-current=page]):hover{background:#141414}
+[data-leego-appearance=light] [data-leego-sidebar],[data-leego-sidebar][data-leego-appearance=light]{background:#F7F8FA;color:#172033;border-right-color:#E9EBEF}
+[data-leego-appearance=light] [data-leego-sidebar] [data-leego-row]:not([aria-current=page]):hover,[data-leego-sidebar][data-leego-appearance=light] [data-leego-row]:not([aria-current=page]):hover{background:#E9EBEF}

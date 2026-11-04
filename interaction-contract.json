@@ -1,6 +1,13 @@
 {
   "standard": "leego-design-ui",
-  "version": "2.29.1",
+  "version": "2.31.0",
+  "appearance": {
+    "source": "references/shell-appearance.md",
+    "default": "light",
+    "darkChrome": ["system-prefers-color-scheme-dark", "midnight", "oled"],
+    "retired": ["default-black-left-nav", "black-white-block-sidebar"],
+    "lightDriftSeverity": "P0"
+  },
   "contract": "interaction-contract-1",
   "web": {
     "geometrySource": "tokens.web.applicationShell.sidebar",

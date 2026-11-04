@@ -1,7 +1,7 @@
 // Generated from design-system/tokens.json.
 // Design Standard: Leego Design UI
 // Standard ID: leego-design-ui
-// Version: 2.29.1
+// Version: 2.31.0
 export type UiDesignRead = {
   mode: 'new-design' | 'audit' | 'implementation';
   platform: 'web' | 'mobile' | 'tablet' | 'website';
@@ -25,8 +25,8 @@ export type UiQualityRule = {
 };
 export const uiQualityCatalog = {
   "standard": "leego-design-ui",
-  "version": "2.29.1",
-  "updated": "2026-10-09",
+  "version": "2.31.0",
+  "updated": "2026-11-04",
   "designReadRequiredFields": [
     "mode",
     "platform",
@@ -369,6 +369,42 @@ export const uiQualityCatalog = {
       "checkMethod": "review",
       "checker": "references/interaction-consistency.md",
       "message": "加载防闪不延迟数据/错误/取消；后台与卸载清理，减少动态仍有静态反馈。"
+    },
+    {
+      "id": "UI-DENSITY-001",
+      "category": "redundancy",
+      "severity": "P1",
+      "automated": false,
+      "checkMethod": "review",
+      "checker": "references/information-density.md",
+      "message": "不在表面常驻解释性说明；必要帮助只在悬停、tooltip 或长按出现。常驻说明墙判失败；把结论或主要操作挤出首屏时升为 P0。"
+    },
+    {
+      "id": "UI-DENSITY-002",
+      "category": "redundancy",
+      "severity": "P1",
+      "automated": false,
+      "checkMethod": "review",
+      "checker": "references/information-density.md",
+      "message": "能由规则或默认值决定的事项不做成控件；必须由用户决定的问题只出现在编辑、提交或导出。提前铺开的设置判失败。"
+    },
+    {
+      "id": "UI-DENSITY-003",
+      "category": "redundancy",
+      "severity": "P1",
+      "automated": false,
+      "checkMethod": "review",
+      "checker": "references/information-density.md",
+      "message": "先清点功能元素，再按结论与状态、主要操作、依据明细、配置与历史排列；依据与配置默认折叠。明细优先或无任务理由的默认展开判失败。"
+    },
+    {
+      "id": "UI-APPEARANCE-001",
+      "category": "shell",
+      "severity": "P0",
+      "automated": true,
+      "checkMethod": "browser",
+      "checker": "audit-sidebar.mjs",
+      "message": "全表面浅色优先。浅色外观下默认黑色左侧导航或黑白块面侧栏是 P0 漂移；深色铬层只允许系统 prefers-color-scheme 或 Midnight/OLED。"
     }
   ]
 } as const;
