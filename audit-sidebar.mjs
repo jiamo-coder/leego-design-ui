@@ -6,11 +6,12 @@ export async function auditSidebar(page, selectors = {}) {
     const add = (id, passed, evidence) => results.push({id,status:passed?'通过':'失败',method:'browser',evidence});
     const rail = document.querySelector(s.sidebar);
     if (!rail) return [{id:'sidebar.present',status:'失败',method:'browser',evidence:'Sidebar selector did not match'}];
+    const themeColor = name => { const hex=getComputedStyle(document.documentElement).getPropertyValue(name).trim(); return /^#[0-9a-f]{6}$/i.test(hex)?'rgb('+[1,3,5].map(i=>parseInt(hex.slice(i,i+2),16)).join(', ')+')':hex; };
     const r = rail.getBoundingClientRect(), css = getComputedStyle(rail);
     const near = (a,b) => Math.abs(a-b)<=1;
     const collapsed = near(r.width,68);
     add('sidebar.width', [216,68,248].some(w=>near(w,r.width)), r.width);
-    add('sidebar.surface',css.backgroundColor==='rgb(17, 17, 20)',css.backgroundColor);
+    add('sidebar.surface',css.backgroundColor===themeColor('--lg-sidebar'),css.backgroundColor);
     const rows = [...rail.querySelectorAll(s.row)];
     add('navigation.present',rows.length>0,rows.length);
     for (const [index,row] of rows.entries()) {
@@ -24,10 +25,10 @@ export async function auditSidebar(page, selectors = {}) {
     const layers=[...rail.querySelectorAll(s.selection)];
     const layer=layers[0],a=layer?.getBoundingClientRect();
     add('selection.single',layers.length===1,layers.length);
-    add('selection.face',Boolean(a&&near(a.height,32)&&getComputedStyle(layer).backgroundColor==='rgb(161, 141, 247)'),a?{height:a.height,color:getComputedStyle(layer).backgroundColor}:null);
+    add('selection.face',Boolean(a&&near(a.height,32)&&getComputedStyle(layer).backgroundColor===themeColor('--lg-selected')),a?{height:a.height,color:getComputedStyle(layer).backgroundColor}:null);
     const active=rail.querySelector(`${s.row}[aria-current="page"]`),activeRect=active?.getBoundingClientRect(),activeLabel=active?.querySelector(s.label)?.getBoundingClientRect();
     const expectedWidth=activeRect&&activeLabel?(collapsed?36:Math.min(activeRect.width,activeLabel.right-activeRect.left+12)):0;
-    add('selection.target',Boolean(a&&activeRect&&near(a.y,activeRect.y+(activeRect.height-32)/2)&&near(a.width,expectedWidth)&&getComputedStyle(active).color==='rgb(17, 17, 20)'),{width:a?.width,expectedWidth});
+    add('selection.target',Boolean(a&&activeRect&&near(a.y,activeRect.y+(activeRect.height-32)/2)&&near(a.width,expectedWidth)&&getComputedStyle(active).color===themeColor('--lg-accent')),{width:a?.width,expectedWidth});
     const account=rail.querySelector(s.account)?.getBoundingClientRect(),notification=rail.querySelector(s.notification)?.getBoundingClientRect();
     add('account.present',Boolean(account),Boolean(account));
     if(account&&notification) add('account.notification-layout',collapsed ? notification.y>=account.bottom-1 : near(account.y+account.height/2,notification.y+notification.height/2)&&account.right<=notification.x+1,{account:account.toJSON(),notification:notification.toJSON()});

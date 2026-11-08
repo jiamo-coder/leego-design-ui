@@ -1,0 +1,65 @@
+{
+  "id": "geetimer-workspace-v39",
+  "approved": "2026-11-08",
+  "sourceUrl": "http://127.0.0.1:4442/?v=39#/pages/chat/index",
+  "sourceRoot": "/Users/mac/Documents/Geetimer-V39-preview",
+  "scope": "UI design approval; not production or business acceptance",
+  "files": [
+    {
+      "path": "apps/miniapp/src/components/v30-sidebar.css",
+      "sha256": "68d9051ee6af93537efdb12088f6d5f417a7d461e34ad653a67e36bda00bc843"
+    },
+    {
+      "path": "apps/miniapp/src/components/v27-workbench.css",
+      "sha256": "26dda32612f79e71d04e3206549d4383feb0266e377c2363e6cab1da0dde2af3"
+    },
+    {
+      "path": "apps/miniapp/src/components/v11-chat-layout.css",
+      "sha256": "50096d4d8c0cff0079fd41024887ed91c155e838a6a77d2c35ede460df64a4e2"
+    },
+    {
+      "path": "apps/miniapp/src/platform/shell-appearance.ts",
+      "sha256": "3ffec00c65148f4752dc24051806d7e1b82a0e53553f4f5b9ab696996b487845"
+    },
+    {
+      "path": "apps/miniapp/src/platform/appearance-dialog.h5.tsx",
+      "sha256": "335deb83098242bf9b966f62eb635d2fc553f130c8d315a66b1cee4968a20b21"
+    },
+    {
+      "path": "apps/miniapp/src/platform/sidebar-motion.h5.ts",
+      "sha256": "ee65d62e8fa67467e508fcac4411bfc3fbee46c249707374561f0b2e9b9d9b12"
+    },
+    {
+      "path": "apps/miniapp/src/platform/document-pane.css",
+      "sha256": "562fc4bbd35c81737ce586957aa5ed794c683e070108e702dd0686aaa006c8f1"
+    },
+    {
+      "path": "apps/miniapp/src/platform/document-pane.h5.tsx",
+      "sha256": "6222944d4a2080375f23dd69815297b994fb300457de71339e0ffa9b964e5149"
+    },
+    {
+      "path": "apps/miniapp/src/platform/preview-toggle.h5.tsx",
+      "sha256": "3381aeeffa47ec1fbf7dc2502f573899076803884daee4482048533e4f5c419d"
+    },
+    {
+      "path": "apps/miniapp/src/platform/preview-pane-state.ts",
+      "sha256": "c9b473f9f05b3c26bc0f4d29fbf9b23678e2f6d91b22cec252e743f1f0586a89"
+    },
+    {
+      "path": "apps/miniapp/src/platform/preview-artifacts.ts",
+      "sha256": "ba3fbcf1db1e776bc2add63657ff3670a4064fb7d3240b07210b95981b636a55"
+    },
+    {
+      "path": "apps/miniapp/src/components/ui-icon.h5.tsx",
+      "sha256": "4ff369c38a34523bc238fd7e5315fc77c8f7711fcd092acbbb994f015022be37"
+    },
+    {
+      "path": "apps/miniapp/src/platform/model-provider-icon.h5.tsx",
+      "sha256": "74e8bf9e18c134c0f184e460286409b1b76a7cf7d1ee3a997d006d759344f673"
+    },
+    {
+      "path": "apps/miniapp/src/app.css",
+      "sha256": "0f3766162931d7db24120119b8e34bec5f88f5307dfc06e63f172e2a79ec6335"
+    }
+  ]
+}

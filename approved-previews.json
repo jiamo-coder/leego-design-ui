@@ -17,6 +17,15 @@
   "runtimeValidation": "design-approval-is-not-implementation-or-release-acceptance",
   "previews": [
     {
+      "id": "geetimer-workspace-v39",
+      "sourceProject": "Geetimer",
+      "sourceUrl": "http://127.0.0.1:4442/?v=39#/pages/chat/index",
+      "approval": "design-approved",
+      "approvalDate": "2026-11-08",
+      "role": "current-web-baseline",
+      "reference": "references/workspace-v39.md"
+    },
+    {
       "id": "capability-center-v1",
       "sourceProject": "Geetimer",
       "sourcePath": "docs/design/previews/capability-center-v1",

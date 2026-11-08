@@ -369,6 +369,15 @@ export const uiQualityCatalog = {
       "checkMethod": "review",
       "checker": "references/interaction-consistency.md",
       "message": "加载防闪不延迟数据/错误/取消；后台与卸载清理，减少动态仍有静态反馈。"
+    },
+    {
+      "id": "UI-THEME-V39-001",
+      "category": "interaction",
+      "severity": "P1",
+      "automated": false,
+      "checkMethod": "review",
+      "checker": "references/workspace-v39.md",
+      "message": "四模式同主题覆盖导航、主区、第三屏与浮层；定时不丢上下文，禁止固定黑侧栏配浅色主区。"
     }
   ]
 } as const;

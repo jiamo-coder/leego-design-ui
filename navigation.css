@@ -1,10 +1,11 @@
 /* navigation-contract-1. Host owns routing, data, permissions and overlay focus. */
-[data-leego-shell]{--leego-nav-ink:#252631;--leego-nav-muted:#626675;--leego-nav-brand:#56409c;--leego-nav-line:#e3e4eb;font-family:MiSans,sans-serif;font-synthesis:none}
-[data-leego-topbar]{box-sizing:border-box;flex:none;min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 16px 0 28px;background:#fff;border-bottom:1px solid var(--leego-nav-line);color:var(--leego-nav-ink)}
+@import "../theme-runtime/theme.css";
+[data-leego-shell]{--leego-nav-ink:var(--lg-ink);--leego-nav-muted:var(--lg-muted);--leego-nav-brand:var(--lg-accent);--leego-nav-line:var(--lg-line);font-family:MiSans,sans-serif;font-synthesis:none}
+[data-leego-topbar]{box-sizing:border-box;flex:none;min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 16px 0 28px;background:var(--lg-surface);border-bottom:1px solid var(--leego-nav-line);color:var(--leego-nav-ink)}
 [data-leego-breadcrumb]{display:flex;align-items:center;gap:8px;min-width:0;font:400 14px/20px MiSans,sans-serif}
 [data-leego-breadcrumb] a{color:var(--leego-nav-muted);text-decoration:none}
 [data-leego-breadcrumb] [aria-current=page]{font-weight:400;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-[data-leego-context-tabs]{box-sizing:border-box;display:flex;align-items:center;gap:16px;min-height:48px;padding:0 16px 0 28px;background:#fff;border-bottom:1px solid var(--leego-nav-line);flex:none;min-width:0}
+[data-leego-context-tabs]{box-sizing:border-box;display:flex;align-items:center;gap:16px;min-height:48px;padding:0 16px 0 28px;background:var(--lg-surface);border-bottom:1px solid var(--leego-nav-line);flex:none;min-width:0}
 [data-leego-tab-track]{display:flex;gap:24px;min-width:0;flex:1;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#c6c2d2 transparent}
 [data-leego-route-tab]{box-sizing:border-box;position:relative;display:flex;align-items:center;flex:none;min-height:47px;font:400 14px/22px MiSans,sans-serif;white-space:nowrap;text-decoration:none;color:var(--leego-nav-muted);border-bottom:2px solid transparent}
 [data-leego-route-tab][aria-current=page]{color:var(--leego-nav-brand);border-color:var(--leego-nav-brand)}

@@ -1,4 +1,8 @@
+主题修订 2026-11-06：七例共用 system-theme-v28，容器/文字/网格跟随主题，数据系列与风险编码保留；宿主须接入 theme-runtime，详见 [随境工作台](system-theme.md)。
+
 # Dashboard H5 案例库
+
+2026-10-20新增运营组合示例：见 [Dashboard组合方案](dashboard-operations.md)，源码 `assets/dashboard/operations-preview/`。这是七类参考之上的业务组合，不替换原七例，不将组合区块虚增为独立组件。当前收录与公网发布分别核验。
 
 ## Dashboard 与工作台入口
 

@@ -3,6 +3,22 @@
   "version": "1.0.0",
   "status": "website-bundled",
   "framework": "React",
+  "operationsPreview": {
+    "version": "1.1.0",
+    "advancedSource": "operations-preview/advanced.tsx",
+    "advancedStyles": "operations-preview/advanced.css",
+    "views": ["operations", "advanced", "components"],
+    "advancedModes": ["health", "flow", "branch", "radial", "density", "bubble", "geo"],
+    "revisionDate": "2026-10-20",
+    "status": "approved-local-skill",
+    "source": "operations-preview/main.tsx",
+    "styles": "operations-preview/style.css",
+    "entry": "operations-preview/index.html",
+    "standard": "../../references/dashboard-operations.md",
+    "demoOnly": true,
+    "integration": "standalone-preview-not-production-component",
+    "sections": ["completeness", "health-diagnostics", "ranking", "task-progress", "trend", "composition", "risk-diagnostics", "data-state"]
+  },
   "casebook": {
     "version": "1.1.0",
     "source": "cases.tsx",
